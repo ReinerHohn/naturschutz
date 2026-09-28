@@ -386,6 +386,31 @@ def md_katalog(hebel):
     return "\n".join(out)
 
 
+ZSFG_MD = os.path.join(HERE, "ZUSAMMENFASSUNG.md")
+
+
+def md_summary():
+    """Schreibt ZUSAMMENFASSUNG.md aus zusammenfassung.json (falls vorhanden)."""
+    try:
+        with open(SUMMARY_JSON, encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+    out = ["# Intensiv-Zusammenfassung — Naturschutz effizient\n"]
+    out.append("_Auto-generiert aus `zusammenfassung.json`. "
+               "Die JSON-Hebel in `hebel/` sind die Quelle der Fakten._\n")
+    if data.get("intro"):
+        out.append(data["intro"] + "\n")
+    for s in data.get("sections", []):
+        out.append(f"## {s.get('heading','')}\n")
+        if s.get("intro"):
+            out.append(s["intro"] + "\n")
+        for p in s.get("points", []):
+            out.append(f"- {p}")
+        out.append("")
+    return "\n".join(out)
+
+
 def main():
     hebel, errors = load_hebel()
     if errors:
@@ -405,6 +430,11 @@ def main():
     with open(KATALOG, "w", encoding="utf-8") as f:
         f.write(katalog)
     print(f"geschrieben: {KATALOG} ({len(katalog)//1024} KB)")
+    zsfg = md_summary()
+    if zsfg is not None:
+        with open(ZSFG_MD, "w", encoding="utf-8") as f:
+            f.write(zsfg)
+        print(f"geschrieben: {ZSFG_MD} ({len(zsfg)//1024} KB)")
 
 
 if __name__ == "__main__":
