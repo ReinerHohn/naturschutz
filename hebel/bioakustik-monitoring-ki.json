@@ -1,0 +1,56 @@
+{
+  "id": "bioakustik-monitoring-ki",
+  "name": "KI-Bioakustik-Monitoring (BirdNET, Fledermaus-Detektor)",
+  "aka": ["BirdNET", "BirdNET-Pi", "Passives akustisches Monitoring", "PAM", "AudioMoth", "batdetect2"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["monitoring", "voegel", "fledermaeuse", "ki", "buergerwissenschaft", "open-source", "akustik"],
+  "summary": "Kleine Rekorder nehmen rund um die Uhr Tierstimmen auf, eine KI erkennt daraus automatisch Vogel- und Fledermausarten. Aus 70–100-€-Hardware (AudioMoth) plus gratis Open-Source-Software (BirdNET, batdetect2) wird eine Dauer-Lauschstation, die Ehrenamt-Stunden spart und Arten-Hotspots findet. Monitoring wirkt indirekt: es lenkt Schutzmassnahmen, ersetzt sie aber nicht.",
+  "key_facts": [
+    {"label": "Artenumfang BirdNET", "value": "erkennt >3000 Vogelarten weltweit aus Tonaufnahmen", "source": "Kahl et al. 2021; BirdNET Cornell"},
+    {"label": "Hardware-Kosten", "value": "AudioMoth-Rekorder ~70–100 €, Raspberry Pi 4 fuer BirdNET-Pi ~85 €", "source": "Open Acoustic Devices; ELV/BerryBase"},
+    {"label": "Software", "value": "BirdNET, BirdNET-Pi und batdetect2 sind kostenlos und Open Source", "source": "BirdNET Cornell; batdetect2 GitHub"},
+    {"label": "Betrieb", "value": "Dauerbetrieb 24/7 liefert vollstaendigere Datensaetze als sporadische Begehungen", "source": "Praxis LBV/BirdNET-Pi"},
+    {"label": "Grenze Genauigkeit", "value": "verlaessliche Ergebnisse nur mit Konfidenz-Schwelle + Nachpruefung; seltene/aehnliche Arten fehleranfaellig", "source": "Perez-Granados 2023 (Ibis)"},
+    {"label": "Ultraschall", "value": "AudioMoth nimmt bis 384 kHz auf (Fledermaus-Rufe), Auswertung z. B. mit batdetect2", "source": "Open Acoustic Devices"}
+  ],
+  "deep_dive": "Passives akustisches Monitoring (PAM) lauscht kontinuierlich statt nur bei einer Begehung — das findet auch daemmerungs- und nachtaktive Arten und liefert Zeitreihen. Der guenstige Einstieg: ein AudioMoth-Rekorder (~70–100 €, Open Hardware) nimmt auf SD-Karte auf; die Auswertung uebernimmt gratis BirdNET von der Cornell University, das laut Kahl et al. 2021 hunderte bis ueber 3000 Vogelarten erkennt. Wer eine feste Dauer-Station will, installiert BirdNET-Pi auf einem Raspberry Pi 4 (~85 €) mit USB-Mikrofon — es klassifiziert in Echtzeit und zeigt Ergebnisse im Webbrowser. Fuer Fledermaeuse nimmt der AudioMoth Ultraschall bis 384 kHz auf, die Rufe klassifiziert man z. B. mit dem Open-Source-Modell batdetect2. Realistisch bleibt der Nutzen indirekt: das Monitoring spart massiv Ehrenamt-Zeit, deckt Arten-Hotspots und Phaenologie auf und liefert Argumente fuer Schutzmassnahmen — es verbessert den Zustand nicht selbst. Grenzen ehrlich benennen: Reviews (Perez-Granados 2023) zeigen, dass BirdNET bei aehnlich klingenden oder seltenen Arten sowie in lauten Umgebungen Fehlbestimmungen produziert; man arbeitet daher mit einer Konfidenz-Schwelle und prueft kritische Treffer manuell nach. Batterielaufzeit (Wochen mit AA-Zellen je nach Sample-Rate), SD-Karten-Kapazitaet und Wetterschutz sind die Alltags-Engpaesse.",
+  "mechanism": "Kontinuierliche Tonaufnahmen + neuronale Netze automatisieren die Arterkennung, die sonst Fachleute manuell leisten muessten; das erhoeht Erfassungsdichte und -dauer, senkt Kosten und macht Trends und Hotspots sichtbar, die Schutzmassnahmen steuern.",
+  "evidence": [
+    {"source": "Kahl et al., Ecological Informatics (BirdNET)", "year": 2021, "finding": "BirdNET erkennt zuverlaessig hunderte Vogelarten aus Audioaufnahmen und ermoeglicht skalierbares passives Monitoring."},
+    {"source": "Perez-Granados, Ibis (Review BirdNET)", "year": 2023, "finding": "Breit einsetzbar und praxistauglich, aber mit Fallstricken: Fehlbestimmungen bei seltenen/aehnlichen Arten, Konfidenz-Schwellen und Validierung noetig."},
+    {"source": "Lauha et al., Methods in Ecology and Evolution", "year": 2022, "finding": "Schon wenig lokal nachtrainierte Daten verbessern die automatische Vogelstimmen-Erkennung deutlich."}
+  ],
+  "robustness": {
+    "effect_size": "Gross fuer den Erfassungsaufwand (24/7 statt Stichprobe), moderat/indirekt fuer den oekologischen Zustand.",
+    "replication": "Weltweit tausendfach in Praxis und Buergerwissenschaft repliziert (BirdNET-Community, LBV-Gruppen).",
+    "caveats": "Ergebnisqualitaet haengt an Mikrofon, Standort, Laerm und Konfidenz-Schwelle; seltene/aehnliche Arten unzuverlaessig; ohne Massnahmen bleibt es reine Beobachtung."
+  },
+  "protocol": [
+    "Einstieg minimal: AudioMoth (~70–100 €) kaufen, im Feld an Baum/Pfahl haengen, auf SD-Karte aufnehmen lassen.",
+    "Aufnahmen mit dem kostenlosen BirdNET Analyzer (Desktop) oder der BirdNET-App auswerten; Konfidenz-Schwelle (z. B. >=0,7) setzen.",
+    "Fuer eine Dauer-Station: BirdNET-Pi auf Raspberry Pi 4 (~85 €) mit USB-Mikrofon installieren, Ergebnisse im Webbrowser verfolgen.",
+    "Fledermaeuse: AudioMoth mit hoher Sample-Rate (bis 384 kHz) betreiben, Rufe mit batdetect2 klassifizieren.",
+    "Kritische/seltene Treffer stichprobenartig manuell nachpruefen, bevor Daten weitergegeben werden.",
+    "Batterie/SD-Kapazitaet planen und Wetterschutz bauen; Ergebnisse in ornitho.de / iNaturalist / an Fachbehoerde melden."
+  ],
+  "mistakes": [
+    "KI-Treffer ungeprueft als gesichert melden — Fehlbestimmungen verfaelschen Datensaetze.",
+    "Konfidenz-Schwelle zu niedrig lassen (viele Falschpositive) oder zu hoch (echte Arten verpasst).",
+    "Standort mit Dauerlaerm (Strasse, Wind) waehlen; Erkennung bricht ein.",
+    "Batterielaufzeit/SD-Kapazitaet unterschaetzen — Datenluecken.",
+    "Monitoring mit Schutz verwechseln: Zaehlen allein rettet keine Art."
+  ],
+  "risks": "Fehlbestimmungen (v. a. seltene/aehnliche Arten) koennen Datensaetze und Entscheidungen verzerren — immer mit Konfidenz-Schwelle und Nachpruefung arbeiten. Datenschutz: Dauer-Audioaufnahmen im Siedlungsraum koennen ungewollt Gespraeche erfassen (Standort/Ausrichtung beachten). Batterielaufzeit und Wetter begrenzen den Dauerbetrieb. Risiko der Standort-Preisgabe seltener/geschuetzter Arten (Stoerung, Sammler) — sensible Funde nicht offen veroeffentlichen.",
+  "synergy": ["kamerafallen-ki", "insektenmonitoring-kamera-ki", "fernerkundung-satellit-ki"],
+  "sources": [
+    {"title": "BirdNET (Cornell Lab) – Projekt & Analyzer", "url": "https://birdnet.cornell.edu/"},
+    {"title": "BirdNET-Pi (Selbst-Hosting auf Raspberry Pi)", "url": "https://birdnet.cornell.edu/birdnet-pi/"},
+    {"title": "AudioMoth – Open Acoustic Devices", "url": "https://www.openacousticdevices.info/audiomoth"},
+    {"title": "Kahl et al. 2021, BirdNET (Ecological Informatics)", "url": "https://doi.org/10.1016/j.ecoinf.2021.101236"},
+    {"title": "Perez-Granados 2023, BirdNET review (Ibis)", "url": "https://onlinelibrary.wiley.com/doi/10.1111/ibi.13193"}
+  ]
+}

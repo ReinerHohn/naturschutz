@@ -1,0 +1,56 @@
+{
+  "id": "kamerafallen-ki",
+  "name": "Kamerafallen mit KI-Auswertung (MegaDetector & Co.)",
+  "aka": ["MegaDetector", "Wildlife Insights", "TrapTagger", "Trapper", "Camera Trap AI", "Leere-Bilder-Filter"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["monitoring", "kamerafallen", "ki", "saeugetiere", "open-source", "zeitersparnis", "wildtiere"],
+  "summary": "Kamerafallen liefern zehntausende Fotos, von denen 70–95 % leer sind (Wind, Regen, Aeste). Eine KI wie das gratis MegaDetector sortiert die Leerbilder automatisch aus und markiert Tiere, Menschen und Fahrzeuge — das spart massiv Sichtungszeit im Ehrenamt und in Behoerden. Die KI zaehlt aber nur; Schutz muss folgen.",
+  "key_facts": [
+    {"label": "Leerbild-Anteil", "value": "in typischen Einsaetzen sind 70–95 % der Fotos leer (Fehlausloesungen)", "source": "Microsoft MegaDetector"},
+    {"label": "Zeitersparnis", "value": "MegaDetector entfernt 70–95 % der Leerbilder vor der manuellen Sichtung", "source": "Microsoft AI for Good"},
+    {"label": "Genauigkeit", "value": ">=94,6 % korrekte Tier/leer-Trennung bei Bewegungsausloesung; deutlich schlechter (<=61,6 %) bei Zeitraffer", "source": "Vélez et al. 2023 (MEE)"},
+    {"label": "Kosten", "value": "MegaDetector, Wildlife Insights, Trapper und TrapTagger sind kostenlos/Open Source", "source": "Microsoft; Wildlife Insights"},
+    {"label": "Integration", "value": "MegaDetector steckt in TrapTagger, WildTrax, Camelot, Animl u. a.", "source": "Microsoft MegaDetector"},
+    {"label": "Hardware", "value": "handelsuebliche Wildkamera ab ~60–150 €; Auswertung laeuft auf PC oder in der Cloud", "source": "Praxis/Handel"}
+  ],
+  "deep_dive": "Kamerafallen sind Standard zum Nachweis scheuer Saeuger (Luchs, Wildkatze, Biber, Marder) und zur Erfolgskontrolle etwa an Gruenbruecken — aber die manuelle Sichtung ist der Flaschenhals: In typischen Einsaetzen sind 70–95 % der Auslosungen leer (Wind, Regen, bewegte Vegetation). MegaDetector, das kostenlose Open-Source-Modell des Microsoft AI for Good Lab (aktuell V6), zieht um jedes Tier, jeden Menschen und jedes Fahrzeug eine Box mit Score — so lassen sich Leerbilder automatisch aussortieren und man arbeitet nur die relevanten Bilder durch. Laut Vélez et al. 2023 (Methods in Ecology and Evolution) trennt MegaDetector bei bewegungsausgeloesten Aufnahmen mit >=94,6 % Genauigkeit richtig; bei Zeitraffer-Einstellungen faellt die Leistung stark ab (<=61,6 %). MegaDetector erkennt vor allem Tier/Mensch/Fahrzeug — die Art bestimmt es nicht; dafuer gibt es Plattformen wie Wildlife Insights (Cloud, mit Artmodellen), Trapper (Open-Source-Server) oder TrapTagger, in die MegaDetector integriert ist. Der Nutzen ist real, aber indirekt: Man spart oft 80–90 % der Sichtungszeit und kann groessere Flaechen und laengere Zeitraeume abdecken — das lenkt Massnahmen, ersetzt sie nicht. Wichtig: Wildkameras erfassen zwangslaeufig auch Personen; in Deutschland gilt Datenschutz (DSGVO), Kameras gehoeren nicht unangekuendigt an oeffentliche Wege, Beschilderung und datensparsame Auswertung sind Pflicht.",
+  "mechanism": "Objekterkennung (Deep Learning) filtert Leerbilder und markiert Tiere, sodass menschliche Sichtung nur noch auf relevante Bilder faellt; das vervielfacht die auswertbare Datenmenge pro Personenstunde und macht Vorkommen/Trends belastbar erfassbar.",
+  "evidence": [
+    {"source": "Vélez et al., Methods in Ecology and Evolution", "year": 2023, "finding": "MegaDetector trennt Tier/leer bei Bewegungsausloesung sehr zuverlaessig (>=94,6 %), bei Zeitraffer deutlich schlechter; hohe Precision/Recall fuer leer vs. Tier."},
+    {"source": "Microsoft AI for Good Lab (MegaDetector)", "year": 2024, "finding": "Entfernt 70–95 % der Leerbilder vor der Sichtung; frei nutzbar und in viele Plattformen integriert."},
+    {"source": "Beery et al. / Wildlife Insights", "year": 2020, "finding": "Cloud-Plattform mit KI-Artmodellen skaliert die Auswertung von Kamerafallen-Daten fuer Naturschutz-Netzwerke."}
+  ],
+  "robustness": {
+    "effect_size": "Sehr gross fuer die Zeitersparnis (oft 80–90 %), indirekt fuer den oekologischen Zustand.",
+    "replication": "Weltweit in tausenden Studien und Projekten eingesetzt; MegaDetector ist De-facto-Standard.",
+    "caveats": "Genauigkeit sinkt bei Zeitraffer, Nebel, Nacht und sehr kleinen/teilverdeckten Tieren; Artbestimmung braucht Zusatzmodelle und Validierung; Datenschutz bei Personen."
+  },
+  "protocol": [
+    "Wildkamera(s) (ab ~60–150 €) an bekannten Wildwechseln/Querungen aufstellen; Bewegungsausloesung statt Zeitraffer waehlen (bessere KI-Trefferquote).",
+    "Bilder sammeln und mit dem kostenlosen MegaDetector (Desktop/GPU) durchlaufen lassen — Leerbilder automatisch aussortieren.",
+    "Fuer Artbestimmung eine Plattform nutzen: Wildlife Insights (Cloud) oder Trapper/TrapTagger (Server) mit MegaDetector-Integration.",
+    "KI-Ergebnisse mit Konfidenz-Schwelle filtern und relevante Treffer manuell validieren.",
+    "Datenschutz: Kameras nicht unangekuendigt an oeffentliche Wege, beschildern, Personenaufnahmen datensparsam behandeln/loeschen.",
+    "Nachweise an Fachbehoerde/Artenkataster melden und fuer Erfolgskontrolle (z. B. Gruenbruecke) auswerten."
+  ],
+  "mistakes": [
+    "Zeitraffer-Modus nutzen — KI-Genauigkeit bricht ein; besser Bewegungsausloesung.",
+    "Artbestimmung von MegaDetector erwarten (es erkennt nur Tier/Mensch/Fahrzeug) — dafuer Zusatzmodell noetig.",
+    "KI-Treffer ungeprueft als Artnachweis werten.",
+    "Kameras an Wegen ohne Beschilderung/DSGVO-Beachtung aufstellen.",
+    "Kamerastandorte seltener Arten oeffentlich machen (Stoerung/Nachstellung)."
+  ],
+  "risks": "Datenschutz/DSGVO: Wildkameras erfassen zwangslaeufig Personen — Kameras nicht unangekuendigt an oeffentliche Wege, Beschilderung, datensparsame Auswertung und Loeschung. KI-Fehler: verpasste kleine/verdeckte Tiere, schlechtere Leistung nachts/bei Zeitraffer; Artbestimmung braucht Validierung. Standort-Preisgabe geschuetzter Arten kann Stoerung/Nachstellung ausloesen. Cloud-Plattformen: Datenhoheit pruefen.",
+  "synergy": ["gruenbruecke-wildquerung", "bioakustik-monitoring-ki", "fernerkundung-satellit-ki"],
+  "sources": [
+    {"title": "MegaDetector (Microsoft AI for Good) – Projektseite", "url": "https://microsoft.github.io/MegaDetector/"},
+    {"title": "MegaDetector – GitHub", "url": "https://github.com/microsoft/megadetector"},
+    {"title": "Wildlife Insights", "url": "https://www.wildlifeinsights.org/"},
+    {"title": "Vélez et al. 2023, Plattform-Vergleich KI Kamerafallen (MEE)", "url": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14044"},
+    {"title": "Trapper – Open-Source-Plattform fuer Kamerafallen", "url": "https://trapper-project.readthedocs.io/"}
+  ]
+}

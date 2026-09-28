@@ -1,0 +1,52 @@
+{
+  "id": "ki-verwaltung-foerderantrag",
+  "name": "KI entlastet Naturschutz-Verwaltung & Ehrenamt",
+  "aka": ["LLM für Vereinsarbeit", "KI Förderantrag", "KI Öffentlichkeitsarbeit NABU BUND", "Bürokratie-Entlastung Ehrenamt"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 2,
+  "evidence_level": "C",
+  "effort": 1,
+  "tags": ["ki", "ehrenamt", "verwaltung", "buerokratie", "foerderantrag", "llm", "produktivitaet"],
+  "summary": "Sprach-KI (LLMs) übernimmt die schriftliche Fleißarbeit im Naturschutz — Förderanträge, Berichte, Protokolle, Pressetexte, Newsletter und Anschreiben für NABU-/BUND-Ortsgruppen und Behörden. Der Gewinn ist nicht das Naturschutz-Handeln selbst, sondern die zurückgewonnene Zeit: Bürokratie frisst Ehrenamt, KI gibt es dem eigentlichen Naturschutz zurück — vorausgesetzt, alle Fakten und Quellen werden von Menschen geprüft.",
+  "key_facts": [
+    {"label": "Kosten", "value": "Basiszugang gratis, Profi-Zugänge ~20 €/Monat je Nutzer", "source": "Anbieter-Preislisten"},
+    {"label": "Kern-Nutzen", "value": "Zeitersparnis bei Textarbeit — mehr Ehrenamts-Stunden für Kartierung, Pflege, Bildung", "source": "Mechanismus"},
+    {"label": "Typische Aufgaben", "value": "Antragstexte, Sachberichte, Sitzungsprotokolle, Pressemitteilungen, Social-Media, Übersetzungen", "source": "Praxis Vereinsarbeit"},
+    {"label": "Grenze Halluzination", "value": "LLMs erfinden Fakten, Zahlen und Quellen — jede Aussage muss verifiziert werden", "source": "Anti-Hype / Modell-Eigenschaft"},
+    {"label": "Datenschutz", "value": "keine personenbezogenen oder sensiblen Standortdaten in öffentliche Cloud-Tools eingeben", "source": "DSGVO-Praxis"}
+  ],
+  "deep_dive": "Naturschutz-Ehrenamt scheitert selten am Willen, sondern an Zeit: Förderrichtlinien lesen, Anträge formulieren, Verwendungsnachweise schreiben, Protokolle tippen, Pressetexte redigieren. Genau diese Textarbeit ist die Domäne großer Sprachmodelle (LLMs). Ein Entwurf für einen Förderantrag, eine Zusammenfassung eines 40-seitigen Gutachtens, ein Newsletter oder eine Übersetzung entsteht in Minuten statt Stunden — der Vorstand einer BUND- oder NABU-Ortsgruppe gewinnt so Zeit für das, was zählt: Biotoppflege, Kartierung, Umweltbildung, Verhandlungen. Der Zugang ist niederschwellig: Basisversionen sind gratis, Profi-Zugänge kosten grob 20 €/Monat. Entscheidend und der Grund für die vorsichtige Einstufung dieses Hebels ist die Anti-Hype-Regel: LLMs erzeugen flüssigen, überzeugend klingenden Text auch dort, wo sie Fakten, Zahlen, Paragraphen oder Literaturquellen schlicht erfinden (Halluzination). In einem Förderantrag ist eine erfundene Zahl oder ein falsch zitierter Rechtsgrund fatal. Deshalb gilt: KI liefert den Rohentwurf, der Mensch prüft jede Faktenaussage, jede Quelle und jede Zahl und trägt die Verantwortung. Datenschutz ist die zweite Leitplanke — keine personenbezogenen Daten und keine Standorte streng geschützter Arten in öffentliche Cloud-Dienste. Richtig eingesetzt ist KI ein Kraftverstärker für knappe Ehrenamts-Ressourcen; falsch eingesetzt produziert sie glaubwürdig aussehenden Unsinn.",
+  "mechanism": "LLMs automatisieren wiederkehrende Textproduktion (Entwurf, Zusammenfassung, Umformulierung, Übersetzung) und senken so den Zeitaufwand für Verwaltung; die eingesparte Zeit kann in konkrete Naturschutzarbeit fließen.",
+  "evidence": [
+    {"source": "Mechanismus / Produktivitätsforschung LLM", "year": 2024, "finding": "LLMs beschleunigen Standard-Schreibaufgaben deutlich; größter Gewinn bei repetitiven, gut strukturierten Texten — genau dem Bürokratie-Anteil im Ehrenamt."},
+    {"source": "Modell-Eigenschaft (Halluzination)", "year": 2024, "finding": "Sprachmodelle erzeugen faktisch falsche, aber sprachlich überzeugende Aussagen inkl. erfundener Quellen; ohne menschliche Prüfung nicht für Anträge/Berichte geeignet."},
+    {"source": "DSGVO-Praxis", "year": 2024, "finding": "Eingaben in öffentliche KI-Dienste können verarbeitet/gespeichert werden; personenbezogene und schutzwürdige Standortdaten gehören nicht hinein."}
+  ],
+  "robustness": {
+    "effect_size": "Zeitgewinn plausibel und teils groß, aber ökologischer Nutzen nur indirekt und schwer messbar.",
+    "replication": "Breit im Alltag beobachtbar, aber kaum spezifisch für Naturschutz-Vereine untersucht.",
+    "caveats": "Halluzinationen, Datenschutz, Stil-Gleichförmigkeit; Nutzen hängt völlig von disziplinierter Faktenprüfung ab."
+  },
+  "protocol": [
+    "KI nur für Rohentwürfe nutzen: Antrag, Bericht, Protokoll, Pressetext, Übersetzung — nie als fertiges, ungeprüftes Endprodukt.",
+    "Jede Faktenaussage, Zahl, Frist und Rechtsgrundlage manuell gegen die Originalquelle prüfen.",
+    "Keine erfundenen Quellen dulden: Literatur- und Paragraphenangaben immer selbst verifizieren.",
+    "Datenschutz wahren: keine personenbezogenen Daten, keine Standorte streng geschützter Arten in öffentliche Cloud-Tools.",
+    "Wiederkehrende Aufgaben mit gespeicherten Prompt-Vorlagen standardisieren (z. B. Sachbericht-Struktur des Fördergebers).",
+    "Verantwortung klar beim Menschen belassen: eine Person zeichnet den geprüften Text ab."
+  ],
+  "mistakes": [
+    "KI-Text ungeprüft einreichen — erfundene Zahlen/Quellen im Förderantrag sind ein K.-o.-Kriterium.",
+    "Sensible oder personenbezogene Daten in öffentliche Chatbots eingeben.",
+    "Fachliche Sorgfalt durch Bequemlichkeit ersetzen und Kartierungsergebnisse 'schönschreiben' lassen.",
+    "Alle Texte gleich klingen lassen und dadurch Glaubwürdigkeit/Wiedererkennbarkeit verlieren."
+  ],
+  "risks": "Halluzinierte Fakten und Quellen können Anträge unbrauchbar machen und den Ruf eines Vereins beschädigen. Datenschutzverstöße bei sensiblen Daten. Gefahr, dass fachliche Substanz durch flüssige, aber inhaltsleere Texte ersetzt wird. KI ist Werkzeug für den Papierkram, kein Ersatz für Naturschutz-Handeln.",
+  "synergy": ["citizen-science-apps", "planungs-software-priorisierung"],
+  "sources": [
+    {"title": "TU Ilmenau – KI im Naturschutz (Flora Incognita Kontext)", "url": "https://www.tu-ilmenau.de/en/news/tu-ilmenau-new-ai-for-flora-incognita"},
+    {"title": "GBIF – offene Biodiversitätsdaten (Grundlage für Berichte)", "url": "https://www.gbif.org/"},
+    {"title": "BfN – Förder- und Programmarbeit im Naturschutz", "url": "https://www.bfn.de/"}
+  ]
+}

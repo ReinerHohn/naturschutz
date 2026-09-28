@@ -25,6 +25,7 @@ CATEGORIES = {
     "Gewässer & Feuchtgebiete",
     "Wald & Totholz",
     "Gefahren & Fallen",
+    "KI, Software & 3D-Druck",
     "Politik & System-Hebel",
 }
 

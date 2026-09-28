@@ -1,0 +1,56 @@
+{
+  "id": "fernerkundung-satellit-ki",
+  "name": "Satelliten-/Fernerkundung + KI (Global Forest Watch, Copernicus)",
+  "aka": ["Global Forest Watch", "GFW", "GLAD Alerts", "RADD", "Sentinel", "Copernicus", "Fernerkundung", "Mahd-Erkennung"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["monitoring", "satellit", "fernerkundung", "ki", "entwaldung", "moor", "landnutzung", "kostenlos"],
+  "summary": "Kostenlose Satellitendaten (Sentinel/Copernicus) plus KI melden grossflaechig und laufend Veraenderungen: Entwaldung, Moor-Entwaesserung, Landnutzungswandel, sogar Mahd-Termine zur Foerderkontrolle. Global Forest Watch schickt automatische Waldverlust-Alerts. Riesige Abdeckung fuer nahezu null Kosten — aber nur so gut wie die Bodenpruefung.",
+  "key_facts": [
+    {"label": "Kosten", "value": "Copernicus/Sentinel-Daten und Global Forest Watch sind gratis nutzbar", "source": "ESA Copernicus; GFW"},
+    {"label": "Aufloesung", "value": "GLAD-Alerts 30 m (Landsat) bzw. 10 m (Sentinel-2); Sentinel-2 optisch 10 m", "source": "GLAD/UMD; ESA"},
+    {"label": "Radar durch Wolken", "value": "RADD-Alerts nutzen Sentinel-1-Radar und erkennen Entwaldung wolkenunabhaengig", "source": "GFW/Wageningen (RADD)"},
+    {"label": "Reichweite", "value": "integrierte Alerts (GLAD-L, GLAD-S2, RADD, DIST-ALERT) decken weltweit alle Vegetationstypen ab", "source": "Global Forest Watch"},
+    {"label": "Einsatz DE", "value": "Sentinel-Zeitreihen erkennen Mahd-Termine (Foerderkontrolle GAP), Moor-/Feuchtezustand, Landnutzungswandel", "source": "EU-Agrarkontrolle (AMS); Copernicus"},
+    {"label": "Grenze", "value": "Aufloesung/Wolken begrenzen Detailschaerfe; Alerts brauchen Bodenpruefung", "source": "GLAD/GFW"}
+  ],
+  "deep_dive": "Satelliten liefern das, was kein Ehrenamt schafft: laufende, grossflaechige Beobachtung — und die Daten sind gratis. Das EU-Programm Copernicus stellt Sentinel-Bilder frei bereit (Sentinel-2 optisch mit 10 m, Sentinel-1 Radar wolkenunabhaengig). Darauf setzen KI-Auswertungen auf: Global Forest Watch (GFW) verschickt automatische Waldverlust-Alerts — GLAD-L (30 m, Landsat) und GLAD-S2 (10 m, Sentinel-2) erkennen Baumverlust, RADD nutzt Sentinel-1-Radar und meldet Entwaldung auch bei Bewoelkung, und DIST-ALERT von UMD/NASA erweitert das erstmals global auf alle Vegetationstypen. Man kann sich fuer ein Gebiet kostenlos E-Mail-Alerts abonnieren. Ueber Wald hinaus lassen sich mit Sentinel-Zeitreihen Moor-/Feuchtezustaende, Landnutzungswandel, Versiegelung und sogar Mahd-Termine bestimmen — Letzteres nutzt die EU-Agrarkontrolle (flaechendeckendes Monitoring, AMS) zur Foerderkontrolle, etwa ob Foerderauflagen zur Mahd/Schnittzeit eingehalten wurden. Der Nutzen ist gross in der Flaeche, aber indirekt: Satelliten zeigen, WO etwas passiert, und richten Kontrolle, Foerdermittel und Schutz gezielt aus — sie schuetzen nichts von selbst. Grenzen ehrlich: Die Aufloesung (10–30 m) ist zu grob fuer Einzelbaeume, Kleinstrukturen oder Artnachweise; optische Sensoren scheitern an Wolken (deshalb Radar); Alerts enthalten Falschpositive und muessen am Boden oder mit hoeher aufgeloesten Bildern verifiziert werden; und die Interpretation (was heisst 'Stoerung' oekologisch?) braucht Fachwissen. Fuer Kommunen/Verbaende ist der Einstieg trotzdem fast kostenlos: GFW im Browser, oder Sentinel-Daten ueber Copernicus Browser / Google Earth Engine.",
+  "mechanism": "Frei verfuegbare Satellitenzeitreihen + KI-Klassifikation erkennen Veraenderungen (Verlust, Entwaesserung, Mahd) grossflaechig und automatisch; das priorisiert knappe Kontroll-/Schutzressourcen und macht Foerderauflagen ueberpruefbar.",
+  "evidence": [
+    {"source": "Hansen/GLAD (UMD), Global Forest Watch", "year": 2016, "finding": "Automatische GLAD-Alerts detektieren Baumverlust nahezu in Echtzeit und werden weltweit zur Entwaldungs-Frueherkennung genutzt."},
+    {"source": "Reiche et al. (RADD, Sentinel-1)", "year": 2021, "finding": "Radar-basierte Alerts erkennen Entwaldung wolkenunabhaengig und schliessen die Luecke optischer Systeme in den Tropen."},
+    {"source": "EU-Kommission / Sentinel Area Monitoring System (AMS)", "year": 2023, "finding": "Sentinel-Zeitreihen ermoeglichen flaechendeckende Kontrolle von Agrarauflagen (u. a. Mahd/Schnittzeitpunkt) statt Stichproben."}
+  ],
+  "robustness": {
+    "effect_size": "Gross in der Flaechenabdeckung/Frueherkennung; indirekt fuer den oekologischen Zustand.",
+    "replication": "Global operativ (GFW-Alerts, Copernicus, EU-Agrarkontrolle); milliardenfach genutzte Datenbasis.",
+    "caveats": "Aufloesung 10–30 m zu grob fuer Kleinstrukturen/Arten; optisch wolkenanfaellig; Alerts mit Falschpositiven, Bodenpruefung noetig; oekologische Deutung braucht Fachwissen."
+  },
+  "protocol": [
+    "Fuer Waldverlust: auf globalforestwatch.org das Gebiet abgrenzen und kostenlose GLAD/RADD/integrierte Alerts per E-Mail abonnieren.",
+    "Fuer eigene Analysen: Sentinel-2/-1-Daten gratis ueber Copernicus Browser oder Google Earth Engine laden.",
+    "Zeitreihen auswerten: Veraenderungen (Rodung, Entwaesserung, Mahd, Versiegelung) ueber Vegetationsindizes (z. B. NDVI) bzw. fertige Alert-Layer erkennen.",
+    "Bei Wolken auf Sentinel-1-Radar (RADD) ausweichen statt auf optische Bilder zu warten.",
+    "Jeden Alert vor Massnahmen verifizieren: am Boden pruefen oder mit hoeher aufgeloesten Bildern (z. B. Luftbild) abgleichen.",
+    "Ergebnisse fuer Priorisierung nutzen: Kontrolle/Foerdermittel/Schutz gezielt auf Hotspots lenken und an zustaendige Stellen melden."
+  ],
+  "mistakes": [
+    "Aus 10–30-m-Daten Einzelbaeume, Kleinstrukturen oder Arten ableiten wollen.",
+    "Alerts ungeprueft als Fakt behandeln — Falschpositive nicht am Boden verifiziert.",
+    "Bei Bewoelkung auf optische Bilder warten, statt Radar (Sentinel-1) zu nutzen.",
+    "Satellitendaten mit Schutz verwechseln: sie zeigen Probleme, loesen sie nicht.",
+    "Deutung ohne Fachwissen (Stoerung ist nicht gleich Schaden)."
+  ],
+  "risks": "Aufloesung und Wolken begrenzen die Aussagekraft — nichts fuer Kleinstrukturen oder Artnachweise. Alerts enthalten Falschpositive; Massnahmen (z. B. Foerderkuerzung) duerfen nie ohne Verifikation erfolgen. Datendeutung braucht Fachwissen, sonst Fehlschluesse. Abhaengigkeit von externen Plattformen/Programmen (Copernicus/GFW) — Kontinuitaet nicht garantiert. Ueberschaetzung: Fernerkundung lenkt Massnahmen, ersetzt sie aber nicht.",
+  "synergy": ["kamerafallen-ki", "bioakustik-monitoring-ki", "insektenmonitoring-kamera-ki"],
+  "sources": [
+    {"title": "Global Forest Watch (Alerts, kostenlos)", "url": "https://www.globalforestwatch.org/"},
+    {"title": "GLAD Forest Alerts (UMD)", "url": "https://glad.umd.edu/dataset/glad-forest-alerts"},
+    {"title": "Copernicus / Sentinel (ESA, offene Daten)", "url": "https://www.copernicus.eu/"},
+    {"title": "GFW – Integrierte Entwaldungs-Alerts (GLAD, RADD, DIST-ALERT)", "url": "https://www.globalforestwatch.org/blog/data-and-tools/integrated-deforestation-alerts/"},
+    {"title": "Copernicus Browser (Sentinel-Daten ansehen/laden)", "url": "https://browser.dataspace.copernicus.eu/"}
+  ]
+}

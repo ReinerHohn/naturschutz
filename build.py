@@ -33,6 +33,7 @@ CATEGORY_ORDER = [
     "Gewässer & Feuchtgebiete",
     "Wald & Totholz",
     "Gefahren & Fallen",
+    "KI, Software & 3D-Druck",
     "Politik & System-Hebel",
 ]
 
@@ -279,7 +280,7 @@ Maßnahmen von der Grünbrücke über Insektenschutz bis zur Flächenpolitik, na
 mit ehrlichem Evidenz-Level (A/B/C) und konkreter Umsetzung. Low-Hanging Fruits zuerst.</div>
 </header>
 <div class="controls">
-<input id="q" placeholder="Suchen: Grünbrücke, Insekten, Hecke, Moor, Vogelschlag ...">
+<input id="q" placeholder="Suchen: Grünbrücke, Insekten, Moor, Vogelschlag, KI, 3D-Druck ...">
 <div class="chips">{chips}<span class="count" id="count"></span></div>
 </div>
 {summary_html()}

@@ -2,7 +2,7 @@
 
 _Automatisch aus `hebel/*.json` erzeugt (`python3 build.py`). Nicht von Hand editieren — die JSON-Dateien sind die Quelle._
 
-**41 Hebel.** Evidenz-Level: **A** = Meta-Analysen/robust, **B** = einzelne Studien/konsistente Praxis, **C** = Mechanismus/Heuristik. Wirkung/Aufwand sind Einschätzungen — siehe `LIMITATIONEN.md`.
+**54 Hebel.** Evidenz-Level: **A** = Meta-Analysen/robust, **B** = einzelne Studien/konsistente Praxis, **C** = Mechanismus/Heuristik. Wirkung/Aufwand sind Einschätzungen — siehe `LIMITATIONEN.md`.
 
 ## Inhalt
 
@@ -13,6 +13,7 @@ _Automatisch aus `hebel/*.json` erzeugt (`python3 build.py`). Nicht von Hand edi
 - **Gewässer & Feuchtgebiete** (4)
 - **Wald & Totholz** (4)
 - **Gefahren & Fallen** (4)
+- **KI, Software & 3D-Druck** (13)
 - **Politik & System-Hebel** (5)
 
 ## 🍒 Low-Hanging Fruits — bester Naturschutz pro Aufwand
@@ -1947,6 +1948,706 @@ Viele Todesfallen sind unscheinbare Standardbauteile. Kellerlichtschächte und S
 **Kombiniert mit:** maehtod-vermeiden, gruenbruecke-wildquerung, lichtverschmutzung-tiere
 
 **Quellen:** [info fauna karch – Amphibienschutz in Entwässerungsanlagen (Schächte/Gullys)](https://www.infofauna.ch/de/beratungsstellen/amphibien-karch/foerderung/nach-lebensraum/amphibienschutz-entwaesserungsanlagen) · [Schweizer Tierschutz STS – Merkblatt sichere Weidezäune (PDF)](https://tierschutz.com/app/uploads/2023/06/mb_zaeune.pdf) · [Deutscher Tierschutzbund – Todesfalle Gully](https://www.duunddastier.de/ausgabe/gullys/)
+
+---
+
+
+## KI, Software & 3D-Druck
+
+### Drohne mit Waermebild + KI zur Kitz- & Bodenbrueter-Rettung
+
+Evidenz **B** · Wirkung 4/5 · Aufwand 3/5 · `rehkitzrettung-drohne-ki`
+
+_Auch: Rehkitzrettung, Kitzrettung, Waermebilddrohne, Wildtierrettung vor der Mahd, Drohne Mahd_
+
+Vor der ersten Mahd suchen Drohnen mit Waermebildkamera Wiesen ab; eine KI markiert warme Punkte (Kitze, Gelege) automatisch, sodass Helfer sie bergen koennen. Das ist ein sehr direkter, wirksamer Tech-Hebel: 2024 wurden in DE rund 15.000 Kitze mit gefoerderten Drohnen gerettet. Fertige Systeme, staatliche Foerderung.
+
+| Kennzahl | Wert |
+|---|---|
+| Gerettete Kitze | 2024 rund 15.000 Rehkitze mit 483 gefoerderten Drohnen gerettet _(BMEL/drohnen.de 2024)_ |
+| Foerderung DE | Bundesprogramm foerdert Drohnen mit Waermebild (2024 bis 4.000 € je Geraet) _(BLE Bundesfoerderprogramm)_ |
+| Wirkung Mahd | Maht ohne Absuche toetet/verstuemmelt Kitze und Gelege; frueh morgens per Waermebild gut auffindbar _(BMEL; Jagdverbaende)_ |
+| KI-Funktion | Software erkennt warme Punkte automatisch und markiert sie live, beschleunigt Suche _(Systemhersteller (z. B. DJI-basiert))_ |
+| Beste Methode | laut BMEL derzeit beste Schutzmethode vor der Mahd _(BMEL Pressemitteilung)_ |
+| Zeitfenster | Suche frueh morgens (grosser Temperaturkontrast Wiese/Kitz), unmittelbar vor Mahd _(Praxis Kitzretter)_ |
+
+Die Fruehjahrs-Mahd von Wiesen faellt genau in die Setzzeit: Rehkitze druecken sich reglos ins Gras, Bodenbrueter bruueten am Boden — ohne Absuche werden sie vom Maehwerk getoetet oder schwer verletzt (jaehrlich Zehntausende Kitze). Waermebilddrohnen sind dagegen der wirksamste bekannte Hebel: Die Drohne fliegt frueh morgens (grosser Waermekontrast) systematisch die Flaeche ab, die Waermebildkamera zeigt warme Koerper, und eine KI markiert diese Punkte automatisch im Livebild, sodass Helfer schnell und gezielt bergen koennen. Anders als die meisten Monitoring-Karten wirkt das direkt: Es rettet unmittelbar Tierleben. Die Zahlen sind eindrucksvoll — 2024 wurden laut BMEL mit 483 gefoerderten Drohnen rund 15.000 Rehkitze gerettet; das Ministerium nennt die Methode die derzeit beste Schutzform. In Deutschland gibt es ein Bundesfoerderprogramm der BLE, das die Anschaffung solcher Drohnen (2024 bis 4.000 € je Geraet) unterstuetzt; Systeme basieren oft auf DJI-Drohnen mit Waermebild plus Erkennungssoftware, Komplettsysteme liegen je nach Ausstattung im mittleren bis oberen vierstelligen Bereich, viele Kitzretter-Vereine teilen Geraete. Grenzen ehrlich: Die Suche gelingt nur im kurzen Morgenfenster (bei aufgeheizter Wiese verschwindet der Kontrast), Wind/Regen und dichte Vegetation stoeren, die Akkulaufzeit begrenzt die Flaeche pro Ladung, und Drohnenflug unterliegt EU-Regeln (Registrierung, Kenntnisnachweis). Organisation ist entscheidend: Landwirt muss Mahdtermin rechtzeitig melden, damit ein Team am Morgen fliegen kann.
+
+**Wirkmechanismus:** Waermebild macht im Gras verborgene, warmbluetige Tiere sichtbar; KI-Detektion beschleunigt das Auffinden, sodass Kitze/Gelege vor dem Maehwerk geborgen oder markiert werden — direkte Vermeidung von Mahd-Mortalitaet.
+
+**Umsetzung**
+
+- Waermebilddrohne beschaffen (Komplettsystem DJI + Waermebild + Erkennungssoftware) — Bundesfoerderung der BLE nutzen oder Vereins-Drohne teilen.
+- Drohne registrieren und EU-Kenntnisnachweis (Drohnenfuehrerschein) erwerben.
+- Mit Landwirten Mahdtermine vereinbaren: Meldung mindestens am Vortag, damit ein Team am Morgen fliegen kann.
+- Frueh morgens (grosser Waermekontrast) systematisch in Bahnen abfliegen; KI-Software warme Punkte live markieren lassen.
+- Gefundene Kitze mit Handschuhen/Grasbuescheln in Kisten setzen (nicht mit blossen Haenden anfassen) und nach der Mahd freilassen; Gelege markieren/aussparen.
+- Bei ungeeignetem Wetter/Zeitfenster ergaenzend andere maht-schonende Verfahren einplanen (siehe maehtod-vermeiden).
+
+**Häufige Fehler**
+
+- Zu spaet am Tag fliegen — aufgeheizte Wiese loescht den Waermekontrast.
+- Mahdtermin nicht rechtzeitig erfahren; keine Zeit fuer die Absuche.
+- Kitze mit blossen Haenden anfassen (Geruchsuebertragung) statt mit Handschuhen/Grasbuescheln.
+- Drohnenregeln (Registrierung, Kenntnisnachweis, Flugverbotszonen) missachten.
+- Akkulaufzeit/Flaechengroesse falsch planen — Flaeche nicht vollstaendig abgesucht.
+
+**Belege / Studien**
+
+- _BMEL / drohnen.de (Foerderbilanz) (2024):_ Mit 483 gefoerderten Drohnen wurden 2024 rund 15.000 Rehkitze gerettet; Waermebilddrohne als beste Schutzmethode benannt.
+- _BLE Bundesfoerderprogramm Rehkitzrettung (2024):_ Bund foerdert Anschaffung von Waermebilddrohnen (bis 4.000 € je Geraet), um Mahd-Verluste zu senken.
+- _Praxis Kitzretter-Vereine / Jagdverbaende (2023):_ Systematische Waermebild-Absuche frueh morgens findet zuverlaessig Kitze, sofern Temperaturkontrast und Organisation stimmen.
+
+**Robustheit** — Effektgröße: Gross und direkt: unmittelbare Rettung tausender Individuen pro Jahr.. Replikation: Breit repliziert in ganz Deutschland/Oesterreich/Schweiz durch Kitzretter-Netzwerke und Jagdverbaende.. Vorbehalte: Wirkung haengt an Morgen-Zeitfenster (Waermekontrast), Wetter, Vegetationsdichte, Akkulaufzeit und rechtzeitiger Mahd-Meldung; Drohnenregeln beachten.
+
+> ⚠️ **Risiken / Grenzen:** Nur im kurzen Morgen-Zeitfenster wirksam (Waermekontrast); Wind/Regen und dichte Vegetation mindern die Trefferquote. Akkulaufzeit begrenzt die Flaeche pro Einsatz. Drohnenflug unterliegt EU-Regeln (Registrierung, Kenntnisnachweis, Flugverbotszonen). KI kann warme Steine/Kot als Tier markieren (Falschtreffer) — Sichtkontrolle noetig. Organisatorischer Engpass: ohne rechtzeitige Mahd-Meldung keine Absuche. Kitze zur Vermeidung von Geruchsuebertragung nie mit blossen Haenden anfassen.
+
+**Kombiniert mit:** maehtod-vermeiden, kamerafallen-ki, bioakustik-monitoring-ki
+
+**Quellen:** [BLE – Bundesfoerderprogramm Rehkitzrettung](https://www.ble.de/DE/Projektfoerderung/Foerderungen-Auftraege/Rehkitz/Rettung_node.html) · [BMEL/BMLEH – Drohnenfoerderung Rehkitze](https://www.bmleh.de/DE/themen/digitalisierung/drohnenfoerderung-rehkitze.html) · [drohnen.de – Waermebilddrohnen im Naturschutz (Bilanz)](https://www.drohnen.de/76963/waermebilddrohnen-im-naturschutz-tausende-gerettete-rehkitze-pro-jahr/) · [drohnen.de – Rehkitzrettung Foerderung 2024](https://www.drohnen.de/49703/drohnen-foerderung-fuer-rehkitzrettung-2024/)
+
+---
+
+### 3D-gedruckte Gehäuse & Halterungen für günstiges Monitoring
+
+Evidenz **B** · Wirkung 3/5 · Aufwand 2/5 · `3d-monitoring-gehaeuse`
+
+_Auch: DIY-AudioMoth-Case, gedrucktes Kamerafallen-Gehäuse, Sensor-Enclosure, 3D-printed enclosure_
+
+3D-Druck senkt die Kosten für Naturmonitoring drastisch: wetterfeste Gehäuse und Halterungen für AudioMoth-Rekorder, Kamerafallen, Sensoren und Klemmen/Stative kosten nur wenige Euro und lassen sich lokal reproduzieren. Ein AudioMoth ohne Gehäuse ist im Freien schutzlos - ein passendes Case macht das ganze Messnetz erst freilandtauglich. Der Wert liegt in Dichtigkeit, Mikrofon-/Objektiv-Freiheit und stabiler Montage.
+
+| Kennzahl | Wert |
+|---|---|
+| Materialkosten | wetterfestes AudioMoth-Case ~2-3 € Material, druckbar in unter 3 Stunden auf jedem FDM-Drucker _(AudioMoth Vault (Thingiverse))_ |
+| AudioMoth | Open-Source-Akustikrekorder ~50-90 €, wird OHNE Gehäuse geliefert - Case ist Voraussetzung fürs Freiland _(Open Acoustic Devices; WILDLABS)_ |
+| Skalierung | billige, druckbare Gehäuse ermöglichen große Sensor-Netze (viele Standorte) statt weniger teurer Geräte _(WILDLABS-Community)_ |
+| Freie Fenster | Mikrofon-/Objektiv-/Sensorbereich darf nicht abgedeckt werden - Akustikgitter statt Wand, IR-durchlässig für Kamera _(AudioMoth-Case-Designs)_ |
+| Dichtung | Dichtnut mit O-Ring/TPU-Dichtung + Entlüftung/Trockenmittel gegen Kondens; Schloss-/Drahtöse gegen Diebstahl _(philhol Waterproof AudioMoth Case)_ |
+
+Günstiges Umweltmonitoring - Bioakustik und Kamerafallen - scheitert im Freiland oft nicht am Sensor, sondern am Gehäuse. Der AudioMoth (Open-Source-Akustikrekorder, ~50-90 €) wird bewusst ohne Case geliefert; erst ein wetterfestes 3D-gedrucktes Gehäuse macht ihn regen-, staub- und diebstahlsicher. Solche Cases kosten nur ~2-3 € Material und drucken in wenigen Stunden auf jedem FDM-Drucker; erprobte Dateien (z. B. AudioMoth Vault, philhols wasserdichtes, abschließbares Case) sind frei geteilt und wurden in echten Vogel-Monitoring-Projekten eingesetzt. Analog gibt es Gehäuse und Adapter für Kamerafallen, ESP32-CAM, Raspberry-Pi-Kameras sowie Klemmen, Baumhalterungen und Stative. Der Hebel ist Skalierung: Wenn ein Standort nur wenige Euro Peripherie kostet, lassen sich viele Standorte parallel bestücken - genau das, was aussagekräftige Bioakustik-/Kamera-Studien brauchen. Entscheidend sind wenige Designdetails: Das Mikrofon-Fenster braucht ein akustisch offenes Gitter (keine massive Wand, sonst gedämpfte Aufnahmen), das Kameraobjektiv freie, IR-durchlässige Sicht, und alle Öffnungen eine Dichtnut (O-Ring oder gedruckte TPU-Dichtung) plus Belüftung/Trockenmittel gegen Kondens. Materialgrenzen: PLA verwittert und wird spröde und ist für dauerhafte Sonnenstandorte ungeeignet - PETG oder ASA nehmen; UV-stabil und temperaturfest, damit sich das Gehäuse im Sommer nicht verzieht. Eine Draht-/Schlossöse schützt gegen Diebstahl. Der Druck ersetzt keine gute Studienplanung (Standortwahl, Auswertung mit KI/Software) - er senkt nur die Hardwarekosten pro Messpunkt.
+
+**Wirkmechanismus:** Wetterfeste, maßgenaue Gehäuse und Halterungen machen billige Open-Source-Sensoren freilandtauglich und senken die Kosten pro Messpunkt - das erlaubt dichtere, längere Monitoring-Netze und damit belastbarere Daten für Naturschutzentscheidungen.
+
+**Umsetzung**
+
+- Erprobtes, geräte-spezifisches Design nutzen (z. B. AudioMoth-Case von Printables/Thingiverse) statt neu zu erfinden; auf Version des eigenen Geräts achten.
+- Material PETG oder ASA (UV-/temperaturfest), Wandstärke >= 2 mm; PLA nur für kurzlebige/beschattete Einsätze.
+- Sensorfenster freihalten: Mikrofon hinter akustisch offenem Gitter/Membran (nicht massiv), Kameraobjektiv freie IR-durchlässige Sicht - nicht überdrucken.
+- Wasserdicht: Dichtnut mit O-Ring oder gedruckter TPU-Dichtung, verschraubbarer Deckel; kleine Entlüftung/Goretex-Patch + Trockenmittel gegen Kondens.
+- Montage mitdrucken: Baumklemme/Gurtschlaufe/Stativgewinde; Draht-/Vorhängeschloss-Öse gegen Diebstahl.
+- Vor dem Ausbringen 1 Muster mit Wasser-/Kondens- und Aufnahme-Test (Dämpfung durch Gitter) prüfen; helle Farbe gegen Hitzestau.
+
+**Häufige Fehler**
+
+- Mikrofon oder Objektiv mit massiver Wand abdecken - gedämpfter/unbrauchbarer Datenstrom.
+- PLA für Dauer-Sonnenstandort - verzieht sich, versprödet, undicht.
+- Keine Belüftung/Trockenmittel - Kondenswasser ruiniert die Elektronik trotz dichtem Gehäuse.
+- Fehlende Dichtnut/O-Ring - Regen dringt durch die Deckelfuge ein.
+- Kein Diebstahlschutz an frei zugänglichen Standorten - Geräteverlust.
+- Neues Case erfinden statt geprüftes, gerätegenaues Design zu übernehmen.
+
+**Belege / Studien**
+
+- _philhol - Waterproof, lockable AudioMoth case (Thingiverse), aus Vogel-Monitoring-Projekt (2023):_ 3D-gedrucktes, wasserdichtes und abschliessbares Case wurde fuer passives akustisches Vogel-Monitoring im Wald entwickelt und im Freiland eingesetzt.
+- _brandonh - AudioMoth Vault (Thingiverse) (2020):_ Wetterfestes, magnetisch schliessendes, leicht montierbares Case fuer ~3 USD Material in unter 3 Stunden auf jedem 3D-Drucker herstellbar.
+- _WILDLABS-Community - 3D printed AudioMoth cases (2022):_ Selbstgedruckte Gehaeuse sind gaengige Praxis in der Conservation-Tech-Community und senken die Einstiegskosten fuer verteiltes Bioakustik-Monitoring deutlich.
+
+**Robustheit** — Effektgröße: Indirekt, aber real: ermöglicht kostengünstige, skalierbare Monitoring-Netze (Kosten pro Messpunkt sinken stark).. Replikation: Vielfach in Conservation-Tech-Projekten genutzt (WILDLABS, Open Acoustic Devices); viele erprobte offene Designs.. Vorbehalte: Wirkung hängt an Dichtigkeit, Mikrofon-/Objektivfreiheit und Material; schlechtes Gehäuse verfälscht Daten oder tötet das Gerät durch Nässe.
+
+> ⚠️ **Risiken / Grenzen:** Undichtes oder schlecht belüftetes Gehäuse zerstört teurere Elektronik (Nässe/Kondens) und verfälscht Aufnahmen (gedämpftes Mikrofon). Mikroplastik durch verwitterndes Filament. Monitoring-Geräte können sensible Standort-/Personendaten erfassen - Datenschutz und rechtliche Vorgaben (Kamerafallen) beachten. Der Druck senkt Kosten, ersetzt aber keine saubere Studienplanung und Auswertung.
+
+**Kombiniert mit:** bioakustik-monitoring-ki, kamerafallen-ki, invasive-arten-frueherkennung
+
+**Quellen:** [philhol - Waterproof, lockable AudioMoth case (Thingiverse)](https://www.thingiverse.com/thing:6428228) · [brandonh - AudioMoth Vault (Thingiverse)](https://www.thingiverse.com/thing:4546491) · [WILDLABS - 3D printed AudioMoth cases (Community-Diskussion)](https://wildlabs.net/discussion/3d-printed-audiomoth-cases) · [Open Acoustic Devices - AudioMoth](https://www.openacousticdevices.info/audiomoth)
+
+---
+
+### 3D-gedruckte Nisthilfen für Gebäudebrüter & Fledermäuse
+
+Evidenz **C** · Wirkung 3/5 · Aufwand 3/5 · `3d-nisthilfen-gebaeudebrueter`
+
+_Auch: gedruckter Mauerseglerkasten, 3D-printed nest box, gedrucktes Fledermausquartier_
+
+3D-Druck macht Nisthilfen für Mauersegler, Schwalben, Sperlinge und Fledermäuse günstig und lokal reproduzierbar - eine geprüfte Maßvorlage einmal teilen, vielfach drucken. Der Wert liegt in korrekten Innenmaßen und Einflugöffnungen, nicht im Drucken. Kritisch: Hitze- und UV-Problem - Kunststoffkästen in der Sonne überhitzen tödlich; hell, schattig und belüftet bauen, UV-festes PETG/ASA statt PLA.
+
+| Kennzahl | Wert |
+|---|---|
+| Kostenvorteil | gedruckter Kasten ~2-8 € Material vs. 20-40 € Kaufkasten (Holzbeton); Datei einmal teilen, tausendfach drucken _(FDM-Materialpreis; Handel)_ |
+| Mauersegler-Innenmaß | Nistraum lang und flach, ca. 30 x 15 cm Grundfläche, Einflugloch ~30 x 65 mm quer, seitlich unten _(NABU/LBV Bauanleitungen)_ |
+| Überhitzung | sonnenexponierte, unbelüftete Quartiere überhitzen; Risiko steigt mit Sonneneinstrahlung, Wärme und Windstille _(Bat box bioenergetics study 2022)_ |
+| Material | PLA (Tg ~60 C) sackt/verwittert im Freien; PETG (~80 C) und ASA (~95 C) sind UV-/hitzebeständiger _(Filament-Vergleiche; PLA-Weathering-Studien)_ |
+| Ausrichtung | Einflug bevorzugt Nord/Ost, nie pralle Südsonne; hohe, katzensichere, freie Anflugschneise _(NABU/LBV)_ |
+
+Nisthilfen für Gebäudebrüter (Mauersegler, Mehl-/Rauchschwalbe, Haussperling) und Fledermäuse retten Brutplätze, die bei Sanierung und Dämmung verloren gehen. 3D-Druck senkt Kosten und Hürde: Eine von Fachleuten geprüfte Vorlage mit korrekten Innenmaßen, Einflugöffnung und Anflugstruktur wird einmal konstruiert und dann von Vereinen, Schulen oder Hausbesitzern lokal ausgedruckt (Material oft 2-8 € statt 20-40 € im Handel). Entscheidend ist die Maßgenauigkeit: Mauersegler brauchen einen langen, flachen Nistraum (~30 x 15 cm) mit querem Einflugschlitz (~30 x 65 mm) seitlich unten; Fledermausquartiere brauchen enge, oben geschlossene Spalten (Innenspalt ~15-20 mm) und raue Innenflächen zum Krallenhalt. Das größte Risiko bei gedruckten Kunststoffkästen ist die Überhitzung: Studien zu Fledermauskästen zeigen, dass sonnenexponierte, unbelüftete Kästen letale Temperaturen erreichen - Risiko steigt mit Sonne, Hitze und Windstille. Deshalb hell (reflektierend) bauen, beschatten, Doppelwand/Belüftung vorsehen und Süd-Prallsonne meiden. Beim Material scheidet reines PLA praktisch aus (Tg ~60 C, sackt in der Sonne, verwittert unter UV); PETG (Tg ~80 C) oder ASA (Tg ~95 C, beste UV-Beständigkeit) sind Pflicht. Raue Innenflächen sind bei Fledermäusen (Krallenhalt) und bei Schwalben (Nistanheftung) essenziell - glatt gedruckte Wände sind ein häufiger Fehler. Der Druck ersetzt nicht die eigentliche Naturschutzleistung: richtige Höhe, freie Anflugschneise, Katzensicherheit und der Erhalt echter Nischen am Bau.
+
+**Wirkmechanismus:** Ersatz-Nistnischen an Gebäuden gleichen den Verlust natürlicher Brutplätze aus. Korrekte Innenmaße, Einflugöffnung, Rauigkeit (Krallenhalt) und ein kühler, schattiger, hoher Standort bestimmen die Annahme und den Bruterfolg.
+
+**Umsetzung**
+
+- Geprüfte Maßvorlage nutzen (NABU/LBV): Mauersegler ~30 x 15 cm Nistmulde, Einflug ~30 x 65 mm quer unten; Fledermausspalt innen 15-20 mm, oben geschlossen; Schwalben-Kunstnest mit Kotbrett.
+- Material PETG oder ASA (nicht PLA), Wandstärke >= 3 mm; helle/reflektierende Farbe, nie schwarz.
+- Überhitzung verhindern: Doppelwand oder Belüftungsschlitze unten, Sonnenschutz/Beschattung; Montage Nord/Ost, nicht in Südprallsonne.
+- Innenflächen rau gestalten (grobe Schicht, Struktur, aufgeraut) für Krallenhalt (Fledermaus) und Nistanheftung (Schwalbe) - nicht glatt drucken.
+- Regensicher konstruieren (Dachüberstand, Wasserablauf), Drainagelöcher; katzen- und marder-sicher hoch (>= 4-6 m, freie Anflugschneise) montieren.
+- Vor Serienproduktion ein Muster ein Jahr im Freien testen (Verformung, Temperatur, Annahme) und mit Fachverband/Behörde abstimmen.
+
+**Häufige Fehler**
+
+- PLA verwenden - sackt bei Sonne (Tg ~60 C) und verwittert unter UV.
+- Dunkler Kasten in Südsonne ohne Belüftung - tödliche Überhitzung der Brut.
+- Innenwände glatt drucken - Fledermäuse/Schwalben finden keinen Halt.
+- Zu klein/falsche Einflugöffnung - falsche Art oder gar keine Annahme.
+- Kein Regenschutz/Drainage - Nässe und Schimmel im Nistraum.
+- Zu niedrig oder ohne freie Anflugschneise/Katzenschutz montiert.
+
+**Belege / Studien**
+
+- _Bideguren et al. / Bat box bioenergetics (PMC) - Evaluating bat boxes: design and placement alter overheating risk (2022):_ Ueberhitzungsrisiko am hoechsten bei sonnenexponierten Standorten und Designs ohne Temperaturpufferung; steigt mit Waerme, Belegung und Windstille.
+- _3D-printed bat houses with biomass-derived composites (ScienceDirect) (2025):_ 3D-Druck von Fledermausquartieren ist machbar; Langzeit-Materialverhalten (Bewitterung, Feuchte, Waermeleitung) muss vor Freilandeinsatz geprueft werden.
+- _PLA-FFF-Weathering (Scientific Reports / Nature) (2026):_ PLA-Drucke veraendern Festigkeit und Struktur unter UV und Feuchte deutlich; ungeeignet fuer dauerhafte, sonnenexponierte Freilandteile ohne Schutz.
+
+**Robustheit** — Effektgröße: Mittel und lokal: kann Brutplätze konkret ersetzen, wirkt aber nur mit korrektem Design/Standort.. Replikation: Maße und Standortregeln gut belegt (NABU/LBV); 3D-gedruckte Varianten bisher wenig freilandvalidiert.. Vorbehalte: Kunststoff-Überhitzung und UV-Alterung sind ernste Risiken; Holzbeton bleibt thermisch oft überlegen. Druck ist Mittel, nicht Ziel.
+
+> ⚠️ **Risiken / Grenzen:** Überhitzung und UV-Versprödung von Kunststoffkästen können Bruten töten - schlecht gemacht schädlicher als kein Kasten. Mikroplastik-Freisetzung durch verwitterndes Filament. Gebäudebrüter und ihre Nester sind gesetzlich geschützt - Anbringung/Ersatz mit Naturschutzbehörde abstimmen. Druck ersetzt nicht den Erhalt echter Bau-Nischen.
+
+**Kombiniert mit:** gebaeudebrueter-nisthilfen, hauskatzen-vogelmortalitaet, dach-fassadenbegruenung
+
+**Quellen:** [Evaluating bat boxes: design and placement alter bioenergetic costs and overheating risk (PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9041549/) · [Design and scale-up of 3D printed bat houses with biomass-derived polymer composites (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S2950431725000668) · [Weathering effects on mechanical properties of PLA FFF 3D prints (Scientific Reports)](https://www.nature.com/articles/s41598-026-61106-4) · [NABU - Nist- und Bruthilfen fuer Gebaeudebrueter](https://www.nabu.de/tiere-und-pflanzen/voegel/helfen/nistkaesten/index.html)
+
+---
+
+### Automatisiertes Insektenmonitoring (Kamera + KI)
+
+Evidenz **C** · Wirkung 3/5 · Aufwand 3/5 · `insektenmonitoring-kamera-ki`
+
+_Auch: Insektenkamera, DIOPSIS, AMI-trap, Insect Detect, YOLO-Insekten, automated insect monitoring_
+
+Kameras fotografieren rund um die Uhr Insekten auf einer Plattform oder am Lichtfang, eine KI zaehlt und bestimmt sie automatisch. Das schliesst die grosse Datenluecke beim Insektensterben, ohne dass jemand naechtelang zaehlt. Die Technik ist noch jung: Artbestimmung und Standardisierung sind unreif (Evidenz C).
+
+| Kennzahl | Wert |
+|---|---|
+| Datenluecke | Insektentrends sind kaum flaechig erfasst; automatische Kameras liefern kontinuierliche Zeitreihen _(Agrarmonitoring MonVia; DIOPSIS)_ |
+| DIOPSIS-Netz | ~150 Kameras ueber die Niederlande verteilt, Bild alle 10 Sekunden Tag und Nacht _(diopsis.eu / Naturalis)_ |
+| Insect Detect | Open-Source-DIY-Kamerafalle, YOLOv5n erkennt/verfolgt Insekten on-device, Klassifikation lokal _(Sittinger et al. 2024 (PLOS ONE))_ |
+| Kosten DIY | Insect Detect Bauteile (Raspberry Pi + OAK-Kamera) im niedrigen dreistelligen Bereich; alle Plaene frei _(Insect Detect Docs)_ |
+| Betrieb | solarbetrieben und autonom moeglich; kein naechtliches Handzaehlen noetig _(DIOPSIS; Insect Detect)_ |
+| Reifegrad | vielversprechend, aber Artbestimmung/Standardisierung noch in Entwicklung _(MonVia; Reviews)_ |
+
+Beim Insektensterben ist das groesste Problem, dass belastbare Langzeitdaten fehlen — klassische Methoden (Malaisefallen, Handbestimmung) sind extrem arbeitsintensiv. Automatische Kamerasysteme schliessen diese Luecke: Die niederlaendische DIOPSIS-Kamera (Naturalis/Faunabit) fotografiert Insekten, die auf eine beleuchtete Plattform kommen, alle 10 Sekunden Tag und Nacht; rund 150 Kameras sind ueber die Niederlande verteilt und liefern Trends zu Anzahl und Biomasse. Fuer Guenstig-Einstieg gibt es Insect Detect (Sittinger et al. 2024, PLOS ONE): eine komplett offene DIY-Kamerafalle mit kuenstlicher Blueten-Plattform, die ein YOLOv5n-Modell direkt on-device zur Erkennung und Verfolgung nutzt und die Ausschnitte spaeter lokal klassifiziert — Bauanleitung, Code und Modelle sind frei, die Hardware (Raspberry Pi + OAK-Kamera, solarfaehig) liegt im niedrigen dreistelligen Bereich. Grossflaechige Forschungsansaetze wie die AMI-trap (Automated Monitoring of Insects) kombinieren Lichtfang, Kamera und KI. Der oekologische Nutzen ist real, aber indirekt und noch nicht ausgereift: Die Systeme liefern beispiellose Datenmengen, doch die automatische Artbestimmung ist schwierig (viele aehnliche Kleininsekten), Trainingsdaten fehlen fuer viele Taxa, und es gibt noch keinen Standard, der Vergleichbarkeit ueber Geraete/Studien garantiert. Deshalb Evidenz C: der Mechanismus ist plausibel und in fruehe Praxis, harte Wirksamkeitsbelege fehlen noch. Alltags-Grenzen: Batterie/Solar im Feld, Insekten-Anlockung veraendert das Messobjekt, und Bestimmung auf Artniveau bleibt oft unsicher.
+
+**Wirkmechanismus:** Kameras erfassen kontinuierlich Insekten, KI zaehlt/bestimmt automatisch — das ersetzt extrem aufwaendiges Handzaehlen und erzeugt erstmals dichte Zeitreihen zu Abundanz/Biomasse, die Ursachen und Massnahmen (z. B. Pestizid, Maht, Blueten) evaluierbar machen.
+
+**Umsetzung**
+
+- Guenstig/DIY: Insect Detect nachbauen — Bauanleitung, Code und Modelle sind frei (Raspberry Pi + OAK-Kamera, solarfaehig).
+- Kuenstliche Blueten-/Landeplattform vor die Kamera setzen; Standort blueten-/insektenreich und laotlich stabil waehlen.
+- On-device-Erkennung (YOLO) laufen lassen, Ausschnitte speichern und spaeter lokal klassifizieren.
+- Fertig/skalierend: DIOPSIS-Kamera (kaufen/leasen bei Faunabit) fuer standardisierte Netz-Teilnahme nutzen.
+- Artbestimmung als vorlaeufig behandeln — auf Gruppen-/Gattungsniveau auswerten, Belege stichprobenartig manuell pruefen.
+- Daten mit Standort/Zeit dokumentieren und an Monitoring-Netz (z. B. MonVia, GBIF) weitergeben; ueber Saisons wiederholen.
+
+**Häufige Fehler**
+
+- Automatische Artbestimmung als gesichert nehmen — bei Kleininsekten oft unsicher.
+- Standort/Setup zwischen Laeufen aendern — zerstoert Vergleichbarkeit.
+- Anlockung (Licht/Plattform) ignorieren, obwohl sie das Messergebnis beeinflusst.
+- Batterie/Solar-Budget fuer Dauerbetrieb unterschaetzen.
+- Ergebnisse ueberverkaufen: die Technik ist noch jung (Evidenz C).
+
+**Belege / Studien**
+
+- _Sittinger et al., PLOS ONE (Insect Detect) (2024):_ Offene DIY-Kamerafalle mit YOLO erkennt und verfolgt Insekten on-device zuverlaessig; vollstaendig reproduzierbare, guenstige Loesung.
+- _DIOPSIS / Naturalis (Praxis Niederlande) (2023):_ Netz aus ~150 Kameras liefert autonome, kontinuierliche Daten zu Insektenzahl und Biomasse.
+- _Agrarmonitoring MonVia (Thuenen-Institut) (2023):_ DIY-Insektenkamera als praxistaugliches Werkzeug fuer automatisiertes Monitoring in der Agrarlandschaft erprobt.
+
+**Robustheit** — Effektgröße: Potenziell gross fuer die Datenluecke; oekologische Wirkung indirekt und noch nicht belegt.. Replikation: Fruehe, wachsende Praxis (DIOPSIS-Netz, Insect Detect, AMI-trap); noch keine breite Standardisierung.. Vorbehalte: Artbestimmung unsicher (viele aehnliche Kleininsekten, fehlende Trainingsdaten); Anlockung veraendert Messgroesse; kein etablierter Vergleichsstandard; junge Technik (Evidenz C).
+
+> ⚠️ **Risiken / Grenzen:** Fehlbestimmungen auf Artniveau sind haeufig (aehnliche Kleininsekten, luecken in Trainingsdaten) — Ergebnisse eher auf hoeherer taxonomischer Ebene nutzen. Anlockung veraendert die Messgroesse und kann Insekten binden/toeten (bei Lichtfallen) — schonende Setups bevorzugen. Batterie-/Solar-Ausfaelle erzeugen Datenluecken. Fehlende Standardisierung erschwert Vergleiche zwischen Geraeten und Studien. Ueberschaetzung: Monitoring ersetzt keine Massnahme gegen Insektenrueckgang.
+
+**Kombiniert mit:** bioakustik-monitoring-ki, kamerafallen-ki, fernerkundung-satellit-ki
+
+**Quellen:** [Insect Detect – Doku & Bauanleitung (Open Source)](https://maxsitt.github.io/insect-detect-docs/) · [Sittinger et al. 2024, Insect Detect (PLOS ONE)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295474) · [DIOPSIS Insektenkamera](https://diopsis.eu/en/) · [DIOPSIS Insect Camera – Naturalis](https://www.naturalis.nl/en/science/diopsis-insect-camera) · [Agrarmonitoring MonVia – DIY-Insektenkamera (Thuenen)](https://www.agrarmonitoring-monvia.de/)
+
+---
+
+### Citizen-Science-Apps mit KI-Artbestimmung
+
+Evidenz **B** · Wirkung 3/5 · Aufwand 1/5 · `citizen-science-apps`
+
+_Auch: iNaturalist, Flora Incognita, ObsIdentify, observation.org, Naturbeobachtungs-Apps, KI-Pflanzenbestimmung_
+
+Kostenlose Smartphone-Apps bestimmen Tiere, Pflanzen und Pilze per Foto mit KI in Sekunden und speisen die Fundmeldungen als offene Daten in globale Biodiversitäts-Datenbanken (GBIF) ein. So entsteht aus Millionen Bürger-Beobachtungen eine Datengrundlage, die Behörden und Verbände für Kartierung, Monitoring und Rote Listen nutzen — sofort, gratis, ohne Fachwissen als Einstiegshürde.
+
+| Kennzahl | Wert |
+|---|---|
+| iNaturalist-Umfang | über 200 Mio. Beobachtungen von ~3,3 Mio. Beobachtern (Stand 2024) _(California Academy of Sciences / iNaturalist)_ |
+| Flora Incognita (aus DE) | TU Ilmenau + MPI Biogeochemie; ~16.000 Pflanzenarten weltweit bestimmbar _(TU Ilmenau)_ |
+| observation.org | 2022 rund 70 Mio. Datensätze (inkl. 15 Mio. Bilder) an GBIF geteilt _(Observation International)_ |
+| Treffergenauigkeit | ObsIdentify bestimmte im Test ~95 % der fotografierten Arten korrekt _(Praxistests / Observation.org)_ |
+| GBIF-Anteil | seit 2020 stammen die meisten GBIF-Datensätze für die meisten Arten aus iNaturalist _(iNaturalist / GBIF)_ |
+| Kosten | 0 € — alle genannten Apps sind gratis und werbefrei _(App-Anbieter)_ |
+
+Der Hebel ist nicht die App selbst, sondern die schiere Datenmenge, die Laien erzeugen: iNaturalist hat über 200 Mio. Beobachtungen von ~3,3 Mio. Menschen gesammelt und ist die meistzitierte GBIF-Datenquelle. Für Deutschland besonders relevant ist Flora Incognita, ein Projekt der TU Ilmenau und des Max-Planck-Instituts für Biogeochemie, dessen KI rund 16.000 Pflanzenarten unterscheidet und im März 2020 bis zu ~15.000 Bestimmungen pro Tag verzeichnete. ObsIdentify (observation.org, Observation International, NL) deckt Tiere, Pflanzen und Pilze ab und erreicht im Test ~95 % korrekte Bestimmungen; 2022 flossen ~70 Mio. Datensätze inklusive 15 Mio. Bilder nach GBIF. Wichtig ist die Datenveredelung: iNaturalist-Meldungen werden erst nach Community-Bestätigung zu Research-Grade und dann an GBIF weitergegeben, observation.org lässt über 1.000 Fachleute die KI-Vorschläge validieren. Grenzen: KI-Modelle sind bei häufigen, gut fotografierbaren Arten stark, versagen aber bei kryptischen Arten, Verwechslungspaaren und schlecht abgedeckten Gruppen; die Daten haben einen starken Erfassungs-Bias (Städte, Wochenenden, hübsche Arten) und sind nur mit Vorsicht für Trendaussagen nutzbar. Die App ersetzt keine systematische Fachkartierung, senkt aber die Einstiegshürde radikal und liefert Vorkommensnachweise, Phänologie-Signale und Frühwarnungen (z. B. invasive Arten).
+
+**Wirkmechanismus:** Bild-Erkennungs-KI liefert Laien sofort einen Bestimmungsvorschlag; die georeferenzierte, zeitgestempelte Meldung wird nach Validierung als offener Datensatz an GBIF weitergegeben und steht dann Forschung, Behörden und Verbänden zur Verfügung.
+
+**Umsetzung**
+
+- Passende App wählen: Flora Incognita (Pflanzen, DE), iNaturalist/Seek (alle Gruppen, global), ObsIdentify/observation.org (alle Gruppen).
+- Foto mit Standort und Datum aufnehmen; bei Pflanzen mehrere Perspektiven (Blüte, Blatt, Habitus) für höhere Trefferquote.
+- KI-Vorschlag kritisch prüfen und bei Unsicherheit die Community-Validierung abwarten, statt blind zu übernehmen.
+- Sichtungen konsequent hochladen, damit sie über GBIF für Behörden, Rote Listen und Forschung nutzbar werden.
+- Für Vereine/Schulen: Bioblitz-Aktionen organisieren, um viele Meldungen aus unterkartierten Gebieten zu erzeugen.
+- Sensible Funde (streng geschützte Arten) mit Geo-Unschärfe melden, um Standort-Missbrauch zu vermeiden.
+
+**Häufige Fehler**
+
+- KI-Vorschlag ungeprüft als Fakt behandeln — gerade bei Verwechslungsarten falsch.
+- Daten für belastbare Bestandstrends nutzen, ohne den Erfassungs-Bias zu berücksichtigen.
+- Standorte streng geschützter Arten offen posten und damit Sammler/Störung anlocken.
+- App als Ersatz für professionelle Fachkartierung verkaufen, statt als Ergänzung.
+
+**Belege / Studien**
+
+- _California Academy of Sciences / iNaturalist (2024):_ iNaturalist überschreitet 200 Mio. Wildbeobachtungen von ~3,3 Mio. Beobachtern; global bedeutende Datenquelle.
+- _iNaturalist / GBIF-Blog (2023):_ Seit 2020 stammen für die meisten Arten die meisten GBIF-Datensätze aus iNaturalist; Citizen-Science liefert etwa die Hälfte der GBIF-Daten.
+- _TU Ilmenau (Flora Incognita) (2021):_ Neue KI verdreifachte die Zahl bestimmbarer Arten auf ~16.000; viele Arten mit nahezu 100 % Genauigkeit klassifizierbar.
+
+**Robustheit** — Effektgröße: Sehr großer Datenmengen-Effekt (Hunderte Mio. Datensätze), aber indirekter ökologischer Nutzen über bessere Datengrundlage.. Replikation: Mehrere unabhängige Plattformen (iNaturalist USA, Flora Incognita DE, observation.org NL) mit vergleichbarem Erfolg.. Vorbehalte: Starker Erfassungs-Bias (Raum/Zeit/Art), KI-Fehlbestimmungen bei kryptischen Arten, Datenschutz seltener Arten; kein Ersatz für systematisches Monitoring.
+
+> ⚠️ **Risiken / Grenzen:** Datenqualität und Abdeckung sind ungleichmäßig; ohne statistische Korrektur des Bias sind Trendaussagen irreführend. Offene Fundortdaten können seltene Arten gefährden. KI-Fehlbestimmungen können sich in Datenbanken fortpflanzen, wenn Validierung fehlt.
+
+**Kombiniert mit:** planungs-software-priorisierung, roadkill-melde-app, ki-verwaltung-foerderantrag
+
+**Quellen:** [iNaturalist – 50/200 Mio. Beobachtungen (Blog)](https://www.inaturalist.org/blog/40699-50-million-observations-on-inaturalist) · [California Academy of Sciences – iNaturalist 50 Million](https://www.calacademy.org/press/releases/inaturalist-50-million) · [TU Ilmenau – Neue KI für Flora Incognita](https://www.tu-ilmenau.de/en/news/tu-ilmenau-new-ai-for-flora-incognita) · [Observation.org – Wikipedia (GBIF-Datenmengen)](https://en.wikipedia.org/wiki/Observation.org) · [iNaturalist / GBIF – meiste Datensätze seit 2020](https://www.inaturalist.org/blog/76606-thank-you-for-helping-generate-most-gbif-records-for-most-species-since-2020)
+
+---
+
+### KI-Bioakustik-Monitoring (BirdNET, Fledermaus-Detektor)
+
+Evidenz **B** · Wirkung 3/5 · Aufwand 2/5 · `bioakustik-monitoring-ki`
+
+_Auch: BirdNET, BirdNET-Pi, Passives akustisches Monitoring, PAM, AudioMoth, batdetect2_
+
+Kleine Rekorder nehmen rund um die Uhr Tierstimmen auf, eine KI erkennt daraus automatisch Vogel- und Fledermausarten. Aus 70–100-€-Hardware (AudioMoth) plus gratis Open-Source-Software (BirdNET, batdetect2) wird eine Dauer-Lauschstation, die Ehrenamt-Stunden spart und Arten-Hotspots findet. Monitoring wirkt indirekt: es lenkt Schutzmassnahmen, ersetzt sie aber nicht.
+
+| Kennzahl | Wert |
+|---|---|
+| Artenumfang BirdNET | erkennt >3000 Vogelarten weltweit aus Tonaufnahmen _(Kahl et al. 2021; BirdNET Cornell)_ |
+| Hardware-Kosten | AudioMoth-Rekorder ~70–100 €, Raspberry Pi 4 fuer BirdNET-Pi ~85 € _(Open Acoustic Devices; ELV/BerryBase)_ |
+| Software | BirdNET, BirdNET-Pi und batdetect2 sind kostenlos und Open Source _(BirdNET Cornell; batdetect2 GitHub)_ |
+| Betrieb | Dauerbetrieb 24/7 liefert vollstaendigere Datensaetze als sporadische Begehungen _(Praxis LBV/BirdNET-Pi)_ |
+| Grenze Genauigkeit | verlaessliche Ergebnisse nur mit Konfidenz-Schwelle + Nachpruefung; seltene/aehnliche Arten fehleranfaellig _(Perez-Granados 2023 (Ibis))_ |
+| Ultraschall | AudioMoth nimmt bis 384 kHz auf (Fledermaus-Rufe), Auswertung z. B. mit batdetect2 _(Open Acoustic Devices)_ |
+
+Passives akustisches Monitoring (PAM) lauscht kontinuierlich statt nur bei einer Begehung — das findet auch daemmerungs- und nachtaktive Arten und liefert Zeitreihen. Der guenstige Einstieg: ein AudioMoth-Rekorder (~70–100 €, Open Hardware) nimmt auf SD-Karte auf; die Auswertung uebernimmt gratis BirdNET von der Cornell University, das laut Kahl et al. 2021 hunderte bis ueber 3000 Vogelarten erkennt. Wer eine feste Dauer-Station will, installiert BirdNET-Pi auf einem Raspberry Pi 4 (~85 €) mit USB-Mikrofon — es klassifiziert in Echtzeit und zeigt Ergebnisse im Webbrowser. Fuer Fledermaeuse nimmt der AudioMoth Ultraschall bis 384 kHz auf, die Rufe klassifiziert man z. B. mit dem Open-Source-Modell batdetect2. Realistisch bleibt der Nutzen indirekt: das Monitoring spart massiv Ehrenamt-Zeit, deckt Arten-Hotspots und Phaenologie auf und liefert Argumente fuer Schutzmassnahmen — es verbessert den Zustand nicht selbst. Grenzen ehrlich benennen: Reviews (Perez-Granados 2023) zeigen, dass BirdNET bei aehnlich klingenden oder seltenen Arten sowie in lauten Umgebungen Fehlbestimmungen produziert; man arbeitet daher mit einer Konfidenz-Schwelle und prueft kritische Treffer manuell nach. Batterielaufzeit (Wochen mit AA-Zellen je nach Sample-Rate), SD-Karten-Kapazitaet und Wetterschutz sind die Alltags-Engpaesse.
+
+**Wirkmechanismus:** Kontinuierliche Tonaufnahmen + neuronale Netze automatisieren die Arterkennung, die sonst Fachleute manuell leisten muessten; das erhoeht Erfassungsdichte und -dauer, senkt Kosten und macht Trends und Hotspots sichtbar, die Schutzmassnahmen steuern.
+
+**Umsetzung**
+
+- Einstieg minimal: AudioMoth (~70–100 €) kaufen, im Feld an Baum/Pfahl haengen, auf SD-Karte aufnehmen lassen.
+- Aufnahmen mit dem kostenlosen BirdNET Analyzer (Desktop) oder der BirdNET-App auswerten; Konfidenz-Schwelle (z. B. >=0,7) setzen.
+- Fuer eine Dauer-Station: BirdNET-Pi auf Raspberry Pi 4 (~85 €) mit USB-Mikrofon installieren, Ergebnisse im Webbrowser verfolgen.
+- Fledermaeuse: AudioMoth mit hoher Sample-Rate (bis 384 kHz) betreiben, Rufe mit batdetect2 klassifizieren.
+- Kritische/seltene Treffer stichprobenartig manuell nachpruefen, bevor Daten weitergegeben werden.
+- Batterie/SD-Kapazitaet planen und Wetterschutz bauen; Ergebnisse in ornitho.de / iNaturalist / an Fachbehoerde melden.
+
+**Häufige Fehler**
+
+- KI-Treffer ungeprueft als gesichert melden — Fehlbestimmungen verfaelschen Datensaetze.
+- Konfidenz-Schwelle zu niedrig lassen (viele Falschpositive) oder zu hoch (echte Arten verpasst).
+- Standort mit Dauerlaerm (Strasse, Wind) waehlen; Erkennung bricht ein.
+- Batterielaufzeit/SD-Kapazitaet unterschaetzen — Datenluecken.
+- Monitoring mit Schutz verwechseln: Zaehlen allein rettet keine Art.
+
+**Belege / Studien**
+
+- _Kahl et al., Ecological Informatics (BirdNET) (2021):_ BirdNET erkennt zuverlaessig hunderte Vogelarten aus Audioaufnahmen und ermoeglicht skalierbares passives Monitoring.
+- _Perez-Granados, Ibis (Review BirdNET) (2023):_ Breit einsetzbar und praxistauglich, aber mit Fallstricken: Fehlbestimmungen bei seltenen/aehnlichen Arten, Konfidenz-Schwellen und Validierung noetig.
+- _Lauha et al., Methods in Ecology and Evolution (2022):_ Schon wenig lokal nachtrainierte Daten verbessern die automatische Vogelstimmen-Erkennung deutlich.
+
+**Robustheit** — Effektgröße: Gross fuer den Erfassungsaufwand (24/7 statt Stichprobe), moderat/indirekt fuer den oekologischen Zustand.. Replikation: Weltweit tausendfach in Praxis und Buergerwissenschaft repliziert (BirdNET-Community, LBV-Gruppen).. Vorbehalte: Ergebnisqualitaet haengt an Mikrofon, Standort, Laerm und Konfidenz-Schwelle; seltene/aehnliche Arten unzuverlaessig; ohne Massnahmen bleibt es reine Beobachtung.
+
+> ⚠️ **Risiken / Grenzen:** Fehlbestimmungen (v. a. seltene/aehnliche Arten) koennen Datensaetze und Entscheidungen verzerren — immer mit Konfidenz-Schwelle und Nachpruefung arbeiten. Datenschutz: Dauer-Audioaufnahmen im Siedlungsraum koennen ungewollt Gespraeche erfassen (Standort/Ausrichtung beachten). Batterielaufzeit und Wetter begrenzen den Dauerbetrieb. Risiko der Standort-Preisgabe seltener/geschuetzter Arten (Stoerung, Sammler) — sensible Funde nicht offen veroeffentlichen.
+
+**Kombiniert mit:** kamerafallen-ki, insektenmonitoring-kamera-ki, fernerkundung-satellit-ki
+
+**Quellen:** [BirdNET (Cornell Lab) – Projekt & Analyzer](https://birdnet.cornell.edu/) · [BirdNET-Pi (Selbst-Hosting auf Raspberry Pi)](https://birdnet.cornell.edu/birdnet-pi/) · [AudioMoth – Open Acoustic Devices](https://www.openacousticdevices.info/audiomoth) · [Kahl et al. 2021, BirdNET (Ecological Informatics)](https://doi.org/10.1016/j.ecoinf.2021.101236) · [Perez-Granados 2023, BirdNET review (Ibis)](https://onlinelibrary.wiley.com/doi/10.1111/ibi.13193)
+
+---
+
+### Kamerafallen mit KI-Auswertung (MegaDetector & Co.)
+
+Evidenz **B** · Wirkung 3/5 · Aufwand 2/5 · `kamerafallen-ki`
+
+_Auch: MegaDetector, Wildlife Insights, TrapTagger, Trapper, Camera Trap AI, Leere-Bilder-Filter_
+
+Kamerafallen liefern zehntausende Fotos, von denen 70–95 % leer sind (Wind, Regen, Aeste). Eine KI wie das gratis MegaDetector sortiert die Leerbilder automatisch aus und markiert Tiere, Menschen und Fahrzeuge — das spart massiv Sichtungszeit im Ehrenamt und in Behoerden. Die KI zaehlt aber nur; Schutz muss folgen.
+
+| Kennzahl | Wert |
+|---|---|
+| Leerbild-Anteil | in typischen Einsaetzen sind 70–95 % der Fotos leer (Fehlausloesungen) _(Microsoft MegaDetector)_ |
+| Zeitersparnis | MegaDetector entfernt 70–95 % der Leerbilder vor der manuellen Sichtung _(Microsoft AI for Good)_ |
+| Genauigkeit | >=94,6 % korrekte Tier/leer-Trennung bei Bewegungsausloesung; deutlich schlechter (<=61,6 %) bei Zeitraffer _(Vélez et al. 2023 (MEE))_ |
+| Kosten | MegaDetector, Wildlife Insights, Trapper und TrapTagger sind kostenlos/Open Source _(Microsoft; Wildlife Insights)_ |
+| Integration | MegaDetector steckt in TrapTagger, WildTrax, Camelot, Animl u. a. _(Microsoft MegaDetector)_ |
+| Hardware | handelsuebliche Wildkamera ab ~60–150 €; Auswertung laeuft auf PC oder in der Cloud _(Praxis/Handel)_ |
+
+Kamerafallen sind Standard zum Nachweis scheuer Saeuger (Luchs, Wildkatze, Biber, Marder) und zur Erfolgskontrolle etwa an Gruenbruecken — aber die manuelle Sichtung ist der Flaschenhals: In typischen Einsaetzen sind 70–95 % der Auslosungen leer (Wind, Regen, bewegte Vegetation). MegaDetector, das kostenlose Open-Source-Modell des Microsoft AI for Good Lab (aktuell V6), zieht um jedes Tier, jeden Menschen und jedes Fahrzeug eine Box mit Score — so lassen sich Leerbilder automatisch aussortieren und man arbeitet nur die relevanten Bilder durch. Laut Vélez et al. 2023 (Methods in Ecology and Evolution) trennt MegaDetector bei bewegungsausgeloesten Aufnahmen mit >=94,6 % Genauigkeit richtig; bei Zeitraffer-Einstellungen faellt die Leistung stark ab (<=61,6 %). MegaDetector erkennt vor allem Tier/Mensch/Fahrzeug — die Art bestimmt es nicht; dafuer gibt es Plattformen wie Wildlife Insights (Cloud, mit Artmodellen), Trapper (Open-Source-Server) oder TrapTagger, in die MegaDetector integriert ist. Der Nutzen ist real, aber indirekt: Man spart oft 80–90 % der Sichtungszeit und kann groessere Flaechen und laengere Zeitraeume abdecken — das lenkt Massnahmen, ersetzt sie nicht. Wichtig: Wildkameras erfassen zwangslaeufig auch Personen; in Deutschland gilt Datenschutz (DSGVO), Kameras gehoeren nicht unangekuendigt an oeffentliche Wege, Beschilderung und datensparsame Auswertung sind Pflicht.
+
+**Wirkmechanismus:** Objekterkennung (Deep Learning) filtert Leerbilder und markiert Tiere, sodass menschliche Sichtung nur noch auf relevante Bilder faellt; das vervielfacht die auswertbare Datenmenge pro Personenstunde und macht Vorkommen/Trends belastbar erfassbar.
+
+**Umsetzung**
+
+- Wildkamera(s) (ab ~60–150 €) an bekannten Wildwechseln/Querungen aufstellen; Bewegungsausloesung statt Zeitraffer waehlen (bessere KI-Trefferquote).
+- Bilder sammeln und mit dem kostenlosen MegaDetector (Desktop/GPU) durchlaufen lassen — Leerbilder automatisch aussortieren.
+- Fuer Artbestimmung eine Plattform nutzen: Wildlife Insights (Cloud) oder Trapper/TrapTagger (Server) mit MegaDetector-Integration.
+- KI-Ergebnisse mit Konfidenz-Schwelle filtern und relevante Treffer manuell validieren.
+- Datenschutz: Kameras nicht unangekuendigt an oeffentliche Wege, beschildern, Personenaufnahmen datensparsam behandeln/loeschen.
+- Nachweise an Fachbehoerde/Artenkataster melden und fuer Erfolgskontrolle (z. B. Gruenbruecke) auswerten.
+
+**Häufige Fehler**
+
+- Zeitraffer-Modus nutzen — KI-Genauigkeit bricht ein; besser Bewegungsausloesung.
+- Artbestimmung von MegaDetector erwarten (es erkennt nur Tier/Mensch/Fahrzeug) — dafuer Zusatzmodell noetig.
+- KI-Treffer ungeprueft als Artnachweis werten.
+- Kameras an Wegen ohne Beschilderung/DSGVO-Beachtung aufstellen.
+- Kamerastandorte seltener Arten oeffentlich machen (Stoerung/Nachstellung).
+
+**Belege / Studien**
+
+- _Vélez et al., Methods in Ecology and Evolution (2023):_ MegaDetector trennt Tier/leer bei Bewegungsausloesung sehr zuverlaessig (>=94,6 %), bei Zeitraffer deutlich schlechter; hohe Precision/Recall fuer leer vs. Tier.
+- _Microsoft AI for Good Lab (MegaDetector) (2024):_ Entfernt 70–95 % der Leerbilder vor der Sichtung; frei nutzbar und in viele Plattformen integriert.
+- _Beery et al. / Wildlife Insights (2020):_ Cloud-Plattform mit KI-Artmodellen skaliert die Auswertung von Kamerafallen-Daten fuer Naturschutz-Netzwerke.
+
+**Robustheit** — Effektgröße: Sehr gross fuer die Zeitersparnis (oft 80–90 %), indirekt fuer den oekologischen Zustand.. Replikation: Weltweit in tausenden Studien und Projekten eingesetzt; MegaDetector ist De-facto-Standard.. Vorbehalte: Genauigkeit sinkt bei Zeitraffer, Nebel, Nacht und sehr kleinen/teilverdeckten Tieren; Artbestimmung braucht Zusatzmodelle und Validierung; Datenschutz bei Personen.
+
+> ⚠️ **Risiken / Grenzen:** Datenschutz/DSGVO: Wildkameras erfassen zwangslaeufig Personen — Kameras nicht unangekuendigt an oeffentliche Wege, Beschilderung, datensparsame Auswertung und Loeschung. KI-Fehler: verpasste kleine/verdeckte Tiere, schlechtere Leistung nachts/bei Zeitraffer; Artbestimmung braucht Validierung. Standort-Preisgabe geschuetzter Arten kann Stoerung/Nachstellung ausloesen. Cloud-Plattformen: Datenhoheit pruefen.
+
+**Kombiniert mit:** gruenbruecke-wildquerung, bioakustik-monitoring-ki, fernerkundung-satellit-ki
+
+**Quellen:** [MegaDetector (Microsoft AI for Good) – Projektseite](https://microsoft.github.io/MegaDetector/) · [MegaDetector – GitHub](https://github.com/microsoft/megadetector) · [Wildlife Insights](https://www.wildlifeinsights.org/) · [Vélez et al. 2023, Plattform-Vergleich KI Kamerafallen (MEE)](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14044) · [Trapper – Open-Source-Plattform fuer Kamerafallen](https://trapper-project.readthedocs.io/)
+
+---
+
+### Open-Source-GIS & Priorisierungssoftware
+
+Evidenz **B** · Wirkung 3/5 · Aufwand 3/5 · `planungs-software-priorisierung`
+
+_Auch: QGIS, Marxan, prioritizr, Zonation, systematic conservation planning, Flächenpriorisierung_
+
+Freie GIS- und Priorisierungssoftware beantwortet die zentrale Naturschutz-Frage: Wo bringt Schutz oder Renaturierung pro Euro am meisten? QGIS (gratis) plus Optimierungswerkzeuge wie Marxan, prioritizr und Zonation wählen aus vielen möglichen Flächen systematisch die kosteneffizientesten aus, statt nach Bauchgefühl. Der Nutzen liegt in besseren Entscheidungen, nicht im Handeln selbst.
+
+| Kennzahl | Wert |
+|---|---|
+| QGIS | kostenlose Open-Source-GIS-Software (OSGeo/GNU GPL), weltweit am weitesten verbreitet _(OSGeo / QGIS)_ |
+| Marxan | minimiert Kosten bei Erreichung gesetzter Schutzziele; Standard der Meeresschutzgebietsplanung weltweit _(Marxan Solutions)_ |
+| prioritizr | nutzt exakte Ganzzahl-Optimierung (ILP) — findet garantiert optimale, oft günstigere Lösungen schneller als Marxan _(prioritizr.net)_ |
+| Zonation | maximiert Biodiversitätsnutzen bei festem Budget (Maximum-Cover-Ansatz) _(Zonation / ScienceDirect)_ |
+| Kosten Software | 0 € für QGIS, prioritizr, Marxan, Zonation — Aufwand steckt in Daten und Fachwissen _(Anbieter)_ |
+| QGIS-Marxan-Brücke | QMarxan-Toolbox als QGIS-Plugin für Datenaufbereitung, Export und Analyse _(QGIS-Plugin)_ |
+
+Naturschutzbudgets sind knapp, deshalb entscheidet die Flächenauswahl über die Wirkung. Systematic Conservation Planning liefert dafür einen expliziten, nachvollziehbaren Rahmen: Man definiert Schutzziele (z. B. X % jedes Lebensraumtyps), hinterlegt Kosten (Ankauf, Pflege, Nutzungskonflikt) und lässt Software die effizienteste Flächenkombination berechnen. QGIS ist die kostenlose, quelloffene GIS-Basis (OSGeo, GNU GPL) für Daten, Karten und Analyse. Darauf setzen die Priorisierer auf: Marxan minimiert die Kosten, während alle Ziele erreicht werden, und ist weltweiter Standard u. a. der Meeresschutzgebietsplanung; das R-Paket prioritizr nutzt exakte Ganzzahl-Optimierung (ILP) und findet garantiert optimale, häufig günstigere Lösungen schneller als die heuristischen Verfahren von Marxan; Zonation dreht die Frage um und maximiert den Biodiversitätsnutzen bei festem Budget. Die QMarxan-Toolbox verbindet QGIS mit Marxan für Datenaufbereitung und Auswertung. Alle diese Werkzeuge sind gratis — der eigentliche Aufwand steckt in guten Eingangsdaten (Arten-/Habitatverteilung, realistische Kosten) und in der Fachkompetenz, das Ergebnis richtig zu interpretieren. Genau hier liegt die Anti-Hype-Warnung: Diese Programme sind Entscheidungshilfen, keine Entscheider. Schlechte oder verzerrte Daten (Erfassungs-Bias, veraltete Kartierung, zu grobe Kostenschätzung) liefern präzise aussehende, aber falsche Priorisierungen. Konnektivität, soziale Akzeptanz und Umsetzbarkeit müssen als Nebenbedingungen einfließen, sonst optimiert man an der Realität vorbei.
+
+**Wirkmechanismus:** Optimierungsalgorithmen kombinieren Arten-/Habitatdaten mit Kostendaten und wählen die Flächenkombination, die Schutzziele zu minimalen Kosten (Marxan/prioritizr) bzw. maximalen Nutzen pro Budget (Zonation) erreicht — das erhöht die ökologische Rendite pro eingesetztem Euro.
+
+**Umsetzung**
+
+- Schutzziele explizit festlegen (welche Arten/Lebensräume, welcher Zielanteil).
+- Daten in QGIS aufbereiten: Arten-/Habitatverteilung, Planungseinheiten, realistische Kostenschichten (Ankauf, Pflege, Konflikt).
+- Zielfunktion wählen: Marxan/prioritizr für Kostenminimierung bei Zielerreichung, Zonation für Nutzenmaximierung bei festem Budget.
+- Konnektivität und Kompaktheit als Nebenbedingung/Strafterm einbeziehen, nicht nur Einzelflächen optimieren.
+- Mehrere Szenarien rechnen und die Lösungsstabilität prüfen, statt einer einzelnen 'optimalen' Karte zu vertrauen.
+- Ergebnis fachlich interpretieren und mit Grundeigentümern/Behörden auf Umsetzbarkeit prüfen.
+
+**Häufige Fehler**
+
+- Verzerrte oder veraltete Eingangsdaten verwenden — präzise Ausgabe, falsche Prioritäten.
+- Kosten ignorieren oder zu grob schätzen und damit den Kern der Kosteneffizienz aushebeln.
+- Konnektivität weglassen und isolierte Flächenfetzen als 'optimal' auswählen.
+- Software-Ergebnis als endgültige Entscheidung statt als Diskussionsgrundlage behandeln.
+
+**Belege / Studien**
+
+- _prioritizr.net (Package Overview) (2023):_ Exakte ILP-Löser finden garantiert optimale Lösungen und oft deutlich günstigere Ergebnisse in kürzerer Zeit als die klassischen Heuristiken von Marxan.
+- _Delavenne et al., ICES J. Mar. Sci. (Marxan vs. Zonation, Ärmelkanal) (2012):_ Marxan lieferte tendenziell kosteneffizientere Lösungen, Zonation Ergebnisse mit besserer Konnektivität; Werkzeugwahl beeinflusst das Priorisierungsergebnis.
+- _Lehtomäki & Moilanen, Env. Modelling & Software (Zonation) (2013):_ Zonation maximiert Erhaltungsnutzen bei festem Budget über iterative Entfernung der Zellen mit geringstem Grenzverlust.
+
+**Robustheit** — Effektgröße: Potenziell große Effizienzgewinne bei der Flächenauswahl; Höhe stark daten- und kontextabhängig.. Replikation: International vielfach angewandt (Meeres- und Landschutzplanung, 30x30-Ziele).. Vorbehalte: Ergebnisqualität steht und fällt mit Eingangsdaten und Kostenmodell; Werkzeuge sind Entscheidungshilfen, keine Entscheider; Umsetzung/Akzeptanz nicht abgebildet.
+
+> ⚠️ **Risiken / Grenzen:** Scheingenauigkeit: optisch überzeugende Karten auf schwacher Datenbasis können Fehlinvestitionen legitimieren. Ohne Einbezug von Umsetzbarkeit und Akzeptanz bleiben Optima Theorie. Fachwissen für Dateneingabe und Interpretation ist Voraussetzung — die Software ist gratis, die Kompetenz nicht.
+
+**Kombiniert mit:** citizen-science-apps, biotopverbund-trittsteine, gruenbruecke-wildquerung
+
+**Quellen:** [QGIS – Open-Source-GIS (OSGeo)](https://www.osgeo.org/projects/qgis/) · [Marxan Solutions – Software](https://marxansolutions.org/software/) · [prioritizr – Systematic Conservation Prioritization in R](https://prioritizr.net/) · [Zonation – Methods and workflow (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S1364815213001072) · [Marxan vs. Zonation, Ärmelkanal (ICES J. Mar. Sci.)](https://academic.oup.com/icesjms/article/69/1/75/672823)
+
+---
+
+### Roadkill-/Wildunfall-Melde-Apps
+
+Evidenz **B** · Wirkung 3/5 · Aufwand 1/5 · `roadkill-melde-app`
+
+_Auch: Projekt Roadkill, BOKU Roadkill, SPOTTERON Roadkill, Wildunfall-App, Amphibien-Meldeapp_
+
+Melde-Apps lassen Bürger überfahrene Tiere per Foto und Standort erfassen. Aus vielen Einzelmeldungen entstehen Karten mit Unfall-Hotspots — genau die Datengrundlage, um Grünbrücken, Amphibientunnel und Zäune dort zu bauen, wo sie am meisten bringen. Billig und schnell verfügbar, verbindet die Methode Bürger direkt mit der Infrastrukturplanung; die Wirkung hängt aber von Meldedichte und behördlicher Umsetzung ab.
+
+| Kennzahl | Wert |
+|---|---|
+| Projekt Roadkill (BOKU Wien) | über 20.000 Meldungen seit Projektstart 2014 _(roadkill.at / BOKU)_ |
+| Datenlücke geschlossen | erfasst Arten, die in amtlichen Statistiken fehlen (Igel, Amphibien, Vögel, Schlangen) _(BOKU Roadkill)_ |
+| App-Plattform | kostenlose SPOTTERON-App (iOS/Android), Foto + GPS-Standort _(SPOTTERON)_ |
+| Ziel | Hotspots identifizieren und mit Behörden/NGOs entschärfen (Tunnel, Grünbrücken, Zäune) _(roadkill.at)_ |
+| Amphibien-Beispiel | u. a. hunderte Meldungen geschützter Arten wie Knoblauchkröte und Kammmolch _(BOKU Roadkill-Datenbank)_ |
+| Kosten | 0 € für Meldende — Aufwand liegt bei Datenauswertung und Umsetzung _(Anbieter)_ |
+
+Straßen sind eine der größten Todesursachen für viele Tiergruppen, aber amtliche Wildunfallstatistiken erfassen nur große Säuger und teils Vögel — Igel, Amphibien, Reptilien und Kleinsäuger fehlen fast völlig. Genau diese Lücke schließen Roadkill-Melde-Apps. Das Vorzeigeprojekt ist Projekt Roadkill der BOKU Wien (seit 2014), das über die kostenlose SPOTTERON-App läuft: Foto plus GPS-Standort genügen, und über 20.000 Meldungen sind zusammengekommen. Aus dieser Punktwolke lassen sich Hotspots berechnen — Straßenabschnitte mit auffällig vielen Verlusten, oft an Amphibien-Wanderwegen oder Wildwechseln. Das ist der eigentliche Hebel: Grünbrücken und Amphibientunnel sind teuer und wirken nur am richtigen Ort, deshalb ist eine belastbare Hotspot-Karte Gold wert für die Priorisierung. Das BOKU-Team arbeitet ausdrücklich mit Behörden, Gemeinden und NGOs zusammen, um erkannte Hotspots mit Tunneln, Zäunen oder Querungshilfen zu entschärfen. Die Anti-Hype-Einordnung: Die Daten haben einen starken Erfassungs-Bias — gemeldet wird dort, wo Menschen wohnen und fahren, nicht unbedingt dort, wo am meisten stirbt; kleine, schnell zersetzte oder von Aasfressern entfernte Tiere werden unterschätzt. Und eine Hotspot-Karte allein baut keinen Tunnel: Ohne Budget und behördlichen Willen bleibt sie folgenlos. Die App liefert also die entscheidende Datengrundlage und mobilisiert Bürger, ersetzt aber weder systematische Verkehrsopfer-Kartierung noch die teure bauliche Maßnahme.
+
+**Wirkmechanismus:** Georeferenzierte Bürgermeldungen zu Verkehrsopfern verdichten sich zu Hotspot-Karten, die zeigen, wo Querungshilfen (Tunnel, Grünbrücken, Leitzäune) die größte Wirkung pro Euro hätten — Daten steuern die Priorisierung teurer Infrastruktur.
+
+**Umsetzung**
+
+- Kostenlose Melde-App installieren (z. B. Projekt Roadkill über SPOTTERON) und lokale/regionale Erfassung anstoßen.
+- Funde mit Foto, Art (soweit erkennbar) und genauem GPS-Standort melden — auch kleine Arten und Amphibien.
+- Über Vereine/Schulen viele Melder gewinnen, um die Meldedichte und damit die Hotspot-Aussagekraft zu erhöhen.
+- Daten räumlich auswerten (in QGIS) und Abschnitte mit gehäuften Verlusten als Hotspots identifizieren.
+- Hotspot-Karten an Straßenbaubehörden, Gemeinden und Naturschutz-NGOs übergeben und Querungshilfen anstoßen.
+- Erfassungs-Bias transparent machen: hohe Meldezahl kann auch nur hohe Beobachterdichte bedeuten.
+
+**Häufige Fehler**
+
+- Nur große Säuger melden und Amphibien/Igel/Vögel ignorieren — dann bleibt die Datenlücke bestehen.
+- Standorte ungenau angeben, wodurch Hotspot-Analysen unbrauchbar werden.
+- Hohe Meldedichte mit hoher Sterblichkeit verwechseln (Beobachter-Bias).
+- Hotspot-Karte erstellen, aber nie an umsetzende Behörden weitergeben.
+
+**Belege / Studien**
+
+- _Projekt Roadkill / BOKU Wien (2023):_ Über 20.000 Bürgermeldungen ermöglichen Hotspot-Analysen und erfassen in amtlichen Statistiken fehlende Arten (Amphibien, Igel, Vögel).
+- _Rytwinski et al., PLOS ONE (Wirksamkeit von Straßenmaßnahmen) (2016):_ Querungsbauwerke plus Leitzäune reduzieren Wildunfälle am stärksten — ihre Platzierung an echten Hotspots ist entscheidend für die Kosteneffizienz.
+- _BOKU / SPOTTERON Citizen Science (2014):_ App-basierte Erfassung liefert kontinuierliche, standortgenaue Daten, die für gezielte Maßnahmen an Gemeinden und NGOs weitergegeben werden.
+
+**Robustheit** — Effektgröße: Indirekt, aber potenziell groß: bessere Hotspot-Daten heben die Kosteneffizienz teurer Querungshilfen deutlich.. Replikation: Roadkill-Erfassung in mehreren Ländern über SPOTTERON und ähnliche Plattformen etabliert.. Vorbehalte: Starker räumlicher Melde-Bias (Bevölkerung/Verkehr statt Sterberate); kleine Tiere unterschätzt; Wirkung nur bei behördlicher Umsetzung.
+
+> ⚠️ **Risiken / Grenzen:** Der räumliche Melde-Bias kann Prioritäten verzerren, wenn er nicht korrigiert wird. Ohne Budget und behördliche Umsetzung bleibt die beste Hotspot-Karte wirkungslos. Selbst-Melden von Roadkill darf nicht zu riskantem Anhalten im Verkehr verleiten. Die App ist Datengrundlage, kein Ersatz für die teure bauliche Maßnahme.
+
+**Kombiniert mit:** gruenbruecke-wildquerung, amphibientunnel-leiteinrichtung, citizen-science-apps, planungs-software-priorisierung
+
+**Quellen:** [Projekt Roadkill – BOKU Wien](https://roadkill.at/ueber-projekt-roadkill) · [Roadkill – SPOTTERON Citizen Science](https://www.spotteron.net/de/citizen-science-apps/regionale-community-science-projekte/projekt-roadkill) · [Rytwinski et al. 2016, How effective is road mitigation? (PLOS ONE)](https://doi.org/10.1371/journal.pone.0166941) · [Projekt Roadkill | mit:forschen!](https://www.mitforschen.org/projekt/projekt-roadkill)
+
+---
+
+### Satelliten-/Fernerkundung + KI (Global Forest Watch, Copernicus)
+
+Evidenz **B** · Wirkung 3/5 · Aufwand 1/5 · `fernerkundung-satellit-ki`
+
+_Auch: Global Forest Watch, GFW, GLAD Alerts, RADD, Sentinel, Copernicus, Fernerkundung, Mahd-Erkennung_
+
+Kostenlose Satellitendaten (Sentinel/Copernicus) plus KI melden grossflaechig und laufend Veraenderungen: Entwaldung, Moor-Entwaesserung, Landnutzungswandel, sogar Mahd-Termine zur Foerderkontrolle. Global Forest Watch schickt automatische Waldverlust-Alerts. Riesige Abdeckung fuer nahezu null Kosten — aber nur so gut wie die Bodenpruefung.
+
+| Kennzahl | Wert |
+|---|---|
+| Kosten | Copernicus/Sentinel-Daten und Global Forest Watch sind gratis nutzbar _(ESA Copernicus; GFW)_ |
+| Aufloesung | GLAD-Alerts 30 m (Landsat) bzw. 10 m (Sentinel-2); Sentinel-2 optisch 10 m _(GLAD/UMD; ESA)_ |
+| Radar durch Wolken | RADD-Alerts nutzen Sentinel-1-Radar und erkennen Entwaldung wolkenunabhaengig _(GFW/Wageningen (RADD))_ |
+| Reichweite | integrierte Alerts (GLAD-L, GLAD-S2, RADD, DIST-ALERT) decken weltweit alle Vegetationstypen ab _(Global Forest Watch)_ |
+| Einsatz DE | Sentinel-Zeitreihen erkennen Mahd-Termine (Foerderkontrolle GAP), Moor-/Feuchtezustand, Landnutzungswandel _(EU-Agrarkontrolle (AMS); Copernicus)_ |
+| Grenze | Aufloesung/Wolken begrenzen Detailschaerfe; Alerts brauchen Bodenpruefung _(GLAD/GFW)_ |
+
+Satelliten liefern das, was kein Ehrenamt schafft: laufende, grossflaechige Beobachtung — und die Daten sind gratis. Das EU-Programm Copernicus stellt Sentinel-Bilder frei bereit (Sentinel-2 optisch mit 10 m, Sentinel-1 Radar wolkenunabhaengig). Darauf setzen KI-Auswertungen auf: Global Forest Watch (GFW) verschickt automatische Waldverlust-Alerts — GLAD-L (30 m, Landsat) und GLAD-S2 (10 m, Sentinel-2) erkennen Baumverlust, RADD nutzt Sentinel-1-Radar und meldet Entwaldung auch bei Bewoelkung, und DIST-ALERT von UMD/NASA erweitert das erstmals global auf alle Vegetationstypen. Man kann sich fuer ein Gebiet kostenlos E-Mail-Alerts abonnieren. Ueber Wald hinaus lassen sich mit Sentinel-Zeitreihen Moor-/Feuchtezustaende, Landnutzungswandel, Versiegelung und sogar Mahd-Termine bestimmen — Letzteres nutzt die EU-Agrarkontrolle (flaechendeckendes Monitoring, AMS) zur Foerderkontrolle, etwa ob Foerderauflagen zur Mahd/Schnittzeit eingehalten wurden. Der Nutzen ist gross in der Flaeche, aber indirekt: Satelliten zeigen, WO etwas passiert, und richten Kontrolle, Foerdermittel und Schutz gezielt aus — sie schuetzen nichts von selbst. Grenzen ehrlich: Die Aufloesung (10–30 m) ist zu grob fuer Einzelbaeume, Kleinstrukturen oder Artnachweise; optische Sensoren scheitern an Wolken (deshalb Radar); Alerts enthalten Falschpositive und muessen am Boden oder mit hoeher aufgeloesten Bildern verifiziert werden; und die Interpretation (was heisst 'Stoerung' oekologisch?) braucht Fachwissen. Fuer Kommunen/Verbaende ist der Einstieg trotzdem fast kostenlos: GFW im Browser, oder Sentinel-Daten ueber Copernicus Browser / Google Earth Engine.
+
+**Wirkmechanismus:** Frei verfuegbare Satellitenzeitreihen + KI-Klassifikation erkennen Veraenderungen (Verlust, Entwaesserung, Mahd) grossflaechig und automatisch; das priorisiert knappe Kontroll-/Schutzressourcen und macht Foerderauflagen ueberpruefbar.
+
+**Umsetzung**
+
+- Fuer Waldverlust: auf globalforestwatch.org das Gebiet abgrenzen und kostenlose GLAD/RADD/integrierte Alerts per E-Mail abonnieren.
+- Fuer eigene Analysen: Sentinel-2/-1-Daten gratis ueber Copernicus Browser oder Google Earth Engine laden.
+- Zeitreihen auswerten: Veraenderungen (Rodung, Entwaesserung, Mahd, Versiegelung) ueber Vegetationsindizes (z. B. NDVI) bzw. fertige Alert-Layer erkennen.
+- Bei Wolken auf Sentinel-1-Radar (RADD) ausweichen statt auf optische Bilder zu warten.
+- Jeden Alert vor Massnahmen verifizieren: am Boden pruefen oder mit hoeher aufgeloesten Bildern (z. B. Luftbild) abgleichen.
+- Ergebnisse fuer Priorisierung nutzen: Kontrolle/Foerdermittel/Schutz gezielt auf Hotspots lenken und an zustaendige Stellen melden.
+
+**Häufige Fehler**
+
+- Aus 10–30-m-Daten Einzelbaeume, Kleinstrukturen oder Arten ableiten wollen.
+- Alerts ungeprueft als Fakt behandeln — Falschpositive nicht am Boden verifiziert.
+- Bei Bewoelkung auf optische Bilder warten, statt Radar (Sentinel-1) zu nutzen.
+- Satellitendaten mit Schutz verwechseln: sie zeigen Probleme, loesen sie nicht.
+- Deutung ohne Fachwissen (Stoerung ist nicht gleich Schaden).
+
+**Belege / Studien**
+
+- _Hansen/GLAD (UMD), Global Forest Watch (2016):_ Automatische GLAD-Alerts detektieren Baumverlust nahezu in Echtzeit und werden weltweit zur Entwaldungs-Frueherkennung genutzt.
+- _Reiche et al. (RADD, Sentinel-1) (2021):_ Radar-basierte Alerts erkennen Entwaldung wolkenunabhaengig und schliessen die Luecke optischer Systeme in den Tropen.
+- _EU-Kommission / Sentinel Area Monitoring System (AMS) (2023):_ Sentinel-Zeitreihen ermoeglichen flaechendeckende Kontrolle von Agrarauflagen (u. a. Mahd/Schnittzeitpunkt) statt Stichproben.
+
+**Robustheit** — Effektgröße: Gross in der Flaechenabdeckung/Frueherkennung; indirekt fuer den oekologischen Zustand.. Replikation: Global operativ (GFW-Alerts, Copernicus, EU-Agrarkontrolle); milliardenfach genutzte Datenbasis.. Vorbehalte: Aufloesung 10–30 m zu grob fuer Kleinstrukturen/Arten; optisch wolkenanfaellig; Alerts mit Falschpositiven, Bodenpruefung noetig; oekologische Deutung braucht Fachwissen.
+
+> ⚠️ **Risiken / Grenzen:** Aufloesung und Wolken begrenzen die Aussagekraft — nichts fuer Kleinstrukturen oder Artnachweise. Alerts enthalten Falschpositive; Massnahmen (z. B. Foerderkuerzung) duerfen nie ohne Verifikation erfolgen. Datendeutung braucht Fachwissen, sonst Fehlschluesse. Abhaengigkeit von externen Plattformen/Programmen (Copernicus/GFW) — Kontinuitaet nicht garantiert. Ueberschaetzung: Fernerkundung lenkt Massnahmen, ersetzt sie aber nicht.
+
+**Kombiniert mit:** kamerafallen-ki, bioakustik-monitoring-ki, insektenmonitoring-kamera-ki
+
+**Quellen:** [Global Forest Watch (Alerts, kostenlos)](https://www.globalforestwatch.org/) · [GLAD Forest Alerts (UMD)](https://glad.umd.edu/dataset/glad-forest-alerts) · [Copernicus / Sentinel (ESA, offene Daten)](https://www.copernicus.eu/) · [GFW – Integrierte Entwaldungs-Alerts (GLAD, RADD, DIST-ALERT)](https://www.globalforestwatch.org/blog/data-and-tools/integrated-deforestation-alerts/) · [Copernicus Browser (Sentinel-Daten ansehen/laden)](https://browser.dataspace.copernicus.eu/)
+
+---
+
+### 3D-gedruckte Ausstiegshilfen & Fallen-Entschärfung
+
+Evidenz **C** · Wirkung 2/5 · Aufwand 1/5 · `3d-ausstiegshilfen-kleintiere`
+
+_Auch: gedruckte Ausstiegsrampe, Tierrettungsrampe, wildlife escape ramp, Gully-Ausstiegshilfe_
+
+Ausstiegsrampen und Leitern gegen das massenhafte Ertrinken von Amphibien, Insekten und Kleinsäugern in Gullys, Lichtschächten, Regentonnen, Viehtränken und Pools - per 3D-Druck extrem billig und sofort umsetzbar. Der Wert liegt in einer griffigen, richtig geneigten Oberfläche, die die Tiere sicher herausführt; die Datei einmal teilen und überall drucken. Eine der kostengünstigsten Sofortmaßnahmen überhaupt.
+
+| Kennzahl | Wert |
+|---|---|
+| Kosten | wenige Cent bis ~1 € Material pro Rampe/Leiter; Datei einmal teilen, beliebig oft drucken _(FDM-Materialpreis ~20-30 €/kg)_ |
+| Sofortwirkung | in Beobachtungen sank die Zahl ertrunkener Insekten nach Einbau einer Rampe binnen ~10 Tagen drastisch _(FrodRamp / Nutzerberichte; Trough-Handout)_ |
+| Oberfläche | rau/griffig mit Profil (nass!) und flache Neigung - glatte Rampen werden zur Todesfalle statt Rettung _(Wildlife-Friendly Troughs Ramp Handout)_ |
+| Einsatzorte | Gullys/Straßeneinläufe, Kellerlichtschächte, Regentonnen, Viehtränken, Pools, Vogeltränken, glatte Becken _(diverse Projekte)_ |
+| Schwimmend | für schwankende Wasserstände selbstnivellierende, schwimmende Rampen (folgt dem Pegel) _(FrodRamp Pool-Escape)_ |
+
+Unzählige Kleintiere ertrinken in menschgemachten Fallen: Amphibien und Kleinsäuger in Straßengullys und Lichtschächten, Insekten und kleine Wirbeltiere in Regentonnen, Viehtränken, Pools und glatten Wasserbecken. Die Gegenmaßnahme ist simpel und per 3D-Druck spottbillig: eine griffige Rampe, Leiter oder ein schwimmendes Floß, das eine Ausstiegsschräge bietet. Kosten liegen bei wenigen Cent bis rund 1 Euro Material pro Stück, die Konstruktion wird einmal digital geteilt (z. B. FrodRamp für Pools) und lässt sich überall lokal drucken - ideal für Bauhöfe, Feuerwehren, Landwirte und Privatleute. Entscheidend ist nicht das Drucken, sondern die richtige Physik: eine flache Neigung (steile Rampen werden gemieden bzw. sind zu glatt zum Erklimmen), eine im nassen Zustand griffige, profilierte oder aufgeraute Oberfläche und - bei schwankenden Pegeln - eine schwimmende Ausführung, die dem Wasserstand folgt. Für Lichtschächte helfen zusätzlich engmaschige Gitter (Prävention). Materialgrenzen beachten: PLA verwittert und wird spröde; für dauerhaften Außeneinsatz PETG oder ASA nutzen, dunkle Farben in praller Sonne vermeiden. Mikroplastik durch abriebreiche, verwitternde Teile im Wasser mitdenken - lieber robustes Material und Sichtkontrolle. Diese Maßnahme hat ein hervorragendes Wirkung-pro-Aufwand-Verhältnis, weil sie ohne Planungsaufwand sofort Tierleben rettet, ist aber punktuell (viele Einzelfallen) und kein Ersatz für Fallen-Vermeidung von vornherein (fallensichere Gully-/Schachtabdeckungen).
+
+**Wirkmechanismus:** Glattwandige, tiefe Gefäße und Schächte sind ökologische Fallen: hineingefallene Tiere können nicht herausklettern und ertrinken/verhungern. Eine griffige, richtig geneigte Ausstiegsstruktur stellt einen Fluchtweg her und senkt die Mortalität sofort.
+
+**Umsetzung**
+
+- Falle identifizieren: Gully/Straßeneinlauf, Lichtschacht, Regentonne, Viehtränke, Pool, glattes Becken, Vogeltränke.
+- Rampe/Leiter mit flacher Neigung drucken, die bis unter die (tiefste) Wasserlinie bzw. bis zum Boden reicht; bei schwankendem Pegel schwimmend/selbstnivellierend ausführen.
+- Oberfläche im nassen Zustand griffig gestalten: grobes Profil, Querstege, aufgeraut - keine glatte Rampe.
+- Material PETG oder ASA (wetter-/wasserfest, UV-stabil), nicht PLA; helle Farbe (kein Hitzestau); Befestigung/Beschwerung gegen Wegtreiben.
+- Bei Lichtschächten zusätzlich engmaschiges Gitter/Abdeckung als Prävention (Tier fällt gar nicht erst hinein).
+- Regelmäßig kontrollieren (Verrutschen, Verschmutzung, Materialermüdung) und nachbessern.
+
+**Häufige Fehler**
+
+- PLA im Dauer-Wasser-/Außeneinsatz - versprödet, bricht, gibt Mikroplastik ab.
+- Zu steile oder im Nassen zu glatte Rampe - Tiere rutschen ab, keine Rettung.
+- Rampe endet über der Wasserlinie/über dem Boden - unerreichbar für das Tier.
+- Bei schwankendem Pegel starre statt schwimmende Rampe - bei Niedrigwasser wirkungslos.
+- Dunkles Material in praller Sonne - Verformung/Überhitzung.
+- Rampe nur montieren, statt die Falle vorbeugend zu sichern (Gitter/Abdeckung).
+
+**Belege / Studien**
+
+- _Wildlife-Friendly Troughs - Escape Ramp Considerations (Resource Conservation District Handout) (2019):_ Viehtraenken ohne Ausstieg ertraenken regelmaessig Voegel und Kleinsaeuger; griffige, flach geneigte Rampen verhindern das und halten das Wasser sauber.
+- _FrodRamp / Pool-Escape (Nutzer- und Produktberichte) (2024):_ Nach Einbau einer 3D-gedruckten, dem Pegel folgenden Rampe gingen ertrunkene Insekten/Kleintiere innerhalb weniger Tage stark zurueck.
+- _US-Patente zu animal/insect pool escape devices (1990):_ Ausstiegsrampen/Floesse fuer Pools sind seit Langem als wirksames Prinzip beschrieben (griffige Schraege bis unter die Wasserlinie).
+
+**Robustheit** — Effektgröße: Lokal sehr wirksam (Falle entschärft = nahezu keine Ertrinkungsopfer mehr dort), aber punktuell.. Replikation: Prinzip vielfach bestätigt (Tränken, Pools); genaue Neigungs-/Profilwerte je Tiergruppe wenig standardisiert.. Vorbehalte: Wirkt nur an der ausgestatteten Falle; Menge der Fallen ist riesig. Glatte/steile Rampen sind wirkungslos. Material muss witterungs- und wasserfest sein.
+
+> ⚠️ **Risiken / Grenzen:** Mikroplastik/Abrieb im Gewässer bei minderwertigem oder verwitterndem Filament - robustes Material wählen und ersetzen. Lose Teile können wegtreiben oder Abflüsse verstopfen (befestigen). Wirkt nur an der einzelnen ausgestatteten Stelle; Fallen-Vermeidung im Design bleibt vorzuziehen.
+
+**Kombiniert mit:** zaeune-schaechte-fallen, kleingewaesser-tuempel, amphibientunnel-leiteinrichtung
+
+**Quellen:** [Wildlife-Friendly Troughs - Important Ramp Considerations (RCD Handout, PDF)](https://acrcd.org/wp-content/uploads/2019/04/Fish-and-Wildlife-Escape-Ramp-Handout.pdf) · [FrodRamp - Pool Escape Ramp for Frogs & Lizards (3D-gedruckt)](https://froddesign.com/products/frod-pool-ramp) · [Swimming pool escape system for animals and insects (US-Patent, Prinzip)](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4972540)
+
+---
+
+### 3D-gedruckte Wildbienen-Nisthilfen richtig gemacht
+
+Evidenz **C** · Wirkung 2/5 · Aufwand 2/5 · `3d-wildbienen-nistblock`
+
+_Auch: gedruckter Nistblock, austauschbare Niströhren-Einsätze, 3D-printed bee hotel_
+
+3D-Druck macht bewährte Wildbienen-Nisthilfen billig und lokal reproduzierbar: austauschbare Niströhren-Einsätze mit korrekten Durchmessern (3-6 mm, Spanne 2-9 mm), glatter Bohrung, hinten geschlossen und tief genug (10-15 cm). Der Wert liegt in maßgenauen, reinigbaren Röhren gegen Parasiten - nicht im Drucken an sich. Schlecht gebaute Baumarkt-Hotels (Glasröhrchen, zu weit durchbohrt, ausgefranst) bleiben leer.
+
+| Kennzahl | Wert |
+|---|---|
+| Lochdurchmesser | 2-9 mm, Schwerpunkt 3-6 mm (die meisten Arten); pro Nisthilfe mehrere Größen anbieten _(NABU; BUND-RLP Lochgrößen-Broschüre)_ |
+| Tiefe | 10-15 cm tief und hinten geschlossen (nicht durchbohren) - sonst falsches Geschlechterverhältnis / kein Bezug _(wildbienen.info; naturgartenfreude.de)_ |
+| Innenwand | glatt und gratfrei - raue/ausgefranste Röhren verletzen Flügel; ausschlaggebend für Besiedlung _(NABU; naturgartenfreude.de)_ |
+| Reinigbarkeit | herausnehmbare Einsätze/Papierhülsen erlauben Milben- und Parasitenkontrolle - fest verbaute Röhren veralten und werden Parasiten-Falle _(wildbienen.info)_ |
+| Materialkosten | ein Einsatz-Set ~0,20-1 € Filament je Block, Datei einmal teilen und tausendfach drucken _(FDM-Materialpreis ~20-30 €/kg)_ |
+
+Wildbienen-Nisthilfen funktionieren nur mit korrekten Maßen, und genau die lassen sich per 3D-Druck perfekt reproduzieren: Ein Halterahmen mit austauschbaren Röhren-Einsätzen wird einmal digital konstruiert und dann beliebig oft gedruckt - ideal für Schulen, Vereine oder Kommunen. Entscheidend sind Durchmesser von 2-9 mm (die meisten Arten nutzen 3-6 mm), eine glatte, gratfreie Innenwand, eine hinten geschlossene Röhre (nicht durchbohren) und eine Tiefe von mindestens 10-15 cm - kurze Löcher liefern ein verzerrtes Geschlechterverhältnis, weil nur die vorne liegenden Männchen produziert werden. Der große Vorteil gegenüber Bohrblöcken aus Hartholz und gegenüber vielen Baumarkt-Insektenhotels (Glasröhrchen, weiche Nadelholz-Klötze mit ausgefransten, quer durchbohrten Löchern, Tannenzapfen, Ziegel) ist die Reinigbarkeit: Herausnehmbare Einsätze oder eingelegte Papierhülsen lassen sich jährlich kontrollieren und tauschen, was den Parasiten- und Milbendruck senkt. Grenzen: Der Druck ersetzt nicht das eigentlich Wichtige - passende Maße und ein sonniger, regengeschützter Standort. Kunststoff kann innen schwitzen (Schimmel/Kondens), deshalb sind matte, saugfähige Papierhülsen im gedruckten Halter oft die beste Kombination; reine glatte Kunststoffröhren bergen Kondensrisiko. PLA verwittert und wird spröde - für den bewitterten Rahmen besser PETG oder ASA verwenden, dunkle Farben in praller Sonne vermeiden (Hitzestau).
+
+**Wirkmechanismus:** Solitäre Hohlraum-Wildbienen (z. B. Mauerbienen, Maskenbienen) legen Brutzellen in Röhren passenden Durchmessers an. Maßgenaue, glatte, hinten geschlossene, reinigbare Röhren maximieren Besiedlung und Schlupferfolg und minimieren Parasitenbefall.
+
+**Umsetzung**
+
+- Röhren mehrerer Durchmesser drucken/anbieten: 3, 4, 5, 6 mm als Schwerpunkt, dazu je etwas 2 und 8 mm; Länge 12-15 cm, hinten dicht geschlossen.
+- Innenwand glatt gestalten: entweder mit sehr feiner Schichthöhe/Vaseline-glatt drucken ODER - besser - gedruckten Halter mit eingelegten Papier-Nisthülsen (saugfähig, jährlich tauschbar).
+- Material für den bewitterten Rahmen: PETG oder ASA (UV-/hitzebeständiger als PLA), Wandstärke >= 2 mm; helle Farbe wählen (kein schwarz in praller Sonne).
+- Reinigbarkeit einplanen: Einsätze steckbar/herausnehmbar konstruieren, damit Hülsen im Winter kontrolliert und getauscht werden können.
+- Aufhängen: fest (windstill), waagrecht bis leicht nach vorn geneigt, Öffnung nach Südost/Süd, sonnig und regengeschützt, ganzjährig hängen lassen.
+- Nur als Ergänzung: parallel heimische Blühpflanzen und offene, besonnte Bodenstellen bereitstellen (Bodennister).
+
+**Häufige Fehler**
+
+- Reines PLA im Freien verwenden - versprödet und verwittert unter UV/Feuchte binnen Wochen bis Monaten.
+- Röhre komplett durchbohren / hinten offen lassen - wird gemieden oder verzerrt das Geschlechterverhältnis.
+- Glatte, unsaugfähige Kunststoffröhren ohne Hülse - Kondens/Schimmelrisiko; besser Papierhülsen einlegen.
+- Dunkler Kunststoffblock in praller Sonne - Überhitzung der Brut.
+- Fest verbaute, nicht reinigbare Röhren - werden über Jahre zur Parasiten- und Milbenfalle.
+- Nisthilfe ohne Nahrungsangebot aufstellen - Wildbienen brauchen heimische Blüten in der Nähe.
+
+**Belege / Studien**
+
+- _MacIvor & Packer, Kew (PLOS ONE) - Bee hotels as tools for native pollinator conservation (2015):_ Nisthilfen werden stark auch von Wespen und teils von eingefuehrten Arten und Parasitoiden genutzt; Design und Pflege entscheiden ueber den Naturschutzwert - schlecht gepflegte Hotels koennen Parasiten foerdern.
+- _NABU - Tipps fuer wirksame Wildbienen-Nisthilfen (2023):_ Wirksame Nisthilfen brauchen glatte, gratfreie Bohrungen 2-9 mm, hinten geschlossen, ausreichende Tiefe und einen sonnigen Standort; viele Kaufprodukte erfuellen das nicht.
+- _wildbienen.info - Untaugliche Nisthilfen (2022):_ Glasroehrchen, Lochziegel, Quer-/Durchbohrungen und ausgefranste Weichholz-Loecher werden gemieden oder schaden; reinigbare Einsaetze sind vorteilhaft.
+
+**Robustheit** — Effektgröße: Klein und lokal (einzelne Gärten); Beitrag zum Artenschutz begrenzt, aber Bildungs- und Beobachtungswert hoch.. Replikation: Maße gut belegt (NABU/BUND/wildbienen.info); 3D-Druck-Umsetzung noch wenig systematisch untersucht.. Vorbehalte: Nisthilfen ersetzen keine Nahrungs-/Blühflächen und keine Bodenniststrukturen (Mehrheit der Arten nistet im Boden). Kunststoff-Kondens und Hitzestau sind reale Risiken.
+
+> ⚠️ **Risiken / Grenzen:** Kunststoff-Mikroplastik und Kondens/Schimmel bei ungeeignetem Design; Hitzestau bei dunklen Kästen. Nisthilfen können Parasiten fördern, wenn sie nicht gepflegt/reinigbar sind. Kein Ersatz für Boden-Nistplätze und Nahrungsflächen; nicht als Alibi für ausgeräumte Gärten.
+
+**Kombiniert mit:** wildbienen-nisthabitat, naturgarten-heimische-pflanzen, bluehflaechen-mehrjaehrig
+
+**Quellen:** [NABU - Tipps fuer wirksame Wildbienen-Nisthilfen](https://www.nabu.de/tiere-und-pflanzen/insekten-und-spinnen/hautfluegler/bienen/13704.html) · [wildbienen.info - Untaugliche Nisthilfen](https://www.wildbienen.info/artenschutz/untaugliche_nisthilfen_A.php) · [MacIvor & Packer 2015 - Bee Hotels as Tools for Native Pollinator Conservation (PLOS ONE)](https://doi.org/10.1371/journal.pone.0122126) · [BUND-RLP - Wer baut wo? Lochgroessen fuer Wildbienen-Nisthilfen](https://www.bund-rlp.de/service/publikationen/detail/publication/wer-baut-wo-lochgroessen-fuer-wildbienen-nisthilfen/)
+
+---
+
+### KI entlastet Naturschutz-Verwaltung & Ehrenamt
+
+Evidenz **C** · Wirkung 2/5 · Aufwand 1/5 · `ki-verwaltung-foerderantrag`
+
+_Auch: LLM für Vereinsarbeit, KI Förderantrag, KI Öffentlichkeitsarbeit NABU BUND, Bürokratie-Entlastung Ehrenamt_
+
+Sprach-KI (LLMs) übernimmt die schriftliche Fleißarbeit im Naturschutz — Förderanträge, Berichte, Protokolle, Pressetexte, Newsletter und Anschreiben für NABU-/BUND-Ortsgruppen und Behörden. Der Gewinn ist nicht das Naturschutz-Handeln selbst, sondern die zurückgewonnene Zeit: Bürokratie frisst Ehrenamt, KI gibt es dem eigentlichen Naturschutz zurück — vorausgesetzt, alle Fakten und Quellen werden von Menschen geprüft.
+
+| Kennzahl | Wert |
+|---|---|
+| Kosten | Basiszugang gratis, Profi-Zugänge ~20 €/Monat je Nutzer _(Anbieter-Preislisten)_ |
+| Kern-Nutzen | Zeitersparnis bei Textarbeit — mehr Ehrenamts-Stunden für Kartierung, Pflege, Bildung _(Mechanismus)_ |
+| Typische Aufgaben | Antragstexte, Sachberichte, Sitzungsprotokolle, Pressemitteilungen, Social-Media, Übersetzungen _(Praxis Vereinsarbeit)_ |
+| Grenze Halluzination | LLMs erfinden Fakten, Zahlen und Quellen — jede Aussage muss verifiziert werden _(Anti-Hype / Modell-Eigenschaft)_ |
+| Datenschutz | keine personenbezogenen oder sensiblen Standortdaten in öffentliche Cloud-Tools eingeben _(DSGVO-Praxis)_ |
+
+Naturschutz-Ehrenamt scheitert selten am Willen, sondern an Zeit: Förderrichtlinien lesen, Anträge formulieren, Verwendungsnachweise schreiben, Protokolle tippen, Pressetexte redigieren. Genau diese Textarbeit ist die Domäne großer Sprachmodelle (LLMs). Ein Entwurf für einen Förderantrag, eine Zusammenfassung eines 40-seitigen Gutachtens, ein Newsletter oder eine Übersetzung entsteht in Minuten statt Stunden — der Vorstand einer BUND- oder NABU-Ortsgruppe gewinnt so Zeit für das, was zählt: Biotoppflege, Kartierung, Umweltbildung, Verhandlungen. Der Zugang ist niederschwellig: Basisversionen sind gratis, Profi-Zugänge kosten grob 20 €/Monat. Entscheidend und der Grund für die vorsichtige Einstufung dieses Hebels ist die Anti-Hype-Regel: LLMs erzeugen flüssigen, überzeugend klingenden Text auch dort, wo sie Fakten, Zahlen, Paragraphen oder Literaturquellen schlicht erfinden (Halluzination). In einem Förderantrag ist eine erfundene Zahl oder ein falsch zitierter Rechtsgrund fatal. Deshalb gilt: KI liefert den Rohentwurf, der Mensch prüft jede Faktenaussage, jede Quelle und jede Zahl und trägt die Verantwortung. Datenschutz ist die zweite Leitplanke — keine personenbezogenen Daten und keine Standorte streng geschützter Arten in öffentliche Cloud-Dienste. Richtig eingesetzt ist KI ein Kraftverstärker für knappe Ehrenamts-Ressourcen; falsch eingesetzt produziert sie glaubwürdig aussehenden Unsinn.
+
+**Wirkmechanismus:** LLMs automatisieren wiederkehrende Textproduktion (Entwurf, Zusammenfassung, Umformulierung, Übersetzung) und senken so den Zeitaufwand für Verwaltung; die eingesparte Zeit kann in konkrete Naturschutzarbeit fließen.
+
+**Umsetzung**
+
+- KI nur für Rohentwürfe nutzen: Antrag, Bericht, Protokoll, Pressetext, Übersetzung — nie als fertiges, ungeprüftes Endprodukt.
+- Jede Faktenaussage, Zahl, Frist und Rechtsgrundlage manuell gegen die Originalquelle prüfen.
+- Keine erfundenen Quellen dulden: Literatur- und Paragraphenangaben immer selbst verifizieren.
+- Datenschutz wahren: keine personenbezogenen Daten, keine Standorte streng geschützter Arten in öffentliche Cloud-Tools.
+- Wiederkehrende Aufgaben mit gespeicherten Prompt-Vorlagen standardisieren (z. B. Sachbericht-Struktur des Fördergebers).
+- Verantwortung klar beim Menschen belassen: eine Person zeichnet den geprüften Text ab.
+
+**Häufige Fehler**
+
+- KI-Text ungeprüft einreichen — erfundene Zahlen/Quellen im Förderantrag sind ein K.-o.-Kriterium.
+- Sensible oder personenbezogene Daten in öffentliche Chatbots eingeben.
+- Fachliche Sorgfalt durch Bequemlichkeit ersetzen und Kartierungsergebnisse 'schönschreiben' lassen.
+- Alle Texte gleich klingen lassen und dadurch Glaubwürdigkeit/Wiedererkennbarkeit verlieren.
+
+**Belege / Studien**
+
+- _Mechanismus / Produktivitätsforschung LLM (2024):_ LLMs beschleunigen Standard-Schreibaufgaben deutlich; größter Gewinn bei repetitiven, gut strukturierten Texten — genau dem Bürokratie-Anteil im Ehrenamt.
+- _Modell-Eigenschaft (Halluzination) (2024):_ Sprachmodelle erzeugen faktisch falsche, aber sprachlich überzeugende Aussagen inkl. erfundener Quellen; ohne menschliche Prüfung nicht für Anträge/Berichte geeignet.
+- _DSGVO-Praxis (2024):_ Eingaben in öffentliche KI-Dienste können verarbeitet/gespeichert werden; personenbezogene und schutzwürdige Standortdaten gehören nicht hinein.
+
+**Robustheit** — Effektgröße: Zeitgewinn plausibel und teils groß, aber ökologischer Nutzen nur indirekt und schwer messbar.. Replikation: Breit im Alltag beobachtbar, aber kaum spezifisch für Naturschutz-Vereine untersucht.. Vorbehalte: Halluzinationen, Datenschutz, Stil-Gleichförmigkeit; Nutzen hängt völlig von disziplinierter Faktenprüfung ab.
+
+> ⚠️ **Risiken / Grenzen:** Halluzinierte Fakten und Quellen können Anträge unbrauchbar machen und den Ruf eines Vereins beschädigen. Datenschutzverstöße bei sensiblen Daten. Gefahr, dass fachliche Substanz durch flüssige, aber inhaltsleere Texte ersetzt wird. KI ist Werkzeug für den Papierkram, kein Ersatz für Naturschutz-Handeln.
+
+**Kombiniert mit:** citizen-science-apps, planungs-software-priorisierung
+
+**Quellen:** [TU Ilmenau – KI im Naturschutz (Flora Incognita Kontext)](https://www.tu-ilmenau.de/en/news/tu-ilmenau-new-ai-for-flora-incognita) · [GBIF – offene Biodiversitätsdaten (Grundlage für Berichte)](https://www.gbif.org/) · [BfN – Förder- und Programmarbeit im Naturschutz](https://www.bfn.de/)
 
 ---
 

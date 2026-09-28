@@ -1,0 +1,55 @@
+{
+  "id": "citizen-science-apps",
+  "name": "Citizen-Science-Apps mit KI-Artbestimmung",
+  "aka": ["iNaturalist", "Flora Incognita", "ObsIdentify", "observation.org", "Naturbeobachtungs-Apps", "KI-Pflanzenbestimmung"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["citizen-science", "monitoring", "ki", "biodiversitaetsdaten", "gbif", "ehrenamt", "app"],
+  "summary": "Kostenlose Smartphone-Apps bestimmen Tiere, Pflanzen und Pilze per Foto mit KI in Sekunden und speisen die Fundmeldungen als offene Daten in globale Biodiversitäts-Datenbanken (GBIF) ein. So entsteht aus Millionen Bürger-Beobachtungen eine Datengrundlage, die Behörden und Verbände für Kartierung, Monitoring und Rote Listen nutzen — sofort, gratis, ohne Fachwissen als Einstiegshürde.",
+  "key_facts": [
+    {"label": "iNaturalist-Umfang", "value": "über 200 Mio. Beobachtungen von ~3,3 Mio. Beobachtern (Stand 2024)", "source": "California Academy of Sciences / iNaturalist"},
+    {"label": "Flora Incognita (aus DE)", "value": "TU Ilmenau + MPI Biogeochemie; ~16.000 Pflanzenarten weltweit bestimmbar", "source": "TU Ilmenau"},
+    {"label": "observation.org", "value": "2022 rund 70 Mio. Datensätze (inkl. 15 Mio. Bilder) an GBIF geteilt", "source": "Observation International"},
+    {"label": "Treffergenauigkeit", "value": "ObsIdentify bestimmte im Test ~95 % der fotografierten Arten korrekt", "source": "Praxistests / Observation.org"},
+    {"label": "GBIF-Anteil", "value": "seit 2020 stammen die meisten GBIF-Datensätze für die meisten Arten aus iNaturalist", "source": "iNaturalist / GBIF"},
+    {"label": "Kosten", "value": "0 € — alle genannten Apps sind gratis und werbefrei", "source": "App-Anbieter"}
+  ],
+  "deep_dive": "Der Hebel ist nicht die App selbst, sondern die schiere Datenmenge, die Laien erzeugen: iNaturalist hat über 200 Mio. Beobachtungen von ~3,3 Mio. Menschen gesammelt und ist die meistzitierte GBIF-Datenquelle. Für Deutschland besonders relevant ist Flora Incognita, ein Projekt der TU Ilmenau und des Max-Planck-Instituts für Biogeochemie, dessen KI rund 16.000 Pflanzenarten unterscheidet und im März 2020 bis zu ~15.000 Bestimmungen pro Tag verzeichnete. ObsIdentify (observation.org, Observation International, NL) deckt Tiere, Pflanzen und Pilze ab und erreicht im Test ~95 % korrekte Bestimmungen; 2022 flossen ~70 Mio. Datensätze inklusive 15 Mio. Bilder nach GBIF. Wichtig ist die Datenveredelung: iNaturalist-Meldungen werden erst nach Community-Bestätigung zu Research-Grade und dann an GBIF weitergegeben, observation.org lässt über 1.000 Fachleute die KI-Vorschläge validieren. Grenzen: KI-Modelle sind bei häufigen, gut fotografierbaren Arten stark, versagen aber bei kryptischen Arten, Verwechslungspaaren und schlecht abgedeckten Gruppen; die Daten haben einen starken Erfassungs-Bias (Städte, Wochenenden, hübsche Arten) und sind nur mit Vorsicht für Trendaussagen nutzbar. Die App ersetzt keine systematische Fachkartierung, senkt aber die Einstiegshürde radikal und liefert Vorkommensnachweise, Phänologie-Signale und Frühwarnungen (z. B. invasive Arten).",
+  "mechanism": "Bild-Erkennungs-KI liefert Laien sofort einen Bestimmungsvorschlag; die georeferenzierte, zeitgestempelte Meldung wird nach Validierung als offener Datensatz an GBIF weitergegeben und steht dann Forschung, Behörden und Verbänden zur Verfügung.",
+  "evidence": [
+    {"source": "California Academy of Sciences / iNaturalist", "year": 2024, "finding": "iNaturalist überschreitet 200 Mio. Wildbeobachtungen von ~3,3 Mio. Beobachtern; global bedeutende Datenquelle."},
+    {"source": "iNaturalist / GBIF-Blog", "year": 2023, "finding": "Seit 2020 stammen für die meisten Arten die meisten GBIF-Datensätze aus iNaturalist; Citizen-Science liefert etwa die Hälfte der GBIF-Daten."},
+    {"source": "TU Ilmenau (Flora Incognita)", "year": 2021, "finding": "Neue KI verdreifachte die Zahl bestimmbarer Arten auf ~16.000; viele Arten mit nahezu 100 % Genauigkeit klassifizierbar."}
+  ],
+  "robustness": {
+    "effect_size": "Sehr großer Datenmengen-Effekt (Hunderte Mio. Datensätze), aber indirekter ökologischer Nutzen über bessere Datengrundlage.",
+    "replication": "Mehrere unabhängige Plattformen (iNaturalist USA, Flora Incognita DE, observation.org NL) mit vergleichbarem Erfolg.",
+    "caveats": "Starker Erfassungs-Bias (Raum/Zeit/Art), KI-Fehlbestimmungen bei kryptischen Arten, Datenschutz seltener Arten; kein Ersatz für systematisches Monitoring."
+  },
+  "protocol": [
+    "Passende App wählen: Flora Incognita (Pflanzen, DE), iNaturalist/Seek (alle Gruppen, global), ObsIdentify/observation.org (alle Gruppen).",
+    "Foto mit Standort und Datum aufnehmen; bei Pflanzen mehrere Perspektiven (Blüte, Blatt, Habitus) für höhere Trefferquote.",
+    "KI-Vorschlag kritisch prüfen und bei Unsicherheit die Community-Validierung abwarten, statt blind zu übernehmen.",
+    "Sichtungen konsequent hochladen, damit sie über GBIF für Behörden, Rote Listen und Forschung nutzbar werden.",
+    "Für Vereine/Schulen: Bioblitz-Aktionen organisieren, um viele Meldungen aus unterkartierten Gebieten zu erzeugen.",
+    "Sensible Funde (streng geschützte Arten) mit Geo-Unschärfe melden, um Standort-Missbrauch zu vermeiden."
+  ],
+  "mistakes": [
+    "KI-Vorschlag ungeprüft als Fakt behandeln — gerade bei Verwechslungsarten falsch.",
+    "Daten für belastbare Bestandstrends nutzen, ohne den Erfassungs-Bias zu berücksichtigen.",
+    "Standorte streng geschützter Arten offen posten und damit Sammler/Störung anlocken.",
+    "App als Ersatz für professionelle Fachkartierung verkaufen, statt als Ergänzung."
+  ],
+  "risks": "Datenqualität und Abdeckung sind ungleichmäßig; ohne statistische Korrektur des Bias sind Trendaussagen irreführend. Offene Fundortdaten können seltene Arten gefährden. KI-Fehlbestimmungen können sich in Datenbanken fortpflanzen, wenn Validierung fehlt.",
+  "synergy": ["planungs-software-priorisierung", "roadkill-melde-app", "ki-verwaltung-foerderantrag"],
+  "sources": [
+    {"title": "iNaturalist – 50/200 Mio. Beobachtungen (Blog)", "url": "https://www.inaturalist.org/blog/40699-50-million-observations-on-inaturalist"},
+    {"title": "California Academy of Sciences – iNaturalist 50 Million", "url": "https://www.calacademy.org/press/releases/inaturalist-50-million"},
+    {"title": "TU Ilmenau – Neue KI für Flora Incognita", "url": "https://www.tu-ilmenau.de/en/news/tu-ilmenau-new-ai-for-flora-incognita"},
+    {"title": "Observation.org – Wikipedia (GBIF-Datenmengen)", "url": "https://en.wikipedia.org/wiki/Observation.org"},
+    {"title": "iNaturalist / GBIF – meiste Datensätze seit 2020", "url": "https://www.inaturalist.org/blog/76606-thank-you-for-helping-generate-most-gbif-records-for-most-species-since-2020"}
+  ]
+}

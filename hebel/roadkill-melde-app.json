@@ -1,0 +1,54 @@
+{
+  "id": "roadkill-melde-app",
+  "name": "Roadkill-/Wildunfall-Melde-Apps",
+  "aka": ["Projekt Roadkill", "BOKU Roadkill", "SPOTTERON Roadkill", "Wildunfall-App", "Amphibien-Meldeapp"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["citizen-science", "roadkill", "wildunfall", "amphibien", "hotspot", "verkehr", "app", "infrastruktur"],
+  "summary": "Melde-Apps lassen Bürger überfahrene Tiere per Foto und Standort erfassen. Aus vielen Einzelmeldungen entstehen Karten mit Unfall-Hotspots — genau die Datengrundlage, um Grünbrücken, Amphibientunnel und Zäune dort zu bauen, wo sie am meisten bringen. Billig und schnell verfügbar, verbindet die Methode Bürger direkt mit der Infrastrukturplanung; die Wirkung hängt aber von Meldedichte und behördlicher Umsetzung ab.",
+  "key_facts": [
+    {"label": "Projekt Roadkill (BOKU Wien)", "value": "über 20.000 Meldungen seit Projektstart 2014", "source": "roadkill.at / BOKU"},
+    {"label": "Datenlücke geschlossen", "value": "erfasst Arten, die in amtlichen Statistiken fehlen (Igel, Amphibien, Vögel, Schlangen)", "source": "BOKU Roadkill"},
+    {"label": "App-Plattform", "value": "kostenlose SPOTTERON-App (iOS/Android), Foto + GPS-Standort", "source": "SPOTTERON"},
+    {"label": "Ziel", "value": "Hotspots identifizieren und mit Behörden/NGOs entschärfen (Tunnel, Grünbrücken, Zäune)", "source": "roadkill.at"},
+    {"label": "Amphibien-Beispiel", "value": "u. a. hunderte Meldungen geschützter Arten wie Knoblauchkröte und Kammmolch", "source": "BOKU Roadkill-Datenbank"},
+    {"label": "Kosten", "value": "0 € für Meldende — Aufwand liegt bei Datenauswertung und Umsetzung", "source": "Anbieter"}
+  ],
+  "deep_dive": "Straßen sind eine der größten Todesursachen für viele Tiergruppen, aber amtliche Wildunfallstatistiken erfassen nur große Säuger und teils Vögel — Igel, Amphibien, Reptilien und Kleinsäuger fehlen fast völlig. Genau diese Lücke schließen Roadkill-Melde-Apps. Das Vorzeigeprojekt ist Projekt Roadkill der BOKU Wien (seit 2014), das über die kostenlose SPOTTERON-App läuft: Foto plus GPS-Standort genügen, und über 20.000 Meldungen sind zusammengekommen. Aus dieser Punktwolke lassen sich Hotspots berechnen — Straßenabschnitte mit auffällig vielen Verlusten, oft an Amphibien-Wanderwegen oder Wildwechseln. Das ist der eigentliche Hebel: Grünbrücken und Amphibientunnel sind teuer und wirken nur am richtigen Ort, deshalb ist eine belastbare Hotspot-Karte Gold wert für die Priorisierung. Das BOKU-Team arbeitet ausdrücklich mit Behörden, Gemeinden und NGOs zusammen, um erkannte Hotspots mit Tunneln, Zäunen oder Querungshilfen zu entschärfen. Die Anti-Hype-Einordnung: Die Daten haben einen starken Erfassungs-Bias — gemeldet wird dort, wo Menschen wohnen und fahren, nicht unbedingt dort, wo am meisten stirbt; kleine, schnell zersetzte oder von Aasfressern entfernte Tiere werden unterschätzt. Und eine Hotspot-Karte allein baut keinen Tunnel: Ohne Budget und behördlichen Willen bleibt sie folgenlos. Die App liefert also die entscheidende Datengrundlage und mobilisiert Bürger, ersetzt aber weder systematische Verkehrsopfer-Kartierung noch die teure bauliche Maßnahme.",
+  "mechanism": "Georeferenzierte Bürgermeldungen zu Verkehrsopfern verdichten sich zu Hotspot-Karten, die zeigen, wo Querungshilfen (Tunnel, Grünbrücken, Leitzäune) die größte Wirkung pro Euro hätten — Daten steuern die Priorisierung teurer Infrastruktur.",
+  "evidence": [
+    {"source": "Projekt Roadkill / BOKU Wien", "year": 2023, "finding": "Über 20.000 Bürgermeldungen ermöglichen Hotspot-Analysen und erfassen in amtlichen Statistiken fehlende Arten (Amphibien, Igel, Vögel)."},
+    {"source": "Rytwinski et al., PLOS ONE (Wirksamkeit von Straßenmaßnahmen)", "year": 2016, "finding": "Querungsbauwerke plus Leitzäune reduzieren Wildunfälle am stärksten — ihre Platzierung an echten Hotspots ist entscheidend für die Kosteneffizienz."},
+    {"source": "BOKU / SPOTTERON Citizen Science", "year": 2014, "finding": "App-basierte Erfassung liefert kontinuierliche, standortgenaue Daten, die für gezielte Maßnahmen an Gemeinden und NGOs weitergegeben werden."}
+  ],
+  "robustness": {
+    "effect_size": "Indirekt, aber potenziell groß: bessere Hotspot-Daten heben die Kosteneffizienz teurer Querungshilfen deutlich.",
+    "replication": "Roadkill-Erfassung in mehreren Ländern über SPOTTERON und ähnliche Plattformen etabliert.",
+    "caveats": "Starker räumlicher Melde-Bias (Bevölkerung/Verkehr statt Sterberate); kleine Tiere unterschätzt; Wirkung nur bei behördlicher Umsetzung."
+  },
+  "protocol": [
+    "Kostenlose Melde-App installieren (z. B. Projekt Roadkill über SPOTTERON) und lokale/regionale Erfassung anstoßen.",
+    "Funde mit Foto, Art (soweit erkennbar) und genauem GPS-Standort melden — auch kleine Arten und Amphibien.",
+    "Über Vereine/Schulen viele Melder gewinnen, um die Meldedichte und damit die Hotspot-Aussagekraft zu erhöhen.",
+    "Daten räumlich auswerten (in QGIS) und Abschnitte mit gehäuften Verlusten als Hotspots identifizieren.",
+    "Hotspot-Karten an Straßenbaubehörden, Gemeinden und Naturschutz-NGOs übergeben und Querungshilfen anstoßen.",
+    "Erfassungs-Bias transparent machen: hohe Meldezahl kann auch nur hohe Beobachterdichte bedeuten."
+  ],
+  "mistakes": [
+    "Nur große Säuger melden und Amphibien/Igel/Vögel ignorieren — dann bleibt die Datenlücke bestehen.",
+    "Standorte ungenau angeben, wodurch Hotspot-Analysen unbrauchbar werden.",
+    "Hohe Meldedichte mit hoher Sterblichkeit verwechseln (Beobachter-Bias).",
+    "Hotspot-Karte erstellen, aber nie an umsetzende Behörden weitergeben."
+  ],
+  "risks": "Der räumliche Melde-Bias kann Prioritäten verzerren, wenn er nicht korrigiert wird. Ohne Budget und behördliche Umsetzung bleibt die beste Hotspot-Karte wirkungslos. Selbst-Melden von Roadkill darf nicht zu riskantem Anhalten im Verkehr verleiten. Die App ist Datengrundlage, kein Ersatz für die teure bauliche Maßnahme.",
+  "synergy": ["gruenbruecke-wildquerung", "amphibientunnel-leiteinrichtung", "citizen-science-apps", "planungs-software-priorisierung"],
+  "sources": [
+    {"title": "Projekt Roadkill – BOKU Wien", "url": "https://roadkill.at/ueber-projekt-roadkill"},
+    {"title": "Roadkill – SPOTTERON Citizen Science", "url": "https://www.spotteron.net/de/citizen-science-apps/regionale-community-science-projekte/projekt-roadkill"},
+    {"title": "Rytwinski et al. 2016, How effective is road mitigation? (PLOS ONE)", "url": "https://doi.org/10.1371/journal.pone.0166941"},
+    {"title": "Projekt Roadkill | mit:forschen!", "url": "https://www.mitforschen.org/projekt/projekt-roadkill"}
+  ]
+}

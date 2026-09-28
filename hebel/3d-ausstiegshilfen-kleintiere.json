@@ -1,0 +1,54 @@
+{
+  "id": "3d-ausstiegshilfen-kleintiere",
+  "name": "3D-gedruckte Ausstiegshilfen & Fallen-Entschärfung",
+  "aka": ["gedruckte Ausstiegsrampe", "Tierrettungsrampe", "wildlife escape ramp", "Gully-Ausstiegshilfe"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 2,
+  "evidence_level": "C",
+  "effort": 1,
+  "tags": ["ausstiegshilfe", "falle", "ertrinken", "amphibien", "kleinsaeuger", "3d-druck", "diy"],
+  "summary": "Ausstiegsrampen und Leitern gegen das massenhafte Ertrinken von Amphibien, Insekten und Kleinsäugern in Gullys, Lichtschächten, Regentonnen, Viehtränken und Pools - per 3D-Druck extrem billig und sofort umsetzbar. Der Wert liegt in einer griffigen, richtig geneigten Oberfläche, die die Tiere sicher herausführt; die Datei einmal teilen und überall drucken. Eine der kostengünstigsten Sofortmaßnahmen überhaupt.",
+  "key_facts": [
+    {"label": "Kosten", "value": "wenige Cent bis ~1 € Material pro Rampe/Leiter; Datei einmal teilen, beliebig oft drucken", "source": "FDM-Materialpreis ~20-30 €/kg"},
+    {"label": "Sofortwirkung", "value": "in Beobachtungen sank die Zahl ertrunkener Insekten nach Einbau einer Rampe binnen ~10 Tagen drastisch", "source": "FrodRamp / Nutzerberichte; Trough-Handout"},
+    {"label": "Oberfläche", "value": "rau/griffig mit Profil (nass!) und flache Neigung - glatte Rampen werden zur Todesfalle statt Rettung", "source": "Wildlife-Friendly Troughs Ramp Handout"},
+    {"label": "Einsatzorte", "value": "Gullys/Straßeneinläufe, Kellerlichtschächte, Regentonnen, Viehtränken, Pools, Vogeltränken, glatte Becken", "source": "diverse Projekte"},
+    {"label": "Schwimmend", "value": "für schwankende Wasserstände selbstnivellierende, schwimmende Rampen (folgt dem Pegel)", "source": "FrodRamp Pool-Escape"}
+  ],
+  "deep_dive": "Unzählige Kleintiere ertrinken in menschgemachten Fallen: Amphibien und Kleinsäuger in Straßengullys und Lichtschächten, Insekten und kleine Wirbeltiere in Regentonnen, Viehtränken, Pools und glatten Wasserbecken. Die Gegenmaßnahme ist simpel und per 3D-Druck spottbillig: eine griffige Rampe, Leiter oder ein schwimmendes Floß, das eine Ausstiegsschräge bietet. Kosten liegen bei wenigen Cent bis rund 1 Euro Material pro Stück, die Konstruktion wird einmal digital geteilt (z. B. FrodRamp für Pools) und lässt sich überall lokal drucken - ideal für Bauhöfe, Feuerwehren, Landwirte und Privatleute. Entscheidend ist nicht das Drucken, sondern die richtige Physik: eine flache Neigung (steile Rampen werden gemieden bzw. sind zu glatt zum Erklimmen), eine im nassen Zustand griffige, profilierte oder aufgeraute Oberfläche und - bei schwankenden Pegeln - eine schwimmende Ausführung, die dem Wasserstand folgt. Für Lichtschächte helfen zusätzlich engmaschige Gitter (Prävention). Materialgrenzen beachten: PLA verwittert und wird spröde; für dauerhaften Außeneinsatz PETG oder ASA nutzen, dunkle Farben in praller Sonne vermeiden. Mikroplastik durch abriebreiche, verwitternde Teile im Wasser mitdenken - lieber robustes Material und Sichtkontrolle. Diese Maßnahme hat ein hervorragendes Wirkung-pro-Aufwand-Verhältnis, weil sie ohne Planungsaufwand sofort Tierleben rettet, ist aber punktuell (viele Einzelfallen) und kein Ersatz für Fallen-Vermeidung von vornherein (fallensichere Gully-/Schachtabdeckungen).",
+  "mechanism": "Glattwandige, tiefe Gefäße und Schächte sind ökologische Fallen: hineingefallene Tiere können nicht herausklettern und ertrinken/verhungern. Eine griffige, richtig geneigte Ausstiegsstruktur stellt einen Fluchtweg her und senkt die Mortalität sofort.",
+  "evidence": [
+    {"source": "Wildlife-Friendly Troughs - Escape Ramp Considerations (Resource Conservation District Handout)", "year": 2019, "finding": "Viehtraenken ohne Ausstieg ertraenken regelmaessig Voegel und Kleinsaeuger; griffige, flach geneigte Rampen verhindern das und halten das Wasser sauber."},
+    {"source": "FrodRamp / Pool-Escape (Nutzer- und Produktberichte)", "year": 2024, "finding": "Nach Einbau einer 3D-gedruckten, dem Pegel folgenden Rampe gingen ertrunkene Insekten/Kleintiere innerhalb weniger Tage stark zurueck."},
+    {"source": "US-Patente zu animal/insect pool escape devices", "year": 1990, "finding": "Ausstiegsrampen/Floesse fuer Pools sind seit Langem als wirksames Prinzip beschrieben (griffige Schraege bis unter die Wasserlinie)."}
+  ],
+  "robustness": {
+    "effect_size": "Lokal sehr wirksam (Falle entschärft = nahezu keine Ertrinkungsopfer mehr dort), aber punktuell.",
+    "replication": "Prinzip vielfach bestätigt (Tränken, Pools); genaue Neigungs-/Profilwerte je Tiergruppe wenig standardisiert.",
+    "caveats": "Wirkt nur an der ausgestatteten Falle; Menge der Fallen ist riesig. Glatte/steile Rampen sind wirkungslos. Material muss witterungs- und wasserfest sein."
+  },
+  "protocol": [
+    "Falle identifizieren: Gully/Straßeneinlauf, Lichtschacht, Regentonne, Viehtränke, Pool, glattes Becken, Vogeltränke.",
+    "Rampe/Leiter mit flacher Neigung drucken, die bis unter die (tiefste) Wasserlinie bzw. bis zum Boden reicht; bei schwankendem Pegel schwimmend/selbstnivellierend ausführen.",
+    "Oberfläche im nassen Zustand griffig gestalten: grobes Profil, Querstege, aufgeraut - keine glatte Rampe.",
+    "Material PETG oder ASA (wetter-/wasserfest, UV-stabil), nicht PLA; helle Farbe (kein Hitzestau); Befestigung/Beschwerung gegen Wegtreiben.",
+    "Bei Lichtschächten zusätzlich engmaschiges Gitter/Abdeckung als Prävention (Tier fällt gar nicht erst hinein).",
+    "Regelmäßig kontrollieren (Verrutschen, Verschmutzung, Materialermüdung) und nachbessern."
+  ],
+  "mistakes": [
+    "PLA im Dauer-Wasser-/Außeneinsatz - versprödet, bricht, gibt Mikroplastik ab.",
+    "Zu steile oder im Nassen zu glatte Rampe - Tiere rutschen ab, keine Rettung.",
+    "Rampe endet über der Wasserlinie/über dem Boden - unerreichbar für das Tier.",
+    "Bei schwankendem Pegel starre statt schwimmende Rampe - bei Niedrigwasser wirkungslos.",
+    "Dunkles Material in praller Sonne - Verformung/Überhitzung.",
+    "Rampe nur montieren, statt die Falle vorbeugend zu sichern (Gitter/Abdeckung)."
+  ],
+  "risks": "Mikroplastik/Abrieb im Gewässer bei minderwertigem oder verwitterndem Filament - robustes Material wählen und ersetzen. Lose Teile können wegtreiben oder Abflüsse verstopfen (befestigen). Wirkt nur an der einzelnen ausgestatteten Stelle; Fallen-Vermeidung im Design bleibt vorzuziehen.",
+  "synergy": ["zaeune-schaechte-fallen", "kleingewaesser-tuempel", "amphibientunnel-leiteinrichtung"],
+  "sources": [
+    {"title": "Wildlife-Friendly Troughs - Important Ramp Considerations (RCD Handout, PDF)", "url": "https://acrcd.org/wp-content/uploads/2019/04/Fish-and-Wildlife-Escape-Ramp-Handout.pdf"},
+    {"title": "FrodRamp - Pool Escape Ramp for Frogs & Lizards (3D-gedruckt)", "url": "https://froddesign.com/products/frod-pool-ramp"},
+    {"title": "Swimming pool escape system for animals and insects (US-Patent, Prinzip)", "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4972540"}
+  ]
+}

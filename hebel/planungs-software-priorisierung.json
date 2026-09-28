@@ -1,0 +1,55 @@
+{
+  "id": "planungs-software-priorisierung",
+  "name": "Open-Source-GIS & Priorisierungssoftware",
+  "aka": ["QGIS", "Marxan", "prioritizr", "Zonation", "systematic conservation planning", "Flächenpriorisierung"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Kommune",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["gis", "priorisierung", "planung", "kosteneffizienz", "flaechenauswahl", "open-source", "renaturierung"],
+  "summary": "Freie GIS- und Priorisierungssoftware beantwortet die zentrale Naturschutz-Frage: Wo bringt Schutz oder Renaturierung pro Euro am meisten? QGIS (gratis) plus Optimierungswerkzeuge wie Marxan, prioritizr und Zonation wählen aus vielen möglichen Flächen systematisch die kosteneffizientesten aus, statt nach Bauchgefühl. Der Nutzen liegt in besseren Entscheidungen, nicht im Handeln selbst.",
+  "key_facts": [
+    {"label": "QGIS", "value": "kostenlose Open-Source-GIS-Software (OSGeo/GNU GPL), weltweit am weitesten verbreitet", "source": "OSGeo / QGIS"},
+    {"label": "Marxan", "value": "minimiert Kosten bei Erreichung gesetzter Schutzziele; Standard der Meeresschutzgebietsplanung weltweit", "source": "Marxan Solutions"},
+    {"label": "prioritizr", "value": "nutzt exakte Ganzzahl-Optimierung (ILP) — findet garantiert optimale, oft günstigere Lösungen schneller als Marxan", "source": "prioritizr.net"},
+    {"label": "Zonation", "value": "maximiert Biodiversitätsnutzen bei festem Budget (Maximum-Cover-Ansatz)", "source": "Zonation / ScienceDirect"},
+    {"label": "Kosten Software", "value": "0 € für QGIS, prioritizr, Marxan, Zonation — Aufwand steckt in Daten und Fachwissen", "source": "Anbieter"},
+    {"label": "QGIS-Marxan-Brücke", "value": "QMarxan-Toolbox als QGIS-Plugin für Datenaufbereitung, Export und Analyse", "source": "QGIS-Plugin"}
+  ],
+  "deep_dive": "Naturschutzbudgets sind knapp, deshalb entscheidet die Flächenauswahl über die Wirkung. Systematic Conservation Planning liefert dafür einen expliziten, nachvollziehbaren Rahmen: Man definiert Schutzziele (z. B. X % jedes Lebensraumtyps), hinterlegt Kosten (Ankauf, Pflege, Nutzungskonflikt) und lässt Software die effizienteste Flächenkombination berechnen. QGIS ist die kostenlose, quelloffene GIS-Basis (OSGeo, GNU GPL) für Daten, Karten und Analyse. Darauf setzen die Priorisierer auf: Marxan minimiert die Kosten, während alle Ziele erreicht werden, und ist weltweiter Standard u. a. der Meeresschutzgebietsplanung; das R-Paket prioritizr nutzt exakte Ganzzahl-Optimierung (ILP) und findet garantiert optimale, häufig günstigere Lösungen schneller als die heuristischen Verfahren von Marxan; Zonation dreht die Frage um und maximiert den Biodiversitätsnutzen bei festem Budget. Die QMarxan-Toolbox verbindet QGIS mit Marxan für Datenaufbereitung und Auswertung. Alle diese Werkzeuge sind gratis — der eigentliche Aufwand steckt in guten Eingangsdaten (Arten-/Habitatverteilung, realistische Kosten) und in der Fachkompetenz, das Ergebnis richtig zu interpretieren. Genau hier liegt die Anti-Hype-Warnung: Diese Programme sind Entscheidungshilfen, keine Entscheider. Schlechte oder verzerrte Daten (Erfassungs-Bias, veraltete Kartierung, zu grobe Kostenschätzung) liefern präzise aussehende, aber falsche Priorisierungen. Konnektivität, soziale Akzeptanz und Umsetzbarkeit müssen als Nebenbedingungen einfließen, sonst optimiert man an der Realität vorbei.",
+  "mechanism": "Optimierungsalgorithmen kombinieren Arten-/Habitatdaten mit Kostendaten und wählen die Flächenkombination, die Schutzziele zu minimalen Kosten (Marxan/prioritizr) bzw. maximalen Nutzen pro Budget (Zonation) erreicht — das erhöht die ökologische Rendite pro eingesetztem Euro.",
+  "evidence": [
+    {"source": "prioritizr.net (Package Overview)", "year": 2023, "finding": "Exakte ILP-Löser finden garantiert optimale Lösungen und oft deutlich günstigere Ergebnisse in kürzerer Zeit als die klassischen Heuristiken von Marxan."},
+    {"source": "Delavenne et al., ICES J. Mar. Sci. (Marxan vs. Zonation, Ärmelkanal)", "year": 2012, "finding": "Marxan lieferte tendenziell kosteneffizientere Lösungen, Zonation Ergebnisse mit besserer Konnektivität; Werkzeugwahl beeinflusst das Priorisierungsergebnis."},
+    {"source": "Lehtomäki & Moilanen, Env. Modelling & Software (Zonation)", "year": 2013, "finding": "Zonation maximiert Erhaltungsnutzen bei festem Budget über iterative Entfernung der Zellen mit geringstem Grenzverlust."}
+  ],
+  "robustness": {
+    "effect_size": "Potenziell große Effizienzgewinne bei der Flächenauswahl; Höhe stark daten- und kontextabhängig.",
+    "replication": "International vielfach angewandt (Meeres- und Landschutzplanung, 30x30-Ziele).",
+    "caveats": "Ergebnisqualität steht und fällt mit Eingangsdaten und Kostenmodell; Werkzeuge sind Entscheidungshilfen, keine Entscheider; Umsetzung/Akzeptanz nicht abgebildet."
+  },
+  "protocol": [
+    "Schutzziele explizit festlegen (welche Arten/Lebensräume, welcher Zielanteil).",
+    "Daten in QGIS aufbereiten: Arten-/Habitatverteilung, Planungseinheiten, realistische Kostenschichten (Ankauf, Pflege, Konflikt).",
+    "Zielfunktion wählen: Marxan/prioritizr für Kostenminimierung bei Zielerreichung, Zonation für Nutzenmaximierung bei festem Budget.",
+    "Konnektivität und Kompaktheit als Nebenbedingung/Strafterm einbeziehen, nicht nur Einzelflächen optimieren.",
+    "Mehrere Szenarien rechnen und die Lösungsstabilität prüfen, statt einer einzelnen 'optimalen' Karte zu vertrauen.",
+    "Ergebnis fachlich interpretieren und mit Grundeigentümern/Behörden auf Umsetzbarkeit prüfen."
+  ],
+  "mistakes": [
+    "Verzerrte oder veraltete Eingangsdaten verwenden — präzise Ausgabe, falsche Prioritäten.",
+    "Kosten ignorieren oder zu grob schätzen und damit den Kern der Kosteneffizienz aushebeln.",
+    "Konnektivität weglassen und isolierte Flächenfetzen als 'optimal' auswählen.",
+    "Software-Ergebnis als endgültige Entscheidung statt als Diskussionsgrundlage behandeln."
+  ],
+  "risks": "Scheingenauigkeit: optisch überzeugende Karten auf schwacher Datenbasis können Fehlinvestitionen legitimieren. Ohne Einbezug von Umsetzbarkeit und Akzeptanz bleiben Optima Theorie. Fachwissen für Dateneingabe und Interpretation ist Voraussetzung — die Software ist gratis, die Kompetenz nicht.",
+  "synergy": ["citizen-science-apps", "biotopverbund-trittsteine", "gruenbruecke-wildquerung"],
+  "sources": [
+    {"title": "QGIS – Open-Source-GIS (OSGeo)", "url": "https://www.osgeo.org/projects/qgis/"},
+    {"title": "Marxan Solutions – Software", "url": "https://marxansolutions.org/software/"},
+    {"title": "prioritizr – Systematic Conservation Prioritization in R", "url": "https://prioritizr.net/"},
+    {"title": "Zonation – Methods and workflow (ScienceDirect)", "url": "https://www.sciencedirect.com/science/article/pii/S1364815213001072"},
+    {"title": "Marxan vs. Zonation, Ärmelkanal (ICES J. Mar. Sci.)", "url": "https://academic.oup.com/icesjms/article/69/1/75/672823"}
+  ]
+}

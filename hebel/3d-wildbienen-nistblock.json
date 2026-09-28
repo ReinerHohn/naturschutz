@@ -1,0 +1,55 @@
+{
+  "id": "3d-wildbienen-nistblock",
+  "name": "3D-gedruckte Wildbienen-Nisthilfen richtig gemacht",
+  "aka": ["gedruckter Nistblock", "austauschbare Niströhren-Einsätze", "3D-printed bee hotel"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Privat",
+  "impact": 2,
+  "evidence_level": "C",
+  "effort": 2,
+  "tags": ["wildbienen", "nisthilfe", "3d-druck", "diy", "insektenhotel"],
+  "summary": "3D-Druck macht bewährte Wildbienen-Nisthilfen billig und lokal reproduzierbar: austauschbare Niströhren-Einsätze mit korrekten Durchmessern (3-6 mm, Spanne 2-9 mm), glatter Bohrung, hinten geschlossen und tief genug (10-15 cm). Der Wert liegt in maßgenauen, reinigbaren Röhren gegen Parasiten - nicht im Drucken an sich. Schlecht gebaute Baumarkt-Hotels (Glasröhrchen, zu weit durchbohrt, ausgefranst) bleiben leer.",
+  "key_facts": [
+    {"label": "Lochdurchmesser", "value": "2-9 mm, Schwerpunkt 3-6 mm (die meisten Arten); pro Nisthilfe mehrere Größen anbieten", "source": "NABU; BUND-RLP Lochgrößen-Broschüre"},
+    {"label": "Tiefe", "value": "10-15 cm tief und hinten geschlossen (nicht durchbohren) - sonst falsches Geschlechterverhältnis / kein Bezug", "source": "wildbienen.info; naturgartenfreude.de"},
+    {"label": "Innenwand", "value": "glatt und gratfrei - raue/ausgefranste Röhren verletzen Flügel; ausschlaggebend für Besiedlung", "source": "NABU; naturgartenfreude.de"},
+    {"label": "Reinigbarkeit", "value": "herausnehmbare Einsätze/Papierhülsen erlauben Milben- und Parasitenkontrolle - fest verbaute Röhren veralten und werden Parasiten-Falle", "source": "wildbienen.info"},
+    {"label": "Materialkosten", "value": "ein Einsatz-Set ~0,20-1 € Filament je Block, Datei einmal teilen und tausendfach drucken", "source": "FDM-Materialpreis ~20-30 €/kg"}
+  ],
+  "deep_dive": "Wildbienen-Nisthilfen funktionieren nur mit korrekten Maßen, und genau die lassen sich per 3D-Druck perfekt reproduzieren: Ein Halterahmen mit austauschbaren Röhren-Einsätzen wird einmal digital konstruiert und dann beliebig oft gedruckt - ideal für Schulen, Vereine oder Kommunen. Entscheidend sind Durchmesser von 2-9 mm (die meisten Arten nutzen 3-6 mm), eine glatte, gratfreie Innenwand, eine hinten geschlossene Röhre (nicht durchbohren) und eine Tiefe von mindestens 10-15 cm - kurze Löcher liefern ein verzerrtes Geschlechterverhältnis, weil nur die vorne liegenden Männchen produziert werden. Der große Vorteil gegenüber Bohrblöcken aus Hartholz und gegenüber vielen Baumarkt-Insektenhotels (Glasröhrchen, weiche Nadelholz-Klötze mit ausgefransten, quer durchbohrten Löchern, Tannenzapfen, Ziegel) ist die Reinigbarkeit: Herausnehmbare Einsätze oder eingelegte Papierhülsen lassen sich jährlich kontrollieren und tauschen, was den Parasiten- und Milbendruck senkt. Grenzen: Der Druck ersetzt nicht das eigentlich Wichtige - passende Maße und ein sonniger, regengeschützter Standort. Kunststoff kann innen schwitzen (Schimmel/Kondens), deshalb sind matte, saugfähige Papierhülsen im gedruckten Halter oft die beste Kombination; reine glatte Kunststoffröhren bergen Kondensrisiko. PLA verwittert und wird spröde - für den bewitterten Rahmen besser PETG oder ASA verwenden, dunkle Farben in praller Sonne vermeiden (Hitzestau).",
+  "mechanism": "Solitäre Hohlraum-Wildbienen (z. B. Mauerbienen, Maskenbienen) legen Brutzellen in Röhren passenden Durchmessers an. Maßgenaue, glatte, hinten geschlossene, reinigbare Röhren maximieren Besiedlung und Schlupferfolg und minimieren Parasitenbefall.",
+  "evidence": [
+    {"source": "MacIvor & Packer, Kew (PLOS ONE) - Bee hotels as tools for native pollinator conservation", "year": 2015, "finding": "Nisthilfen werden stark auch von Wespen und teils von eingefuehrten Arten und Parasitoiden genutzt; Design und Pflege entscheiden ueber den Naturschutzwert - schlecht gepflegte Hotels koennen Parasiten foerdern."},
+    {"source": "NABU - Tipps fuer wirksame Wildbienen-Nisthilfen", "year": 2023, "finding": "Wirksame Nisthilfen brauchen glatte, gratfreie Bohrungen 2-9 mm, hinten geschlossen, ausreichende Tiefe und einen sonnigen Standort; viele Kaufprodukte erfuellen das nicht."},
+    {"source": "wildbienen.info - Untaugliche Nisthilfen", "year": 2022, "finding": "Glasroehrchen, Lochziegel, Quer-/Durchbohrungen und ausgefranste Weichholz-Loecher werden gemieden oder schaden; reinigbare Einsaetze sind vorteilhaft."}
+  ],
+  "robustness": {
+    "effect_size": "Klein und lokal (einzelne Gärten); Beitrag zum Artenschutz begrenzt, aber Bildungs- und Beobachtungswert hoch.",
+    "replication": "Maße gut belegt (NABU/BUND/wildbienen.info); 3D-Druck-Umsetzung noch wenig systematisch untersucht.",
+    "caveats": "Nisthilfen ersetzen keine Nahrungs-/Blühflächen und keine Bodenniststrukturen (Mehrheit der Arten nistet im Boden). Kunststoff-Kondens und Hitzestau sind reale Risiken."
+  },
+  "protocol": [
+    "Röhren mehrerer Durchmesser drucken/anbieten: 3, 4, 5, 6 mm als Schwerpunkt, dazu je etwas 2 und 8 mm; Länge 12-15 cm, hinten dicht geschlossen.",
+    "Innenwand glatt gestalten: entweder mit sehr feiner Schichthöhe/Vaseline-glatt drucken ODER - besser - gedruckten Halter mit eingelegten Papier-Nisthülsen (saugfähig, jährlich tauschbar).",
+    "Material für den bewitterten Rahmen: PETG oder ASA (UV-/hitzebeständiger als PLA), Wandstärke >= 2 mm; helle Farbe wählen (kein schwarz in praller Sonne).",
+    "Reinigbarkeit einplanen: Einsätze steckbar/herausnehmbar konstruieren, damit Hülsen im Winter kontrolliert und getauscht werden können.",
+    "Aufhängen: fest (windstill), waagrecht bis leicht nach vorn geneigt, Öffnung nach Südost/Süd, sonnig und regengeschützt, ganzjährig hängen lassen.",
+    "Nur als Ergänzung: parallel heimische Blühpflanzen und offene, besonnte Bodenstellen bereitstellen (Bodennister)."
+  ],
+  "mistakes": [
+    "Reines PLA im Freien verwenden - versprödet und verwittert unter UV/Feuchte binnen Wochen bis Monaten.",
+    "Röhre komplett durchbohren / hinten offen lassen - wird gemieden oder verzerrt das Geschlechterverhältnis.",
+    "Glatte, unsaugfähige Kunststoffröhren ohne Hülse - Kondens/Schimmelrisiko; besser Papierhülsen einlegen.",
+    "Dunkler Kunststoffblock in praller Sonne - Überhitzung der Brut.",
+    "Fest verbaute, nicht reinigbare Röhren - werden über Jahre zur Parasiten- und Milbenfalle.",
+    "Nisthilfe ohne Nahrungsangebot aufstellen - Wildbienen brauchen heimische Blüten in der Nähe."
+  ],
+  "risks": "Kunststoff-Mikroplastik und Kondens/Schimmel bei ungeeignetem Design; Hitzestau bei dunklen Kästen. Nisthilfen können Parasiten fördern, wenn sie nicht gepflegt/reinigbar sind. Kein Ersatz für Boden-Nistplätze und Nahrungsflächen; nicht als Alibi für ausgeräumte Gärten.",
+  "synergy": ["wildbienen-nisthabitat", "naturgarten-heimische-pflanzen", "bluehflaechen-mehrjaehrig"],
+  "sources": [
+    {"title": "NABU - Tipps fuer wirksame Wildbienen-Nisthilfen", "url": "https://www.nabu.de/tiere-und-pflanzen/insekten-und-spinnen/hautfluegler/bienen/13704.html"},
+    {"title": "wildbienen.info - Untaugliche Nisthilfen", "url": "https://www.wildbienen.info/artenschutz/untaugliche_nisthilfen_A.php"},
+    {"title": "MacIvor & Packer 2015 - Bee Hotels as Tools for Native Pollinator Conservation (PLOS ONE)", "url": "https://doi.org/10.1371/journal.pone.0122126"},
+    {"title": "BUND-RLP - Wer baut wo? Lochgroessen fuer Wildbienen-Nisthilfen", "url": "https://www.bund-rlp.de/service/publikationen/detail/publication/wer-baut-wo-lochgroessen-fuer-wildbienen-nisthilfen/"}
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "3d-monitoring-gehaeuse",
+  "name": "3D-gedruckte Gehäuse & Halterungen für günstiges Monitoring",
+  "aka": ["DIY-AudioMoth-Case", "gedrucktes Kamerafallen-Gehäuse", "Sensor-Enclosure", "3D-printed enclosure"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["monitoring", "bioakustik", "audiomoth", "kamerafalle", "sensor", "3d-druck", "diy"],
+  "summary": "3D-Druck senkt die Kosten für Naturmonitoring drastisch: wetterfeste Gehäuse und Halterungen für AudioMoth-Rekorder, Kamerafallen, Sensoren und Klemmen/Stative kosten nur wenige Euro und lassen sich lokal reproduzieren. Ein AudioMoth ohne Gehäuse ist im Freien schutzlos - ein passendes Case macht das ganze Messnetz erst freilandtauglich. Der Wert liegt in Dichtigkeit, Mikrofon-/Objektiv-Freiheit und stabiler Montage.",
+  "key_facts": [
+    {"label": "Materialkosten", "value": "wetterfestes AudioMoth-Case ~2-3 € Material, druckbar in unter 3 Stunden auf jedem FDM-Drucker", "source": "AudioMoth Vault (Thingiverse)"},
+    {"label": "AudioMoth", "value": "Open-Source-Akustikrekorder ~50-90 €, wird OHNE Gehäuse geliefert - Case ist Voraussetzung fürs Freiland", "source": "Open Acoustic Devices; WILDLABS"},
+    {"label": "Skalierung", "value": "billige, druckbare Gehäuse ermöglichen große Sensor-Netze (viele Standorte) statt weniger teurer Geräte", "source": "WILDLABS-Community"},
+    {"label": "Freie Fenster", "value": "Mikrofon-/Objektiv-/Sensorbereich darf nicht abgedeckt werden - Akustikgitter statt Wand, IR-durchlässig für Kamera", "source": "AudioMoth-Case-Designs"},
+    {"label": "Dichtung", "value": "Dichtnut mit O-Ring/TPU-Dichtung + Entlüftung/Trockenmittel gegen Kondens; Schloss-/Drahtöse gegen Diebstahl", "source": "philhol Waterproof AudioMoth Case"}
+  ],
+  "deep_dive": "Günstiges Umweltmonitoring - Bioakustik und Kamerafallen - scheitert im Freiland oft nicht am Sensor, sondern am Gehäuse. Der AudioMoth (Open-Source-Akustikrekorder, ~50-90 €) wird bewusst ohne Case geliefert; erst ein wetterfestes 3D-gedrucktes Gehäuse macht ihn regen-, staub- und diebstahlsicher. Solche Cases kosten nur ~2-3 € Material und drucken in wenigen Stunden auf jedem FDM-Drucker; erprobte Dateien (z. B. AudioMoth Vault, philhols wasserdichtes, abschließbares Case) sind frei geteilt und wurden in echten Vogel-Monitoring-Projekten eingesetzt. Analog gibt es Gehäuse und Adapter für Kamerafallen, ESP32-CAM, Raspberry-Pi-Kameras sowie Klemmen, Baumhalterungen und Stative. Der Hebel ist Skalierung: Wenn ein Standort nur wenige Euro Peripherie kostet, lassen sich viele Standorte parallel bestücken - genau das, was aussagekräftige Bioakustik-/Kamera-Studien brauchen. Entscheidend sind wenige Designdetails: Das Mikrofon-Fenster braucht ein akustisch offenes Gitter (keine massive Wand, sonst gedämpfte Aufnahmen), das Kameraobjektiv freie, IR-durchlässige Sicht, und alle Öffnungen eine Dichtnut (O-Ring oder gedruckte TPU-Dichtung) plus Belüftung/Trockenmittel gegen Kondens. Materialgrenzen: PLA verwittert und wird spröde und ist für dauerhafte Sonnenstandorte ungeeignet - PETG oder ASA nehmen; UV-stabil und temperaturfest, damit sich das Gehäuse im Sommer nicht verzieht. Eine Draht-/Schlossöse schützt gegen Diebstahl. Der Druck ersetzt keine gute Studienplanung (Standortwahl, Auswertung mit KI/Software) - er senkt nur die Hardwarekosten pro Messpunkt.",
+  "mechanism": "Wetterfeste, maßgenaue Gehäuse und Halterungen machen billige Open-Source-Sensoren freilandtauglich und senken die Kosten pro Messpunkt - das erlaubt dichtere, längere Monitoring-Netze und damit belastbarere Daten für Naturschutzentscheidungen.",
+  "evidence": [
+    {"source": "philhol - Waterproof, lockable AudioMoth case (Thingiverse), aus Vogel-Monitoring-Projekt", "year": 2023, "finding": "3D-gedrucktes, wasserdichtes und abschliessbares Case wurde fuer passives akustisches Vogel-Monitoring im Wald entwickelt und im Freiland eingesetzt."},
+    {"source": "brandonh - AudioMoth Vault (Thingiverse)", "year": 2020, "finding": "Wetterfestes, magnetisch schliessendes, leicht montierbares Case fuer ~3 USD Material in unter 3 Stunden auf jedem 3D-Drucker herstellbar."},
+    {"source": "WILDLABS-Community - 3D printed AudioMoth cases", "year": 2022, "finding": "Selbstgedruckte Gehaeuse sind gaengige Praxis in der Conservation-Tech-Community und senken die Einstiegskosten fuer verteiltes Bioakustik-Monitoring deutlich."}
+  ],
+  "robustness": {
+    "effect_size": "Indirekt, aber real: ermöglicht kostengünstige, skalierbare Monitoring-Netze (Kosten pro Messpunkt sinken stark).",
+    "replication": "Vielfach in Conservation-Tech-Projekten genutzt (WILDLABS, Open Acoustic Devices); viele erprobte offene Designs.",
+    "caveats": "Wirkung hängt an Dichtigkeit, Mikrofon-/Objektivfreiheit und Material; schlechtes Gehäuse verfälscht Daten oder tötet das Gerät durch Nässe."
+  },
+  "protocol": [
+    "Erprobtes, geräte-spezifisches Design nutzen (z. B. AudioMoth-Case von Printables/Thingiverse) statt neu zu erfinden; auf Version des eigenen Geräts achten.",
+    "Material PETG oder ASA (UV-/temperaturfest), Wandstärke >= 2 mm; PLA nur für kurzlebige/beschattete Einsätze.",
+    "Sensorfenster freihalten: Mikrofon hinter akustisch offenem Gitter/Membran (nicht massiv), Kameraobjektiv freie IR-durchlässige Sicht - nicht überdrucken.",
+    "Wasserdicht: Dichtnut mit O-Ring oder gedruckter TPU-Dichtung, verschraubbarer Deckel; kleine Entlüftung/Goretex-Patch + Trockenmittel gegen Kondens.",
+    "Montage mitdrucken: Baumklemme/Gurtschlaufe/Stativgewinde; Draht-/Vorhängeschloss-Öse gegen Diebstahl.",
+    "Vor dem Ausbringen 1 Muster mit Wasser-/Kondens- und Aufnahme-Test (Dämpfung durch Gitter) prüfen; helle Farbe gegen Hitzestau."
+  ],
+  "mistakes": [
+    "Mikrofon oder Objektiv mit massiver Wand abdecken - gedämpfter/unbrauchbarer Datenstrom.",
+    "PLA für Dauer-Sonnenstandort - verzieht sich, versprödet, undicht.",
+    "Keine Belüftung/Trockenmittel - Kondenswasser ruiniert die Elektronik trotz dichtem Gehäuse.",
+    "Fehlende Dichtnut/O-Ring - Regen dringt durch die Deckelfuge ein.",
+    "Kein Diebstahlschutz an frei zugänglichen Standorten - Geräteverlust.",
+    "Neues Case erfinden statt geprüftes, gerätegenaues Design zu übernehmen."
+  ],
+  "risks": "Undichtes oder schlecht belüftetes Gehäuse zerstört teurere Elektronik (Nässe/Kondens) und verfälscht Aufnahmen (gedämpftes Mikrofon). Mikroplastik durch verwitterndes Filament. Monitoring-Geräte können sensible Standort-/Personendaten erfassen - Datenschutz und rechtliche Vorgaben (Kamerafallen) beachten. Der Druck senkt Kosten, ersetzt aber keine saubere Studienplanung und Auswertung.",
+  "synergy": ["bioakustik-monitoring-ki", "kamerafallen-ki", "invasive-arten-frueherkennung"],
+  "sources": [
+    {"title": "philhol - Waterproof, lockable AudioMoth case (Thingiverse)", "url": "https://www.thingiverse.com/thing:6428228"},
+    {"title": "brandonh - AudioMoth Vault (Thingiverse)", "url": "https://www.thingiverse.com/thing:4546491"},
+    {"title": "WILDLABS - 3D printed AudioMoth cases (Community-Diskussion)", "url": "https://wildlabs.net/discussion/3d-printed-audiomoth-cases"},
+    {"title": "Open Acoustic Devices - AudioMoth", "url": "https://www.openacousticdevices.info/audiomoth"}
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "3d-nisthilfen-gebaeudebrueter",
+  "name": "3D-gedruckte Nisthilfen für Gebäudebrüter & Fledermäuse",
+  "aka": ["gedruckter Mauerseglerkasten", "3D-printed nest box", "gedrucktes Fledermausquartier"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Privat",
+  "impact": 3,
+  "evidence_level": "C",
+  "effort": 3,
+  "tags": ["gebaeudebrueter", "mauersegler", "schwalben", "sperling", "fledermaus", "3d-druck", "nisthilfe"],
+  "summary": "3D-Druck macht Nisthilfen für Mauersegler, Schwalben, Sperlinge und Fledermäuse günstig und lokal reproduzierbar - eine geprüfte Maßvorlage einmal teilen, vielfach drucken. Der Wert liegt in korrekten Innenmaßen und Einflugöffnungen, nicht im Drucken. Kritisch: Hitze- und UV-Problem - Kunststoffkästen in der Sonne überhitzen tödlich; hell, schattig und belüftet bauen, UV-festes PETG/ASA statt PLA.",
+  "key_facts": [
+    {"label": "Kostenvorteil", "value": "gedruckter Kasten ~2-8 € Material vs. 20-40 € Kaufkasten (Holzbeton); Datei einmal teilen, tausendfach drucken", "source": "FDM-Materialpreis; Handel"},
+    {"label": "Mauersegler-Innenmaß", "value": "Nistraum lang und flach, ca. 30 x 15 cm Grundfläche, Einflugloch ~30 x 65 mm quer, seitlich unten", "source": "NABU/LBV Bauanleitungen"},
+    {"label": "Überhitzung", "value": "sonnenexponierte, unbelüftete Quartiere überhitzen; Risiko steigt mit Sonneneinstrahlung, Wärme und Windstille", "source": "Bat box bioenergetics study 2022"},
+    {"label": "Material", "value": "PLA (Tg ~60 C) sackt/verwittert im Freien; PETG (~80 C) und ASA (~95 C) sind UV-/hitzebeständiger", "source": "Filament-Vergleiche; PLA-Weathering-Studien"},
+    {"label": "Ausrichtung", "value": "Einflug bevorzugt Nord/Ost, nie pralle Südsonne; hohe, katzensichere, freie Anflugschneise", "source": "NABU/LBV"}
+  ],
+  "deep_dive": "Nisthilfen für Gebäudebrüter (Mauersegler, Mehl-/Rauchschwalbe, Haussperling) und Fledermäuse retten Brutplätze, die bei Sanierung und Dämmung verloren gehen. 3D-Druck senkt Kosten und Hürde: Eine von Fachleuten geprüfte Vorlage mit korrekten Innenmaßen, Einflugöffnung und Anflugstruktur wird einmal konstruiert und dann von Vereinen, Schulen oder Hausbesitzern lokal ausgedruckt (Material oft 2-8 € statt 20-40 € im Handel). Entscheidend ist die Maßgenauigkeit: Mauersegler brauchen einen langen, flachen Nistraum (~30 x 15 cm) mit querem Einflugschlitz (~30 x 65 mm) seitlich unten; Fledermausquartiere brauchen enge, oben geschlossene Spalten (Innenspalt ~15-20 mm) und raue Innenflächen zum Krallenhalt. Das größte Risiko bei gedruckten Kunststoffkästen ist die Überhitzung: Studien zu Fledermauskästen zeigen, dass sonnenexponierte, unbelüftete Kästen letale Temperaturen erreichen - Risiko steigt mit Sonne, Hitze und Windstille. Deshalb hell (reflektierend) bauen, beschatten, Doppelwand/Belüftung vorsehen und Süd-Prallsonne meiden. Beim Material scheidet reines PLA praktisch aus (Tg ~60 C, sackt in der Sonne, verwittert unter UV); PETG (Tg ~80 C) oder ASA (Tg ~95 C, beste UV-Beständigkeit) sind Pflicht. Raue Innenflächen sind bei Fledermäusen (Krallenhalt) und bei Schwalben (Nistanheftung) essenziell - glatt gedruckte Wände sind ein häufiger Fehler. Der Druck ersetzt nicht die eigentliche Naturschutzleistung: richtige Höhe, freie Anflugschneise, Katzensicherheit und der Erhalt echter Nischen am Bau.",
+  "mechanism": "Ersatz-Nistnischen an Gebäuden gleichen den Verlust natürlicher Brutplätze aus. Korrekte Innenmaße, Einflugöffnung, Rauigkeit (Krallenhalt) und ein kühler, schattiger, hoher Standort bestimmen die Annahme und den Bruterfolg.",
+  "evidence": [
+    {"source": "Bideguren et al. / Bat box bioenergetics (PMC) - Evaluating bat boxes: design and placement alter overheating risk", "year": 2022, "finding": "Ueberhitzungsrisiko am hoechsten bei sonnenexponierten Standorten und Designs ohne Temperaturpufferung; steigt mit Waerme, Belegung und Windstille."},
+    {"source": "3D-printed bat houses with biomass-derived composites (ScienceDirect)", "year": 2025, "finding": "3D-Druck von Fledermausquartieren ist machbar; Langzeit-Materialverhalten (Bewitterung, Feuchte, Waermeleitung) muss vor Freilandeinsatz geprueft werden."},
+    {"source": "PLA-FFF-Weathering (Scientific Reports / Nature)", "year": 2026, "finding": "PLA-Drucke veraendern Festigkeit und Struktur unter UV und Feuchte deutlich; ungeeignet fuer dauerhafte, sonnenexponierte Freilandteile ohne Schutz."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel und lokal: kann Brutplätze konkret ersetzen, wirkt aber nur mit korrektem Design/Standort.",
+    "replication": "Maße und Standortregeln gut belegt (NABU/LBV); 3D-gedruckte Varianten bisher wenig freilandvalidiert.",
+    "caveats": "Kunststoff-Überhitzung und UV-Alterung sind ernste Risiken; Holzbeton bleibt thermisch oft überlegen. Druck ist Mittel, nicht Ziel."
+  },
+  "protocol": [
+    "Geprüfte Maßvorlage nutzen (NABU/LBV): Mauersegler ~30 x 15 cm Nistmulde, Einflug ~30 x 65 mm quer unten; Fledermausspalt innen 15-20 mm, oben geschlossen; Schwalben-Kunstnest mit Kotbrett.",
+    "Material PETG oder ASA (nicht PLA), Wandstärke >= 3 mm; helle/reflektierende Farbe, nie schwarz.",
+    "Überhitzung verhindern: Doppelwand oder Belüftungsschlitze unten, Sonnenschutz/Beschattung; Montage Nord/Ost, nicht in Südprallsonne.",
+    "Innenflächen rau gestalten (grobe Schicht, Struktur, aufgeraut) für Krallenhalt (Fledermaus) und Nistanheftung (Schwalbe) - nicht glatt drucken.",
+    "Regensicher konstruieren (Dachüberstand, Wasserablauf), Drainagelöcher; katzen- und marder-sicher hoch (>= 4-6 m, freie Anflugschneise) montieren.",
+    "Vor Serienproduktion ein Muster ein Jahr im Freien testen (Verformung, Temperatur, Annahme) und mit Fachverband/Behörde abstimmen."
+  ],
+  "mistakes": [
+    "PLA verwenden - sackt bei Sonne (Tg ~60 C) und verwittert unter UV.",
+    "Dunkler Kasten in Südsonne ohne Belüftung - tödliche Überhitzung der Brut.",
+    "Innenwände glatt drucken - Fledermäuse/Schwalben finden keinen Halt.",
+    "Zu klein/falsche Einflugöffnung - falsche Art oder gar keine Annahme.",
+    "Kein Regenschutz/Drainage - Nässe und Schimmel im Nistraum.",
+    "Zu niedrig oder ohne freie Anflugschneise/Katzenschutz montiert."
+  ],
+  "risks": "Überhitzung und UV-Versprödung von Kunststoffkästen können Bruten töten - schlecht gemacht schädlicher als kein Kasten. Mikroplastik-Freisetzung durch verwitterndes Filament. Gebäudebrüter und ihre Nester sind gesetzlich geschützt - Anbringung/Ersatz mit Naturschutzbehörde abstimmen. Druck ersetzt nicht den Erhalt echter Bau-Nischen.",
+  "synergy": ["gebaeudebrueter-nisthilfen", "hauskatzen-vogelmortalitaet", "dach-fassadenbegruenung"],
+  "sources": [
+    {"title": "Evaluating bat boxes: design and placement alter bioenergetic costs and overheating risk (PMC)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9041549/"},
+    {"title": "Design and scale-up of 3D printed bat houses with biomass-derived polymer composites (ScienceDirect)", "url": "https://www.sciencedirect.com/science/article/pii/S2950431725000668"},
+    {"title": "Weathering effects on mechanical properties of PLA FFF 3D prints (Scientific Reports)", "url": "https://www.nature.com/articles/s41598-026-61106-4"},
+    {"title": "NABU - Nist- und Bruthilfen fuer Gebaeudebrueter", "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/helfen/nistkaesten/index.html"}
+  ]
+}

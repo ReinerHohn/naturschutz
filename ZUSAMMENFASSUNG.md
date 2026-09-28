@@ -55,6 +55,17 @@ Gut gemeint, aber schwach oder kontraproduktiv — Geld und Energie lieber woand
 - Greifvogel-Aufkleber gegen Vogelschlag wirken nicht — nur flächige, außen angebrachte Muster helfen.
 - Große Grünbrücken an der falschen Stelle: teuer und wirkungslos ohne echten Korridor und Leitzaun.
 
+## 🤖 KI, Software & 3D-Druck: schnell erreichbare Verstärker
+
+Technik schützt nicht selbst — sie macht Naturschutz billiger, schneller und messbar. Meist indirekte Wirkung, aber vieles ist heute mit Handy, Raspberry Pi oder FDM-Drucker sofort machbar.
+
+- Monitoring per KI: BirdNET + AudioMoth-Rekorder (~70–100 €) erkennen Vögel/Fledermäuse aus Tonaufnahmen; MegaDetector filtert 70–95 % Leerbilder aus Kamerafallen automatisch — Ehrenamts-Zeit vervielfacht.
+- Direkter Tech-Rettungshebel: Drohne mit Wärmebild + KI vor der Mahd; 2024 wurden in DE ~15.000 Rehkitze mit geförderten Drohnen gerettet.
+- Citizen Science: iNaturalist/Flora Incognita/ObsIdentify machen aus jedem Handyfoto einen offenen Biodiversitätsdatensatz (GBIF) — gratis, sofort, riesige Datenmengen.
+- Fernerkundung gratis: Global Forest Watch + Sentinel/Copernicus überwachen Entwaldung, Moore und Landnutzung großflächig; Roadkill-Apps liefern die Hotspot-Daten für Grünbrücken/Amphibientunnel.
+- 3D-Druck macht bewährte Hardware billig & lokal reproduzierbar: artgerechte Wildbienen-Niströhren, Nisthilfen für Gebäudebrüter, Sensor-Gehäuse (AudioMoth-Case ~2–3 €) und Ausstiegshilfen für Gullys/Regentonnen (Cent-Beträge). Wichtig: UV-festes PETG/ASA statt PLA, Überhitzung dunkler Kästen vermeiden.
+- KI entlastet den Kopf: LLMs übernehmen Förderanträge, Berichte und Öffentlichkeitsarbeit von Vereinen — aber jede Zahl/Quelle prüfen (keine erfundenen Fakten). Anti-Hype gilt überall: Technik ist Verstärker, kein Ersatz fürs Handeln.
+
 ## 🏛️ Kommune & Politik: die Struktur-Hebel
 
 Einzelne können viel, aber die größten Multiplikatoren liegen bei Kommunen und Gesetzgebern.

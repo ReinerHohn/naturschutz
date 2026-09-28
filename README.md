@@ -42,7 +42,7 @@ Der **Low-Hanging-Fruit-Score** = (Wirkung − 0,6·Aufwand) × Evidenzgewicht (
 ## Kategorien
 
 Vernetzung & Korridore · Insekten & Bestäuber · Garten & Siedlung · Landwirtschaft & Fläche ·
-Gewässer & Feuchtgebiete · Wald & Totholz · Gefahren & Fallen · Politik & System-Hebel
+Gewässer & Feuchtgebiete · Wald & Totholz · Gefahren & Fallen · KI, Software & 3D-Druck · Politik & System-Hebel
 
 ## Prinzip
 

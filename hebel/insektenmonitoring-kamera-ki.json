@@ -1,0 +1,56 @@
+{
+  "id": "insektenmonitoring-kamera-ki",
+  "name": "Automatisiertes Insektenmonitoring (Kamera + KI)",
+  "aka": ["Insektenkamera", "DIOPSIS", "AMI-trap", "Insect Detect", "YOLO-Insekten", "automated insect monitoring"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "C",
+  "effort": 3,
+  "tags": ["monitoring", "insekten", "ki", "biomasse", "open-source", "datenluecke", "insektensterben"],
+  "summary": "Kameras fotografieren rund um die Uhr Insekten auf einer Plattform oder am Lichtfang, eine KI zaehlt und bestimmt sie automatisch. Das schliesst die grosse Datenluecke beim Insektensterben, ohne dass jemand naechtelang zaehlt. Die Technik ist noch jung: Artbestimmung und Standardisierung sind unreif (Evidenz C).",
+  "key_facts": [
+    {"label": "Datenluecke", "value": "Insektentrends sind kaum flaechig erfasst; automatische Kameras liefern kontinuierliche Zeitreihen", "source": "Agrarmonitoring MonVia; DIOPSIS"},
+    {"label": "DIOPSIS-Netz", "value": "~150 Kameras ueber die Niederlande verteilt, Bild alle 10 Sekunden Tag und Nacht", "source": "diopsis.eu / Naturalis"},
+    {"label": "Insect Detect", "value": "Open-Source-DIY-Kamerafalle, YOLOv5n erkennt/verfolgt Insekten on-device, Klassifikation lokal", "source": "Sittinger et al. 2024 (PLOS ONE)"},
+    {"label": "Kosten DIY", "value": "Insect Detect Bauteile (Raspberry Pi + OAK-Kamera) im niedrigen dreistelligen Bereich; alle Plaene frei", "source": "Insect Detect Docs"},
+    {"label": "Betrieb", "value": "solarbetrieben und autonom moeglich; kein naechtliches Handzaehlen noetig", "source": "DIOPSIS; Insect Detect"},
+    {"label": "Reifegrad", "value": "vielversprechend, aber Artbestimmung/Standardisierung noch in Entwicklung", "source": "MonVia; Reviews"}
+  ],
+  "deep_dive": "Beim Insektensterben ist das groesste Problem, dass belastbare Langzeitdaten fehlen — klassische Methoden (Malaisefallen, Handbestimmung) sind extrem arbeitsintensiv. Automatische Kamerasysteme schliessen diese Luecke: Die niederlaendische DIOPSIS-Kamera (Naturalis/Faunabit) fotografiert Insekten, die auf eine beleuchtete Plattform kommen, alle 10 Sekunden Tag und Nacht; rund 150 Kameras sind ueber die Niederlande verteilt und liefern Trends zu Anzahl und Biomasse. Fuer Guenstig-Einstieg gibt es Insect Detect (Sittinger et al. 2024, PLOS ONE): eine komplett offene DIY-Kamerafalle mit kuenstlicher Blueten-Plattform, die ein YOLOv5n-Modell direkt on-device zur Erkennung und Verfolgung nutzt und die Ausschnitte spaeter lokal klassifiziert — Bauanleitung, Code und Modelle sind frei, die Hardware (Raspberry Pi + OAK-Kamera, solarfaehig) liegt im niedrigen dreistelligen Bereich. Grossflaechige Forschungsansaetze wie die AMI-trap (Automated Monitoring of Insects) kombinieren Lichtfang, Kamera und KI. Der oekologische Nutzen ist real, aber indirekt und noch nicht ausgereift: Die Systeme liefern beispiellose Datenmengen, doch die automatische Artbestimmung ist schwierig (viele aehnliche Kleininsekten), Trainingsdaten fehlen fuer viele Taxa, und es gibt noch keinen Standard, der Vergleichbarkeit ueber Geraete/Studien garantiert. Deshalb Evidenz C: der Mechanismus ist plausibel und in fruehe Praxis, harte Wirksamkeitsbelege fehlen noch. Alltags-Grenzen: Batterie/Solar im Feld, Insekten-Anlockung veraendert das Messobjekt, und Bestimmung auf Artniveau bleibt oft unsicher.",
+  "mechanism": "Kameras erfassen kontinuierlich Insekten, KI zaehlt/bestimmt automatisch — das ersetzt extrem aufwaendiges Handzaehlen und erzeugt erstmals dichte Zeitreihen zu Abundanz/Biomasse, die Ursachen und Massnahmen (z. B. Pestizid, Maht, Blueten) evaluierbar machen.",
+  "evidence": [
+    {"source": "Sittinger et al., PLOS ONE (Insect Detect)", "year": 2024, "finding": "Offene DIY-Kamerafalle mit YOLO erkennt und verfolgt Insekten on-device zuverlaessig; vollstaendig reproduzierbare, guenstige Loesung."},
+    {"source": "DIOPSIS / Naturalis (Praxis Niederlande)", "year": 2023, "finding": "Netz aus ~150 Kameras liefert autonome, kontinuierliche Daten zu Insektenzahl und Biomasse."},
+    {"source": "Agrarmonitoring MonVia (Thuenen-Institut)", "year": 2023, "finding": "DIY-Insektenkamera als praxistaugliches Werkzeug fuer automatisiertes Monitoring in der Agrarlandschaft erprobt."}
+  ],
+  "robustness": {
+    "effect_size": "Potenziell gross fuer die Datenluecke; oekologische Wirkung indirekt und noch nicht belegt.",
+    "replication": "Fruehe, wachsende Praxis (DIOPSIS-Netz, Insect Detect, AMI-trap); noch keine breite Standardisierung.",
+    "caveats": "Artbestimmung unsicher (viele aehnliche Kleininsekten, fehlende Trainingsdaten); Anlockung veraendert Messgroesse; kein etablierter Vergleichsstandard; junge Technik (Evidenz C)."
+  },
+  "protocol": [
+    "Guenstig/DIY: Insect Detect nachbauen — Bauanleitung, Code und Modelle sind frei (Raspberry Pi + OAK-Kamera, solarfaehig).",
+    "Kuenstliche Blueten-/Landeplattform vor die Kamera setzen; Standort blueten-/insektenreich und laotlich stabil waehlen.",
+    "On-device-Erkennung (YOLO) laufen lassen, Ausschnitte speichern und spaeter lokal klassifizieren.",
+    "Fertig/skalierend: DIOPSIS-Kamera (kaufen/leasen bei Faunabit) fuer standardisierte Netz-Teilnahme nutzen.",
+    "Artbestimmung als vorlaeufig behandeln — auf Gruppen-/Gattungsniveau auswerten, Belege stichprobenartig manuell pruefen.",
+    "Daten mit Standort/Zeit dokumentieren und an Monitoring-Netz (z. B. MonVia, GBIF) weitergeben; ueber Saisons wiederholen."
+  ],
+  "mistakes": [
+    "Automatische Artbestimmung als gesichert nehmen — bei Kleininsekten oft unsicher.",
+    "Standort/Setup zwischen Laeufen aendern — zerstoert Vergleichbarkeit.",
+    "Anlockung (Licht/Plattform) ignorieren, obwohl sie das Messergebnis beeinflusst.",
+    "Batterie/Solar-Budget fuer Dauerbetrieb unterschaetzen.",
+    "Ergebnisse ueberverkaufen: die Technik ist noch jung (Evidenz C)."
+  ],
+  "risks": "Fehlbestimmungen auf Artniveau sind haeufig (aehnliche Kleininsekten, luecken in Trainingsdaten) — Ergebnisse eher auf hoeherer taxonomischer Ebene nutzen. Anlockung veraendert die Messgroesse und kann Insekten binden/toeten (bei Lichtfallen) — schonende Setups bevorzugen. Batterie-/Solar-Ausfaelle erzeugen Datenluecken. Fehlende Standardisierung erschwert Vergleiche zwischen Geraeten und Studien. Ueberschaetzung: Monitoring ersetzt keine Massnahme gegen Insektenrueckgang.",
+  "synergy": ["bioakustik-monitoring-ki", "kamerafallen-ki", "fernerkundung-satellit-ki"],
+  "sources": [
+    {"title": "Insect Detect – Doku & Bauanleitung (Open Source)", "url": "https://maxsitt.github.io/insect-detect-docs/"},
+    {"title": "Sittinger et al. 2024, Insect Detect (PLOS ONE)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295474"},
+    {"title": "DIOPSIS Insektenkamera", "url": "https://diopsis.eu/en/"},
+    {"title": "DIOPSIS Insect Camera – Naturalis", "url": "https://www.naturalis.nl/en/science/diopsis-insect-camera"},
+    {"title": "Agrarmonitoring MonVia – DIY-Insektenkamera (Thuenen)", "url": "https://www.agrarmonitoring-monvia.de/"}
+  ]
+}

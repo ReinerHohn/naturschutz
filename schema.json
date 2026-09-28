@@ -9,7 +9,7 @@
     "id": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "kebab-case, = Dateiname"},
     "name": {"type": "string"},
     "aka": {"type": "array", "items": {"type": "string"}, "description": "andere Bezeichnungen"},
-    "category": {"type": "string", "description": "Vernetzung & Korridore | Insekten & Bestäuber | Garten & Siedlung | Landwirtschaft & Fläche | Gewässer & Feuchtgebiete | Wald & Totholz | Gefahren & Fallen | Politik & System-Hebel"},
+    "category": {"type": "string", "description": "Vernetzung & Korridore | Insekten & Bestäuber | Garten & Siedlung | Landwirtschaft & Fläche | Gewässer & Feuchtgebiete | Wald & Totholz | Gefahren & Fallen | KI, Software & 3D-Druck | Politik & System-Hebel"},
     "tags": {"type": "array", "items": {"type": "string"}},
     "impact": {"type": "integer", "minimum": 1, "maximum": 5, "description": "Oekologische Wirkstaerke 1-5, evidenzgewichtet (5 = grosser, breit belegter Nutzen fuer Arten/Oekosysteme). Steuert die Sortierung."},
     "evidence_level": {"type": "string", "enum": ["A", "B", "C"], "description": "A = Meta-Analysen/robuste Studienlage, B = einzelne Studien/konsistente Praxis, C = Mechanismus/Experten-Heuristik/kleine Studien"},

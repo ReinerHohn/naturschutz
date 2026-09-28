@@ -1,0 +1,55 @@
+{
+  "id": "rehkitzrettung-drohne-ki",
+  "name": "Drohne mit Waermebild + KI zur Kitz- & Bodenbrueter-Rettung",
+  "aka": ["Rehkitzrettung", "Kitzrettung", "Waermebilddrohne", "Wildtierrettung vor der Mahd", "Drohne Mahd"],
+  "category": "KI, Software & 3D-Druck",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["mahd", "wildtierrettung", "drohne", "waermebild", "ki", "reh", "bodenbrueter", "foerderung"],
+  "summary": "Vor der ersten Mahd suchen Drohnen mit Waermebildkamera Wiesen ab; eine KI markiert warme Punkte (Kitze, Gelege) automatisch, sodass Helfer sie bergen koennen. Das ist ein sehr direkter, wirksamer Tech-Hebel: 2024 wurden in DE rund 15.000 Kitze mit gefoerderten Drohnen gerettet. Fertige Systeme, staatliche Foerderung.",
+  "key_facts": [
+    {"label": "Gerettete Kitze", "value": "2024 rund 15.000 Rehkitze mit 483 gefoerderten Drohnen gerettet", "source": "BMEL/drohnen.de 2024"},
+    {"label": "Foerderung DE", "value": "Bundesprogramm foerdert Drohnen mit Waermebild (2024 bis 4.000 € je Geraet)", "source": "BLE Bundesfoerderprogramm"},
+    {"label": "Wirkung Mahd", "value": "Maht ohne Absuche toetet/verstuemmelt Kitze und Gelege; frueh morgens per Waermebild gut auffindbar", "source": "BMEL; Jagdverbaende"},
+    {"label": "KI-Funktion", "value": "Software erkennt warme Punkte automatisch und markiert sie live, beschleunigt Suche", "source": "Systemhersteller (z. B. DJI-basiert)"},
+    {"label": "Beste Methode", "value": "laut BMEL derzeit beste Schutzmethode vor der Mahd", "source": "BMEL Pressemitteilung"},
+    {"label": "Zeitfenster", "value": "Suche frueh morgens (grosser Temperaturkontrast Wiese/Kitz), unmittelbar vor Mahd", "source": "Praxis Kitzretter"}
+  ],
+  "deep_dive": "Die Fruehjahrs-Mahd von Wiesen faellt genau in die Setzzeit: Rehkitze druecken sich reglos ins Gras, Bodenbrueter bruueten am Boden — ohne Absuche werden sie vom Maehwerk getoetet oder schwer verletzt (jaehrlich Zehntausende Kitze). Waermebilddrohnen sind dagegen der wirksamste bekannte Hebel: Die Drohne fliegt frueh morgens (grosser Waermekontrast) systematisch die Flaeche ab, die Waermebildkamera zeigt warme Koerper, und eine KI markiert diese Punkte automatisch im Livebild, sodass Helfer schnell und gezielt bergen koennen. Anders als die meisten Monitoring-Karten wirkt das direkt: Es rettet unmittelbar Tierleben. Die Zahlen sind eindrucksvoll — 2024 wurden laut BMEL mit 483 gefoerderten Drohnen rund 15.000 Rehkitze gerettet; das Ministerium nennt die Methode die derzeit beste Schutzform. In Deutschland gibt es ein Bundesfoerderprogramm der BLE, das die Anschaffung solcher Drohnen (2024 bis 4.000 € je Geraet) unterstuetzt; Systeme basieren oft auf DJI-Drohnen mit Waermebild plus Erkennungssoftware, Komplettsysteme liegen je nach Ausstattung im mittleren bis oberen vierstelligen Bereich, viele Kitzretter-Vereine teilen Geraete. Grenzen ehrlich: Die Suche gelingt nur im kurzen Morgenfenster (bei aufgeheizter Wiese verschwindet der Kontrast), Wind/Regen und dichte Vegetation stoeren, die Akkulaufzeit begrenzt die Flaeche pro Ladung, und Drohnenflug unterliegt EU-Regeln (Registrierung, Kenntnisnachweis). Organisation ist entscheidend: Landwirt muss Mahdtermin rechtzeitig melden, damit ein Team am Morgen fliegen kann.",
+  "mechanism": "Waermebild macht im Gras verborgene, warmbluetige Tiere sichtbar; KI-Detektion beschleunigt das Auffinden, sodass Kitze/Gelege vor dem Maehwerk geborgen oder markiert werden — direkte Vermeidung von Mahd-Mortalitaet.",
+  "evidence": [
+    {"source": "BMEL / drohnen.de (Foerderbilanz)", "year": 2024, "finding": "Mit 483 gefoerderten Drohnen wurden 2024 rund 15.000 Rehkitze gerettet; Waermebilddrohne als beste Schutzmethode benannt."},
+    {"source": "BLE Bundesfoerderprogramm Rehkitzrettung", "year": 2024, "finding": "Bund foerdert Anschaffung von Waermebilddrohnen (bis 4.000 € je Geraet), um Mahd-Verluste zu senken."},
+    {"source": "Praxis Kitzretter-Vereine / Jagdverbaende", "year": 2023, "finding": "Systematische Waermebild-Absuche frueh morgens findet zuverlaessig Kitze, sofern Temperaturkontrast und Organisation stimmen."}
+  ],
+  "robustness": {
+    "effect_size": "Gross und direkt: unmittelbare Rettung tausender Individuen pro Jahr.",
+    "replication": "Breit repliziert in ganz Deutschland/Oesterreich/Schweiz durch Kitzretter-Netzwerke und Jagdverbaende.",
+    "caveats": "Wirkung haengt an Morgen-Zeitfenster (Waermekontrast), Wetter, Vegetationsdichte, Akkulaufzeit und rechtzeitiger Mahd-Meldung; Drohnenregeln beachten."
+  },
+  "protocol": [
+    "Waermebilddrohne beschaffen (Komplettsystem DJI + Waermebild + Erkennungssoftware) — Bundesfoerderung der BLE nutzen oder Vereins-Drohne teilen.",
+    "Drohne registrieren und EU-Kenntnisnachweis (Drohnenfuehrerschein) erwerben.",
+    "Mit Landwirten Mahdtermine vereinbaren: Meldung mindestens am Vortag, damit ein Team am Morgen fliegen kann.",
+    "Frueh morgens (grosser Waermekontrast) systematisch in Bahnen abfliegen; KI-Software warme Punkte live markieren lassen.",
+    "Gefundene Kitze mit Handschuhen/Grasbuescheln in Kisten setzen (nicht mit blossen Haenden anfassen) und nach der Mahd freilassen; Gelege markieren/aussparen.",
+    "Bei ungeeignetem Wetter/Zeitfenster ergaenzend andere maht-schonende Verfahren einplanen (siehe maehtod-vermeiden)."
+  ],
+  "mistakes": [
+    "Zu spaet am Tag fliegen — aufgeheizte Wiese loescht den Waermekontrast.",
+    "Mahdtermin nicht rechtzeitig erfahren; keine Zeit fuer die Absuche.",
+    "Kitze mit blossen Haenden anfassen (Geruchsuebertragung) statt mit Handschuhen/Grasbuescheln.",
+    "Drohnenregeln (Registrierung, Kenntnisnachweis, Flugverbotszonen) missachten.",
+    "Akkulaufzeit/Flaechengroesse falsch planen — Flaeche nicht vollstaendig abgesucht."
+  ],
+  "risks": "Nur im kurzen Morgen-Zeitfenster wirksam (Waermekontrast); Wind/Regen und dichte Vegetation mindern die Trefferquote. Akkulaufzeit begrenzt die Flaeche pro Einsatz. Drohnenflug unterliegt EU-Regeln (Registrierung, Kenntnisnachweis, Flugverbotszonen). KI kann warme Steine/Kot als Tier markieren (Falschtreffer) — Sichtkontrolle noetig. Organisatorischer Engpass: ohne rechtzeitige Mahd-Meldung keine Absuche. Kitze zur Vermeidung von Geruchsuebertragung nie mit blossen Haenden anfassen.",
+  "synergy": ["maehtod-vermeiden", "kamerafallen-ki", "bioakustik-monitoring-ki"],
+  "sources": [
+    {"title": "BLE – Bundesfoerderprogramm Rehkitzrettung", "url": "https://www.ble.de/DE/Projektfoerderung/Foerderungen-Auftraege/Rehkitz/Rettung_node.html"},
+    {"title": "BMEL/BMLEH – Drohnenfoerderung Rehkitze", "url": "https://www.bmleh.de/DE/themen/digitalisierung/drohnenfoerderung-rehkitze.html"},
+    {"title": "drohnen.de – Waermebilddrohnen im Naturschutz (Bilanz)", "url": "https://www.drohnen.de/76963/waermebilddrohnen-im-naturschutz-tausende-gerettete-rehkitze-pro-jahr/"},
+    {"title": "drohnen.de – Rehkitzrettung Foerderung 2024", "url": "https://www.drohnen.de/49703/drohnen-foerderung-fuer-rehkitzrettung-2024/"}
+  ]
+}
