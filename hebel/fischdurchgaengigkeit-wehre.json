@@ -1,0 +1,52 @@
+{
+  "id": "fischdurchgaengigkeit-wehre",
+  "name": "Fischdurchgängigkeit / Rückbau von Wehren & Querbauwerken",
+  "aka": ["Fischauf- und -abstieg", "Wehrrückbau", "Dam removal", "ökologische Durchgängigkeit", "Querbauwerk-Rückbau"],
+  "category": "Vernetzung & Korridore",
+  "scale": "Land/Bund",
+  "impact": 5,
+  "evidence_level": "A",
+  "effort": 4,
+  "tags": ["fluss", "wanderfische", "wehr", "durchgaengigkeit", "wrrl", "lachs", "aal", "gewaesser"],
+  "summary": "Wehre, Staustufen und Sohlabstürze zerschneiden Flüsse und blockieren Wanderfische wie Lachs, Meerforelle und Aal auf dem Weg zu Laichgründen bzw. ins Meer. Deutschland hat über 200.000 solcher Querbauwerke — rund alle zwei Flusskilometer eines. Der komplette Rückbau stellt die Durchgängigkeit am zuverlässigsten wieder her; Fischpässe helfen nur eingeschränkt. Kernmaßnahme der EG-Wasserrahmenrichtlinie.",
+  "key_facts": [
+    {"label": "Barrieren in DE", "value": "über 200.000 (bis ~215.000) künstliche Querbauwerke — rechnerisch alle ~2 km ein Hindernis", "source": "WWF / BfN"},
+    {"label": "Passierbarkeit", "value": "nur rund 46 % von ~120.000 bewerteten Querbauwerken sind flussaufwärts für Fische passierbar", "source": "Umweltbundesamt / WRRL-Bewertung"},
+    {"label": "Rückbau schlägt Fischpass", "value": "Meta-Analyse: Rückbau stellte Konnektivität wirksam her, Fischpass-Einbau brachte im Mittel keine positiven Effekte", "source": "Chan et al. 2025, Biological Reviews"},
+    {"label": "Hebel-Beispiel", "value": "Rückbau von nur 776 gezielten Hindernissen könnte über 26.000 Flusskilometer wieder frei fließen lassen", "source": "WWF-Analyse >52.000 Bauwerke"},
+    {"label": "Betroffene Arten", "value": "Lachs, Meerforelle und Aal wandern zwischen Fluss-Oberläufen und Meer; viele sind stark gefährdet oder vom Aussterben bedroht", "source": "flussgebiete.nrw / WRRL"}
+  ],
+  "deep_dive": "Fließgewässer funktionieren nur als durchgängiges Längssystem: Lachs und Meerforelle wandern zum Laichen in kiesige, sauerstoffreiche Oberläufe, der Aal zieht zur Fortpflanzung ins Meer. Wehre, Staustufen und Sohlabstürze unterbrechen diese Wanderungen und verändern zusätzlich Strömung, Sohle und Sedimenttransport. Deutschland ist extrem zerschnitten: über 200.000 Querbauwerke, rechnerisch alle zwei Kilometer eines; von rund 120.000 bewerteten sind nur etwa 46 % flussaufwärts passierbar. Eine systematische Meta-Analyse (Chan et al. 2025) kommt zu einem deutlichen Ergebnis: der vollständige Rückbau von Barrieren stellt die Durchgängigkeit zuverlässig wieder her, während der Einbau von Fischpässen im Mittel keine positiven Effekte auf die Fischbestände zeigte. Fischtreppen wirken nur artspezifisch und nur bei richtiger Auslegung — viele Arten (schlechte Springer/Kletterer) und der flussabwärts gerichtete Abstieg (Turbinen-Mortalität beim Aal) bleiben Problemfelder. Rückbau ist damit die erste Wahl, wo ein Bauwerk nicht mehr genutzt wird; sonst kommen naturnahe Sohlgleiten oder gut dimensionierte Fischpässe in Betracht. Der Hebel ist riesig: eine WWF-Analyse von über 52.000 Bauwerken fand, dass schon der gezielte Rückbau von 776 Hindernissen mehr als 26.000 Flusskilometer wieder frei fließen ließe. Die ökologische Durchgängigkeit ist Kernforderung der EG-Wasserrahmenrichtlinie — der Handlungsdruck ist hoch, denn der geforderte gute ökologische Zustand wird auf den meisten Gewässern noch verfehlt. Grenzen: Rückbau kann Nutzungen (Wasserkraft, Hochwasser, Kulturdenkmal) berühren und altlastenbelastete Sedimente freisetzen; das erfordert sorgfältige Planung.",
+  "mechanism": "Entfernen oder Umbauen von Querbauwerken stellt die longitudinale Durchgängigkeit des Flusses wieder her — Wanderfische erreichen Laich- und Aufwuchsgebiete, Sediment- und Genfluss werden reaktiviert.",
+  "evidence": [
+    {"source": "Chan et al., Biological Reviews (systematisches Review + Meta-Analyse)", "year": 2025, "finding": "Fragmentierung wirkte netto negativ auf Abundanz, Artenreichtum und genetische Vielfalt diadromer Fische; Rückbau stellte Konnektivität wieder her, Fischpässe im Mittel nicht."},
+    {"source": "Umweltbundesamt – Hydromorphologischer Zustand / WRRL-Bewertung", "year": 2024, "finding": "Nur etwa 46 % von rund 120.000 bewerteten Querbauwerken sind aufwärts passierbar; Durchgängigkeit ist ein Hauptdefizit beim guten ökologischen Zustand."},
+    {"source": "WWF – Analyse Querbauwerke / Free-Flowing-Rivers", "year": 2025, "finding": "Rückbau gezielt ausgewählter 776 Hindernisse würde über 26.000 Flusskilometer wieder durchgängig machen."}
+  ],
+  "robustness": {
+    "effect_size": "Sehr groß beim vollständigen Rückbau (Fischdichte und Artenreichtum steigen); Fischpässe im Mittel schwach/uneinheitlich.",
+    "replication": "International vielfach belegt (USA dam removal, Europa Open Rivers); konsistent, dass Rückbau > Fischpass wirkt.",
+    "caveats": "Fischpässe wirken artspezifisch und oft nur aufwärts; Abstieg (Turbinen, Aal) bleibt kritisch. Rückbau kann Nutzungskonflikte und Sediment-/Altlastenfragen auslösen."
+  },
+  "protocol": [
+    "Querbauwerke im Einzugsgebiet erfassen und nach Wirkung priorisieren (welcher Rückbau öffnet die meisten Flusskilometer?).",
+    "Ungenutzte oder funktionslose Wehre/Abstürze zuerst zurückbauen — größter Nutzen pro Euro.",
+    "Wo Rückbau nicht möglich: naturnahe Sohlgleite statt technischer Fischtreppe bevorzugen; Fischpass an lokale Arten anpassen.",
+    "Auch den Fischabstieg lösen (Feinrechen, Bypass, turbinenfreie Wege) — nicht nur den Aufstieg.",
+    "Sediment und mögliche Altlasten vor Rückbau untersuchen; Hochwasser- und Nutzungsbelange einbeziehen.",
+    "Erfolg per Fischmonitoring (Bestand, Wiederbesiedlung Oberlauf) belegen; an WRRL-Bewirtschaftungspläne koppeln."
+  ],
+  "mistakes": [
+    "Fischtreppe als Standardlösung bauen, wo Rückbau möglich wäre — Meta-Analyse zeigt geringe Wirkung von Pässen.",
+    "Nur den Aufstieg regeln und den Abstieg (Turbinen-Mortalität, v. a. Aal) ignorieren.",
+    "Priorisierung ohne Netzwerkblick — einzelne Bauwerke öffnen wenig, wenn oberhalb die nächste Barriere sperrt.",
+    "Sediment-/Altlasten und Nutzungskonflikte nicht vorab klären und dadurch Projekte scheitern lassen."
+  ],
+  "risks": "Rückbau kann Wasserkraftnutzung, Hochwasserschutz oder denkmalgeschützte Wehre berühren und altlastenbelastete Stausedimente mobilisieren — sorgfältige Planung nötig. Fischpässe bergen das Risiko, teuer gebaut zu werden und trotzdem kaum zu wirken. Einzelmaßnahmen nützen wenig ohne durchgängiges Gesamtnetz.",
+  "synergy": ["biotopverbund-trittsteine", "gruenbruecke-nachruesten-sanierung"],
+  "sources": [
+    {"title": "Chan et al. 2025 – Global consequences of dam-induced river fragmentation (Biological Reviews)", "url": "https://onlinelibrary.wiley.com/doi/10.1111/brv.70032"},
+    {"title": "Umweltbundesamt – Hydromorphologischer Zustand der Flüsse", "url": "https://www.umweltbundesamt.de/themen/wasser/fluesse/zustand/hydromorphologischer-zustand"},
+    {"title": "WWF – Neuer NGO-Fortschrittsbericht: mehr befreite Flüsse", "url": "https://www.wwf.de/2025/mai/neuer-ngo-fortschrittsbericht-verzeichnet-mehr-befreite-fluesse"}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "schaedliche-subventionen-abbauen",
+  "name": "Umweltschädliche Subventionen abbauen und umbauen",
+  "aka": ["klimaschädliche Subventionen", "harmful subsidies", "Subventionsabbau", "GAP-Umbau"],
+  "category": "Politik & System-Hebel",
+  "scale": "Land/Bund",
+  "impact": 5,
+  "evidence_level": "B",
+  "effort": 5,
+  "tags": ["subventionen", "agrarpolitik", "finanzen", "gap", "systemwandel", "steuern"],
+  "summary": "Der Staat gibt jedes Jahr zweistellige Milliardenbeträge aus, die der Natur aktiv schaden — von Diesel- und Kerosinvergünstigungen bis zu flächengebundenen Agrarzahlungen. Diese Mittel umzulenken ist der größte finanzielle Hebel im Naturschutz: Man spart Geld UND stoppt die Schädigung. Der Haken ist die politische Trägheit — jede Subvention hat eine organisierte Lobby.",
+  "key_facts": [
+    {"label": "Volumen DE", "value": "~65,4 Mrd. € umweltschädliche Subventionen pro Jahr (2018, Bundesebene, Untergrenze)", "source": "Umweltbundesamt 2021"},
+    {"label": "Verteilung", "value": "~47 % Verkehr, ~39 % Energie (u. a. Energiesteuer-Vergünstigungen)", "source": "Umweltbundesamt 2021"},
+    {"label": "GAP-Budget", "value": "EU-Agrarpolitik ~58 Mrd. €/Jahr, 2021–2027 rund 387 Mrd. €; Großteil als Flächenprämie", "source": "Europäisches Parlament / BMLEH"},
+    {"label": "Flächenprämie", "value": "~157 €/ha/Jahr weitgehend pauschal — bevorteilt Flächenbesitz, nicht Umweltleistung", "source": "DVS GAP-Netzwerk 2023"},
+    {"label": "Doppelter Gewinn", "value": "Abbau entlastet Haushalt UND Umwelt zugleich — seltene Win-win-Konstellation", "source": "UBA / OECD"}
+  ],
+  "deep_dive": "Das Umweltbundesamt beziffert die umweltschädlichen Subventionen in Deutschland auf mindestens 65,4 Mrd. € pro Jahr (Stand 2018, nur Bundesebene — Länder und Kommunen fehlen, die reale Summe liegt höher). Fast die Hälfte entfällt auf den Verkehr (u. a. Dieselsteuervorteil, Entfernungspauschale, Kerosin- und Flugticket-Vergünstigungen), knapp 40 % auf Energie. Diese Gelder wirken oft direkt gegen Klima- und Naturschutzziele — der Staat subventioniert also mit der einen Hand, was er mit der anderen bekämpft. Der zweite große Block ist die EU-Agrarpolitik (GAP) mit rund 58 Mrd. €/Jahr: Der Löwenanteil fließt als pauschale Flächenprämie (~157 €/ha), die vor allem großen Flächenbesitzern zugutekommt und Intensivierung kaum bremst. Würde man diese Zahlungen konsequent an nachweisbare Umweltleistungen koppeln (Öffentliches Geld für öffentliche Leistungen), wäre das der mit Abstand größte Finanzhebel im Naturschutz — ohne neue Ausgaben. Ehrlich bleibt: Der Abbau ist politisch extrem zäh, weil jede Vergünstigung eine Empfängergruppe mit lauter Stimme hat, und ein plötzlicher Wegfall soziale Härten erzeugen kann (Pendler, kleine Betriebe). Deshalb ist der realistische Weg schrittweiser, sozial abgefederter Umbau statt Kahlschlag.",
+  "mechanism": "Fehlanreize verteuern naturverträgliches Verhalten relativ und verbilligen schädliches; ihr Abbau bzw. Umbau richtet den ökonomischen Anreiz um, sodass Marktkräfte in Richtung Naturschutz statt gegen ihn wirken.",
+  "evidence": [
+    {"source": "Umweltbundesamt, Bericht Umweltschädliche Subventionen", "year": 2021, "finding": "Mindestens 65,4 Mrd. € pro Jahr umweltschädliche Subventionen allein auf Bundesebene; Untergrenze, da Länder/Kommunen nicht enthalten."},
+    {"source": "OECD, Agricultural Policy Monitoring", "year": 2022, "finding": "Ein Großteil der Agrarstützung weltweit ist nicht an Umweltleistung gebunden und wirkt teils produktions- und umweltschädlich; Umlenkung zu gezielten Leistungen empfohlen."},
+    {"source": "Europäischer Rechnungshof, Sonderbericht GAP/Biodiversität", "year": 2020, "finding": "Die GAP hat den Rückgang der Agrarbiodiversität bislang nicht aufgehalten; Zahlungen entfalten zu wenig gezielte Naturschutzwirkung."}
+  ],
+  "robustness": {
+    "effect_size": "Potenziell sehr groß (zweistelliger Milliardenhebel), aber die realisierte Wirkung hängt stark vom politischen Umsetzungsgrad ab.",
+    "replication": "Konzept international anerkannt (OECD, IWF, EU); konkrete Abbauerfolge bislang punktuell (z. B. Streichung einzelner Vergünstigungen).",
+    "caveats": "Politische Blockade durch Interessengruppen; soziale Verteilungswirkung muss abgefedert werden; Zahlen sind Untergrenzen und methodisch strittig."
+  },
+  "protocol": [
+    "Bürger/Verbände: Subventionsabbau und GAP-Umbau ('Öffentliches Geld für öffentliche Leistungen') gegenüber Abgeordneten und in Wahlprüfsteinen einfordern.",
+    "Gesetzgeber: umweltschädliche Vergünstigungen mit Zeitplan und sozialer Abfederung schrittweise streichen (Diesel-/Kerosinprivileg, Dienstwagen, Entfernungspauschale reformieren).",
+    "Agrarzahlungen konsequent an messbare Umweltleistungen koppeln, Pauschal-Flächenprämie zugunsten von Ergebnis- und Naturschutzprogrammen zurückfahren.",
+    "Frei werdende Mittel gezielt in Naturschutz, Renaturierung und Härtefallausgleich umlenken (aufkommensneutral kommunizieren).",
+    "Kommunen: eigene umweltschädliche Anreize prüfen (Stellplatzpflichten, verbilligtes Bauland auf der grünen Wiese) und abbauen.",
+    "Transparenz schaffen: Subventionsberichte mit Umweltwirkung veröffentlichen, damit Fehlanreize sichtbar und debattierbar werden."
+  ],
+  "mistakes": [
+    "Abrupter Kahlschlag ohne soziale Abfederung — erzeugt Widerstand und kippt die ganze Reform.",
+    "Nur über Klima reden und die Biodiversitätswirkung der Agrarzahlungen ausklammern.",
+    "Neue 'grüne' Subventionen draufsatteln, statt schädliche zuerst abzubauen.",
+    "Symbolische Einzelstreichungen feiern, während der große Block (Verkehr, Flächenprämie) unangetastet bleibt."
+  ],
+  "risks": "Politisch der zäheste Hebel überhaupt — organisierte Empfängergruppen blockieren wirksam. Sozial ungerecht gestalteter Abbau kann einkommensschwache Haushalte oder kleine Betriebe treffen und die Akzeptanz für Naturschutz insgesamt beschädigen. Deshalb Umbau statt Streichung, mit Ausgleich.",
+  "synergy": ["flaechensparen-politik", "eu-renaturierungsgesetz", "pestizidverzicht-flaeche", "mahd-insektenschonend"],
+  "sources": [
+    {"title": "Umweltbundesamt – Umweltschädliche Subventionen in Deutschland", "url": "https://www.umweltbundesamt.de/daten/umwelt-wirtschaft/umweltschaedliche-subventionen-in-deutschland"},
+    {"title": "Europäisches Parlament – Finanzierung der Gemeinsamen Agrarpolitik: Fakten und Zahlen", "url": "https://www.europarl.europa.eu/factsheets/de/sheet/106/die-finanzierung-der-gemeinsamen-agrarpolitik-zahlen-und-fakten"},
+    {"title": "Europäischer Rechnungshof – Sonderbericht Biodiversität in der Landwirtschaft", "url": "https://www.eca.europa.eu/de/publications?ref=SR20_13"}
+  ]
+}

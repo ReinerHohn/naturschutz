@@ -1,0 +1,52 @@
+{
+  "id": "naturgarten-heimische-pflanzen",
+  "name": "Naturgarten mit heimischen Pflanzen",
+  "aka": ["Naturgarten", "einheimische Gehölze", "Wildstauden", "heimische Bepflanzung", "native plants"],
+  "category": "Garten & Siedlung",
+  "scale": "Privat",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["garten", "heimische-pflanzen", "insekten", "voegel", "raupen", "biodiversitaet", "siedlung"],
+  "summary": "Heimische Gehölze und Wildstauden ernähren ein Vielfaches an Insekten und Vögeln im Vergleich zu Zierexoten, weil die meisten Pflanzenfresser auf wenige, mit ihnen entwickelte Pflanzen spezialisiert sind. Eine heimische Eiche trägt Hunderte Schmetterlings- und Nachtfalterarten, ein exotischer Zierstrauch fast keine. Privat, günstig, und über Millionen Gärten summiert ein sehr großer Flächenhebel.",
+  "key_facts": [
+    {"label": "Spezialisierung der Insekten", "value": "Rund 90 % der pflanzenfressenden Insekten können nur wenige, mit ihnen ko-evolvierte Pflanzenlinien fressen (Spezialisten) — Exoten fallen für sie aus", "source": "Tallamy, Bringing Nature Home"},
+    {"label": "Eiche als Schlüsselbaum", "value": "Eichen (Quercus) beherbergen in Nordamerika über 500 bis 900 Schmetterlings- und Nachtfalter-Raupenarten — mehr als jede andere Baumgattung", "source": "Tallamy & Shropshire 2009; NWF Keystone Plants"},
+    {"label": "Raupen sind Vogelfutter", "value": "Ein einziges Blaumeisen-Gelege verfüttert bis zu ~6.000 bis 9.000 Raupen bis zum Ausfliegen — Raupen von heimischen Gehölzen sind das Hauptfutter der Jungvögel", "source": "Tallamy; Vogelbiologie"},
+    {"label": "Native vs. Exoten im Garten", "value": "Gärten mit hohem Anteil heimischer Pflanzen beherbergen deutlich mehr Raupenbiomasse und mehr brütende Vogelarten als exotenreiche Gärten", "source": "Narango et al. 2018 (PNAS)"},
+    {"label": "Flächenpotenzial", "value": "In Deutschland gibt es Millionen Privatgärten mit zusammen mehreren Hunderttausend Hektar — größer als viele Schutzgebiete, wenn naturnah bewirtschaftet", "source": "BUND; Statistisches Bundesamt"}
+  ],
+  "deep_dive": "Der ökologische Wert eines Gartens hängt weniger davon ab, wie bunt oder gepflegt er aussieht, als davon, welche Pflanzen dort wachsen. Rund 90 % der pflanzenfressenden Insekten sind Nahrungsspezialisten: Sie haben sich über Jahrtausende an die chemische Abwehr bestimmter heimischer Pflanzen angepasst und können exotische Zierpflanzen schlicht nicht verwerten. Der US-Ökologe Doug Tallamy hat das an Bäumen quantifiziert: Eichen tragen je nach Region über 500 Schmetterlings- und Nachtfalterarten, während beliebte Ziergehölze wie Kirschlorbeer, Forsythie oder Rhododendron fast keine Raupen ernähren. Das ist deshalb so wichtig, weil Raupen die zentrale Eiweißnahrung für Jungvögel sind: Ein Blaumeisenpaar muss für eine Brut mehrere tausend Raupen heranschaffen. Kein Insektenschwund ohne Vogelschwund. Der Hebel liegt darin, dass Privatgärten in Summe eine riesige Fläche ausmachen; werden sie mit heimischen Gehölzen (Eiche, Weide, Schlehe, Weißdorn, Hasel, Wildrosen) und Wildstauden statt sterilen Exoten und gefüllten Ziersorten bepflanzt, entsteht ein flächendeckendes Nahrungsnetz. Gefüllte Blüten sind dabei eine Falle: Sie sehen üppig aus, bieten aber weder Pollen noch Nektar. Wichtig ist auch, dass heimisch nicht automatisch invasionsfrei bedeutet und dass Standortgerechtigkeit (Boden, Licht) zählt. Der Aufwand ist gering und die Pflanzen sind oft pflegeleichter und trockenheitsresistenter als Exoten.",
+  "mechanism": "Ko-evolvierte heimische Pflanzen sind die einzige verwertbare Nahrung für spezialisierte Pflanzenfresser (Raupen etc.); diese sind wiederum Basis der Nahrungskette für Vögel und andere Tiere. Heimische Bepflanzung stellt dieses Nahrungsnetz im Siedlungsraum wieder her.",
+  "evidence": [
+    {"source": "Narango, Tallamy & Marra (PNAS)", "year": 2018, "finding": "In Wohngebieten mit überwiegend nicht-heimischer Bepflanzung sank die Fortpflanzung insektenfressender Vögel (Carolina-Meise) unter das Erhaltungsniveau; heimische Pflanzen sind entscheidend fuer die Vogelreproduktion."},
+    {"source": "Tallamy & Shropshire (Conservation Biology)", "year": 2009, "finding": "Ranking heimischer Pflanzengattungen nach Zahl der ernährten Schmetterlingsraupen; Eichen, Weiden, Kirschen und Pappeln als Spitzenreiter ('keystone plants')."},
+    {"source": "Burghardt, Tallamy & Shriver (Conservation Biology)", "year": 2009, "finding": "Gärten mit heimischer Bepflanzung wiesen deutlich mehr und artenreichere Raupen und Vögel auf als konventionell exotisch bepflanzte Gärten."}
+  ],
+  "robustness": {
+    "effect_size": "Groß pro Garten (Vielfaches an Raupen-/Insektenbiomasse), sehr groß in der Summe über viele Gärten.",
+    "replication": "Native-plant-Effekt in mehreren Studien (v. a. Nordamerika) konsistent; Grundprinzip der Wirt-Spezialisierung breit belegt, quantitative Artenzahlen sind regionsspezifisch.",
+    "caveats": "Konkrete Artenzahlen stammen überwiegend aus Nordamerika; für Deutschland gilt das Prinzip, die Zahlen variieren je nach Region und Art. Heimisch muss standortgerecht sein; gefüllte Ziersorten heimischer Arten nützen wenig."
+  },
+  "protocol": [
+    "Heimische, standortgerechte Gehölze pflanzen: Eiche, Weide, Schlehe, Weißdorn, Hasel, Wildrosen, Faulbaum, Vogelbeere statt Kirschlorbeer, Thuja, Forsythie.",
+    "Wildstauden und heimische Blühpflanzen statt gefüllter Ziersorten setzen (ungefüllte Blüten mit Pollen und Nektar).",
+    "Struktur schaffen: Hecke statt Zaun, verschiedene Höhenstufen, Blühzeiten über das ganze Jahr staffeln.",
+    "Auf Pestizide und Torf verzichten; Regiosaatgut/heimische Herkünfte bevorzugen.",
+    "Auch kleine Flächen nutzen (Balkonkasten, Vorgarten) — Summenwirkung zählt.",
+    "Nicht alles kurz und ordentlich halten: Ecken verwildern lassen, Samenstände über Winter stehen lassen."
+  ],
+  "mistakes": [
+    "Exotische Ziergehölze (Kirschlorbeer, Thuja) und gefüllte Blüten pflanzen, die kaum Insekten ernähren.",
+    "'Bienenfreundlich' auf dem Etikett glauben, obwohl Zierhybride weder Pollen noch Nektar liefern.",
+    "Nicht standortgerecht pflanzen — kränkelnde Pflanzen nützen wenig.",
+    "Garten zu ordentlich halten (alles gemäht, geschnitten, aufgeräumt), sodass Struktur und Winterquartiere fehlen."
+  ],
+  "risks": "Sehr gering. Achten auf standortgerechte, nicht-invasive Arten. Kein Ersatz für den Schutz naturnaher Flächen in der Landschaft, aber ein sinnvoller, breit skalierbarer Baustein im Siedlungsraum.",
+  "synergy": ["schottergarten-vermeiden", "totholz-laub-reisighaufen", "wildbienen-nisthabitat", "bluehflaechen-mehrjaehrig", "pestizidverzicht-flaeche"],
+  "sources": [
+    {"title": "Narango, Tallamy & Marra 2018, Nonnative plants reduce population growth of an insectivorous bird (PNAS)", "url": "https://doi.org/10.1073/pnas.1809259115"},
+    {"title": "Tallamy & Shropshire 2009, Ranking Lepidoptera Use of Native Versus Introduced Plants (Conservation Biology)", "url": "https://doi.org/10.1111/j.1523-1739.2009.01202.x"},
+    {"title": "NABU – Naturgarten anlegen", "url": "https://www.nabu.de/umwelt-und-ressourcen/oekologisch-leben/balkon-und-garten/index.html"}
+  ]
+}

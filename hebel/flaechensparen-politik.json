@@ -1,0 +1,52 @@
+{
+  "id": "flaechensparen-politik",
+  "name": "Flächenverbrauch politisch begrenzen",
+  "aka": ["Flächensparen", "Netto-Null-Flächenverbrauch", "Flächenzertifikate", "Innenentwicklung", "Entsiegelung"],
+  "category": "Politik & System-Hebel",
+  "scale": "Land/Bund",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 4,
+  "tags": ["flaeche", "versiegelung", "raumplanung", "boden", "entsiegelung", "kommune"],
+  "summary": "Jeden Tag werden in Deutschland rund 50 Hektar Boden neu für Siedlung und Verkehr in Anspruch genommen — meist auf Kosten von Acker, Wiese und Natur, oft unumkehrbar versiegelt. Den Flächenverbrauch verbindlich zu deckeln (Netto-Null, Flächenzertifikate, Innenentwicklung, Entsiegelungspflicht) schützt Lebensräume flächendeckend an der Wurzel.",
+  "key_facts": [
+    {"label": "Aktueller Verbrauch", "value": "~51–55 ha/Tag Zunahme Siedlungs- und Verkehrsfläche (Ø 2020–2023)", "source": "Destatis / UBA"},
+    {"label": "Bundesziel 2030", "value": "unter 30 ha/Tag bis 2030 (Nachhaltigkeitsstrategie) — derzeit deutlich verfehlt", "source": "Bundesregierung"},
+    {"label": "Netto-Null-Ziel", "value": "Netto-Null-Flächenverbrauch bis 2050", "source": "Deutsche Nachhaltigkeitsstrategie"},
+    {"label": "Historisch", "value": "um 2000 noch über 120 ha/Tag — seither mehr als halbiert, aber weiter über Zielpfad", "source": "UBA"},
+    {"label": "Unumkehrbarkeit", "value": "Versiegelung zerstört Bodenfunktionen (Wasser, Kohlenstoff, Lebensraum) meist dauerhaft", "source": "UBA Bodenschutz"}
+  ],
+  "deep_dive": "Boden ist praktisch nicht vermehrbar, und Versiegelung ist meist unumkehrbar: Wo Beton liegt, versickert kein Wasser, wächst nichts und lebt nichts mehr. In Deutschland wuchs die Siedlungs- und Verkehrsfläche zuletzt um rund 51–55 Hektar pro Tag (Destatis, Mittel 2020–2023) — überwiegend auf Kosten von Acker, Grünland und naturnahen Flächen am Ortsrand. Um die Jahrtausendwende waren es noch über 120 ha/Tag; der Wert hat sich also mehr als halbiert, liegt aber weiter klar über dem Zielpfad. Die Bundesregierung hat als Ziel unter 30 ha/Tag bis 2030 und Netto-Null bis 2050 gesetzt — beide werden derzeit verfehlt. Der Hebel ist deshalb systemisch so stark, weil er den Verlust an der Wurzel stoppt, statt hinterher einzelne Arten zu retten. Instrumente gibt es: verbindliche Flächenkontingente, handelbare Flächenzertifikate (der Modellversuch des UBA zeigte, dass ein Zertifikatehandel Neuinanspruchnahme wirksam begrenzen kann), Vorrang der Innenentwicklung (Baulücken, Brachen, Nachverdichtung vor Neubaugebiet), sowie Entsiegelungspflichten und Rückbau. Ehrlich ist: Der politische Widerstand ist erheblich, weil Kommunen von Grundsteuer und Gewerbeansiedlung profitieren und Bauflächen als lokaler Standortvorteil gelten (Kirchturmdenken). Ein pauschaler Deckel kann zudem Wohnraumknappheit verschärfen, wenn er nicht mit konsequenter Innenentwicklung und Aufstockung kombiniert wird. Der Hebel wirkt also nur mit klugem Instrumentenmix statt reinem Verbot.",
+  "mechanism": "Ein verbindlicher Mengenrahmen (Deckel/Zertifikate) verteuert und rationiert die Neuversiegelung, lenkt Entwicklung in den Bestand (Innenentwicklung) und erhält so unversiegelte Böden und ihre Lebensraum-, Wasser- und Klimafunktion flächendeckend.",
+  "evidence": [
+    {"source": "Statistisches Bundesamt (Destatis), Flächenerhebung", "year": 2024, "finding": "Siedlungs- und Verkehrsfläche wuchs 2020–2023 im Schnitt um ~51 ha/Tag — deutlich über dem 30-ha-Ziel."},
+    {"source": "UBA, Modellversuch Handel mit Flächenzertifikaten", "year": 2018, "finding": "Ein Zertifikatehandel kann die Neuinanspruchnahme wirksam auf ein Kontingent begrenzen und Innenentwicklung ökonomisch attraktiver machen."},
+    {"source": "Deutsche Nachhaltigkeitsstrategie / Bundestag", "year": 2021, "finding": "Bundesziel: unter 30 ha/Tag bis 2030 und Netto-Null-Flächenverbrauch bis 2050 festgeschrieben."}
+  ],
+  "robustness": {
+    "effect_size": "Groß und flächendeckend (schützt Boden an der Wurzel); die konkrete Reduktion hängt von der Verbindlichkeit der Instrumente ab.",
+    "replication": "Trend der Halbierung seit 2000 belegt; Zertifikate-Wirkung bislang v. a. im Modellversuch, noch nicht flächendeckend erprobt.",
+    "caveats": "Kommunale Fiskalanreize (Grundsteuer, Gewerbe) wirken gegen das Ziel; ohne Innenentwicklung kann ein Deckel Wohnraumknappheit verschärfen."
+  },
+  "protocol": [
+    "Bund/Länder: das 30-ha-Ziel und Netto-Null 2050 verbindlich machen (Kontingente statt unverbindlicher Zielmarke) und mit Fristen unterlegen.",
+    "Handelbare Flächenzertifikate einführen, damit Neuversiegelung ein knappes, bepreistes Kontingent wird.",
+    "Innenentwicklung gesetzlich priorisieren: Baulücken, Brachen und Nachverdichtung vor neuen Baugebieten (Vorrang im Baurecht).",
+    "Entsiegelungspflicht und Rückbau-/Ausgleichsregeln verankern; für jeden neu versiegelten Quadratmeter woanders entsiegeln.",
+    "Kommunale Fehlanreize abbauen: Finanzausgleich so umbauen, dass Kommunen fürs Flächensparen belohnt statt fürs Ausweisen belohnt werden.",
+    "Kommunen: Flächenmanagement/Baulückenkataster führen, Ortskerne stärken, Gewerbe-'auf-der-grünen-Wiese' vermeiden."
+  ],
+  "mistakes": [
+    "Reiner Deckel ohne Innenentwicklung und Aufstockung — verschärft Wohnraumknappheit und die politische Ablehnung.",
+    "Unverbindliche Zielmarke ohne Kontingent oder Sanktion — wird jedes Jahr überschritten.",
+    "Kommunale Fiskalanreize fürs Ausweisen unangetastet lassen — untergräbt jedes Landesziel.",
+    "Ausgleichsflächen als Alibi behandeln, während Versiegelung real weiterläuft."
+  ],
+  "risks": "Konflikt mit dem Ziel bezahlbaren Wohnraums, wenn Flächensparen nicht mit Innenentwicklung und Aufstockung kombiniert wird. Starker kommunaler Widerstand (Standortvorteil, Steuereinnahmen). Gefahr von Scheinlösungen (schlecht platzierte Ausgleichsflächen), die reale Versiegelung nicht kompensieren.",
+  "synergy": ["schaedliche-subventionen-abbauen", "eu-renaturierungsgesetz", "biotopverbund-trittsteine", "randstreifen-wegraine-vernetzung"],
+  "sources": [
+    {"title": "Umweltbundesamt – Siedlungs- und Verkehrsfläche", "url": "https://www.umweltbundesamt.de/daten/umweltzustand-trends/flaeche-boden-land-oekosysteme/flaechennutzung-in-deutschland/siedlungs-verkehrsflaeche"},
+    {"title": "Umweltbundesamt – Flächensparen: Böden und Landschaften erhalten", "url": "https://www.umweltbundesamt.de/themen/boden-flaeche/flaechensparen-boeden-landschaften-erhalten"},
+    {"title": "Deutscher Bundestag – Flächenverbrauch soll bis 2050 auf 'Netto-Null' sinken", "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1016750"}
+  ]
+}

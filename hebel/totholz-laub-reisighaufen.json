@@ -1,0 +1,52 @@
+{
+  "id": "totholz-laub-reisighaufen",
+  "name": "Totholz-, Laub- und Reisighaufen im Garten",
+  "aka": ["Totholzhaufen", "Reisighaufen", "Laubhaufen", "Benjeshecke", "Igelquartier", "unaufgeraeumter Garten"],
+  "category": "Garten & Siedlung",
+  "scale": "Privat",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["totholz", "laub", "reisig", "igel", "amphibien", "insekten", "unterschlupf", "garten"],
+  "summary": "Ein liegengelassener Haufen aus Totholz, Laub und Reisig ist eines der wirksamsten und billigsten Garten-Elemente: Er bietet Igeln, Amphibien, Insekten und Vögeln Unterschlupf, Winterquartier und Nahrung. Das Prinzip ist 'unaufgeräumt': Nichts tun kostet nichts und hilft vielen Arten. Der Igel, Wildtier des Jahres 2024, ist auf solche Strukturen angewiesen.",
+  "key_facts": [
+    {"label": "Igel gefährdet", "value": "Der Igel steht seit 2024 erstmals auf der Internationalen Roten Liste als 'potenziell gefährdet'; in Städten werden starke Rückgänge beobachtet, Nahrungsmangel und fehlende Unterschlüpfe sind Hauptursachen", "source": "IUCN 2024; NABU (Wildtier des Jahres 2024)"},
+    {"label": "Ideales Winterquartier", "value": "Ein Haufen aus totem Holz, Reisig und Laub in einer ruhigen Ecke ist das ideale Igel-Winterquartier — Frostschutz plus Kleintiere als Futter darin", "source": "NABU (Igelschutz im Garten)"},
+    {"label": "Totholz als Lebensraum", "value": "Totholz beherbergt in Deutschland über 1.000 Käferarten sowie zahlreiche Pilze, Wildbienen und Wespen; ein großer Anteil der Totholzkäfer gilt als gefährdet", "source": "BfN; Totholzkäfer-Rote-Liste"},
+    {"label": "Amphibien und Reptilien", "value": "Laub- und Reisighaufen sowie Steinhaufen dienen Kröten, Molchen, Eidechsen und Blindschleichen als Versteck, Jagdrevier und Überwinterungsort", "source": "NABU; BUND"},
+    {"label": "Aufwand nahe null", "value": "Herbstlaub liegen lassen, Schnittgut aufschichten statt entsorgen — spart Arbeit und Grüngut-Entsorgung und schafft sofort Lebensraum", "source": "NABU"}
+  ],
+  "deep_dive": "Der ökologisch wertvollste Teil vieler Gärten ist der, um den man sich am wenigsten kümmert. Ein Haufen aus Totholz, aufgeschichtetem Reisig und liegengebliebenem Laub in einer ruhigen, halbschattigen Ecke ist Unterschlupf, Kinderstube, Speisekammer und Winterquartier zugleich. Für den Igel — 2024 zum Wildtier des Jahres ernannt und im selben Jahr erstmals von der IUCN als potenziell gefährdet eingestuft — ist ein solcher Haufen oft überlebenswichtig: Er nutzt ihn zum Überwintern und findet in Laub und morschem Holz zugleich Käfer, Würmer und Larven als Nahrung. Totholz selbst ist ein eigenes kleines Ökosystem: In Deutschland leben über tausend Käferarten von absterbendem und totem Holz, dazu Wildbienen, Grabwespen und Pilze; viele dieser Arten sind gefährdet, weil aufgeräumte Wälder und Gärten kaum noch Totholz enthalten. Laub- und Reisighaufen kommen Kröten, Molchen, Eidechsen und Blindschleichen zugute, die dort jagen, sich verstecken und überwintern. Der Clou ist der minimale Aufwand: Statt Herbstlaub zu entsorgen und Schnittgut wegzufahren, schichtet man beides zu Haufen oder einer lockeren Totholzhecke (Benjeshecke) auf. Das spart Arbeit und Grüngutgebühren und schafft sofort Struktur. Zu beachten ist vor allem der Umgang beim Aufräumen und Häckseln: Vor dem Zerkleinern oder Verbrennen eines Haufens im Winter oder Frühjahr sollte man ihn vorsichtig prüfen, weil Igel darin schlafen könnten — Motorsense und Mähroboter sind hier gefährlich. Wer den Haufen einfach liegen lässt, macht nichts falsch.",
+  "mechanism": "Strukturreiche, ungestörte Haufen aus organischem Material liefern Mikrohabitate: Deckung vor Fressfeinden, frostgeschützte Überwinterungsplätze und ein Nahrungsnetz aus Zersetzern (Insekten, Würmer), das wiederum Igel, Amphibien und Vögel ernährt.",
+  "evidence": [
+    {"source": "IUCN Rote Liste / NABU", "year": 2024, "finding": "Der Braunbrustigel wird erstmals als 'potenziell gefährdet' eingestuft; Lebensraumverlust, Nahrungsmangel und fehlende Unterschlüpfe im Siedlungsraum als zentrale Faktoren."},
+    {"source": "BfN (Totholz und Artenvielfalt)", "year": 2021, "finding": "Totholz ist Lebensraum für über 1.000 Käferarten und zahlreiche weitere Organismen; sein Mangel ist eine Hauptursache für den Rückgang holzbewohnender Arten."},
+    {"source": "NABU (Igelschutz im Garten)", "year": 2023, "finding": "Totholz-, Reisig- und Laubhaufen sind das empfohlene, kostenfreie Kern-Element für Igel- und Kleintierschutz im Garten; Vorsicht bei Mäharbeiten und beim Verbrennen von Haufen."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel pro Garten, groß in der Summe; direkt und sofort wirksam für mehrere Artengruppen bei minimalem Aufwand.",
+    "replication": "Nutzung von Totholz/Strukturhaufen durch Igel, Amphibien und Totholzkäfer breit und konsistent dokumentiert.",
+    "caveats": "Ein einzelner Haufen rettet keine Population; erst viele Gärten mit Struktur plus Durchgängigkeit (igeltaugliche Zäune) wirken. Gefahr durch Mähroboter/Motorsense und das Verbrennen bewohnter Haufen."
+  },
+  "protocol": [
+    "In einer ruhigen, halbschattigen Ecke einen Haufen aus Totholz, Ästen, Reisig und Laub aufschichten und dauerhaft liegen lassen.",
+    "Herbstlaub nicht komplett entsorgen: unter Sträuchern und auf Beeten verteilen sowie zu Haufen aufschichten (Frostschutz und Futter).",
+    "Schnittgut zu einer lockeren Totholz-/Benjeshecke aufschichten statt wegzufahren.",
+    "Vor Häckseln, Umsetzen oder Verbrennen im Winter/Frühjahr Haufen vorsichtig auf schlafende Igel prüfen.",
+    "Mähroboter nachts abschalten und in bodennahen Bereichen mit Vorsicht mähen (Igelschutz).",
+    "Zäune igeldurchlässig gestalten (Durchgänge ~10 x 10 cm), damit Tiere Haufen erreichen können."
+  ],
+  "mistakes": [
+    "Garten komplett 'aufräumen': Laub absaugen, Totholz entsorgen, Ecken freihalten — vernichtet Unterschlupf und Winterquartiere.",
+    "Bewohnte Haufen im Winter oder Frühjahr häckseln oder verbrennen (tödlich für Igel).",
+    "Mähroboter nachts laufen lassen (schwere Igelverletzungen).",
+    "Grundstück vollständig einzäunen ohne Durchgänge — Igel kommen nicht mehr durch."
+  ],
+  "risks": "Sehr gering. Hauptrisiko ist die versehentliche Tötung von Tieren beim Häckseln, Verbrennen oder Mähen bewohnter Haufen. Verbrennen von Gartenabfall ist vielerorts ohnehin verboten; Haufen besser einfach liegen lassen oder häckseln nur nach Kontrolle.",
+  "synergy": ["naturgarten-heimische-pflanzen", "wildbienen-nisthabitat", "schottergarten-vermeiden", "gebaeudebrueter-nisthilfen"],
+  "sources": [
+    {"title": "NABU – Igelschutz im Garten", "url": "https://www.nabu.de/umwelt-und-ressourcen/oekologisch-leben/balkon-und-garten/tiere/saeugetiere/00755.html"},
+    {"title": "NABU – Der Igel, Wildtier des Jahres 2024", "url": "https://www.nabu.de/tiere-und-pflanzen/saeugetiere/sonstige-saeugetiere/10302.html"},
+    {"title": "BfN – Totholz und Artenvielfalt", "url": "https://www.bfn.de/"}
+  ]
+}

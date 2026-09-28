@@ -1,0 +1,53 @@
+{
+  "id": "moor-wiedervernaessung",
+  "name": "Moor-Wiedervernässung",
+  "aka": ["Moorschutz", "Wiedervernässung", "Paludikultur", "Moorbodenschutz", "peatland rewetting"],
+  "category": "Gewässer & Feuchtgebiete",
+  "scale": "Land/Bund",
+  "impact": 5,
+  "evidence_level": "A",
+  "effort": 4,
+  "tags": ["klima", "kohlenstoff", "treibhausgase", "biodiversitaet", "landwirtschaft", "torf", "wasser"],
+  "summary": "Entwässerte Moore sind trockengelegte Klimabomben: Sobald der Torf Luft bekommt, verrottet der über Jahrtausende gespeicherte Kohlenstoff und entweicht als CO2. Rund 7 % aller deutschen Treibhausgase stammen aus nur ~7,5 % der landwirtschaftlichen Fläche. Wiedervernässung stoppt diese Emissionen fast sofort und holt spezialisierte Moorarten zurück — ein seltener Doppel-Hebel für Klima UND Biodiversität, aber mit realen Nutzungskonflikten.",
+  "key_facts": [
+    {"label": "Anteil an DE-Treibhausgasen", "value": "entwässerte Moorböden verursachen ~7 % (~53 Mio. t CO2-Äquiv./Jahr, Stand 2020)", "source": "Greifswald Moor Centrum / Thünen-Institut; UBA"},
+    {"label": "Fläche", "value": "~18.000 km² Moorböden in DE, davon über 90 % entwässert", "source": "Greifswald Moor Centrum / BMLEH"},
+    {"label": "Konzentration", "value": "entwässerte Moore sind nur ~7,5 % der Agrarfläche, aber über ein Drittel der Landwirtschafts-Emissionen", "source": "Thünen-Institut / UBA"},
+    {"label": "Klimaziel 2030", "value": "geplante Minderung ~5 Mio. t CO2-Äquiv./Jahr = rechnerisch 125.000–250.000 ha vernässen", "source": "Bundesregierung / UBA-Paludikultur-Studie 2022"},
+    {"label": "Wirkung", "value": "nach Wiedervernässung sinken die CO2-Emissionen des Bodens sehr schnell nahe null; Torfabbau stoppt", "source": "Greifswald Moor Centrum"}
+  ],
+  "deep_dive": "Ein intaktes Moor ist eine der dichtesten Kohlenstoffsenken der Erde: unter Wasser sammelt sich abgestorbene Pflanzenmasse als Torf an, weil sie ohne Sauerstoff kaum zersetzt wird. Wird das Moor für Acker, Grünland oder Torfabbau entwässert, kehrt sich das um — der Torf oxidiert, jährlich entweichen große Mengen CO2 und Lachgas. In Deutschland sind über 90 % der ~18.000 km² Moorböden entwässert; sie stoßen rund 53 Mio. t CO2-Äquivalente pro Jahr aus, etwa 7 % der gesamten deutschen Emissionen — aus einer winzigen Fläche. Wiedervernässung, also das Anheben des Wasserstandes bis nahe an die Oberfläche, stoppt die Torfzehrung sehr schnell und lässt spezialisierte, oft stark gefährdete Arten (Sonnentau, Torfmoose, Hochmoor-Libellen, Bekassine, Kranich) zurückkehren. Der Hebel ist deshalb außergewöhnlich: kaum eine andere Einzelmaßnahme bringt so viel Klima- UND Artenschutz pro Hektar. Ehrlich bleiben muss man bei den Konflikten: wiedervernässte Flächen sind für konventionelle Landwirtschaft nicht mehr nutzbar, es braucht Entschädigung, Kooperation der Bewirtschafter und oft neue Wasserinfrastruktur. Paludikultur — der nasse Anbau von Schilf, Rohrkolben, Seggen oder Torfmoos für Dämmstoffe, Substrate oder Bau — ist der Weg, vernässte Moore wirtschaftlich zu nutzen; der Bund fördert das mit rund 80 Mio. € bis 2032. Frisch vernässte Flächen können anfangs Methan freisetzen, unterm Strich ist die Klimabilanz aber klar positiv.",
+  "mechanism": "Anheben des Wasserstands unterbindet die Sauerstoffzufuhr zum Torf, stoppt die mikrobielle Zersetzung und damit CO2-/Lachgas-Freisetzung; nasse Standortbedingungen stellen den Lebensraum für hochspezialisierte Moorarten wieder her.",
+  "evidence": [
+    {"source": "Greifswald Moor Centrum / Thünen-Institut (nationale THG-Inventare)", "year": 2021, "finding": "Entwässerte organische Böden verursachen rund 7 % der deutschen Treibhausgase (~53 Mio. t CO2-Äquiv.) auf nur wenigen Prozent der Fläche."},
+    {"source": "Umweltbundesamt, Paludikultur-Anreiz-Studie", "year": 2022, "finding": "Für die Moorbodenschutz-Ziele 2030/2050 müssen sechsstellige Hektarzahlen wiedervernässt und über Paludikultur nutzbar gemacht werden."},
+    {"source": "Günther et al. (Nature Communications)", "year": 2020, "finding": "Die Klimawirkung der Wiedervernässung ist trotz anfänglicher Methanemissionen über die Zeit klar positiv; frühe Vernässung lohnt sich am meisten."}
+  ],
+  "robustness": {
+    "effect_size": "Sehr groß: Boden-CO2-Emissionen fallen nach Wiedervernässung nahe null; höchster Klimanutzen pro Hektar unter den Landnutzungs-Maßnahmen.",
+    "replication": "In vielen Projekten in DE, NL, Baltikum und international gemessen; Emissionsfaktoren nach Wasserstand gut belegt (IPCC Wetlands Supplement).",
+    "caveats": "Anfangs mögliche Methanspitzen; volle Kohlenstoff-Speicherleistung baut sich erst über Jahre/Jahrzehnte wieder auf. Erfolg hängt am erreichten Wasserstand und an dauerhafter Sicherung. Große Nutzungs- und Eigentumskonflikte."
+  },
+  "protocol": [
+    "Moorböden identifizieren und priorisieren (Landes-Moorschutzkataster, Kohlenstoffvorrat, Vernässbarkeit, Eigentumsverhältnisse).",
+    "Wasserhaushalt planen: Gräben verschließen, Wasserstand ganzjährig knapp unter Flur anheben, Zulauf sichern — hydrologisches Gutachten einholen.",
+    "Bewirtschafter früh einbinden: Flächentausch, Entschädigung, langfristige Verträge; ohne Kooperation scheitert die Maßnahme.",
+    "Nachnutzung über Paludikultur ermöglichen (Schilf, Rohrkolben, Seggen, Torfmoos) statt Flächen brachfallen zu lassen.",
+    "Ziel-Wasserstand über Jahre monitoren (Pegel) und Emissionen/Vegetation begleitend erfassen; nachsteuern.",
+    "Fördermittel und Kohlenstoff-Zertifikate (MoorFutures u. Ä.) zur Finanzierung nutzen."
+  ],
+  "mistakes": [
+    "Wasserstand nur halbherzig anheben — bleibt der Torf zeitweise trocken, laufen die Emissionen weiter.",
+    "Flächen ohne Bewirtschafter-Kooperation vernässen — führt zu Blockaden und Rückabwicklung.",
+    "Vernässte Flächen einfach brachfallen lassen statt Paludikultur zu etablieren (Wertschöpfung + Akzeptanz verschenkt).",
+    "Anfangs-Methan als Ausrede gegen Wiedervernässung nehmen — die Gesamtbilanz ist klar positiv."
+  ],
+  "risks": "Hoher Aufwand und Konfliktpotenzial: verlorene konventionelle Nutzfläche, Eigentums- und Wasserrechtsfragen, teure Wasserinfrastruktur. Anfängliche Methanemissionen und langsamer Wiederaufbau der Senke. Ohne dauerhaft hohen Wasserstand verpufft der Effekt. Trotzdem einer der wirksamsten Klima-plus-Naturschutz-Hebel überhaupt.",
+  "synergy": ["gewaesserrandstreifen", "fluss-bach-renaturierung-auen", "kleingewaesser-tuempel"],
+  "sources": [
+    {"title": "Greifswald Moor Centrum – Fakten zu Mooren und Klima", "url": "https://www.greifswaldmoor.de/"},
+    {"title": "UBA – Paludikultur: Wiedervernässte Moore für mehr Klimaschutz", "url": "https://www.umweltbundesamt.de/themen/boden-flaeche/moore"},
+    {"title": "Mooratlas 2023 (BUND / Heinrich-Böll-Stiftung)", "url": "https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturschutz/Mooratlas_2023.pdf"},
+    {"title": "BMLEH – Klimaschutz durch Moorbodenschutz", "url": "https://www.bmleh.de/DE/themen/landwirtschaft/klimaschutz/moorbodenschutz.html"}
+  ]
+}

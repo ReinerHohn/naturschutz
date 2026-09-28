@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Naturschutz-Hebel",
+  "description": "Schema fuer einen Eintrag im Katalog. Ein Hebel = eine konkrete Naturschutz-Massnahme mit moeglichst gutem Verhaeltnis von oekologischer Wirkung zu Aufwand/Kosten. Fokus: was bringt am meisten pro Euro/Stunde (Low-Hanging Fruits), mit ehrlichem Evidenz-Level und konkreter Umsetzung fuer Buerger, Kommunen und Politik.",
+  "type": "object",
+  "required": ["id", "name", "category", "summary", "protocol"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "kebab-case, = Dateiname"},
+    "name": {"type": "string"},
+    "aka": {"type": "array", "items": {"type": "string"}, "description": "andere Bezeichnungen"},
+    "category": {"type": "string", "description": "Vernetzung & Korridore | Insekten & Bestäuber | Garten & Siedlung | Landwirtschaft & Fläche | Gewässer & Feuchtgebiete | Wald & Totholz | Gefahren & Fallen | Politik & System-Hebel"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "impact": {"type": "integer", "minimum": 1, "maximum": 5, "description": "Oekologische Wirkstaerke 1-5, evidenzgewichtet (5 = grosser, breit belegter Nutzen fuer Arten/Oekosysteme). Steuert die Sortierung."},
+    "evidence_level": {"type": "string", "enum": ["A", "B", "C"], "description": "A = Meta-Analysen/robuste Studienlage, B = einzelne Studien/konsistente Praxis, C = Mechanismus/Experten-Heuristik/kleine Studien"},
+    "effort": {"type": "integer", "minimum": 1, "maximum": 5, "description": "Aufwand/Kosten 1-5 (1 = sofort/gratis/privat machbar, 5 = teuer/langfristig/grosse Infrastruktur)"},
+    "scale": {"type": "string", "description": "Wer setzt es um: Privat | Kommune | Land/Bund | EU | Alle"},
+    "summary": {"type": "string", "description": "1-3 Saetze: was ist der Hebel und was bringt er"},
+    "key_facts": {
+      "type": "array",
+      "description": "quantifizierte Kennzahlen fuer die Schnell-Uebersicht",
+      "items": {
+        "type": "object",
+        "required": ["label", "value"],
+        "properties": {
+          "label": {"type": "string"},
+          "value": {"type": "string"},
+          "source": {"type": "string"}
+        }
+      }
+    },
+    "deep_dive": {"type": "string", "description": "vertiefter Absatz (4-8 Saetze): Wirkung mit Zahlen, Kosten, wer profitiert, verbreiteter Irrtum mit der echten Zahl"},
+    "mechanism": {"type": "string", "description": "warum es oekologisch wirkt"},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "finding"],
+        "properties": {
+          "source": {"type": "string"},
+          "year": {"type": "integer"},
+          "finding": {"type": "string"}
+        }
+      }
+    },
+    "robustness": {
+      "type": "object",
+      "properties": {
+        "replication": {"type": "string"},
+        "effect_size": {"type": "string"},
+        "caveats": {"type": "string"}
+      }
+    },
+    "protocol": {"type": "array", "items": {"type": "string"}, "description": "konkrete Umsetzung: das 'wie mache ich es'"},
+    "mistakes": {"type": "array", "items": {"type": "string"}, "description": "haeufige Fehler / Missverstaendnisse (z.B. Massnahmen die gut gemeint aber wirkungslos/schaedlich sind)"},
+    "risks": {"type": "string", "description": "Risiken, Zielkonflikte, wann es kontraproduktiv ist"},
+    "synergy": {"type": "array", "items": {"type": "string"}, "description": "kombiniert gut mit (ids oder Namen)"},
+    "sources": {
+      "type": "array",
+      "items": {"type": "object", "properties": {"title": {"type": "string"}, "url": {"type": "string"}}}
+    }
+  }
+}

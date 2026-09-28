@@ -1,0 +1,52 @@
+{
+  "id": "invasive-arten-frueherkennung",
+  "name": "Invasive Arten früh und gezielt bekämpfen",
+  "aka": ["Früherkennung und schnelle Reaktion", "EDRR", "invasive gebietsfremde Arten", "Neobiota", "EU-Verordnung 1143/2014"],
+  "category": "Politik & System-Hebel",
+  "scale": "EU",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["invasive-arten", "neobiota", "frueherkennung", "eu-recht", "praevention", "biosicherheit"],
+  "summary": "Invasive gebietsfremde Arten zählen weltweit zu den größten Treibern des Artensterbens und verursachen enorme Kosten. Der entscheidende Hebel ist Zeit: Wird eine Invasion früh erkannt und sofort bekämpft, ist Beseitigung oft möglich und um Größenordnungen billiger als späte Dauerbekämpfung. Anti-Hype: Nicht jede nicht-heimische Art ist ein Problem — es geht um die wenigen, die es sind.",
+  "key_facts": [
+    {"label": "Globale Kosten", "value": "biologische Invasionen kosteten 1970–2017 min. 1,29 Billionen US-$; zuletzt >80 Mrd. US-$/Jahr", "source": "Diagne et al., Nature 2021 (InvaCost)"},
+    {"label": "Kostenkurve", "value": "Bekämpfungskosten steigen exponentiell, je später gehandelt wird", "source": "EU-Kommission / Wissenschaft"},
+    {"label": "Schaden vs. Management", "value": "Schäden ~10x höher als die Ausgaben fürs Management — Prävention wird chronisch unterinvestiert", "source": "Diagne et al. 2021"},
+    {"label": "EU-Rechtsrahmen", "value": "Verordnung 1143/2014: Beseitigung binnen 3 Monaten nach Meldung einer neu erkannten Art", "source": "EU-Verordnung 1143/2014"},
+    {"label": "Anti-Hype", "value": "Die große Mehrheit gebietsfremder Arten wird nicht invasiv — Fokus auf die schädliche Minderheit", "source": "Neobiota-Forschung"}
+  ],
+  "deep_dive": "Invasive gebietsfremde Arten (Neobiota) sind laut IPBES einer der fünf Haupttreiber des globalen Artensterbens und verursachen gewaltige ökonomische Schäden: Die InvaCost-Analyse (Diagne et al., Nature 2021) beziffert die weltweiten Kosten biologischer Invasionen für 1970–2017 auf mindestens 1,29 Billionen US-$, zuletzt über 80 Mrd. US-$ pro Jahr — mit einer Verdreifachung pro Jahrzehnt. Entscheidend ist die Zeitachse: Die Kosten steigen exponentiell, je später reagiert wird. Solange eine Population klein, langsam und isoliert ist, ist vollständige Beseitigung realistisch und billig; ist die Art etabliert und großflächig, bleibt nur teure Dauerbekämpfung ohne Aussicht auf Beseitigung. Genau darauf setzt die EU-Verordnung 1143/2014: Sie führt eine Unionsliste besonders bedenklicher Arten und verpflichtet die Mitgliedstaaten, nach Früherkennung binnen drei Monaten Beseitigungsmaßnahmen einzuleiten. Der Hebel ist also nicht mehr Geld für Bekämpfung, sondern Prävention plus schnelles Handeln (Early Detection and Rapid Response, EDRR) — inklusive Grenz- und Handelskontrollen, Meldenetzwerken und Bürgerwissenschaft. Trotzdem fließt nur ein kleiner Bruchteil der Ausgaben in Prävention und Früherkennung, obwohl deren Kosten-Nutzen-Verhältnis überlegen ist. Wichtig gegen den Hype: Der allergrößte Teil eingeschleppter Arten wird nie invasiv; Panik vor allem Nicht-Heimischen ist unangebracht und lenkt Ressourcen von den wenigen wirklich schädlichen Arten ab. Ehrlich ist außerdem: Bei bereits etablierten Arten (z. B. flächige Bestände) ist Ausrottung oft nicht mehr möglich, und Bekämpfung (Gifte, Fallen) kann selbst Nebenwirkungen auf heimische Arten haben.",
+  "mechanism": "Weil sich Populationen exponentiell ausbreiten, entscheidet der Zeitpunkt der Reaktion über den Aufwand: frühe Erkennung erlaubt vollständige Beseitigung bei minimalen Kosten, während späte Etablierung nur noch teure, dauerhafte Eindämmung zulässt.",
+  "evidence": [
+    {"source": "Diagne et al., Nature (InvaCost)", "year": 2021, "finding": "Weltweite Invasionskosten 1970–2017 min. 1,29 Billionen US-$; Schäden ~10x höher als Managementausgaben, Prävention unterfinanziert."},
+    {"source": "EU-Verordnung 1143/2014", "year": 2014, "finding": "Verpflichtet zu Früherkennung und Beseitigung neu erkannter gelisteter Arten binnen 3 Monaten; Prävention als Kernprinzip."},
+    {"source": "Ökonomische EDRR-Analysen (z. B. Florida-Fallstudien)", "year": 2016, "finding": "Schnelle Reaktion senkt Beseitigungskosten drastisch; frühe Bekämpfung ist um Größenordnungen günstiger als späte Kontrolle."}
+  ],
+  "robustness": {
+    "effect_size": "Kostenersparnis um Größenordnungen bei früher Reaktion; ökologischer Nutzen hoch bei den tatsächlich schädlichen Arten.",
+    "replication": "Konsistent über viele Fallstudien und Länder (EDRR-Prinzip); ökonomische Datenbasis (InvaCost) breit, aber Schäden vermutlich unterschätzt.",
+    "caveats": "Bei bereits etablierten Arten ist Ausrottung oft unmöglich; Bekämpfungsmethoden können Nebenwirkungen auf heimische Arten haben; nicht jede gebietsfremde Art rechtfertigt Aufwand."
+  },
+  "protocol": [
+    "EU/Bund: die Unionsliste (VO 1143/2014) konsequent umsetzen — Meldung, Beseitigung binnen 3 Monaten, Grenz- und Handelskontrollen für Hochrisikopfade.",
+    "Früherkennungs- und Meldenetzwerke ausbauen (Behörden + Bürgerwissenschaft/Apps), damit neue Vorkommen sofort gemeldet werden.",
+    "Auf Prävention statt Dauerbekämpfung investieren: Einschleppungspfade (Handel, Ballastwasser, Gartenbau) schließen, Risikoarten aus dem Verkauf nehmen.",
+    "Bei neuen, noch kleinen Vorkommen sofort und vollständig beseitigen, solange es billig und machbar ist — nicht abwarten.",
+    "Ressourcen priorisieren: Fokus auf nachweislich schädliche, ausbreitungsfähige Arten statt auf jede nicht-heimische Art.",
+    "Kommunen/Bürger: gelistete Arten nicht auspflanzen/aussetzen, Verdachtsfälle melden, bei koordinierten Bekämpfungsaktionen mitwirken."
+  ],
+  "mistakes": [
+    "Abwarten, bis sich eine Art etabliert hat — dann ist Beseitigung meist unmöglich und nur teure Dauerkontrolle bleibt.",
+    "Jede gebietsfremde Art pauschal bekämpfen (Hype/Panik) und Ressourcen an harmlosen Arten verschwenden.",
+    "Prävention und Früherkennung unterfinanzieren, weil Schäden erst später sichtbar werden.",
+    "Bekämpfung ohne Rücksicht auf Nebenwirkungen (Gifte, Fallen) auf heimische Arten durchführen."
+  ],
+  "risks": "Späte oder ungezielte Bekämpfung ist teuer und kann heimische Arten schädigen. Pauschale Fremdenfeindlichkeit gegenüber allen Neobiota (Hype) verschwendet Mittel. Bei etablierten Arten drohen jahrzehntelange, kaum aussichtsreiche Dauerkosten — Grund, früh und präventiv zu handeln.",
+  "synergy": ["schaedliche-subventionen-abbauen", "eu-renaturierungsgesetz", "schutzgebiete-wirksam-machen", "wildbienen-nisthabitat"],
+  "sources": [
+    {"title": "Diagne et al. 2021 – High and rising economic costs of biological invasions worldwide (Nature)", "url": "https://www.nature.com/articles/s41586-021-03405-6"},
+    {"title": "BfN – EU-Verordnung 1143/2014 über invasive gebietsfremde Arten", "url": "https://www.bfn.de/eu-verordnung-11432014"},
+    {"title": "EUR-Lex – Verordnung (EU) Nr. 1143/2014 (Volltext)", "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32014R1143"}
+  ]
+}

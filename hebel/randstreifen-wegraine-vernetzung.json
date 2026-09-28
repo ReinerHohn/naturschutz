@@ -1,0 +1,52 @@
+{
+  "id": "randstreifen-wegraine-vernetzung",
+  "name": "Feldraine, Säume & Wegränder als lineare Korridore",
+  "aka": ["Feldraine", "Säume", "Wegränder", "Ackerrandstreifen", "Saumbiotope", "Blühstreifen", "Verkehrsbegleitgrün"],
+  "category": "Vernetzung & Korridore",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["saum", "feldrain", "wegrand", "insekten", "mahd", "agrarlandschaft", "korridor"],
+  "summary": "Schmale, ungenutzte Streifen an Feld-, Weg- und Straßenrändern vernetzen die ausgeräumte Agrarlandschaft wie ein feines Adernetz. Sie sind Lebensraum und Wanderkorridor für Wildbienen, Schmetterlinge, Laufkäfer und Feldvögel — und praktisch gratis, weil die Fläche ohnehin brachliegt. Entscheidend ist das Mahdregime: spät, abschnittsweise, mit Abtransport des Mahdguts.",
+  "key_facts": [
+    {"label": "Kosten", "value": "sehr niedrig — Flächen liegen ohnehin ungenutzt; Hauptaufwand ist die geänderte Pflege statt Neuanlage", "source": "Landschaftspflegeverbände"},
+    {"label": "Mahdregime", "value": "spät (nicht vor Mitte Juli), Schnitthöhe ~10 cm, langsam, Mahdgut abfahren — Nährstoffentzug fördert Vielfalt, senkt Insektenmortalität", "source": "LPV / Initiative Bunte Wiese"},
+    {"label": "Funktion", "value": "lineare Säume sind zugleich Habitat, Trittstein und Wanderkorridor für Insekten, Kleinsäuger und Feldvögel", "source": "Säume und Feldraine (Fachliteratur)"},
+    {"label": "Ökosystemleistung", "value": "Säume beherbergen Bestäuber und Nützlinge (biologische Schädlingskontrolle) direkt neben den Feldern", "source": "Agrarökologie"},
+    {"label": "Abschnittsweise mähen", "value": "Staffelmahd (nie alles auf einmal) erhält immer Rückzugs- und Blühflächen für Insekten", "source": "Mahdkonzepte Insektenschutz"}
+  ],
+  "deep_dive": "In der ausgeräumten Agrarlandschaft sind Feldraine, Wegränder und Straßenbegleitgrün oft die letzten linearen Strukturen, die Restlebensräume verbinden. Als schmale ungenutzte Streifen wirken sie gleichzeitig als Habitat, als Trittstein und als Wanderkorridor für Wildbienen, Schmetterlinge, Laufkäfer, Feldvögel und Kleinsäuger — und das nahezu gratis, weil die Fläche ohnehin nicht bewirtschaftet wird. Der eigentliche Hebel ist nicht Neuanlage, sondern die Pflege: ein angepasstes Mahdregime macht aus einem artenarmen, zu oft und zu tief gemähten Streifen einen artenreichen Saum. Empfohlen wird spätes Mähen (nicht vor Mitte Juli, damit Pflanzen aussamen und Insekten ihren Zyklus abschließen), eine Schnitthöhe von rund 10 cm und geringe Arbeitsgeschwindigkeit (weniger Insektenmortalität durch das Gerät), vor allem aber der Abtransport des Mahdguts: liegen bleibendes Schnittgut düngt die Fläche und lässt wenige nährstoffliebende Arten dominieren, während Abfahren die Fläche aushagert und die Artenvielfalt steigert. Ergänzend erhält eine Staffelmahd (nie die ganze Fläche auf einmal) durchgehend Rückzugs- und Blühinseln. Neben dem Naturschutzwert liefern Säume handfeste Ökosystemleistungen direkt am Feld: Bestäuber und Nützlinge zur biologischen Schädlingskontrolle. Grenzen: einzelne kurze Streifen sind wenig wert — der Nutzen entsteht erst im zusammenhängenden Netz; und die falsche Pflege (Mulchen, häufiges tiefes Mähen, Pestizid-/Düngereintrag vom Nachbarfeld) macht den Effekt zunichte. Weil Millionen Kilometer solcher Ränder existieren, ist der Flächenhebel im Verbund enorm.",
+  "mechanism": "Lineare ungenutzte Streifen verbinden isolierte Lebensräume, bieten Nahrung, Deckung und Fortpflanzungsraum und lassen Arten entlang der Landschaft wandern — angepasste Mahd erhält Blüten, Struktur und geringe Nährstoffe.",
+  "evidence": [
+    {"source": "Säume und Feldraine (Übersicht/Fachliteratur)", "year": 2019, "finding": "Saumbiotope wirken als lineare Korridore und Trittsteine und beherbergen zahlreiche Insekten- und Feldvogelarten in der Agrarlandschaft."},
+    {"source": "Initiative Bunte Wiese – Mahdkonzept gegen Insektensterben", "year": 2018, "finding": "Reduzierte, späte, abschnittsweise Mahd mit Abtransport erhöht Blüten- und Insektenvielfalt gegenüber häufiger Standardmahd deutlich."},
+    {"source": "Reviews zu field margins / Bestäuber und Nützlinge", "year": 2015, "finding": "Blüh- und Saumstreifen erhöhen Bestäuber- und Nützlingsdichte am Feldrand und liefern Ökosystemleistungen für die Landwirtschaft."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel pro Streifen, groß im Netz und pro eingesetztem Euro (Fläche liegt ohnehin brach).",
+    "replication": "Vielfach in DE/AT umgesetzt und untersucht; Mahdeffekte konsistent belegt.",
+    "caveats": "Einzelne kurze Streifen nützen wenig — Wirkung entsteht im Verbund. Falsche Pflege (Mulchen, tiefe/häufige Mahd, Nährstoff-/Pestizideintrag) hebt den Nutzen auf."
+  },
+  "protocol": [
+    "Vorhandene Raine, Wegränder und Straßenbegleitgrün als Netz denken und Lücken schließen (an Feldwegen, entlang von Bächen).",
+    "Mahd umstellen: nicht vor Mitte Juli, Schnitthöhe ~10 cm, langsam fahren — kein Mulchen.",
+    "Mahdgut abtransportieren, um die Fläche auszuhagern (Nährstoffentzug fördert Artenvielfalt).",
+    "Staffel-/Abschnittsmahd: immer nur einen Teil mähen, Rückzugs- und Blühinseln stehen lassen.",
+    "Pufferzone zum Acker sichern: keinen Dünger und keine Pestizide bis an den Saum bringen.",
+    "Streifen dauerhaft aus der Nutzung nehmen (Vertragsnaturschutz, kommunale Pflegepläne) und breit genug halten."
+  ],
+  "mistakes": [
+    "Mulchen oder häufige tiefe Mahd — tötet Insekten und düngt die Fläche auf.",
+    "Mahdgut liegen lassen — düngt den Saum auf, nährstoffliebende Arten verdrängen die Vielfalt.",
+    "Alles auf einmal mähen statt abschnittsweise — vernichtet alle Rückzugsräume gleichzeitig.",
+    "Dünger und Pestizide bis an den Rand bringen; einzelne kurze Streifen ohne Verbund anlegen."
+  ],
+  "risks": "Sehr geringes Risiko und minimale Kosten. Gefahr vor allem in falscher Pflege, die den Effekt umkehrt, und in Nährstoff-/Pestizideintrag vom Nachbarfeld. Als Einzelmaßnahme leicht überschätzt — der Wert liegt im flächigen Verbund, nicht im einzelnen Streifen.",
+  "synergy": ["biotopverbund-trittsteine", "amphibientunnel-leiteinrichtung"],
+  "sources": [
+    {"title": "LPV Landkreis Kassel – Säume in der Landschaft naturschutzgerecht pflegen", "url": "https://www.lpv-landkreis-kassel.de/themen/biotopverbund-wege-und-saeume/saeume-in-der-landschaft.html"},
+    {"title": "Initiative Bunte Wiese – Mahdkonzept zur Reduzierung des Insektensterbens (ResearchGate)", "url": "https://www.researchgate.net/publication/330215628_Die_Initiative_Bunte_Wiese_ein_neues_Mahdkonzept_als_Beitrag_zur_Reduzierung_des_Insektensterbens"},
+    {"title": "NABU – Zerschnittene Lebensräume und Biotopverbund", "url": "https://www.nabu.de/natur-und-landschaft/naturschutz/deutschland/32147.html"}
+  ]
+}

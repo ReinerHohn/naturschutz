@@ -1,0 +1,52 @@
+{
+  "id": "schottergarten-vermeiden",
+  "name": "Schottergärten vermeiden und zurückbauen",
+  "aka": ["Schotterwueste", "Steinwueste", "Garten des Grauens", "Kiesgarten falsch verstanden"],
+  "category": "Garten & Siedlung",
+  "scale": "Privat",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["anti-muster", "schottergarten", "versiegelung", "hitze", "rueckbau", "garten", "siedlung"],
+  "summary": "ANTI-MUSTER: Schottergärten sind ökologisch nahezu tot, heizen die Umgebung auf und speichern kein Wasser. Sie sind in mehreren Bundesländern rechtlich unzulässig. Der eigentliche Naturschutz-Hebel ist nicht das Kies-Beet selbst, sondern sein Rückbau in eine bepflanzte, wasserdurchlässige Fläche — jeder zurückgebaute Schottergarten ist ein direkter Gewinn.",
+  "key_facts": [
+    {"label": "Ökologisch wertlos", "value": "Schotterflächen mit Folie/Vlies bieten Insekten, Vögeln und Igeln kaum Nahrung oder Lebensraum — im Gegensatz zu echten, bepflanzten Steingärten", "source": "NABU"},
+    {"label": "Aufheizung", "value": "Steinflächen heizen sich in der Sonne stark auf (Oberflächen weit über 50 °C) und geben die Wärme nachts ab — sie verschärfen die Hitze im Siedlungsraum statt sie zu mildern", "source": "NABU BW; Stadtklima-Forschung"},
+    {"label": "Wasserhaushalt", "value": "Folie/Vlies unter dem Schotter versiegeln den Boden faktisch: Regen versickert schlecht, Verdunstungskühlung entfällt, Bodenleben stirbt ab", "source": "NABU"},
+    {"label": "Rechtslage", "value": "In Baden-Württemberg seit 2020 gesetzlich unzulässig; nach den meisten Landesbauordnungen sind nicht überbaute Flächen ohnehin wasserdurchlässig und begrünt zu halten (Bayern, Niedersachsen u. a.)", "source": "NatSchG BW; Landesbauordnungen"},
+    {"label": "Rückbau als Gewinn", "value": "Schotter kann als Trockenmauer/Steinhaufen für Eidechsen weiterverwendet werden; Folie entfernen, Boden mit Kompost wiederbeleben, heimisch bepflanzen", "source": "NABU BW"}
+  ],
+  "deep_dive": "Schottergärten sind ein weit verbreitetes Missverständnis von 'pflegeleicht': Eine Fläche aus Kies oder Splitt über einer Unkrautvlies- oder Folienschicht sieht scheinbar ordentlich aus, ist aber ökologisch nahezu leblos. Sie bietet weder Blüten noch Nahrung, keinen Unterschlupf, keine Nistmöglichkeit. Wichtig ist die Abgrenzung zum echten Steingarten oder Kiesbeet: Fachgerecht angelegte Kiesgärten mit standortgerechter Trockenpflanzung und offenem Boden können sogar wertvoll sein — das Problem ist die tote Schotterschicht auf Folie. Zweitens verschärfen Schotterflächen lokal die Hitze: Steine heizen sich tagsüber weit über 50 °C auf und strahlen die Wärme nachts wieder ab, während bepflanzte Flächen durch Verdunstung kühlen. In dicht bebauten Siedlungen mit zunehmenden Hitzewellen wirkt das kontraproduktiv. Drittens versiegelt die Folie den Boden praktisch, sodass Regenwasser schlechter versickert und das Bodenleben abstirbt. Rechtlich ist die Anlage neuer Schottergärten in Baden-Württemberg seit 2020 ausdrücklich verboten, und die meisten Landesbauordnungen verlangen ohnehin, nicht bebaute Grundstücksflächen wasserdurchlässig und begrünt zu halten — Schottergärten sind damit vielerorts formal unzulässig, auch wenn der Vollzug bei Bestandsflächen schwierig ist. Der eigentliche Hebel dieser Karte ist der Rückbau: Schotter abtragen (als Trockenmauer oder Steinhaufen für Eidechsen weiterverwenden), Folie/Vlies vollständig entfernen, den verdichteten Boden lockern und mit Kompost wiederbeleben, dann standortgerecht und heimisch bepflanzen. Aus einer toten Fläche wird so unmittelbar Lebensraum und Kühlfläche.",
+  "mechanism": "Schotter-auf-Folie eliminiert Nahrung, Deckung und Bodenleben und wirkt als Hitzespeicher und Quasi-Versiegelung. Rückbau kehrt beides um: Verdunstungskühlung, Versickerung, Bodenleben und Nahrungsangebot kehren zurück.",
+  "evidence": [
+    {"source": "NABU (Schottergarten im Baurecht)", "year": 2023, "finding": "Schottergärten sind lebensfeindlich für Insekten, Vögel und Igel, heizen auf und speichern kein Wasser; nach den meisten Landesbauordnungen sind sie unzulässig."},
+    {"source": "NatSchG Baden-Württemberg (Novelle)", "year": 2020, "finding": "Erstes Bundesland mit ausdrücklichem Verbot der Neuanlage von Schottergärten auf Privatgrundstücken."},
+    {"source": "Stadtklimatologie / Kommunale Praxis", "year": 2022, "finding": "Steinflächen verstärken die sommerliche Überhitzung im Siedlungsraum; begrünte Flächen kühlen durch Verdunstung und mindern Hitzeinseln."}
+  ],
+  "robustness": {
+    "effect_size": "Pro Fläche mittel (kleine Einzelflächen), aber unmittelbar und eindeutig positiv beim Rückbau; große Summenwirkung über viele Grundstücke.",
+    "replication": "Ökologische Wertlosigkeit und Aufheizung breit dokumentiert; rechtliche Regelungen je Bundesland unterschiedlich streng und im Vollzug uneinheitlich.",
+    "caveats": "Nicht mit fachgerechten Kies-/Steingärten (Trockenpflanzung, offener Boden) verwechseln — die sind wertvoll. Rückbaupflicht für Bestandsflächen rechtlich teils umstritten."
+  },
+  "protocol": [
+    "Keinen neuen Schottergarten anlegen; bei Neugestaltung heimische Trockenpflanzung auf offenem, durchlässigem Boden wählen.",
+    "Bestehenden Schottergarten zurückbauen: Steine abtragen und als Trockenmauer oder Lesesteinhaufen (Eidechsen, Insekten) weiterverwenden.",
+    "Folie/Vlies vollständig entfernen — das ist der entscheidende Schritt.",
+    "Verdichteten Boden lockern und mit Kompost/Mutterboden wiederbeleben.",
+    "Standortgerecht und heimisch bepflanzen (Trockenkünstler wie Fetthenne, Thymian, Wildstauden bei sonnigen Flächen).",
+    "Kommunale Förderprogramme für Entsiegelung/Begrünung prüfen."
+  ],
+  "mistakes": [
+    "Fachgerechten Kies-/Steingarten mit lebensfeindlichem Schotter-auf-Folie verwechseln.",
+    "Schotter zwar entfernen, aber die Folie liegen lassen — Boden bleibt versiegelt.",
+    "Nach Rückbau exotisch statt heimisch bepflanzen.",
+    "Schottergarten als 'pflegeleicht' rechtfertigen — Unkraut und Laub sammeln sich, Reinigung wird auf Dauer aufwendig."
+  ],
+  "risks": "Gering. Rückbau kostet einmalig Arbeit/Entsorgung. Rechtlicher Rückbauzwang bei Bestandsflächen ist teils umstritten; Anreiz statt Zwang und Aufklärung wirken oft besser. Steine sinnvoll weiterverwenden statt entsorgen.",
+  "synergy": ["naturgarten-heimische-pflanzen", "totholz-laub-reisighaufen", "dach-fassadenbegruenung", "wildbienen-nisthabitat"],
+  "sources": [
+    {"title": "NABU – Schottergarten im Baurecht", "url": "https://www.nabu.de/umwelt-und-ressourcen/oekologisch-leben/balkon-und-garten/grundlagen/planung/32315.html"},
+    {"title": "NABU Baden-Württemberg – 7 Fakten zu Schottergärten", "url": "https://baden-wuerttemberg.nabu.de/umwelt-und-leben/umweltbewusst-leben/naturgarten/gartenplanung/index.html"},
+    {"title": "ÖKO-TEST – Erstes Bundesland verbietet Schottergärten", "url": "https://www.oekotest.de/bauen-wohnen/Erstes-Bundesland-verbietet-Schottergaerten_11416_1.html"}
+  ]
+}

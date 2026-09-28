@@ -1,0 +1,52 @@
+{
+  "id": "kleingewaesser-tuempel",
+  "name": "Kleingewässer & Tümpel anlegen",
+  "aka": ["Tümpel", "Kleingewässer", "Amphibienteich", "Laichgewässer", "Kleinstgewässer", "pond creation"],
+  "category": "Gewässer & Feuchtgebiete",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["amphibien", "libellen", "insekten", "biodiversitaet", "wasser", "low-hanging-fruit", "privat"],
+  "summary": "Kleine, fischfreie Stillgewässer sind Artenschutz-Kraftpakete: Amphibien, Libellen und unzählige Wasserinsekten brauchen sie zum Laichen, aber über die Hälfte der Tümpel ist im letzten Jahrhundert verschwunden. Neue Tümpel sind billig anzulegen und werden oft schon im ersten Jahr besiedelt — einer der besten Naturschutz-Effekte pro Euro und damit ideal auch für Privat und Kommune.",
+  "key_facts": [
+    {"label": "Rückgang", "value": "in DE ist im letzten Jahrhundert mehr als die Hälfte der Tümpel und Kleingewässer verschwunden", "source": "Leibniz-IGB / Naturschutzliteratur"},
+    {"label": "Besiedlung", "value": "neue Tümpel werden von Libellen und Amphibien oft schon in der ersten Saison angenommen", "source": "Praxis-Monitoring / IGB"},
+    {"label": "Fisch-Killer", "value": "Fischbesatz (ab ~3 Arten) senkt die Amphibienvielfalt drastisch — Tümpel unbedingt fischfrei halten", "source": "europaweite Kleingewässer-Studie (IGB)"},
+    {"label": "Kosten", "value": "kleiner Tümpel per Hand/Minibagger ab wenigen 100 € bis niedrigem vierstelligen Bereich", "source": "Praxis-Erfahrung Naturschutzverbände"},
+    {"label": "Trockenfallen ok", "value": "zeitweise austrocknende Gewässer sind wertvoll — sie halten Fische und Fressfeinde fern", "source": "Amphibien-Fachliteratur"}
+  ],
+  "deep_dive": "Kleingewässer — von der wassergefüllten Senke über den Tümpel bis zum kleinen Weiher — gehören zu den artenreichsten Lebensräumen überhaupt, gemessen an ihrer winzigen Fläche. Amphibien sind hier der Schlüssel: sie leben an Land, können sich aber nur im Wasser fortpflanzen; ohne geeignete Laichgewässer bricht die Population zusammen. Im letzten Jahrhundert ist in Deutschland mehr als die Hälfte dieser Kleingewässer verschwunden — verfüllt, entwässert, überdüngt oder mit Fischen besetzt. Genau deshalb ist Neuanlage so wirksam: ein frischer, sonniger, fischfreier Tümpel wird häufig schon in der ersten Saison von Libellen, Molchen, Fröschen und Kröten besiedelt, weil die Tiere aktiv nach neuen Gewässern suchen. Das Kosten-Nutzen-Verhältnis ist herausragend — ein Tümpel kostet oft nur einen Bruchteil großer Naturschutz-Bauwerke und liefert sofort messbaren Artenzuwachs, weshalb er ein klassischer Low-Hanging-Fruit ist. Entscheidend ist die Gestaltung: flache, besonnte Ufer (nicht steil und schattig), keine Fische, keine Enten-Fütterung, kein direkter Nährstoffeintrag, und idealerweise ein Verbund mehrerer Gewässer, damit Tiere wandern und ausweichen können. Auch zeitweises Austrocknen ist ein Feature, kein Fehler: temporäre Tümpel schließen Fische und viele Fressfeinde aus und begünstigen gerade seltene Pionierarten wie Gelbbauchunke oder Kreuzkröte.",
+  "mechanism": "Neue fischfreie Stillgewässer schaffen Laich- und Larvenhabitat; die hohe Mobilität von Amphibien und Libellen führt zu schneller Besiedlung. Ein Verbund mehrerer Gewässer stabilisiert Metapopulationen.",
+  "evidence": [
+    {"source": "Leibniz-IGB, europaweite Kleingewässer-Studie ('Der perfekte Tümpel')", "year": 2023, "finding": "Fischbesatz ist ein signifikanter Treiber des Amphibienrückgangs; fischfreie, gut strukturierte Kleingewässer haben die höchste Vielfalt."},
+    {"source": "Praxis-Monitoring diverser Naturschutzprojekte (z. B. Impulse für die Vielfalt, Herrenberg)", "year": 2022, "finding": "Neu angelegte oder sanierte Biotope (dort ~70) werden rasch von Amphibien und Libellen besiedelt."},
+    {"source": "Amphibien-Fachliteratur zu temporären Gewässern", "year": 2019, "finding": "Zeitweise trockenfallende Kleingewässer fördern Pionier- und Spezialarten, weil sie Fische und viele Prädatoren ausschließen."}
+  ],
+  "robustness": {
+    "effect_size": "Groß relativ zu Fläche und Kosten; schnelle, sichtbare Besiedlung.",
+    "replication": "Vielfach in Praxis und Studien bestätigt; robustes Muster (fischfrei + besonnt + Verbund).",
+    "caveats": "Wirkung hängt an fischfreiem, nährstoffarmem, besonntem Gewässer und an Landlebensraum + Vernetzung im Umfeld. Einzelner isolierter Tümpel bringt weniger als ein Verbund. Verlandung/Beschattung erfordern gelegentliche Pflege."
+  },
+  "protocol": [
+    "Sonnigen, nährstoffarmen Standort mit Landlebensraum (Hecke, Wiese, Totholz) in der Nähe wählen.",
+    "Flache, unterschiedlich tiefe Mulde mit langen Flachwasserzonen anlegen; steile Ufer vermeiden.",
+    "KEINE Fische einsetzen und keine Enten füttern — Fischbesatz ist der häufigste Amphibien-Killer.",
+    "Nicht bepflanzen mit Gartencentersorten — Selbstbesiedlung zulassen; kein Nährstoff-/Laubeintrag.",
+    "Mehrere Kleingewässer im Verbund statt eines großen anlegen (Ausweichen, Metapopulation).",
+    "Verlandung und Beschattung im Blick behalten und alle paar Jahre teilweise entschlammen/auslichten."
+  ],
+  "mistakes": [
+    "Fische einsetzen — vernichtet Laich und Larven und macht den Tümpel wertlos für Amphibien.",
+    "Steile, tiefe, schattige Anlage ohne Flachwasser — schlecht besonnt, kaum Larvenhabitat.",
+    "Nährstoffeintrag (Dünger, Laub, Fütterung) — kippt das Gewässer, Algen dominieren.",
+    "Einzelnen isolierten Tümpel ohne Landlebensraum und Vernetzung anlegen."
+  ],
+  "risks": "Gering. Hauptfehler ist Fischbesatz und Nährstoffeintrag. Bei Grundwasser-/Trinkwasserschutzflächen und in Auen behördlich abstimmen. Ohne gelegentliche Pflege verlandet oder verschattet der Tümpel mit den Jahren.",
+  "synergy": ["gewaesserrandstreifen", "fluss-bach-renaturierung-auen", "moor-wiedervernaessung"],
+  "sources": [
+    {"title": "Leibniz-IGB – Der perfekte Tümpel (Forschung zu Kleingewässern)", "url": "https://www.leibniz-gemeinschaft.de/ueber-uns/neues/forschungsnachrichten/forschungsnachrichten-single/newsdetails/teiche-fuer-die-kleinen"},
+    {"title": "NABU – Amphibien und Kleingewässer schützen", "url": "https://www.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/amphibienschutz/index.html"},
+    {"title": "Naturschutz und Landschaftsplanung – Wie sieht der perfekte Tümpel aus?", "url": "https://www.nul-online.de/themen/gewaesser-und-bodenschutz/article-8113911-201986/wie-sieht-der-perfekte-tuempel-aus-.html"}
+  ]
+}

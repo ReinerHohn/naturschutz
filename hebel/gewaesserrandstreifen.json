@@ -1,0 +1,52 @@
+{
+  "id": "gewaesserrandstreifen",
+  "name": "Gewässerrandstreifen / Pufferstreifen",
+  "aka": ["Pufferstreifen", "Uferrandstreifen", "Gewässerschonstreifen", "Randstreifen", "buffer strip"],
+  "category": "Gewässer & Feuchtgebiete",
+  "scale": "Land/Bund",
+  "impact": 4,
+  "evidence_level": "A",
+  "effort": 2,
+  "tags": ["nährstoffe", "pestizide", "landwirtschaft", "gewaesserschutz", "korridor", "wasser", "low-hanging-fruit"],
+  "summary": "Ein unbewirtschafteter, bewachsener Streifen entlang von Bächen und Flüssen fängt Dünger, Erde und Pestizide ab, bevor sie ins Wasser gelangen, beschattet und kühlt das Gewässer und dient als Wanderkorridor. Die Wirkung steigt stark mit der Breite — die gesetzlichen 5 m sind meist zu schmal. Sehr günstig, hoher Hebel: ein klassischer Low-Hanging-Fruit für saubere Gewässer.",
+  "key_facts": [
+    {"label": "5 m Breite", "value": "hält modellhaft nur ~50 % der Nährstoffe zurück — die gesetzliche Mindestbreite ist meist zu schmal", "source": "Bayerische Akademie für Naturschutz (ANL) / Modellrechnungen"},
+    {"label": "10 m Breite", "value": "~90 % Nährstoffrückhalt; ab ~10 m werden auch Pflanzenschutzmittel effektiv gefiltert", "source": "ANL / Fachliteratur"},
+    {"label": "20 m Breite", "value": "~97,5 % Rückhalt — breiter ist deutlich wirksamer", "source": "ANL / Modellrechnungen"},
+    {"label": "Gehölze wirksamer", "value": "Randstreifen mit Bäumen/Gehölzen entfernen N und P besser als reine Grasstreifen", "source": "Reviews zur Pufferstreifen-Wirkung"},
+    {"label": "Hauptursache Nährstoffe", "value": "Nährstoffeinträge aus der Landwirtschaft sind Hauptgrund für den schlechten Gewässerzustand", "source": "Umweltbundesamt"}
+  ],
+  "deep_dive": "Gewässerrandstreifen sind bewusst nicht bewirtschaftete oder extensiv gepflegte Streifen entlang von Bächen, Gräben und Flüssen. Sie wirken auf mehreren Ebenen gleichzeitig: Die Vegetation und der Boden filtern Nitrat, Phosphat und Bodenpartikel aus abfließendem Oberflächenwasser, bevor diese ins Gewässer gelangen; sie fangen Pestizid-Abdrift ab; Wurzeln stabilisieren das Ufer gegen Erosion; Gehölze beschatten und kühlen das Wasser (wichtig gegen Hitzestress für Fische und gegen Algen); und der Streifen selbst ist ein linearer Lebensraum und Wanderkorridor für Insekten, Amphibien und Kleinsäuger. Der entscheidende Punkt ist die Breite: Modellrechnungen zeigen rund 50 % Nährstoffrückhalt bei 5 m, etwa 90 % bei 10 m und ~97,5 % bei 20 m — ein stark nichtlinearer Zusammenhang. Genau hier klafft die Lücke: Die gesetzlich vorgeschriebenen Mindestbreiten liegen vielerorts bei nur 5 m und tragen damit nur zu einem kleinen Teil zum Stoffrückhalt bei. Weil Nährstoffeinträge aus der Landwirtschaft die Hauptursache für den schlechten Gewässerzustand in Deutschland sind, ist der breite Randstreifen einer der billigsten und wirksamsten Hebel überhaupt — er kostet vor allem entgangene Erntefläche, keine teure Bautechnik, und lässt sich fast überall anlegen. Besonders wirksam sind Streifen mit Gehölzen statt reiner Grasstreifen. In der Praxis scheitert es oft nicht an der Wirksamkeit, sondern an schmalen Vorgaben, mangelnder Kontrolle und fehlendem Ausgleich für Landwirte.",
+  "mechanism": "Vegetation und Bodenpassage im ungenutzten Streifen halten Nährstoffe, Sediment und Pestizide aus dem Oberflächenabfluss zurück (Filter, Denitrifikation, Aufnahme); Wurzeln stabilisieren das Ufer, Gehölze beschatten das Wasser, der Streifen vernetzt Lebensräume.",
+  "evidence": [
+    {"source": "Bayerische Akademie für Naturschutz (ANL): 'Wie breit müssen wirksame Gewässerrandstreifen sein?'", "year": 2020, "finding": "Nährstoffrückhalt steigt stark mit der Breite: ~50 % bei 5 m, ~90 % bei 10 m, ~97,5 % bei 20 m; 5 m gesetzliche Mindestbreite ist meist unzureichend."},
+    {"source": "NABU / Uni Duisburg-Essen, Studie zu Insekten in Gewässerrandstreifen", "year": 2021, "finding": "Ausreichend breite Randstreifen erhöhen Insektenvielfalt und -menge deutlich und puffern Pestizid-/Nährstoffeinträge."},
+    {"source": "Umweltbundesamt, Gewässerrandstreifen zwischen Anspruch und Realität", "year": 2020, "finding": "Randstreifen sind wirksam, aber gesetzliche Breiten und Umsetzung bleiben hinter dem Bedarf zurück; Nährstoffeinträge aus Landwirtschaft dominieren die Belastung."}
+  ],
+  "robustness": {
+    "effect_size": "Groß beim Stoffrückhalt, mit klarer Breiten-Abhängigkeit (nichtlinear); zusätzlich Beschattungs- und Korridornutzen.",
+    "replication": "International in vielen Studien und Reviews bestätigt; Breiten-Wirkungs-Zusammenhang robust.",
+    "caveats": "Wirkung hängt an Breite, Vegetationstyp (Gehölze > Gras), Hangneigung und daran, dass kein Dränwasser den Streifen unterläuft. Schmale 5-m-Streifen leisten nur einen Teil. Wirkt gegen diffuse Einträge, nicht gegen Punktquellen."
+  },
+  "protocol": [
+    "Randstreifen breiter als gesetzliches Minimum anlegen — Zielwert mind. 10 m, an belasteten/steilen Abschnitten mehr.",
+    "Nicht düngen, nicht spritzen, nicht bis ans Ufer pflügen; extensive Nutzung oder Brache.",
+    "Gehölze und mehrschichtige Vegetation einplanen (wirksamer als reiner Grasstreifen, plus Beschattung).",
+    "Dränagen berücksichtigen — verrohrtes Dränwasser darf den Streifen nicht unterlaufen.",
+    "Priorität auf Abschnitte mit hoher Nährstoff-/Erosionsbelastung und schlechtem Gewässerzustand legen.",
+    "Landwirten Ausgleich/Förderung anbieten und Einhaltung tatsächlich kontrollieren."
+  ],
+  "mistakes": [
+    "Nur die gesetzlichen 5 m anlegen und annehmen, das reiche — hält oft nur ~50 % der Nährstoffe.",
+    "Reinen schmalen Grasstreifen statt Gehölze/Struktur wählen; geringere N/P-Entfernung, keine Beschattung.",
+    "Dränwasser übersehen, das unter dem Streifen direkt ins Gewässer geleitet wird.",
+    "Randstreifen auf dem Papier ausweisen, aber weiter bis ans Ufer düngen/spritzen (keine Kontrolle)."
+  ],
+  "risks": "Gering und billig; Hauptkosten sind entgangene landwirtschaftliche Fläche, daher Ausgleich nötig. Wirkt nur gegen diffuse Einträge, nicht gegen Punktquellen; unterlaufende Dränagen können die Wirkung aushebeln. Zu schmale Streifen erzeugen falsche Sicherheit.",
+  "synergy": ["fluss-bach-renaturierung-auen", "kleingewaesser-tuempel", "moor-wiedervernaessung"],
+  "sources": [
+    {"title": "ANL – Wie breit müssen wirksame Gewässerrandstreifen sein?", "url": "https://www.anl.bayern.de/publikationen/anliegen/meldungen/wordpress/gewaesserrandstreifen/"},
+    {"title": "UBA – Gewässerrandstreifen: Zwischen Anspruch und Realität", "url": "https://www.umweltbundesamt.de/themen/wasser/fluesse/verbesserungsmassnahmen/gewaesserrandstreifen-zwischen-anspruch-realitaet"},
+    {"title": "NABU – Insektenschutz durch Gewässerrandstreifen (Studie)", "url": "https://www.nabu.de/imperia/md/content/nabude/landwirtschaft/210802-studie-gewaesserrandstreifen-uni-duisburg-essen.pdf"}
+  ]
+}

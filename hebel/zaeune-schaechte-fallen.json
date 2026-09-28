@@ -1,0 +1,53 @@
+{
+  "id": "zaeune-schaechte-fallen",
+  "name": "Wildtierfreundliche Zäune & Fallen entschärfen",
+  "aka": ["Todesfalle Lichtschacht", "Todesfalle Gully", "wildtierfreundlicher Zaun", "Amphibienfalle"],
+  "category": "Gefahren & Fallen",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["zaun", "amphibien", "igel", "lichtschacht", "gully", "stacheldraht", "sofortfix"],
+  "summary": "Alltägliche Bauteile werden zu Todesfallen: Kellerlicht- und Gullyschächte lassen Amphibien, Igel und Insekten hineinfallen ohne Ausweg; Stacheldraht und dünne Netze verletzen und töten Fledermäuse, Eulen, Rehe und Weidetiere; glatte Zäune und bodenlose Barrieren zerschneiden Wege; Regentonnen ertränken Kleintiere. Die Fixes sind fast gratis und sofort wirksam: Gitter, Ausstiegshilfen, Bodenfreiheit, glatter oberer Abschluss.",
+  "key_facts": [
+    {"label": "Schächte/Gullys", "value": "geschätzt hunderttausende Amphibien/Jahr verenden allein in Gullys und Lichtschächten", "source": "Deutscher Tierschutzbund; NABU"},
+    {"label": "Zäune/Netze", "value": "in der Schweiz sterben ~3.000–4.500 Wildtiere/Jahr in Zäunen und Netzen", "source": "STS-Merkblatt sichere Weidezäune"},
+    {"label": "Bodenfreiheit", "value": "unterster Draht >=25–40 cm über Boden -> Kitze, Igel & Co. schlüpfen durch", "source": "STS; Praxis"},
+    {"label": "Glatter Abschluss", "value": "oberste und unterste Litze glatt statt Stacheldraht -> keine Schnitt-/Fangverletzungen", "source": "Umweltberatung Luzern"},
+    {"label": "Igel-Kletterlimit", "value": "Igel überwinden an glatten senkrechten Wänden nur ~15–20 cm, Jungtiere/Amphibien weniger", "source": "Umweltberatung Luzern"},
+    {"label": "Ausstiegshilfe Schacht", "value": "rauhes Brett mit Seitenleiste, Neigung möglichst <=45 Grad", "source": "info fauna karch"}
+  ],
+  "deep_dive": "Viele Todesfallen sind unscheinbare Standardbauteile. Kellerlichtschächte und Straßen-/Hofgullys mit glatten senkrechten Wänden fangen wandernde Amphibien (Kröten, Frösche, Molche), aber auch Igel, Eidechsen und Insekten: Hineingefallen kommen sie an den glatten Wänden nicht hoch und verhungern, vertrocknen oder ertrinken — Schätzungen gehen von hunderttausenden Amphibien pro Jahr allein in Gullys und Schächten aus. Der Fix kostet fast nichts: engmaschige Abdeckgitter oder -roste über Lichtschächten und geeignete Gullyaufsätze/Amphibienleitgitter, plus dauerhaft installierte Ausstiegshilfen (rauhes Brett mit seitlicher Leiste gegen Abrutschen, Neigung möglichst unter 45 Grad; für tiefe Schächte spezielle Amphibienleitern). Zäune sind der zweite große Komplex: Stacheldraht verursacht schwere Schnitt- und Fangverletzungen — Fledermäuse und Eulen verfangen sich im Flug, Rehe/Hirsche beim Übersetzen; in der Schweiz sterben geschätzt 3.000–4.500 Wildtiere pro Jahr in Zäunen und Netzen. Wildtierfreundlich heißt: auf Stacheldraht verzichten (zumindest oberste und unterste Litze glatt), oben einen glatten, gut sichtbaren Abschluss, unten Bodenfreiheit von mindestens 25 cm (für Kitze eher 40 cm), damit Kleintiere durchschlüpfen statt sich zu verfangen; herabhängende, lockere Netze (Obst-, Tennis-, Volleyballnetze) nachts spannen oder abbauen, da sich Igel, Vögel und Schlangen darin strangulieren. Regentonnen und Wasserbehälter ertränken Igel, Mäuse, Eichhörnchen und Insekten — abdecken oder eine schräg herausragende raue Ausstiegsrampe/schwimmendes Brett hineinlegen. Auch glatte Kellertreppen und Pools sind Fallen; ein rauhes Brett als Rampe genügt oft. Diese Maßnahmen sind Paradebeispiele für Low-Hanging Fruits: minimaler Aufwand, sofortige Wirkung, an fast jedem Haus und Grundstück umsetzbar.",
+  "mechanism": "Abdecken verhindert das Hineinfallen; Ausstiegshilfen/Rampen ermöglichen das Herausklettern; Bodenfreiheit und glatter, sichtbarer Zaun-Abschluss ersetzen die tödliche Barriere durch eine durchlässige, verletzungsarme Grenze.",
+  "evidence": [
+    {"source": "info fauna karch – Amphibien im Keller-/Lichtschacht; Amphibienschutz in Entwässerungsanlagen", "year": 2020, "finding": "Schächte und Gullys mit glatten Wänden sind Amphibienfallen; Gitter/Roste und rauhe Ausstiegsbretter (<=45 Grad) verhindern das Verenden."},
+    {"source": "Schweizer Tierschutz STS – Merkblatt sichere Weidezäune", "year": 2023, "finding": "~3.000–4.500 Wildtiere/Jahr sterben in CH in Zäunen/Netzen; Verzicht auf Stacheldraht, glatte oberste/unterste Drähte und Bodenfreiheit senken Verletzungen."},
+    {"source": "Deutscher Tierschutzbund; NABU – Todesfalle Gully/Lichtschacht", "year": 2021, "finding": "Hunderttausende Amphibien verenden jährlich in Gullys und Schächten; einfache Abdeckungen und Ausstiegshilfen wirken sofort."}
+  ],
+  "robustness": {
+    "effect_size": "Pro Objekt nahezu vollständig (Abdeckung/Ausstiegshilfe verhindert Tod); in der Summe vieler Grundstücke relevant.",
+    "replication": "Breite, konsistente Praxisempfehlung von Naturschutz- und Tierschutzverbänden in DE/AT/CH; wenige quantitative Studien, Mechanismus eindeutig.",
+    "caveats": "Absolute Todeszahlen sind Schätzungen. Abdeckgitter müssen engmaschig und stabil sein; Ausstiegsbretter regelmäßig prüfen/ersetzen. Zaun-Bodenfreiheit kann mit Weidetier-Sicherheit kollidieren -> Kompromiss über glatte Drähte/Litzenhöhen."
+  },
+  "protocol": [
+    "Kellerlichtschächte mit engmaschigem, stabilem Gitter/Rost abdecken; wo offen, rauhes Ausstiegsbrett mit Seitenleiste hineinstellen (Neigung <=45 Grad).",
+    "Gullys/Einlaufschächte im Amphibien-Wandergebiet mit geeignetem Rost/Amphibienleitgitter versehen, regelmäßig auf gefangene Tiere kontrollieren.",
+    "Auf Stacheldraht verzichten; wo unvermeidbar oberste und unterste Litze glatt und gut sichtbar; keine Knäuel/Reste liegen lassen.",
+    "Zaun mit Bodenfreiheit >=25 cm (für Kitze ~40 cm) oder durchlässigen Durchschlüpfen bauen; keine engmaschigen bodennahen Sperren wo Wanderungen laufen.",
+    "Lose Netze (Obst-, Sport-, Bau-Netze) straff spannen und nachts/außer Gebrauch abbauen; keine bodennahen herabhängenden Netze.",
+    "Regentonnen/Wasserbehälter/Pools abdecken oder eine raue Rampe bzw. ein schwimmendes Brett als Ausstieg hineingeben; Kellerschächte/-treppen mit Rampe versehen."
+  ],
+  "mistakes": [
+    "Lichtschacht nur mit weitmaschigem Gitter abdecken, durch das Amphibien und Insekten weiter fallen.",
+    "Ausstiegsbrett zu steil (>45 Grad) oder ohne Seitenleiste -> Tiere rutschen ab.",
+    "Stacheldraht als oberen Abschluss über Wildwechseln oder an Fledermaus-Flugrouten.",
+    "Regentonne offen lassen; lose Netze über Nacht gespannt/ungespannt liegen lassen (Strangulationsfalle)."
+  ],
+  "risks": "Sehr gering und sehr günstig. Abdeckungen dürfen Entwässerung/Fluchtwege für Menschen nicht behindern; Roste stabil und begehbar wählen. Zaun-Bodenfreiheit mit Nutztierschutz abwägen.",
+  "synergy": ["maehtod-vermeiden", "gruenbruecke-wildquerung", "lichtverschmutzung-tiere"],
+  "sources": [
+    {"title": "info fauna karch – Amphibienschutz in Entwässerungsanlagen (Schächte/Gullys)", "url": "https://www.infofauna.ch/de/beratungsstellen/amphibien-karch/foerderung/nach-lebensraum/amphibienschutz-entwaesserungsanlagen"},
+    {"title": "Schweizer Tierschutz STS – Merkblatt sichere Weidezäune (PDF)", "url": "https://tierschutz.com/app/uploads/2023/06/mb_zaeune.pdf"},
+    {"title": "Deutscher Tierschutzbund – Todesfalle Gully", "url": "https://www.duunddastier.de/ausgabe/gullys/"}
+  ]
+}

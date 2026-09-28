@@ -1,0 +1,53 @@
+{
+  "id": "wildbienen-nisthabitat",
+  "name": "Echte Wildbienen-Nisthabitate",
+  "aka": ["Nisthilfen für Wildbienen", "Offenbodenstellen", "Sandarium", "Steilwand"],
+  "category": "Insekten & Bestäuber",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["wildbienen", "nisthilfe", "offenboden", "sand", "totholz", "insektenhotel", "garten"],
+  "summary": "Die meisten Wildbienen brauchen keinen bunten Kasten, sondern nackten Boden. Rund 75 % der Arten nisten im Erdboden — offene, besonnte Sand- und Lehmstellen, kleine Steilwände, markhaltige Stängel und Totholz sind die eigentlichen Nisthabitate. Dekorative Insektenhotels helfen nur einem kleinen Teil und sind oft handwerklich falsch gebaut.",
+  "key_facts": [
+    {"label": "Bodennister dominieren", "value": "Rund 75 % der heimischen Wildbienenarten nisten im Boden — nicht in Röhrchen oder Kästen", "source": "WWF; Wildbienen.de"},
+    {"label": "Hohlraumnister", "value": "Etwa 20 % nisten in vorhandenen Hohlräumen (Totholz, Käfergänge, Mauerfugen); nur ~5 % nagen selbst Gänge in markhaltige Stängel", "source": "Wildbienen.de"},
+    {"label": "Offenboden ist Schlüssel", "value": "Besonnte, vegetationsarme, unversiegelte Bodenstellen (Sand, Lehm, Erdmulden, Trampelpfade) bewirken für Wildbienen am meisten", "source": "WWF; naturadb.de"},
+    {"label": "Insektenhotels oft mangelhaft", "value": "Handelsübliche 'Insektenhotels' enthalten oft ungeeignete Materialien (Kiefernzapfen, Ziegel, ausgefranste Bohrlöcher, Bambus mit Splittern), die kaum oder gar nicht angenommen werden", "source": "Mellifera e.V.; Wildbienen.de"},
+    {"label": "Richtige Nisthilfe", "value": "Nur für ~20 bis 25 % (Hohlraumnister) sinnvoll: saubere Bohrungen in Hartholz (2 bis 9 mm, quer zur Faser, splitterfrei), markhaltige Stängel senkrecht, besonnt, regengeschützt", "source": "Mellifera e.V."}
+  ],
+  "deep_dive": "Beim Wildbienenschutz dominiert ein Missverständnis: Das gekaufte oder gebastelte Insektenhotel gilt als DIE Wildbienenhilfe — dabei nisten rund drei Viertel der etwa 600 heimischen Wildbienenarten im Boden und profitieren davon überhaupt nicht. Wer wirklich vielen Arten helfen will, schafft offene, besonnte, unversiegelte Bodenstellen: ein Sandarium (mageres Sand-Lehm-Gemisch), kleine Steilwände oder Abbruchkanten, sandige oder lehmige vegetationsarme Flächen, Erdmulden, sogar Trampelpfade. Nur etwa 20 % der Arten nisten in vorhandenen Hohlräumen (Totholz mit Käferfraßgängen, Mauerfugen), und lediglich rund 5 % nagen sich selbst Gänge in markhaltige Stängel (Brombeere, Königskerze, Distel). Genau diese kleine Gruppe adressieren Nisthilfen — und die meisten handelsüblichen Insektenhotels tun es schlecht: Kiefernzapfen, Lochziegel, Glasröhrchen, ausgefranste oder zu weite Bohrlöcher und splitterndes, quer zur Faser gebohrtes Weichholz werden kaum angenommen oder schaden sogar (Flügelverletzungen, Pilzbefall, Fressfeinde). Eine wirklich funktionierende Nisthilfe besteht aus sauberen, splitterfreien Bohrungen (2 bis 9 mm) längs in Hartholz, festen markhaltigen Stängeln und trockenem Totholz, besonnt und regengeschützt aufgestellt. Der größte Hebel bleibt aber der offene Boden plus Nahrung in unmittelbarer Nähe, denn viele kleine Wildbienen fliegen nur bis etwa 100 m weit. Nisthabitat und Blütenangebot gehören daher zusammen.",
+  "mechanism": "Bereitstellung der tatsächlich genutzten Neststrukturen — besonnter offener Boden für Bodennister (~75 %), Totholz/Hohlräume und korrekt gebaute Nisthilfen für Hohlraum-/Stängelnister — deckt den limitierenden Nistplatzbedarf und ergänzt das Nahrungsangebot.",
+  "evidence": [
+    {"source": "WWF Deutschland (Wildbienen)", "year": 2023, "finding": "Rund 75 % der Wildbienen nisten im Boden; offene, besonnte Bodenstellen sind die wirksamste Fördermaßnahme, viel wichtiger als Insektenhotels."},
+    {"source": "Mellifera e.V. (Nisthilfen-Leitfaden)", "year": 2022, "finding": "Viele handelsübliche Insektenhotels enthalten ungeeignete Materialien und werden nicht angenommen; nur saubere Hartholzbohrungen und markhaltige Stängel funktionieren, und nur für Hohlraumnister."},
+    {"source": "Wildbienen.de (Neststrukturen)", "year": 2021, "finding": "Aufschlüsselung ~75 % Boden-, ~20 % Hohlraum-, ~5 % Selbstnager; Offenbodenstellen und Totholz als Kernstrukturen empfohlen."}
+  ],
+  "robustness": {
+    "effect_size": "Groß, wenn Offenboden geschaffen wird (adressiert Mehrheit der Arten); Nisthilfen wirken nur für die Minderheit der Hohlraumnister.",
+    "replication": "Bodennister-Anteil und Insektenhotel-Kritik breit und konsistent belegt.",
+    "caveats": "Nisthabitat wirkt nur mit Nahrung in der Nähe. Dekorative Insektenhotels erzeugen falsches Sicherheitsgefühl. Offenboden muss besonnt und dauerhaft vegetationsarm gehalten werden."
+  },
+  "protocol": [
+    "Offene, besonnte Bodenstellen schaffen: Sandarium/Sand-Lehm-Fläche, kleine Steilwand/Abbruchkante, vegetationsarme Erdstellen, südexponiert.",
+    "Diese Flächen dauerhaft offen und vegetationsarm halten (nicht bepflanzen, nicht mulchen).",
+    "Totholz und markhaltige Stängel (Brombeere, Königskerze, Distel) stehen/liegen lassen.",
+    "Falls Nisthilfe: saubere, splitterfreie Bohrungen 2 bis 9 mm längs in Hartholz, besonnt und regengeschützt; keine Kiefernzapfen, Lochziegel, Glasröhrchen oder ausgefransten Bohrungen.",
+    "Nahrung in unmittelbarer Nähe sicherstellen (heimische Blühpflanzen, kurze Flugradien ~100 m).",
+    "Auf Pestizide verzichten und Boden nicht versiegeln."
+  ],
+  "mistakes": [
+    "Nur ein Insektenhotel aufgestellt und geglaubt, den Wildbienen sei damit geholfen — ignoriert die ~75 % Bodennister.",
+    "Insektenhotel mit ungeeigneten Materialien (Kiefernzapfen, Lochziegel, Glas, splitternde/quer gebohrte Weichholz-Bohrungen).",
+    "Offene Bodenstellen zugepflanzt, gemulcht oder versiegelt.",
+    "Nisthilfe im Schatten oder ohne Regenschutz montiert.",
+    "Nisthabitat ohne nahes Blütenangebot angelegt."
+  ],
+  "risks": "Gering. Falsch gebaute Insektenhotels können Bienen schaden (verletzte Flügel, Pilz-/Parasitenbefall bei zu dichter Besiedlung) und ein trügerisches Erfolgsgefühl erzeugen, während der eigentliche Bedarf (Offenboden, Nahrung, Pestizidverzicht) übersehen wird.",
+  "synergy": ["bluehflaechen-mehrjaehrig", "pestizidverzicht-flaeche", "mahd-insektenschonend"],
+  "sources": [
+    {"title": "WWF Deutschland – Wildbienen stark gefährdet", "url": "https://www.wwf.de/themen-projekte/bedrohte-tier-und-pflanzenarten/wildbienen-stark-gefaehrdet"},
+    {"title": "Mellifera e.V. – Nisthilfen für Wildbienen", "url": "https://www.mellifera.de/nisthilfen"},
+    {"title": "Wildbienen.de – Wildbienenschutz: Neststrukturen", "url": "https://www.wildbienen.de/wbs-nest.htm"}
+  ]
+}

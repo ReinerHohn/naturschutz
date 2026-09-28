@@ -1,0 +1,53 @@
+{
+  "id": "hauskatzen-vogelmortalitaet",
+  "name": "Hauskatzen-Management (Vogelmortalität)",
+  "aka": ["Freiganger-Katzen", "Katzen und Voegel", "Katzenglocke", "CatBib", "Ausgehzeiten Katze"],
+  "category": "Garten & Siedlung",
+  "scale": "Privat",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["katzen", "voegel", "praedation", "kleintiere", "brutzeit", "kastration", "siedlung"],
+  "summary": "Freigängerkatzen töten jedes Jahr Milliarden Vögel und Kleintiere — in Deutschland grob geschätzt rund 200 Millionen Vögel, in den USA 1,3 bis 4 Milliarden. Ehrlich einordnen: Der größte Effekt liegt im Siedlungsraum und bei häufigen Arten, und viele andere Ursachen wiegen schwerer. Trotzdem sind Ausgehzeiten in der Brutzeit, Glocke oder Bib, Kastration und keine unkontrollierte Fütterung von Streunern einfache, wirksame Hebel.",
+  "key_facts": [
+    {"label": "USA-Studie (Loss et al. 2013)", "value": "Freilaufende Katzen töten in den USA jährlich schätzungsweise 1,3 bis 4,0 Milliarden Vögel und 6,3 bis 22,3 Milliarden Säugetiere — verwilderte Katzen tragen den Großteil bei", "source": "Loss, Will & Marra 2013 (Nature Communications)"},
+    {"label": "Deutschland-Schätzung", "value": "Grob geschätzt rund 200 Millionen Vögel pro Jahr durch Katzen (Hochrechnung, große Unsicherheit)", "source": "NABU"},
+    {"label": "Katzenbestand", "value": "In Deutschland leben rund 15 bis 17 Millionen Hauskatzen (viele mit Freigang) plus mindestens ~2 Millionen verwilderte Streuner", "source": "NABU; Industrieverband Heimtierbedarf"},
+    {"label": "Wo der Effekt greift", "value": "Katzen jagen vor allem im Siedlungsraum und überwiegend häufige, nicht bedrohte Arten; der Populationseffekt ist stark orts- und artabhängig", "source": "NABU"},
+    {"label": "Brutzeit-Fenster", "value": "Werden Katzen morgens von Mitte Mai bis Mitte Juli im Haus gehalten, hilft das flügge werdenden Jungvögeln besonders", "source": "NABU (Lars Lachmann)"}
+  ],
+  "deep_dive": "Kaum ein Naturschutzthema ist so emotional aufgeladen wie Katzen und Vögel — deshalb sind ehrliche Zahlen wichtig. Die am häufigsten zitierte Studie (Loss, Will und Marra 2013) schätzt für die USA jährlich 1,3 bis 4 Milliarden getötete Vögel und 6,3 bis 22,3 Milliarden Säugetiere, wobei verwilderte, unbesitzte Katzen den größten Anteil tragen. Für Deutschland kursiert eine grobe Hochrechnung von rund 200 Millionen Vögeln pro Jahr; diese Zahl ist mit erheblicher Unsicherheit behaftet, weil belastbare deutsche Feldstudien fehlen. Zwei Dinge müssen fair eingeordnet werden: Erstens jagen Hauskatzen überwiegend im Siedlungsraum und meist häufige, nicht bedrohte Arten wie Amseln, Sperlinge und Meisen — der nachweisbare Effekt auf ganze Populationen ist stark orts- und artabhängig und in Deutschland weniger klar als etwa auf Inseln, wo Katzen nachweislich Arten ausgerottet haben. Zweitens wiegen andere Ursachen des Vogelrückgangs (Insektenschwund durch intensive Landwirtschaft, Lebensraumverlust, Glasscheiben, Lichtverschmutzung) insgesamt schwerer. Trotzdem ist das Katzenmanagement ein einfacher, kostenloser Hebel mit lokal spürbarer Wirkung: Katzen in der sensiblen Brutzeit (etwa Mitte Mai bis Mitte Juli), besonders morgens, im Haus halten; ein gut sichtbarer Halsband-Vorsatz (CatBib) oder eine Glocke am Sicherheits-Halsband senken die Fangrate deutlich; frühere Fütterungszeiten und Kastration verhindern, dass sich Streunerpopulationen unkontrolliert vermehren. Die Kastrationspflicht für Freigänger ist in immer mehr Kommunen verankert und der wichtigste strukturelle Baustein gegen das eigentliche Problem — die verwilderten Katzen.",
+  "mechanism": "Reduktion der Fangeffizienz und der Jagdgelegenheit einzelner Katzen (Ausgehzeiten, Warnhilfen) sowie Begrenzung der freilaufenden Katzenzahl (Kastration, keine unkontrollierte Fütterung) senkt die Prädation auf Vögel und Kleintiere im Siedlungsraum.",
+  "evidence": [
+    {"source": "Loss, Will & Marra (Nature Communications)", "year": 2013, "finding": "Freilaufende Katzen sind in den USA eine der größten menschengemachten Todesursachen für Wildvögel und Kleinsäuger; verwilderte Katzen verursachen den Großteil der Verluste."},
+    {"source": "Willson, Okunlola & Novak (Global Ecology and Conservation)", "year": 2015, "finding": "Bunte, auffällige Halsband-Vorsätze (z. B. Birdsbesafe) reduzieren die Beute von Vögeln erheblich, weil Vögel Farben gut sehen und die Katze früher erkennen."},
+    {"source": "NABU", "year": 2023, "finding": "Katzen sind vor allem im Siedlungsraum relevant und jagen überwiegend häufige Arten; empfohlen werden Ausgehbeschränkung in der Brutzeit, Warnhilfen und flächendeckende Kastration von Freigängern und Streunern."}
+  ],
+  "robustness": {
+    "effect_size": "Global sehr groß (Milliarden Tiere), lokal in Deutschland auf Populationsebene unsicher; Warnhilfen senken Einzeltier-Fangrate nachweislich deutlich.",
+    "replication": "Prädationsmengen und Wirksamkeit von Warnhilfen mehrfach belegt; deutsche Populationseffekte kaum quantifiziert.",
+    "caveats": "Deutschlandzahl (~200 Mio.) ist eine grobe Hochrechnung. Glocken sind weniger wirksam als bunte Bibs. Halsbänder nur mit Sicherheitsverschluss. Vollständiger Hausarrest ist nicht für jede Katze artgerecht — abwägen."
+  },
+  "protocol": [
+    "In der Brutzeit (etwa Mitte Mai bis Mitte Juli) Katze morgens und in den frühen Abendstunden im Haus halten.",
+    "Auffälligen Halsband-Vorsatz (bunter CatBib/Birdsbesafe) oder Glocke an einem Sicherheits-Halsband mit Sollbruchstelle nutzen.",
+    "Katze kastrieren/sterilisieren lassen — verhindert ungewollten Nachwuchs und Streunerpopulationen; kommunale Kastrationspflicht unterstützen.",
+    "Vogelfütterung und Nistkästen katzensicher platzieren (frei, erhöht, mit Manschette am Stamm/Pfahl).",
+    "Streuner nicht unkontrolliert füttern; verwilderte Tiere über Tierschutz kastrieren lassen (TNR).",
+    "Katze gut beschäftigen/füttern, um den Jagdtrieb zu senken (Spiel, hochwertiges Futter)."
+  ],
+  "mistakes": [
+    "Das Thema als reine Ideologie abtun oder umgekehrt Katzen als Hauptursache des Vogelrückgangs überhöhen — beides ist falsch.",
+    "Halsband ohne Sicherheits-Sollbruchstelle verwenden (Strangulationsgefahr).",
+    "Nur auf eine Glocke setzen (weniger wirksam als bunte Warnhilfen).",
+    "Freigängerkatze nicht kastrieren; unkontrolliertes Füttern von Streunern vergrößert das eigentliche Problem.",
+    "Nistkasten oder Futterstelle in Katzensprungweite anbringen."
+  ],
+  "risks": "Sensibles, konfliktträchtiges Thema. Wichtig ist eine faktenbasierte, nicht moralisierende Ansprache. Halsbänder bergen Verletzungsrisiko ohne Sollbruchstelle. Kompletter Hausarrest kann Tierwohl mindern — Abwägung nötig. Der größte strukturelle Hebel (verwilderte Katzen) liegt bei Kommunen (Kastrationspflicht, TNR), nicht bei Einzelhaltern.",
+  "synergy": ["naturgarten-heimische-pflanzen", "gebaeudebrueter-nisthilfen", "totholz-laub-reisighaufen"],
+  "sources": [
+    {"title": "Loss, Will & Marra 2013, The impact of free-ranging domestic cats on wildlife of the United States (Nature Communications)", "url": "https://doi.org/10.1038/ncomms2380"},
+    {"title": "NABU – Katzen und Vögel: ein schwieriges Verhältnis", "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/gefaehrdungen/katzen/index.html"},
+    {"title": "Willson et al. 2015, Birdsbesafe collar covers reduce hunting by cats (Global Ecology and Conservation)", "url": "https://doi.org/10.1016/j.gecco.2015.07.004"}
+  ]
+}

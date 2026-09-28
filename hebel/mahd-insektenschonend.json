@@ -1,0 +1,53 @@
+{
+  "id": "mahd-insektenschonend",
+  "name": "Insektenschonende Mahd",
+  "aka": ["schonendes Mähen", "Balkenmahd", "gestaffelte Mahd", "Altgrasstreifen"],
+  "category": "Insekten & Bestäuber",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["grünland", "wiese", "mähtechnik", "timing", "rückzug", "landwirtschaft", "kommune"],
+  "summary": "Wie und wann gemäht wird, entscheidet über Leben und Tod für Wiesen-Insekten. Balkenmäher statt Mulcher, höherer Schnitt, richtiger Zeitpunkt und stehenbleibende Altgras-/Rückzugsstreifen senken die Verluste drastisch — einer der billigsten und größten Hebel überhaupt.",
+  "key_facts": [
+    {"label": "Mulcher tötet am meisten", "value": "Mulchgeräte schreddern das Schnittgut mit schnell rotierenden Schlegeln; Insekten haben praktisch keine Fluchtchance — Verluste ~84 % und mehr", "source": "van de Poel & Zehm 2014 (ANLiegen Natur)"},
+    {"label": "Balkenmäher am schonendsten", "value": "Doppelmesser-Balkenmäher ist die insektenschonendste Variante; in einem Vergleich Insektenverluste unter 5 %, Scheibenmäher knapp unter 10 %", "source": "Studie insektenschonende Mähtechnik"},
+    {"label": "Mahd tötet direkt viele", "value": "Selbst der Balkenmäher tötet/verletzt im Mittel rund die Hälfte der Individuen; nach der Mahd bis ~34 bis 36 % weniger Individuen als auf ungemähten Flächen", "source": "van de Poel & Zehm 2014"},
+    {"label": "Altgrasstreifen wirken stark", "value": "Stehenbleibende Altgrasstreifen: signifikant höhere Artenzahlen (~+23 %) und bis zum Zehnfachen an Heuschrecken gegenüber gemähten Wiesen", "source": "van de Poel & Zehm 2014"},
+    {"label": "Kombinierte Wirkung", "value": "Handbalkenmäher, Schnitthöhe ~10 cm und angepasste Mahdorganisation können die Verluste von ~80 % auf ~20 % senken", "source": "van de Poel & Zehm 2014"}
+  ],
+  "deep_dive": "Die Mahd ist in Wiesen und an Straßenrändern eine der massivsten direkten Todesursachen für Insekten — und zugleich einer der am leichtesten korrigierbaren. Der größte Unterschied liegt in der Technik: Mulchgeräte schreddern das Schnittgut mit rotierenden Schlegeln und töten oder verletzen den weit überwiegenden Teil der Tiere (~84 % und mehr). Der Doppelmesser-Balkenmäher schneidet dagegen scherend und ist am schonendsten; in Vergleichen lagen die direkten Verluste unter 5 %, Scheibenmäher knapp darunter bei unter 10 %. Trotzdem tötet auch die schonendste Mahd noch einen erheblichen Anteil, weshalb Zeitpunkt und stehenbleibende Rückzugsflächen mindestens ebenso wichtig sind. Wird nie die ganze Fläche auf einmal gemäht, sondern gestaffelt und mit dauerhaft stehenbleibenden Altgrasstreifen (~10 bis 20 % der Fläche, jährlich wechselnd), überleben Larven, Puppen und blütenbesuchende Arten und können sich wieder ausbreiten; solche Streifen tragen bis zum Zehnfachen an Heuschrecken und deutlich mehr Arten. Weitere Hebel: höhere Schnitthöhe (~8 bis 10 cm) verschont bodennahe Tiere, langsames Fahren und Verzicht auf Aufbereiter/Konditionierer senken die Verluste zusätzlich, und Mähen zur Tageszeit mit geringer Insektenaktivität (bei kühlem, feuchtem Wetter) hilft. Die Maßnahme kostet fast nichts — sie ist vor allem eine Frage von Gerätewahl und Organisation und damit ein klassischer Low-Hanging-Fruit für Kommunen, Landwirte und Privatleute.",
+  "mechanism": "Scherende statt schlagende Schnitttechnik, höhere Schnitthöhe und langsames Fahren senken die direkte Tötung; gestaffelte Mahd und stehenbleibende Altgras-/Rückzugsstreifen sichern Überleben und Wiederbesiedlung von Larven, Puppen und Blütenbesuchern.",
+  "evidence": [
+    {"source": "van de Poel & Zehm (ANLiegen Natur, Bayern)", "year": 2014, "finding": "Übersicht/Evaluation: Mulchen mit Abstand am schädlichsten; Balkenmäher am schonendsten; Altgrasstreifen und angepasste Mahdorganisation senken Verluste erheblich."},
+    {"source": "Vergleichsstudie insektenschonende Mähtechnik (Bauernzeitung/top agrar Berichte)", "year": 2021, "finding": "Doppelmesser-Balkenmäher mit Insektenverlusten unter 5 %, Scheibenmäher unter 10 %; Saugmäher und Mulcher deutlich schlechter."},
+    {"source": "Buntewiese Stuttgart / Praxisleitfäden", "year": 2020, "finding": "Gestaffelte Mahd, hohe Schnitthöhe und dauerhafte Rückzugsstreifen als Standard für insektenschonende Wiesenpflege empfohlen."}
+  ],
+  "robustness": {
+    "effect_size": "Sehr groß: direkte Verluste je nach Technik und Organisation von ~80 % auf ~20 % reduzierbar; Rückzugsstreifen vervielfachen bestimmte Artengruppen.",
+    "replication": "Mehrfach in Feldvergleichen und Praxis bestätigt; einzelne Technikvergleiche (Balken vs. Scheibe) zeigen teils geringere Unterschiede als erwartet.",
+    "caveats": "Auch schonende Technik tötet noch relevant — Timing und stehenbleibende Flächen sind mindestens so wichtig wie die Gerätewahl. Balkenmäher sind langsamer/wartungsintensiver."
+  },
+  "protocol": [
+    "Mulchen vermeiden; Balkenmäher (Doppelmesser) bevorzugen, sonst Scheibenmäher ohne Aufbereiter/Konditionierer.",
+    "Schnitthöhe hoch einstellen (~8 bis 10 cm), langsam fahren.",
+    "Nie die gesamte Fläche auf einmal mähen: gestaffelt/abschnittsweise in mehreren Durchgängen.",
+    "Dauerhaft Altgras-/Rückzugsstreifen stehen lassen (~10 bis 20 % der Fläche), Lage jährlich wechseln, Teile über Winter belassen.",
+    "Zeitpunkt anpassen: nicht in der Hauptblüte/Hauptaktivität; bei kühlem, feuchtem Wetter mähen, wenn Insekten inaktiver sind.",
+    "Mähgut nach dem Antrocknen (Ausfliegen der Tiere) abräumen; von innen nach außen mähen, damit Tiere fliehen können."
+  ],
+  "mistakes": [
+    "Mulchgerät benutzt — höchste Insektenverluste von allen Techniken.",
+    "Gesamte Fläche in einem Durchgang gemäht, keine Rückzugsstreifen belassen.",
+    "Zu tief geschnitten und schnell gefahren; bodennahe Tiere erfasst.",
+    "In der Hauptblüte/Mittagshitze gemäht, wenn Bestäuber maximal aktiv sind.",
+    "Aufbereiter/Konditionierer eingesetzt, der zusätzlich quetscht."
+  ],
+  "risks": "Sehr gering und kostengünstig. Balkenmähtechnik ist langsamer und pflegeintensiver, was bei großen Flächen Aufwand bedeutet. Stehendes Altgras kann als ungepflegt wahrgenommen werden — Kommunikation hilft.",
+  "synergy": ["bluehflaechen-mehrjaehrig", "wildbienen-nisthabitat", "pestizidverzicht-flaeche"],
+  "sources": [
+    {"title": "van de Poel & Zehm 2014 – Die Wirkung der Mahd auf die Fauna (ANLiegen Natur, Bayern)", "url": "https://www.anl.bayern.de/publikationen/anliegen/doc/an36208van_de_poel_et_al_2014_mahd.pdf"},
+    {"title": "Natürlich Bayern – Insektenschonende Mahd", "url": "https://www.natuerlichbayern.de/praxisempfehlungen/insektenschonende-mahd"},
+    {"title": "top agrar – Balkenmähwerke vs. Scheibenmäher", "url": "https://www.topagrar.com/acker/news/mahen-von-grunland-soll-insekten-starker-schaden-als-gedacht-e-20016293.html"}
+  ]
+}

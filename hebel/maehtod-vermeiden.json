@@ -1,0 +1,53 @@
+{
+  "id": "maehtod-vermeiden",
+  "name": "Mähtod von Wildtieren vermeiden",
+  "aka": ["Mähtod", "Kitzrettung", "tierschonende Mahd", "Rehkitzrettung"],
+  "category": "Gefahren & Fallen",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["mahd", "landwirtschaft", "rehkitz", "bodenbrueter", "insekten", "sofortfix"],
+  "summary": "Bei der Frühjahrs- und Sommermahd sterben Rehkitze, Bodenbrüter (Küken/Gelege), Amphibien, Igel und Insekten in großer Zahl in den Mähwerken. In Deutschland grob ~90.000 Rehkitze und insgesamt in der Größenordnung einer halben Million Wildtiere pro Jahr. Wirksam sind Wärmebild-Drohne direkt vor der Mahd, von innen nach außen mähen, Balkenmäher, höhere Schnitthöhe und spätere/nächtliche Mähzeiten — vieles davon gratis oder günstig.",
+  "key_facts": [
+    {"label": "Getötete Rehkitze", "value": "grob ~90.000 Rehkitze/Jahr in Deutschland durch Mähwerke", "source": "Deutsche Wildtier Stiftung; LfL Bayern"},
+    {"label": "Wildtiere gesamt", "value": "Größenordnung ~500.000 Wildtiere/Jahr durch Mähmaschinen", "source": "LfL Bayern"},
+    {"label": "Drohne", "value": "Wärmebild-Drohne unmittelbar vor der Mahd = sehr hohe Fund-/Rettungsrate", "source": "LfL Bayern; Deutsche Wildtier Stiftung"},
+    {"label": "Mährichtung", "value": "von innen nach außen ODER von einer Seite zur anderen -> Fluchtweg in den Rand", "source": "Praxis-Agrar; LfL"},
+    {"label": "Mähtechnik", "value": "Balkenmäher tötet deutlich weniger Tiere als Kreisel-/Rotationsmäher", "source": "LfL Bayern"},
+    {"label": "Timing Drohne", "value": "morgens direkt vor der Mahd — abends abgesuchte Flächen werden über Nacht neu belegt", "source": "LfL Bayern"}
+  ],
+  "deep_dive": "Grünland wird meist ab Mai gemäht — genau dann, wenn Rehkitze in den ersten Lebenswochen bei Gefahr instinktiv im hohen Gras ducken statt zu fliehen, Bodenbrüter (z. B. Feldlerche, Kiebitz, Wachtelkönig) brüten und Amphibien/Igel/Insekten die Wiese als Lebensraum nutzen. Das Mähwerk erfasst sie ungebremst. Die Größenordnungen sind erheblich: allein rund 90.000 Rehkitze pro Jahr in Deutschland, insgesamt schätzt die LfL etwa eine halbe Million Wildtiere jährlich durch Mähmaschinen. Die wirksamste Einzelmaßnahme ist heute die Drohne mit Wärmebildkamera, mit der die Fläche in den kühlen Morgenstunden unmittelbar vor der Mahd systematisch abgesucht wird — die warmen Tierkörper heben sich im Wärmebild klar ab; gefundene Kitze werden markiert/getragen oder mit einer Kiste gesichert. Wichtig ist das Timing: abends abgesuchte Flächen werden über Nacht wieder belegt, deshalb muss die Drohne direkt vor dem Mähen fliegen. Ergänzend und oft gratis: von innen nach außen mähen (oder von einer Seite zur anderen), damit Tiere seitlich in ungemähte Ränder und Deckung flüchten können statt in eine immer kleinere Restinsel getrieben zu werden; die Fläche am Vorabend durch Verblenden/Scheuchen (Flatterband, Knistertüten, Kofferradio) für Rehe unattraktiv machen, damit die Ricke ihr Kitz verlegt; Balkenmäher statt Rotationsmäher (deutlich geringere Mortalität und insektenschonender); höhere Schnitthöhe (>=8–10 cm) rettet Insekten, Amphibien und Bodennester; spätere Mahdtermine und stehen gelassene Altgras-/Rückzugsstreifen. Bloßes Absuchen zu Fuß oder mit Hund ist deutlich schwächer als Drohne oder Sensorbalken am Traktor.",
+  "mechanism": "Detektion vor der Mahd (Wärmebild) entfernt ducken bleibende Jungtiere aus der Gefahrenzone; innen-nach-außen-Mähen lässt fluchtfähige Tiere seitlich entkommen; Balkenmäher und höhere Schnitthöhe verringern die tödliche Erfassung.",
+  "evidence": [
+    {"source": "LfL Bayern – Reduktion von Mähtod bei Wildtieren", "year": 2021, "finding": "Wärmebild-Drohne unmittelbar vor der Mahd erreicht hohe Detektions-/Rettungsraten; Balkenmäher verursacht weniger tote Tiere als Kreiselmäher."},
+    {"source": "Deutsche Wildtier Stiftung", "year": 2022, "finding": "Rund 90.000 Rehkitze/Jahr sterben in Deutschland bei der Mahd; Kombination Drohne + Verblenden + angepasste Mahd senkt Verluste deutlich."},
+    {"source": "Praxis-Agrar (BLE) – tierschonende Mahd", "year": 2021, "finding": "Von innen nach außen mähen und Randstreifen stehen lassen ermöglicht Flucht; höhere Schnitthöhe schützt Boden-Fauna."}
+  ],
+  "robustness": {
+    "effect_size": "Groß: Drohnen-Absuche direkt vor der Mahd findet den Großteil der Kitze; kombinierte Maßnahmen senken Verluste stark.",
+    "replication": "Breite Praxiserfahrung in DE/AT/CH (Jägerschaften, LfL, Wildtier-Stiftung), gestützt durch Feldtechnik-Studien; weniger randomisierte Meta-Analysen.",
+    "caveats": "Drohne braucht Personal, kühle Morgenstunden und richtiges Timing; bei Sonne/warmem Boden sinkt der Kontrast. Absolute Todeszahlen sind Schätzungen. Ohne Fluchtwege (innen->außen) hilft angepasste Mähtechnik allein wenig."
+  },
+  "protocol": [
+    "Fläche am Morgen UNMITTELBAR vor der Mahd mit Wärmebild-Drohne systematisch absuchen (kühle Stunden, hoher Kontrast).",
+    "Gefundene Kitze mit Handschuhen/Grasbüschel tragen und in einer belüfteten Kiste am Rand sichern, nach der Mahd freilassen.",
+    "Von innen nach außen mähen oder von einer Seite zur anderen — nie rundum von außen nach innen (Falle in der Mitte).",
+    "Am Vorabend verblenden/scheuchen (Flatterband, Knisterfolie, Radio), damit die Ricke Kitze verlegt und Rehe die Fläche meiden.",
+    "Balkenmäher statt Rotationsmäher; Schnitthöhe >=8–10 cm; langsam fahren.",
+    "Später mähen wo möglich, Altgras-/Rückzugsstreifen (5–10 %) stehen lassen, spät blühende Säume erhalten."
+  ],
+  "mistakes": [
+    "Am Vorabend absuchen — über Nacht sind Kitze/Gelege wieder da.",
+    "Von außen nach innen mähen: treibt Tiere in eine tödliche Restinsel.",
+    "Kitz mit bloßen Händen anfassen und dann zurücklegen ohne Grasbüschel -> Ricke nimmt es evtl. nicht wieder an.",
+    "Nur zu Fuß/mit Hund absuchen und Drohne/Sensorbalken für zu teuer halten, obwohl Sammel-/Vereinsdrohnen und Förderungen existieren."
+  ],
+  "risks": "Sehr gering für die Natur. Aufwand/Organisation für Landwirt und Helfer (Drohnenpilot, frühes Aufstehen). Drohnenbetrieb unterliegt Luftrecht. Gerettete Kitze korrekt handhaben, sonst Verstoßen durch die Ricke.",
+  "synergy": ["zaeune-schaechte-fallen", "gruenbruecke-wildquerung"],
+  "sources": [
+    {"title": "LfL Bayern – Reduktion von Mähtod bei Wildtieren", "url": "https://www.lfl.bayern.de/ilt/pflanzenbau/gruenland/245133/index.php"},
+    {"title": "Deutsche Wildtier Stiftung – Rehkitze und Bodenbrüter bei der Frühjahrsmahd schützen", "url": "https://www.deutschewildtierstiftung.de/aktuelles/artikel/rehkitze-und-bodenbrueter-bei-der-fruehjahrsmahd-schuetzen"},
+    {"title": "Praxis-Agrar (BLE) – Tierschonende Mahd", "url": "https://www.praxis-agrar.de/pflanze/pflanzenbau/tierschonende-mahd"}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "prozessschutz-wildnis",
+  "name": "Prozessschutz & Wildnisgebiete",
+  "aka": ["Prozessschutz", "Wildnis", "Naturwald", "natürliche Waldentwicklung", "Nutzungsverzicht", "wilderness"],
+  "category": "Wald & Totholz",
+  "scale": "Land/Bund",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["wildnis", "prozessschutz", "nutzungsverzicht", "naturwald", "biodiversitaetsstrategie", "flaeche"],
+  "summary": "Auf ausgewählten Flächen die Natur ohne Eingriff sich selbst überlassen, damit Alterungs- und Zerfallsphasen entstehen, die im Wirtschaftswald fehlen. Deutschland hat sich 2% Wildnis der Landfläche und 5% natürliche Waldentwicklung als Ziele gesetzt — beide sind bislang klar verfehlt. Der laufende Betrieb ist billig; der eigentliche Konflikt ist die Flächenbereitstellung.",
+  "key_facts": [
+    {"label": "Wildnis-Ziel", "value": "2% der Landfläche Deutschlands sollen sich großflächig und dauerhaft als Wildnis selbst überlassen bleiben (Nationale Biodiversitätsstrategie)", "source": "NBS / BfN"},
+    {"label": "Wildnis-Stand", "value": "2024 waren erst rund 0,62% der Landfläche als ausreichend große, weitgehend nutzungsfreie Gebiete gesichert — Ziel deutlich verfehlt", "source": "wildnisindeutschland.de"},
+    {"label": "Wald-Ziel (NWE5)", "value": "5% der Waldfläche sollen sich natürlich entwickeln (bzw. ~10% im öffentlichen Wald); bis 2020 nur 3,1% erreicht", "source": "NW-FVA"},
+    {"label": "Mindestgröße", "value": "Qualitätskriterien: mind. 1.000 ha (bzw. 500 ha bei Flüssen, Auen, Küsten, Seen, Mooren) und dauerhafte rechtliche Sicherung", "source": "BfN"},
+    {"label": "Kosten", "value": "laufend sehr günstig (Nichtstun); teuer ist nur der einmalige Ertrags-/Flächenverzicht bzw. Flächenankauf — der eigentliche Engpass", "source": "Praxis"}
+  ],
+  "deep_dive": "Prozessschutz bedeutet, ausgewählte Flächen ganz aus der Nutzung zu nehmen und die Natur ungestört ihren eigenen Gesetzen folgen zu lassen — inklusive Alterung, Absterben und Zerfall. Genau diese späten Waldphasen mit sehr alten Bäumen, viel starkem Totholz und ungestörten Bodenprozessen fehlen im Wirtschaftswald fast völlig und sind Lebensraum vieler hochspezialisierter Urwaldrelikt-Arten. Deutschland hat sich in der Nationalen Biodiversitätsstrategie zwei Ziele gesetzt: 2% der Landfläche als großflächige Wildnis und 5% der Waldfläche für natürliche Waldentwicklung. Beide sind verfehlt: Ende 2024 waren erst rund 0,62% der Landfläche als ausreichend große, weitgehend nutzungsfreie Wildnis gesichert, und die natürliche Waldentwicklung lag 2020 bei 3,1% (von 1,9% in 2013 gestiegen, aber unter dem 5%-Ziel für 2020). Für Wildnis gelten Qualitätskriterien: mindestens 1.000 ha zusammenhängend (500 ha bei Gewässer- und Moorlebensräumen) und dauerhafter rechtlicher Schutz — Flickenteppiche zählen nicht. Der ökonomische Charme des Hebels: Der laufende Betrieb kostet fast nichts, weil aktiv nichts getan wird — kein Personal, keine Maschinen, kaum Pflege. Teuer ist einzig der einmalige Verzicht auf Holznutzung bzw. der Flächenankauf, und genau hier sitzt der reale Konflikt: Flächenbereitstellung. Große, zusammenhängende, ungenutzte Gebiete kollidieren mit Forstwirtschaft, Eigentümerinteressen und Nutzungsansprüchen; deshalb entstehen Wildnisgebiete am ehesten auf ehemaligen Truppenübungsplätzen, Bergbaufolgelandschaften und im öffentlichen Wald. Prozessschutz ersetzt nicht den Naturschutz im Wirtschaftswald (Totholz, Habitatbäume, Umbau), sondern ergänzt ihn um die Referenz- und Rückzugsflächen, die nur echte Ungestörtheit liefern kann.",
+  "mechanism": "Vollständiger Nutzungsverzicht lässt Alterungs-, Zerfalls- und Störungsphasen sowie sehr alte Bäume und große Totholzmengen entstehen, die im Wirtschaftswald fehlen — Lebensraum für hochspezialisierte, störungsempfindliche Arten und ökologische Referenzfläche.",
+  "evidence": [
+    {"source": "NW-FVA, Bilanz natürliche Waldentwicklung", "year": 2021, "finding": "Natürliche Waldentwicklung stieg von 1,9% (2013) über 2,8% (2019) auf 3,1% (2020) der Waldfläche — das 5%-Ziel für 2020 wurde verfehlt."},
+    {"source": "wildnisindeutschland.de / NBS-Monitoring", "year": 2024, "finding": "Nur ~0,62% der Landfläche als ausreichend große, weitgehend nutzungsfreie Wildnis gesichert — weit unter dem 2%-Ziel."},
+    {"source": "BfN, Qualitätskriterien Wildnis", "year": 2018, "finding": "Wildnisgebiete brauchen mind. 1.000 ha (500 ha bei Gewässern/Mooren) und dauerhafte rechtliche Sicherung, um ihre Funktion zu erfüllen."}
+  ],
+  "robustness": {
+    "effect_size": "Groß für ungestörte Alters-/Zerfallsphasen und Spezialisten-Arten; Wirkung baut sich über Jahrzehnte bis Jahrhunderte auf.",
+    "replication": "Prinzip international etabliert (Nationalparke, Naturwaldreservate, Urwaldreferenzen); Deutschland hat dichtes Naturwald-Monitoring (NWE).",
+    "caveats": "Nur bei ausreichender Größe, Ungestörtheit und Dauerhaftigkeit wirksam; kleine, isolierte oder befristete Flächen liefern wenig; Wirkung stellt sich erst über lange Zeiträume ein."
+  },
+  "protocol": [
+    "Flächen ganz aus der Nutzung nehmen und dauerhaft rechtlich sichern (kein Widerruf bei nächster Holzpreisspitze).",
+    "Groß und zusammenhängend anlegen: Zielgröße mind. 1.000 ha (500 ha an Gewässern/Mooren), nicht Kleinstflächen.",
+    "Vorrangig auf öffentlichem Wald, Truppenübungsplätzen, Bergbaufolge- und Auenflächen suchen — dort ist der Nutzungskonflikt am kleinsten.",
+    "Anfangs nur nötige Maßnahmen (z.B. Rückbau, Entnahme invasiver Arten), danach echter Prozessschutz ohne Eingriff.",
+    "Bestehende Kulisse (Nationalparke, Kernzonen, Naturwaldreservate) auf das 2%/5%-Ziel anrechnen und Lücken schließen.",
+    "Monitoring der Entwicklung, aber kein 'Nachhelfen' — Prozessschutz heißt Zulassen, nicht Gestalten."
+  ],
+  "mistakes": [
+    "Zu kleine, isolierte oder befristete 'Wildnis' ausweisen, die die Qualitätskriterien nicht erfüllt.",
+    "Prozessschutz als Ersatz für Naturschutz im Wirtschaftswald verkaufen — er ergänzt, ersetzt ihn nicht.",
+    "In ausgewiesenen Flächen doch wieder eingreifen ('Aufräumen', Verkehrssicherung flächig) und den Prozess stören.",
+    "Ziele als erreicht darstellen, obwohl Flächen weder groß genug noch dauerhaft gesichert sind."
+  ],
+  "risks": "Der Betrieb ist billig, aber die Flächenbereitstellung ist der harte Konflikt (Eigentum, Forstwirtschaft, Nutzung) — dort scheitert der Hebel meist, nicht am Geld. Verkehrssicherung an Rändern nötig. Gefahr der Alibi-Ausweisung von Kleinstflächen. Reine Wildnis liefert kein Holz und kaum kurzfristigen Nutzen — der Wert ist langfristig und ökologisch.",
+  "synergy": ["totholz-im-wald", "biotopbaeume-altholzinseln", "naturnaher-waldumbau"],
+  "sources": [
+    {"title": "wildnisindeutschland.de – Nationale Strategie zur biologischen Vielfalt: 2%-Wildnisziel", "url": "https://wildnisindeutschland.de/nbs-2030/"},
+    {"title": "NW-FVA – Aktuelle Daten zur natürlichen Waldentwicklung in Deutschland", "url": "https://www.nw-fva.de/wir/aktuelles/pm-nwe-bilanz"},
+    {"title": "BfN-Skript 422 – Umsetzung des 2%-Ziels für Wildnisgebiete (PDF)", "url": "https://biodiv.de/fileadmin/user_upload/PDF/Projekte-aktuell/BfN_Skript_422.pdf"}
+  ]
+}

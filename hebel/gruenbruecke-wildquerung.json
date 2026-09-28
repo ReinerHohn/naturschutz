@@ -1,0 +1,52 @@
+{
+  "id": "gruenbruecke-wildquerung",
+  "name": "Grünbrücke / Wildquerung über Straßen",
+  "aka": ["Grünbrücke", "Wildbrücke", "Wildquerungshilfe", "wildlife overpass"],
+  "category": "Vernetzung & Korridore",
+  "scale": "Land/Bund",
+  "impact": 4,
+  "evidence_level": "A",
+  "effort": 5,
+  "tags": ["zerschneidung", "korridor", "verkehr", "wildunfall", "infrastruktur"],
+  "summary": "Bewachsene Brücken (oder Unterführungen) über bzw. unter stark befahrenen Straßen verbinden zerschnittene Lebensräume wieder. Sie senken tödliche Wildunfälle drastisch und lassen Genfluss zwischen Populationen wieder zu — sehr wirksam, aber teuer, deshalb nur an den richtigen Korridor-Engstellen.",
+  "key_facts": [
+    {"label": "Unfall-Reduktion", "value": "Querungshilfen + Zäune senken Wildunfälle um im Schnitt ~80–97 %", "source": "Huijser et al. 2009; Rytwinski et al. 2016 (Meta-Analyse)"},
+    {"label": "Kosten Grünbrücke", "value": "ca. 2–15 Mio. € pro Bauwerk (Spannweite, Standort)", "source": "Bundesprogramm Wiedervernetzung"},
+    {"label": "Nutzung", "value": "über 100.000 Tierpassagen an gut platzierten Brücken dokumentiert (Kamerafallen)", "source": "Monitoring diverse"},
+    {"label": "Deutschland-Bedarf", "value": "über 90 vordringliche Wiedervernetzungsabschnitte im Bundesprogramm", "source": "BMUV/BfN"},
+    {"label": "Breite zählt", "value": "≥ 50 m breite Grünbrücken werden von scheuen Arten deutlich besser angenommen als schmale", "source": "MERKBLATT DWA / Planungsrichtlinien"}
+  ],
+  "deep_dive": "Straßen und Schienen zerschneiden Lebensräume und sind eine der größten Todesursachen für viele Wirbeltiere; zugleich verhindern sie den Austausch zwischen Populationen (Inzucht, lokale Aussterben). Die Kombination aus Wildschutzzaun (leitet die Tiere) plus Querungsbauwerk ist die am besten belegte Gegenmaßnahme: Meta-Analysen (Rytwinski et al. 2016) zeigen Reduktionen der Wildunfälle von häufig über 80 %, mit Zaun bis über 95 %. Der Haken ist der Preis: eine Grünbrücke kostet je nach Standort mehrere Millionen Euro, weshalb der Hebel nicht in der Fläche, sondern gezielt an nachgewiesenen Wanderkorridoren („Hotspots“) sitzen muss — dort ist das Kosten-Nutzen-Verhältnis exzellent, an beliebiger Stelle dagegen schlecht. Deutschland hat dafür ein Bundesprogramm Wiedervernetzung mit über 90 vordringlichen Abschnitten. Wichtig für die Wirkung: Breite (scheue Arten brauchen ≥ 50 m), naturnahe Bepflanzung mit Deckung, Leitstrukturen und Ruhe (keine Beleuchtung, Lärmschutz). Ein verbreiteter Irrtum ist, dass Unterführungen/Grünbrücken „für alle“ gleich funktionieren — Amphibien, Rehe, Luchse und Fledermäuse haben sehr unterschiedliche Ansprüche; deshalb wird zunehmend zielartenspezifisch geplant.",
+  "mechanism": "Wiederverbindung zerschnittener Habitate stellt Wanderung und Genfluss wieder her und lenkt Tiere gefahrlos über die Barriere — das senkt Mortalität und stabilisiert Metapopulationen.",
+  "evidence": [
+    {"source": "Rytwinski et al. (PLOS ONE, Meta-Analyse)", "year": 2016, "finding": "Zäune allein und v. a. Zäune plus Querungsbauwerke reduzieren Wildunfälle am stärksten; Bauwerke ohne Zaun deutlich weniger wirksam."},
+    {"source": "Huijser et al. (Report US)", "year": 2009, "finding": "Kombination Zaun + Über-/Unterführung reduziert Kollisionen typischerweise um 80–99 %."},
+    {"source": "Banff National Park Langzeit-Monitoring", "year": 2014, "finding": "Über 20 Jahre >200.000 Tierpassagen an Wildquerungen dokumentiert; Genfluss bei Bären/Pumas nachgewiesen wiederhergestellt."}
+  ],
+  "robustness": {
+    "effect_size": "Sehr groß bei Unfallreduktion (oft >80 %), wenn mit Zaun kombiniert.",
+    "replication": "International vielfach repliziert (Nordamerika, Niederlande/„Ecoducts“, Alpenländer).",
+    "caveats": "Wirkung steht und fällt mit Standortwahl (echter Korridor), Breite, Bepflanzung und Zaunführung. Ohne Zaun stark reduzierte Wirkung. Hohe Baukosten."
+  },
+  "protocol": [
+    "Standort NICHT beliebig wählen: nachgewiesene Wanderkorridore/Wildunfall-Hotspots nutzen (Bundesprogramm Wiedervernetzung, Landeskonzepte).",
+    "Immer Wildschutzzaun mitplanen, der die Tiere zur Querung leitet — Bauwerk allein bringt wenig.",
+    "Breit bauen (Zielwert Grünbrücke ≥ 50 m) und mit Deckung, Erdreich, Sträuchern, Totholz und Leitstrukturen naturnah gestalten.",
+    "Störungen minimieren: keine Beleuchtung, Lärmschutz, keine Wege/Freizeitnutzung auf der Brücke.",
+    "Wo eine Vollbrücke zu teuer ist: günstigere Unter-/Durchführungen, Amphibientunnel oder Grünbrücken-Nachrüstung an Sanierungen prüfen.",
+    "Erfolg per Kamerafallen-Monitoring belegen und nachsteuern."
+  ],
+  "mistakes": [
+    "Bauwerk ohne Leitzaun — Tiere finden die Querung kaum, Unfallreduktion bricht ein.",
+    "Zu schmal gebaut; scheue Zielarten meiden schmale, laute oder beleuchtete Brücken.",
+    "Standort aus Bauträger-Bequemlichkeit statt nach echtem Korridor gewählt.",
+    "Als Feigenblatt eingesetzt, während in der Fläche weiter zerschnitten wird."
+  ],
+  "risks": "Sehr teuer — nur an echten Korridor-Engstellen kosteneffizient; an falscher Stelle vergeudetes Geld. Kann als Alibi für weiteren Straßenbau missbraucht werden. Priorität sollte auf Nachrüstung bestehender Barrieren und Vermeidung neuer Zerschneidung liegen.",
+  "synergy": ["biotopverbund-trittsteine", "amphibientunnel-leiteinrichtung", "gruenbruecke-nachruesten-sanierung"],
+  "sources": [
+    {"title": "Rytwinski et al. 2016, How effective is road mitigation? (PLOS ONE, Meta-Analyse)", "url": "https://doi.org/10.1371/journal.pone.0166941"},
+    {"title": "BfN – Bundesprogramm Wiedervernetzung", "url": "https://www.bfn.de/thema/wiedervernetzung"},
+    {"title": "Huijser et al. 2009, Wildlife-Vehicle Collision Reduction Study (US FHWA)", "url": "https://www.fhwa.dot.gov/publications/research/safety/08034/"}
+  ]
+}

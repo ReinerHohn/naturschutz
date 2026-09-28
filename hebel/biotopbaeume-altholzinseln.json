@@ -1,0 +1,52 @@
+{
+  "id": "biotopbaeume-altholzinseln",
+  "name": "Biotop-/Habitatbäume & Altholzinseln",
+  "aka": ["Habitatbäume", "Biotopbäume", "Altholzinseln", "Trittsteinbiotope", "BAT-Konzept", "Habitat trees"],
+  "category": "Wald & Totholz",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["habitatbaum", "hoehlenbaum", "altholz", "trittstein", "xylobionte", "hoehlenbrueter", "wirtschaftswald"],
+  "summary": "Alte, höhlen- und strukturreiche Einzelbäume dauerhaft aus der Nutzung nehmen und dazu kleine Altholzinseln als Trittsteine im Wirtschaftswald belassen. Solche Bäume beherbergen Höhlenbrüter, Fledermäuse und hunderte xylobionte Arten und liefern das Totholz der Zukunft — bei überschaubarem Ertragsverzicht.",
+  "key_facts": [
+    {"label": "Zielzahl", "value": "meist 6–10 Habitatbäume pro Hektar empfohlen; Kommunalwald Rheinland-Pfalz fordert 10/ha, Niedersachsen 5/ha; 3. BWI fand im Mittel ~9 Biotopbäume/ha", "source": "Wikipedia Biotopbaum / Landeskonzepte"},
+    {"label": "Frankreich-Norm", "value": "im Staatswald verbindlich mind. 2 Höhlenbäume und mind. 1 Dürrständer/absterbender Baum pro Hektar (ONF)", "source": "Office national des forêts"},
+    {"label": "Was zählt", "value": "Höhlen, Spalten, Mulm, abgestorbene Kronenteile, Rindentaschen, Pilzkonsolen — erfasst über standardisierte Habitatstrukturen (Mikrohabitate)", "source": "WSL / waldwissen.net"},
+    {"label": "Nutzung", "value": "eine einzige große Baumhöhle kann über Jahrzehnte Spechte, Meisen, Fledermäuse, Hornissen, Käfer und Pilze nacheinander beherbergen", "source": "WSL Bütler et al."},
+    {"label": "Kosten", "value": "gering — Ertragsverzicht für wenige Bäume/ha; Markierung und Erfassung als Hauptaufwand; oft über Förderung/Vertragsnaturschutz kompensierbar", "source": "Praxis / Marteloskop-Programme"}
+  ],
+  "deep_dive": "Habitat- oder Biotopbäume sind alte, große oder geschädigte Bäume mit besonderen Strukturen — Baumhöhlen, Spalten, Mulmkörpern, abgestorbenen Kronenästen, Rindentaschen und Pilzkonsolen. Diese Mikrohabitate entstehen erst über viele Jahrzehnte und fehlen im aufgeräumten, jung durchforsteten Wirtschaftswald fast völlig. Ein einziger Höhlenbaum kann über Jahrzehnte nacheinander Spechten, Meisen, Hohltauben, Fledermäusen, Hornissen und hunderten Käfern und Pilzen Lebensraum bieten. Die Fachpraxis empfiehlt meist 6–10 dauerhaft aus der Nutzung genommene Habitatbäume pro Hektar; der Kommunalwald Rheinland-Pfalz verlangt 10/ha, Niedersachsen setzt 5/ha an, und die 3. Bundeswaldinventur fand im Mittel etwa 9 Biotopbäume je Hektar. Frankreich schreibt im Staatswald sogar verbindlich mindestens zwei Höhlenbäume und einen Dürrständer je Hektar vor. Ergänzend werden kleine Altholzinseln (oft 0,3–1 ha) ganz aus der Nutzung genommen und als Trittsteinbiotope vernetzt, damit unbewegliche Arten von Insel zu Insel wandern können. Der Ertragsverzicht ist überschaubar, weil es nur um wenige Bäume je Hektar bzw. kleine Teilflächen geht; Hauptaufwand sind Auswahl, dauerhafte Markierung und die Schulung des Personals — dafür dienen Marteloskope, abgegrenzte Flächen mit vermessenen, nummerierten Bäumen, an denen Förster den Zielkonflikt Ernte gegen Naturschutz üben. Wichtig ist die Dauerhaftigkeit: Ein Habitatbaum, der bei der nächsten Durchforstung doch fällt, verliert seinen Wert; deshalb gehören Habitatbäume verbindlich markiert und im Betriebswerk gesichert.",
+  "mechanism": "Alte Bäume bilden über Jahrzehnte Mikrohabitate (Höhlen, Mulm, Totastanteile), die Höhlenbrütern, Fledermäusen und xylobionten Arten Nischen bieten und als lebende Totholz-Reserve dienen; als vernetzte Trittsteine überbrücken sie die strukturarme Wirtschaftswaldmatrix.",
+  "evidence": [
+    {"source": "Bütler et al. (WSL), Habitatbäume – Schlüsselkomponenten", "year": 2013, "finding": "Habitatbäume mit Mikrohabitaten sind Schlüsselstrukturen der Waldbiodiversität; Höhlen und Mulm werden über Jahrzehnte von wechselnden Artengemeinschaften genutzt."},
+    {"source": "Landeskonzepte (RLP-Kommunalwald, Niedersachsen, Schleswig-Holstein HaKon2)", "year": 2017, "finding": "Verbindliche Zielwerte von 5–10 Habitatbäumen/ha in Bewirtschaftungsvorgaben verankert."},
+    {"source": "Marteloskop-Programme (waldwissen.net, NRW)", "year": 2021, "finding": "Marteloskope machen den Zielkonflikt Ertrag vs. Habitatbaum-Erhalt für Förster erlebbar und verbessern die praktische Auswahl."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel bis groß auf Bestandsebene: deutlich mehr höhlen- und totholzgebundene Arten; Wirkung hängt von Baumzahl, Dimension und Dauerhaftigkeit ab.",
+    "replication": "Konzept in vielen Landesforsten und im Ausland (Frankreich, Schweiz) etabliert und evaluiert; Struktur-Artenzahl-Zusammenhang gut belegt.",
+    "caveats": "Wirkung nur bei dauerhaftem Verbleib und ausreichender Dichte/Dimension; zu wenige oder zu junge 'Habitatbäume' bleiben wirkungslos; Kontinuität über Baumgenerationen nötig."
+  },
+  "protocol": [
+    "Zielwert festlegen: mind. 6–10 Habitatbäume pro Hektar dauerhaft aus der Nutzung nehmen, plus einzelne Dürrständer.",
+    "Bäume mit den meisten und wertvollsten Mikrohabitaten auswählen (Höhlen, Mulm, Spalten, starke Dimension, Höhlenbaum-Nachbarschaft).",
+    "Dauerhaft und eindeutig markieren und im Betriebswerk/Forsteinrichtung verbindlich sichern, damit sie bei künftigen Eingriffen bleiben.",
+    "Ergänzend kleine Altholzinseln (~0,3–1 ha) komplett aus der Nutzung nehmen und als Trittsteine vernetzen.",
+    "Personal an Marteloskopen schulen, damit der Zielkonflikt Ernte vs. Habitatbaum praxisnah geübt wird.",
+    "Habitatbäume bis zum natürlichen Zerfall stehen lassen — sie werden zum Totholz und Höhlenangebot der Zukunft."
+  ],
+  "mistakes": [
+    "Habitatbäume auswählen, aber nicht dauerhaft sichern — bei der nächsten Durchforstung fallen sie doch.",
+    "Nur wirtschaftlich wertlose Kümmerbäume markieren statt echter, strukturreicher Höhlen- und Starkbäume.",
+    "Zu geringe Dichte (1–2/ha), sodass keine funktionierende Habitatbaum-Gruppe entsteht.",
+    "Altholzinseln zu klein oder isoliert anlegen, sodass sie als Trittsteine nicht vernetzt sind."
+  ],
+  "risks": "Gering. Verkehrssicherung entlang von Wegen beachten (Habitatbäume ins Bestandsinnere legen). Bei ohnehin geschädigten Beständen ist der Ertragsverzicht klein; Hauptaufwand ist die dauerhafte Sicherung gegen spätere Nutzung.",
+  "synergy": ["totholz-im-wald", "naturnaher-waldumbau", "prozessschutz-wildnis"],
+  "sources": [
+    {"title": "Wikipedia – Biotopbaum (Zielzahlen, ONF-Norm, BWI)", "url": "https://de.wikipedia.org/wiki/Biotopbaum"},
+    {"title": "waldwissen.net – Habitatbäume kennen, schützen und fördern", "url": "https://www.waldwissen.net/de/lebensraum-wald/naturschutz/habitatbaeume-kennen-schuetzen-und-foerdern"},
+    {"title": "WSL / Bütler et al. – Habitatbäume: Schlüsselkomponenten der Waldbiodiversität (PDF)", "url": "https://www.wsl.ch/fileadmin/user_upload/WSL/Mitarbeitende/buetler/pdf/Habitatbaume_KapitelRBR.pdf"}
+  ]
+}

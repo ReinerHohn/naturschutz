@@ -1,0 +1,53 @@
+{
+  "id": "bluehflaechen-mehrjaehrig",
+  "name": "Mehrjährige Blühflächen & Blühstreifen",
+  "aka": ["Blühstreifen", "Blühfläche", "Wildblumenwiese", "Bienenweide"],
+  "category": "Insekten & Bestäuber",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["wildbienen", "schmetterlinge", "nahrung", "saatgut", "landwirtschaft", "garten"],
+  "summary": "Über mehrere Jahre stehende Flächen mit gebietseigenem, artenreichem Wildpflanzen-Saatgut liefern Bestäubern durchgehend Pollen und Nektar sowie Nistplätze und Winterstruktur. Mehrjährig schlägt einjährig deutlich, und heimische Wildarten schlagen bunte Ziermischungen — genau darin liegt der häufigste Fehler.",
+  "key_facts": [
+    {"label": "Mehrjährig > einjährig", "value": "Mehrjährige Flächen bieten ungestörten Lebensraum über Jahre, mit hohem Anteil heimischer Wildpflanzen und Winterstruktur; einjährige werden jährlich umgebrochen und bieten kaum Nist-/Überwinterungswert", "source": "Ökolandbau.de; NABU"},
+    {"label": "Kleiner Flugradius", "value": "Viele kleine Wildbienen fliegen nur bis ~100 m; Nahrung und Nistplatz müssen dicht beieinander liegen", "source": "Ökolandbau.de"},
+    {"label": "Gebietseigenes Saatgut", "value": "Autochthones/gebietseigenes Saatgut ist an lokale Klima- und Bodenverhältnisse angepasst; seit 2020 auf Flächen der freien Landschaft in Deutschland vorgeschrieben (BNatSchG §40)", "source": "BNatSchG; Ökolandbau.de"},
+    {"label": "Spezialisten", "value": "Rund ein Drittel der Wildbienen ist auf bestimmte Pflanzen(gattungen) spezialisiert (oligolektisch) und braucht genau diese Wildarten, nicht Zierblumen", "source": "Wildbienen.de"},
+    {"label": "Winterstruktur", "value": "Bleiben Teilflächen über Winter stehen, überdauern auch stängelnistende Arten und Eier/Puppen — Voraussetzung für stabile Wildbienengemeinschaften", "source": "Ökolandbau.de"}
+  ],
+  "deep_dive": "Blühflächen sind zum Symbol für Insektenschutz geworden — aber nicht jede bunte Fläche hilft. Entscheidend ist die Dauer: mehrjährige Flächen mit gebietseigenem Wildpflanzen-Saatgut werden nicht jährlich umgebrochen, entwickeln über die Jahre Struktur und liefern durchgehend Pollen und Nektar sowie offene Bodenstellen und markhaltige Stängel als Nistplatz. Einjährige Ziermischungen (oft nicht-heimische Kulturarten wie Phacelia, Sonnenblume, Ringelblume) sehen bunt aus, bieten spezialisierten Wildbienen aber kaum Nahrung und keinerlei Nist- oder Überwinterungswert, weil sie im Herbst umgebrochen werden. Rund ein Drittel der heimischen Wildbienen ist oligolektisch, also auf bestimmte Pflanzengattungen angewiesen — für sie zählt nur heimische Wildpflanzen-Vielfalt. Weil viele kleine Arten nur etwa 100 m weit fliegen, müssen Nahrung und Nistplatz eng benachbart sein; verstreute Kleinflächen im Verbund wirken daher besser als eine einzelne große. Gebietseigenes (autochthones) Saatgut ist Pflicht in der freien Landschaft (BNatSchG §40) und verhindert Florenverfälschung. Der größte Hebel entsteht in ausgeräumten Agrarlandschaften und in versiegelten Siedlungsräumen; die Maßnahme ist billig und schnell umsetzbar, verlangt aber angepasste Pflege (abschnittsweise Mahd, Abräumen des Mähguts zur Aushagerung, keine Düngung).",
+  "mechanism": "Kontinuierliches, artenreiches Blütenangebot aus heimischen Wildpflanzen deckt Pollen- und Nektarbedarf über die gesamte Flugsaison; stehenbleibende Struktur liefert Nist- und Überwinterungsplätze — Nahrung und Habitat zugleich.",
+  "evidence": [
+    {"source": "NABU (Blühstreifen-Analyse)", "year": 2019, "finding": "Einjährige bunte Mischungen sind oft naturschutzfachlich wenig wertvoll; mehrjährige Flächen mit heimischen Arten und stehenbleibender Struktur bringen den Insektennutzen."},
+    {"source": "Ökolandbau.de / Nationale Naturlandschaften", "year": 2023, "finding": "Mehrjährige Blühflächen sind ein starker Biodiversitätshebel; entscheidend sind gebietseigenes Saatgut, mehrjährige Standzeit und angepasste Pflege."},
+    {"source": "Natürlich Bayern (Praxisempfehlungen)", "year": 2021, "finding": "Regionale Wildpflanzenmischungen und Teilflächen-Pflege deutlich wirksamer für Wildbienen als handelsübliche Ziermischungen."}
+  ],
+  "robustness": {
+    "effect_size": "Deutliche Zunahme von Blütenbesucher-Individuen und -Arten bei mehrjährigen Wildpflanzenflächen; einjährige Ziermischungen wirken schwach.",
+    "replication": "Vielfach in Praxis und Studien bestätigt; Effektgröße hängt stark von Saatgut, Standzeit und Pflege ab.",
+    "caveats": "Nicht-heimische Ziermischungen und falsche Pflege (Mulchen/Umbruch jährlich) entwerten die Maßnahme. Blühfläche allein ersetzt keine Nisthabitate — Bodenstellen mitdenken."
+  },
+  "protocol": [
+    "Gebietseigenes/autochthones, artenreiches Wildpflanzen-Saatgut wählen (Regiosaatgut-Herkunftsregion beachten) — keine bunten Einjahres-Ziermischungen.",
+    "Mehrjährig anlegen: Fläche mindestens mehrere Jahre stehen lassen, nicht jährlich umbrechen.",
+    "Auf nährstoffarmem Boden anlegen bzw. aushagern; nicht düngen (viele Wildpflanzen brauchen magere Standorte).",
+    "Abschnittsweise und selten mähen (1 bis 2 Mal/Jahr), Mähgut nach Antrocknen abräumen; immer Teilflächen über Winter stehen lassen.",
+    "Nistmöglichkeiten mitdenken: offene, besonnte Bodenstellen und markhaltige Stängel in der Nähe belassen.",
+    "Mehrere kleinere Flächen im Verbund statt einer isolierten großen — wegen kurzer Flugradien."
+  ],
+  "mistakes": [
+    "Bunte Einjahres-Ziermischung ohne heimische Wildarten und ohne Struktur-/Überwinterungswert gesät.",
+    "Fläche jährlich umgebrochen oder gemulcht — vernichtet Gelege, Puppen und stängelnistende Arten.",
+    "Nicht-gebietseigenes Saatgut verwendet (Florenverfälschung, in freier Landschaft rechtswidrig).",
+    "Gedüngt oder auf zu fettem Boden angelegt; Gräser verdrängen die Blüten.",
+    "Als Feigenblatt neben weiter intensiver, pestizidbelasteter Fläche eingesetzt."
+  ],
+  "risks": "Gering. Fehlanreiz, wenn nur optisch bunt statt ökologisch wirksam geplant wird. Nicht-heimisches Saatgut kann heimische Flora verfälschen. Ohne Nisthabitat und Pestizidverzicht in der Umgebung bleibt die Wirkung begrenzt.",
+  "synergy": ["mahd-insektenschonend", "wildbienen-nisthabitat", "pestizidverzicht-flaeche"],
+  "sources": [
+    {"title": "Ökolandbau.de – Mehrjährige Blühflächen: starker Hebel für mehr Biodiversität", "url": "https://www.oekolandbau.de/umwelt-und-gesellschaft/biodiversitaet/vielfalt-der-wildtiere-und-pflanzen/mehrjaehrige-bluehflaechen-starker-hebel-fuer-mehr-biodiversitaet/"},
+    {"title": "NABU – Blühstreifen: Hauptsache, alles schön bunt?", "url": "https://www.nabu.de/natur-und-landschaft/naturschutz/deutschland/33855.html"},
+    {"title": "Natürlich Bayern – Praxisempfehlungen Blühflächen", "url": "https://www.natuerlichbayern.de/praxisempfehlungen/bluehflaechen"}
+  ]
+}

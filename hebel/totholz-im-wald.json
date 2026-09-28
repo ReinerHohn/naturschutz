@@ -1,0 +1,52 @@
+{
+  "id": "totholz-im-wald",
+  "name": "Totholz im Wald belassen",
+  "aka": ["Totholz", "stehendes und liegendes Totholz", "Dürrständer", "deadwood"],
+  "category": "Wald & Totholz",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "A",
+  "effort": 1,
+  "tags": ["totholz", "xylobionte", "kaefer", "specht", "pilze", "wirtschaftswald", "low-hanging-fruit"],
+  "summary": "Abgestorbene Bäume — stehend als Dürrständer und liegend am Boden — sind einer der artenreichsten Lebensräume im Wald: tausende Käfer, Pilze, Spechte und Fledermäuse hängen daran. Deutsche Wirtschaftswälder haben oft zu wenig davon. Der Hebel ist fast gratis, weil man nichts tut, sondern totes Holz einfach liegen und stehen lässt.",
+  "key_facts": [
+    {"label": "Abhängige Arten", "value": "rund 1.400 der ~5.000 Käferarten in Deutschland sind auf Totholz angewiesen (xylobiont); dazu viele Pilze, Moose, Flechten, Höhlenbrüter", "source": "waldwissen.net / BUND Naturschutz"},
+    {"label": "Zielvolumen", "value": "ab ca. 30 m³/ha kann der Großteil der möglichen xylobionten Arten stabil vorkommen; hochspezialisierte Arten brauchen über 40 m³/ha", "source": "waldwissen.net"},
+    {"label": "Ist-Zustand D", "value": "im Mittel ~29 m³/ha (4. Bundeswaldinventur 2022–2024), rund ein Drittel mehr als 10 Jahre zuvor — aber viel davon frisches Nadel-Kalamitätsholz mit geringerem Naturschutzwert", "source": "Bundeswaldinventur 2024 / WWF"},
+    {"label": "Kosten", "value": "praktisch null — der Hebel besteht im Nicht-Aufräumen; Ertragsverzicht nur für das nicht geerntete Holz", "source": "Praxis"},
+    {"label": "Struktur zählt", "value": "starke Dimensionen, Laubholz, Sonnenlicht und lange Zerfallszeiten sind wertvoller als viel dünnes, beschattetes Nadeltotholz", "source": "waldwissen.net"}
+  ],
+  "deep_dive": "Totholz ist kein Abfall, sondern Lebensraum: rund 1.400 der etwa 5.000 heimischen Käferarten sind auf abgestorbenes Holz angewiesen, dazu kommen tausende Pilzarten sowie Spechte, die Höhlen zimmern, die später Fledermäuse, Meisen und Hohltauben nutzen. Als Faustzahl gilt: ab etwa 30 m³ Totholz pro Hektar können die meisten standortmöglichen xylobionten Arten stabile Populationen bilden, hochspezialisierte Reliktarten alter Buchenwälder brauchen eher über 40 m³/ha. Die 4. Bundeswaldinventur (2022–2024) weist im deutschen Wald im Mittel rund 29 m³/ha aus — etwa ein Drittel mehr als zehn Jahre zuvor. Der Zuwachs täuscht aber: ein großer Teil stammt aus den Dürre- und Borkenkäfer-Kalamitäten und ist frisches, dünnes Nadeltotholz, das ökologisch weniger wertvoll ist als starkes, langsam zerfallendes Laubtotholz. Wichtig ist die Vielfalt der Qualitäten: stehendes Totholz (Dürrständer) für Höhlenbrüter und wärmeliebende Käfer, liegendes für Bodenpilze und Feuchtezersetzer, besonnte wie beschattete Lagen, dicke Stämme und alle Zerfallsstadien nebeneinander. Der große Vorteil dieses Hebels: Er kostet fast nichts, weil er im Wesentlichen aus Unterlassen besteht. Der reale Konflikt sind Verkehrssicherung (an Wegen), die Sorge vor Borkenkäfer-Ausbreitung (die bei Laubholz und altem Käferholz gering ist) und der Wunsch, das Holz noch zu verkaufen. Deshalb funktioniert der Hebel am besten mit klaren Zielwerten pro Hektar und dem gezielten Belassen starker Dimensionen abseits der Wege.",
+  "mechanism": "Totes Holz liefert Nahrung, Brut- und Versteckraum für die stark spezialisierte xylobionte Lebensgemeinschaft (Käfer, Pilze, Höhlenbrüter, Fledermäuse); je mehr Menge, Dimension, Qualität und Zerfallsstadien nebeneinander vorliegen, desto mehr Arten finden ihre Nische.",
+  "evidence": [
+    {"source": "Bundeswaldinventur (4. BWI)", "year": 2024, "finding": "Totholzvorrat im deutschen Wald im Mittel rund 29 m³/ha, deutlicher Anstieg gegenüber 2012 — wesentlich durch Kalamitäts-Nadelholz getrieben."},
+    {"source": "Waldwissen.net (WSL), Licht und Totholz", "year": 2018, "finding": "Ab ~30 m³/ha kommt der Großteil der möglichen xylobionten Käferarten stabil vor; Spezialisten alter Wälder benötigen >40 m³/ha und starke Dimensionen."},
+    {"source": "BUND Naturschutz, Totholz lebt", "year": 2022, "finding": "Rund 1.400 heimische Käferarten sind auf Totholz angewiesen; Totholzmangel gilt als eine Hauptursache für Artenrückgang im Wirtschaftswald."}
+  ],
+  "robustness": {
+    "effect_size": "Groß: klarer, vielfach belegter positiver Zusammenhang zwischen Totholzmenge/-qualität und Artenzahl xylobionter Organismen.",
+    "replication": "International robust repliziert (Mitteleuropa, boreale und temperate Wälder); Totholz ist ein Standard-Indikator der Waldnaturschutzforschung.",
+    "caveats": "Menge allein reicht nicht — Dimension, Baumart (Laub > dünnes Nadel), Besonnung und die Bandbreite der Zerfallsstadien entscheiden; frisches Kalamitäts-Nadelholz überzeichnet die Statistik."
+  },
+  "protocol": [
+    "Zielvolumen festlegen: mindestens ~20–40 m³/ha Totholz anstreben, in Naturschutzwäldern eher am oberen Rand.",
+    "Stehendes Totholz (Dürrständer) belassen, wo es niemanden gefährdet — besonders für Spechte und wärmeliebende Käfer.",
+    "Starkes Laubtotholz und dicke Stämme bevorzugt liegen lassen; Dimension ist wichtiger als Stückzahl.",
+    "Alle Zerfallsstadien und beide Lagen (besonnt und beschattet) im Bestand halten, damit sich die Qualitäten ergänzen.",
+    "Nicht flächig aufräumen: Kronen, Stubben und Kalamitätsholz zumindest teilweise im Wald belassen statt komplett rücken.",
+    "Verkehrssicherung nur streifenweise an Wegen; im Bestandsinneren Totholz konsequent stehen und liegen lassen."
+  ],
+  "mistakes": [
+    "Alles 'sauber' aufräumen und jedes tote Holz aus dem Wald fahren — der häufigste und teuerste Fehler für die Artenvielfalt.",
+    "Nur dünnes Nadeltotholz belassen und starke Laubstämme verkaufen; die wertvollen Dimensionen fehlen dann.",
+    "Aus pauschaler Borkenkäfer-Angst auch altes und Laubtotholz entfernen, das keine Gefahr darstellt.",
+    "Totholzmenge in der Statistik feiern, ohne auf Qualität, Dimension und Zerfallsstadien zu achten."
+  ],
+  "risks": "Gering. Verkehrssicherungspflicht an Wegen und Erholungsflächen beachten (Streifen freihalten). Frisch befallenes Fichten-Frischholz kann Borkenkäfer weitergeben — altes und Laubtotholz dagegen nicht; die Käfersorge wird oft überschätzt und trifft nur frisches Nadel-Frischholz.",
+  "synergy": ["biotopbaeume-altholzinseln", "naturnaher-waldumbau", "prozessschutz-wildnis"],
+  "sources": [
+    {"title": "Bundeswaldinventur – Vierte Bundeswaldinventur 2022, Zusammenfassung", "url": "https://www.bundeswaldinventur.de/vierte-bundeswaldinventur-2022/zusammenfassung"},
+    {"title": "waldwissen.net – Licht und Totholz: das Paradies für holzbewohnende Käfer", "url": "https://www.waldwissen.net/de/lebensraum-wald/tiere-im-wald/insekten-wirbellose/holzbewohnende-kaefer"},
+    {"title": "BUND Naturschutz – Totholz lebt", "url": "https://www.bund-naturschutz.de/wald/totholz"}
+  ]
+}

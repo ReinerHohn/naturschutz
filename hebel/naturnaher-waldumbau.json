@@ -1,0 +1,52 @@
+{
+  "id": "naturnaher-waldumbau",
+  "name": "Naturnaher Waldumbau",
+  "aka": ["Waldumbau", "Umbau zu Mischwald", "klimastabiler Mischwald", "close-to-nature forestry"],
+  "category": "Wald & Totholz",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["mischwald", "monokultur", "fichte", "naturverjuengung", "klimaanpassung", "strukturreichtum", "wirtschaftswald"],
+  "summary": "Standortheimische, strukturreiche Mischwälder statt gleichaltriger Fichten- oder Kiefern-Monokulturen — vorzugsweise über Naturverjüngung. Solche Wälder sind zugleich klimastabiler und artenreicher als Monokulturen. Der Hebel ist wirksam, aber langsam (eine Baumgeneration) und je nach Weg unterschiedlich teuer.",
+  "key_facts": [
+    {"label": "Umbaubedarf D", "value": "~2,2 Mio. ha Fichtenwälder und ~620.000 ha Buchenwälder gelten als dringend umbaubedürftig, um dem Klimawandel standzuhalten", "source": "Thünen-Institut für Waldökosysteme"},
+    {"label": "Kosten öffentlich", "value": "Größenordnung 10–100 Mio. € pro Jahr für angepassten Waldumbau (je nach Ambition und Flächenumfang)", "source": "Umweltbundesamt"},
+    {"label": "Zeithorizont", "value": "ein gesunder Mischwald braucht etwa eine Baumgeneration — im Wirtschaftswald rund 100–180 Jahre", "source": "Umweltbundesamt / Forstpraxis"},
+    {"label": "Naturverjüngung", "value": "kostet fast nichts, wo Samenbäume vorhanden sind; Aufforstung/Pflanzung auf Kahlflächen ist dagegen aufwändig und teuer", "source": "UBA / Forstpraxis"},
+    {"label": "Stabilität", "value": "Mischbestände sind gegenüber Sturm, Dürre und Borkenkäfer nachweislich robuster und anpassungsfähiger als gleichaltrige Monokulturen", "source": "KIT 2020"}
+  ],
+  "deep_dive": "Große Teile des deutschen Waldes sind historisch als gleichaltrige Fichten- und Kiefern-Reinbestände auf oft ungeeigneten Standorten begründet worden. Diese Monokulturen sind gegenüber Sturm, Dürre und Borkenkäfer besonders anfällig — die Kalamitäten seit 2018 haben das drastisch gezeigt — und ökologisch arm. Naturnaher Waldumbau führt sie in standortheimische, strukturreiche Mischwälder über: mehrere Baumarten, verschiedene Altersklassen und Höhenstufen nebeneinander, möglichst aus Naturverjüngung. Das Thünen-Institut beziffert den dringenden Umbaubedarf auf rund 2,2 Millionen Hektar Fichten- und 620.000 Hektar Buchenwälder. Der Doppelnutzen: Mischwälder sind laut Forschung (u.a. KIT 2020) klimastabiler und anpassungsfähiger als Monokulturen und bieten zugleich mehr Struktur, Baumartenvielfalt und damit Lebensraum für mehr Arten. Der Weg entscheidet über Kosten und ökologische Qualität: Naturverjüngung, bei der man vorhandene Samenbäume den Nachwuchs selbst bringen lässt, kostet fast nichts und liefert standortangepasstes, genetisch vielfältiges Material — sie setzt aber angepasste Wildbestände voraus, sonst wird der Jungwuchs verbissen. Aufforstung und Pflanzung klimaresistenter Arten auf großen Kahlflächen ist dagegen aufwändig und teuer, mit Ausfallrisiko in Trockenjahren. Der große Haken ist die Zeit: Ein funktionaler Mischwald braucht etwa eine Baumgeneration, im Wirtschaftswald 100–180 Jahre — der Hebel wirkt also über Jahrzehnte, nicht über Legislaturperioden. Fehlanreize entstehen, wenn 'Umbau' zum Pflanzen einiger nicht-heimischer Exoten (z.B. Douglasie in Reinbeständen) verkürzt wird, statt echte, standortheimische Struktur- und Artenvielfalt aufzubauen.",
+  "mechanism": "Baumarten-, Alters- und Strukturvielfalt verteilt Risiken (Sturm, Dürre, Schädlinge) und schafft zugleich mehr ökologische Nischen; Naturverjüngung liefert standortangepasstes, genetisch vielfältiges und kostengünstiges Ausgangsmaterial.",
+  "evidence": [
+    {"source": "Thünen-Institut für Waldökosysteme", "year": 2022, "finding": "~2,2 Mio. ha Fichten- und ~620.000 ha Buchenwälder gelten als dringend umbaubedürftig für Klimaanpassung."},
+    {"source": "KIT-Studie zu Mischwäldern", "year": 2020, "finding": "Mischwälder sind gegenüber Klimastress anpassungsfähiger und stabiler als Monokulturen."},
+    {"source": "Umweltbundesamt, Angepasster Waldumbau", "year": 2023, "finding": "Naturnaher Umbau zu standortheimischen Mischwäldern verbessert Klimaresilienz und Biodiversität; Kosten und Zeithorizont sind erheblich (Größenordnung 10–100 Mio. €/Jahr, ~100–180 Jahre)."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel bis groß für Stabilität und Struktur; Biodiversitätsgewinn hängt stark von Baumartenwahl (standortheimisch) und Strukturreichtum ab.",
+    "replication": "Grundprinzip (Mischung > Monokultur bei Resilienz) breit belegt; konkrete Biodiversitätswirkung variiert mit Umsetzung und Standort.",
+    "caveats": "Sehr langsam wirksam; Erfolg abhängig von angepassten Wildbeständen (Verbiss), standortheimischer Artenwahl und echtem Strukturaufbau — nicht von bloßem Exoten-Pflanzen."
+  },
+  "protocol": [
+    "Wo Samenbäume vorhanden sind, auf Naturverjüngung setzen — sie ist billig, standortangepasst und genetisch vielfältig.",
+    "Standortheimische Baumartenmischung anstreben statt neuer Reinbestände; Exoten allenfalls beigemischt, nicht dominant.",
+    "Wildbestände anpassen (Bejagung), sonst wird der Jungwuchs verbissen und die Verjüngung scheitert.",
+    "Strukturvielfalt fördern: mehrere Alters- und Höhenschichten, Lücken, stufiger Bestandsaufbau statt Gleichaltrigkeit.",
+    "Auf großen Kahlflächen gezielt klimaresistente, standortpassende Arten pflanzen — mit Ausfallpuffer für Trockenjahre.",
+    "Langfristig denken: Umbau über eine Baumgeneration planen und in der Forsteinrichtung verankern."
+  ],
+  "mistakes": [
+    "'Umbau' als Pflanzung einiger Exoten (z.B. reine Douglasienbestände) missverstehen statt echter standortheimischer Struktur- und Artenvielfalt.",
+    "Naturverjüngung ohne Wildbestandsregulierung — der Jungwuchs wird verbissen, der Umbau scheitert.",
+    "Teure Pflanzungen in Trockenjahren ohne Ausfallpuffer, mit hohen Verlusten.",
+    "Kurzfristige Erfolgserwartung; der Hebel wirkt über Jahrzehnte, nicht über wenige Jahre."
+  ],
+  "risks": "Langsam und je nach Weg teuer (Pflanzung). Ohne angepasste Wildbestände scheitert die Naturverjüngung. Gefahr der Etikettierung: nicht jeder 'Waldumbau' ist naturnah — Reinbestände aus Exoten schaffen wenig ökologischen Mehrwert. Trockenjahre gefährden frische Pflanzungen.",
+  "synergy": ["totholz-im-wald", "biotopbaeume-altholzinseln", "prozessschutz-wildnis"],
+  "sources": [
+    {"title": "Umweltbundesamt – Angepasster Waldumbau", "url": "https://www.umweltbundesamt.de/angepasster-waldumbau-0"},
+    {"title": "KIT – Mischwälder sind anpassungsfähiger als Monokulturen (PDF)", "url": "https://www.klima-umwelt.kit.edu/downloads/KIT_PI_2020_069_Klimawandel_Mischwaelder%20sind%20anpassungsfaehiger%20als%20Monokulturen.pdf"},
+    {"title": "TU Dresden – Warum brauchen wir naturnahe Mischwälder?", "url": "https://tu-dresden.de/ihi-zittau/ess/studium/ecosystem-services-csse-studies/warum-brauchen-wir-naturnahe-mischwaelder"}
+  ]
+}

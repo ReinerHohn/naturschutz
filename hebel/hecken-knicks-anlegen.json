@@ -1,0 +1,53 @@
+{
+  "id": "hecken-knicks-anlegen",
+  "name": "Hecken & Knicks anlegen",
+  "aka": ["Wallhecke", "Knick", "Feldhecke", "Feldgehölz", "lineare Gehölzstruktur"],
+  "category": "Landwirtschaft & Fläche",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["hecke", "knick", "vernetzung", "agrarlandschaft", "voegel", "insekten", "erosion", "korridor"],
+  "summary": "Lineare Gehölzstreifen aus Sträuchern und Bäumen in der Agrarlandschaft bieten Nistplatz, Nahrung, Deckung und Wanderkorridor für Vögel, Insekten und Kleinsäuger und schützen zugleich vor Wind und Bodenerosion. Der Nutzen pro Laufmeter ist hoch und die Anlage vergleichsweise billig — nach jahrzehntelangem Rückgang der Feldgehölze einer der besten Struktur-Hebel in der ausgeräumten Feldflur.",
+  "key_facts": [
+    {"label": "Vogelnutzung", "value": "in Schleswig-Holstein brüten fast 60 Vogelarten regelmässig in Knicks; von Goldammer, Dorngrasmücke, Neuntöter u.a. liegt über die Hälfte der Reviere dort", "source": "NABU Schleswig-Holstein"},
+    {"label": "Längenverlust", "value": "SH-Knicknetz von ~75.000 km (1950) auf ~45.000 km geschrumpft (~40 % weniger)", "source": "NABU Schleswig-Holstein"},
+    {"label": "Struktur zählt", "value": "breite, ungeputzte Aussenränder tragen deutlich höhere Brutrevierdichte als seitlich zurückgeschnittene Hecken", "source": "NABU Schleswig-Holstein"},
+    {"label": "Mehrfachnutzen", "value": "Windschutz, Erosions- und Wasserrückhalt, Bestäuber-Habitat, Biotopverbund auf demselben Streifen", "source": "Agroforst-/Naturschutzberatung"},
+    {"label": "Aufwand", "value": "gebietsheimische Sträucher, Anlage pro Laufmeter günstig; grösster Aufwand ist Flächenverfügbarkeit und Anwuchspflege", "source": "DVL Massnahmensteckbrief"}
+  ],
+  "deep_dive": "Die industrielle Flurbereinigung hat die Feldflur ausgeräumt: In Schleswig-Holstein sank das Knicknetz von rund 75.000 km (1950) auf etwa 45.000 km. Damit verschwand Lebensraum für Arten, die auf lineare Gehölze angewiesen sind — fast 60 Vogelarten brüten regelmässig in Knicks, bei Goldammer, Hänfling, Heckenbraunelle, Dorngrasmücke und Neuntöter liegt über die Hälfte der Brutreviere hier. Eine Hecke ist ein Struktur-Multiplikator: Sie liefert Nistplatz und Deckung, Blüten und Beeren als Nahrung, jagt-freundliche Ansitzwarten, Überwinterungshabitat für Insekten und einen Wanderkorridor, der isolierte Restlebensräume vernetzt. Zusätzlich bremst sie Wind, hält Boden und Wasser zurück und mindert Erosion — der Nutzen pro Laufmeter ist entsprechend hoch. Entscheidend ist die Struktur: breite, gestufte, nur abschnittsweise gepflegte Hecken mit krautigem Saum tragen ein Vielfaches der Arten schmaler, jährlich glattgeschnittener Reihen. Gebietsheimisches, standortgerechtes und dornenreiches Gehölz (Weissdorn, Schlehe, Hundsrose, Holunder) maximiert den Wert. Die Anlage ist billig; die eigentliche Hürde ist Flächenverfügbarkeit und die Bereitschaft, den Streifen dauerhaft aus der Produktion zu nehmen. Falsch gemacht wird die Pflege: jährlicher radikaler Rückschnitt auf Stock zur Unzeit vernichtet Brut und krautigen Saum — Hecken sollen abschnittsweise und ausserhalb der Brut- und Vegetationszeit auf den Stock gesetzt werden.",
+  "mechanism": "Lineare Gehölze fügen der ausgeräumten Feldflur vertikale und horizontale Struktur hinzu (Nistplatz, Nahrung, Deckung, Überwinterung) und wirken als Trittstein und Korridor zwischen Restlebensräumen; zugleich brechen sie Wind und halten Boden.",
+  "evidence": [
+    {"source": "NABU Schleswig-Holstein, Lebensraum Knick", "year": 2023, "finding": "Fast 60 Vogelarten brüten regelmässig in Knicks; ungeputzte breite Ränder tragen deutlich höhere Brutrevier- und Nahrungsgastdichte als schmale Schnitthecken."},
+    {"source": "DVL/Naturschutzberatung SH, Massnahmensteckbrief Knicks & Gehölze", "year": 2020, "finding": "Anlage und Aufwertung gebietsheimischer Hecken erhöht Struktur- und Artenvielfalt; abschnittsweise Pflege ausserhalb der Brutzeit erhält den Wert."},
+    {"source": "Torralba et al., European agroforestry meta-analysis (analog: Gehölz+Acker)", "year": 2016, "finding": "Strukturreiche Gehölz-Acker-Systeme steigern Biodiversität und Ökosystemleistungen (u.a. Erosionsschutz) gegenüber Monokulturen deutlich."}
+  ],
+  "robustness": {
+    "effect_size": "Gross pro Fläche/Laufmeter für Hecken- und Saumarten; Struktur- statt Punktnutzen.",
+    "replication": "Vielfach dokumentiert in Nordwesteuropa (Knicks, bocage, hedgerows).",
+    "caveats": "Wirkung hängt stark von Breite, gestufter Struktur, gebietsheimischem Gehölz und schonender, abschnittsweiser Pflege ab. Schmale, jährlich glattgeschnittene Hecken bringen wenig. Anwuchsphase braucht Jahre."
+  },
+  "protocol": [
+    "Streifen entlang von Feldrändern, Wegen, Gräben, Hangkanten planen und dauerhaft aus der Nutzung nehmen — je breiter (Zielwert mehrere Meter plus krautiger Saum), desto besser.",
+    "Nur gebietsheimische, standortgerechte Straucharten pflanzen; dornen- und beerentragende Arten (Weissdorn, Schlehe, Hundsrose, Holunder, Hasel) bevorzugen und gestuft anordnen (niedrig aussen, hoch innen).",
+    "Krautigen Saum von 1-3 m an beiden Seiten mit einplanen und nur alle paar Jahre abschnittsweise mähen.",
+    "Pflege abschnittsweise und rotierend, nur ausserhalb der Brut- und Vegetationszeit (Gehölzschnitt Okt-Feb); nie die ganze Hecke auf einmal auf den Stock setzen.",
+    "Einzelne Überhälter-Bäume und Totholz/Lesesteinhaufen als Ansitz- und Überwinterungsstrukturen belassen.",
+    "An bestehende Hecken, Wegraine oder Gewässerränder anbinden, damit ein Verbund statt isolierter Inseln entsteht.",
+    "GAP-/Agrarumwelt- und Landschaftspflegeförderung für Anlage und Pflege nutzen."
+  ],
+  "mistakes": [
+    "Jährlicher radikaler Rückschnitt zur Brutzeit — vernichtet Nester und krautigen Saum.",
+    "Zu schmal gepflanzt, ohne Saum, ohne Struktur — bringt kaum Arten.",
+    "Nicht-heimische oder Zier-Gehölze verwendet statt gebietsheimischer Sträucher.",
+    "Isolierte Einzelhecke ohne Anbindung an bestehenden Verbund."
+  ],
+  "risks": "Gering. Fehlpflege (radikaler Rückschnitt zur Unzeit) kann kurzfristig schaden. Flächenkonkurrenz zur Produktion; über Förderung und Randlagen entschärfbar. Bei Wildverbiss Anwuchsschutz nötig.",
+  "synergy": ["randstreifen-wegraine-vernetzung", "biotopverbund-trittsteine", "agroforst", "ackerrandstreifen-brache-lerchenfenster", "wildbienen-nisthabitat"],
+  "sources": [
+    {"title": "NABU Schleswig-Holstein – Lebensraum Knick / Knickränder", "url": "https://schleswig-holstein.nabu.de/natur-und-landschaft/knicks/lebensraum-knick/15423.html"},
+    {"title": "DVL Schleswig-Holstein – Massnahmensteckbrief Anlage & Aufwertung Knicks und Gehölze", "url": "https://www.schleswig-holstein.dvl.org/fileadmin/user_upload/Anlage_und_Aufwertung_Knicks_und_Geho__lze.pdf"},
+    {"title": "Torralba et al. 2016 – Do European agroforestry systems enhance biodiversity? (Meta-Analyse)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167880916303097"}
+  ]
+}

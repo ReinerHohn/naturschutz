@@ -1,0 +1,54 @@
+{
+  "id": "ackerrandstreifen-brache-lerchenfenster",
+  "name": "Ackerrandstreifen, Brachen & Lerchenfenster",
+  "aka": ["Ackerrandstreifen", "Ackerbrache", "Selbstbegrünung", "Lerchenfenster", "Blühbrache", "Feldvogelschutz"],
+  "category": "Landwirtschaft & Fläche",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["feldvoegel", "feldlerche", "rebhuhn", "brache", "randstreifen", "gap", "agrarumwelt", "extensiv"],
+  "summary": "Ungenutzte oder extensive Streifen und selbstbegrünte Brachen im Acker geben Feldvögeln, Wildkräutern und Insekten wieder Brut-, Nahrungs- und Deckungsraum. Feldlerche und Rebhuhn sind massiv eingebrochen; die Massnahmen sind billig, GAP-förderfähig und wirken vor allem dort, wo Struktur in der Feldflur fehlt.",
+  "key_facts": [
+    {"label": "Rebhuhn-Rückgang", "value": "seit 1980 europaweit ~94 % Bestandsverlust", "source": "Deutsche Wildtier Stiftung / PECBMS"},
+    {"label": "Feldlerche", "value": "~55 % weniger als 1980; von einst Allerweltsvogel zur gefährdeten Art", "source": "NABU / BMU Lage der Natur"},
+    {"label": "Feldvögel gefährdet", "value": "über 65 % der Agrar-Brutvögel stehen auf der Roten Liste", "source": "NABU"},
+    {"label": "Kosten", "value": "sehr günstig — Selbstbegrünung/Aussaat auf Randstreifen, GAP-Öko-Regelungen und Agrarumweltprogramme fördern", "source": "GAP / Landwirtschaftskammern"},
+    {"label": "Lerchenfenster", "value": "unbestellte Fehlstellen (~20 m²) im Getreide verbessern in UK-Versuchen Bruterfolg; Wirkung standortabhängig", "source": "RSPB / Landwirtschaftskammer NRW"}
+  ],
+  "deep_dive": "Die Agrarvögel sind die grössten Verlierer der Intensivlandwirtschaft: Das Rebhuhn hat seit 1980 europaweit rund 94 % verloren, die Feldlerche etwa 55 %; über 65 % der in der Agrarlandschaft brütenden Vogelarten stehen auf der Roten Liste. Ursachen sind der Verlust von Brutplätzen, Nahrung (Insekten, Wildkrautsamen) und Deckung durch Verlust von Hecken, Rainen und Brachen, dichte Bestände, frühe Mahd und Pestizide. Ackerrandstreifen (ungenutzte oder ungedüngte, pestizidfreie Streifen am Feldrand), selbstbegrünte oder eingesäte Brachen und Lerchenfenster setzen genau hier an: Sie bringen offene, lückige Vegetation, Wildkräuter und Insekten und damit Nahrung und Nestschutz zurück. Lerchenfenster sind kleine, beim Säen ausgelassene Fehlstellen im Getreide (rund 20 m²), die der Feldlerche Anflug und Landeplätze für die späteren Zweit- und Drittbruten bieten, wenn der Bestand sonst zu dicht ist; britische RSPB-Versuche zeigten spürbar besseren Bruterfolg. Ehrlich bleibt: Nicht jede Studie findet einen Effekt — in der Hellwegbörde (NRW) liess sich keine signifikante Wirkung der Lerchenfenster auf die Aktivitätsdichte nachweisen. Brachen und breite, mehrjährige Streifen wirken meist stärker und robuster als Einzelfenster. Der grosse Vorteil dieses Hebels: er ist praktisch gratis, über GAP-Öko-Regelungen und Agrarumweltmassnahmen (AUKM) finanzierbar und schnell umsetzbar — die beste Kosten-Nutzen-Relation unter den Agrar-Massnahmen, wenn Lage und Pflege stimmen.",
+  "mechanism": "Offene, lückige, ungedüngte und pestizidfreie Vegetation bringt Wildkräuter, Insekten (Kükennahrung) und Deckung zurück; Lerchenfenster schaffen im dichten Getreide die für Spätbruten nötigen Anflug- und Landestellen.",
+  "evidence": [
+    {"source": "PECBMS / Deutsche Wildtier Stiftung – Rebhuhn", "year": 2023, "finding": "Rebhuhn europaweit seit 1980 ~94 % zurückgegangen; Hauptursache Verlust von Brutplätzen durch Verschwinden von Hecken, Rainen und Brachen sowie Intensivierung."},
+    {"source": "RSPB – Skylark plots (Lerchenfenster) UK-Feldversuche", "year": 2009, "finding": "Unbestellte Fehlstellen im Wintergetreide erhöhen Zugang zu Nahrung und Zahl später Bruten, verbessern Bruterfolg der Feldlerche."},
+    {"source": "Hötker et al., Hellwegbörde (NRW) – Vertragsnaturschutz für Feldvögel", "year": 2018, "finding": "Ackerbrachen und extensivierte Äcker wirkten positiv; für Lerchenfenster allein liess sich kein signifikanter Effekt auf die Aktivitätsdichte der Feldlerche nachweisen."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel bis gross für Brachen/breite Streifen; für einzelne Lerchenfenster kleiner und standortabhängig.",
+    "replication": "Brachen/Randstreifen vielfach positiv belegt; Lerchenfenster gemischt (UK positiv, Teil-DE ohne Effekt).",
+    "caveats": "Wirkung hängt von Lage (Rand ausräumter vs. strukturreicher Feldflur), Pflege und Landschaftskontext ab. Einzelmassnahmen ohne Verbund und ohne Pestizidverzicht ringsum wirken schwach. Kein Ersatz für Flächenschutz und Grünlanderhalt."
+  },
+  "protocol": [
+    "Randstreifen (mehrere Meter) und Teilflächen dauerhaft oder rotierend aus der intensiven Nutzung nehmen: ungedüngt, pestizidfrei, spät oder gar nicht bearbeitet.",
+    "Auf Brachen Selbstbegrünung zulassen oder gebietsheimische, blüten- und samenreiche Mischungen einsäen; mehrjährig laufen lassen für Struktur und Insekten.",
+    "Lerchenfenster im Wintergetreide anlegen: beim Säen 2-3 unbestellte Fehlstellen à ~20 m² pro Hektar aussparen, nicht am Rand und mit Abstand zu Fahrgassen und Gehölzen (Prädation).",
+    "Massnahmen bevorzugt in strukturarmen, ausgeräumten Feldfluren platzieren, wo der relative Gewinn am grössten ist.",
+    "Mit Hecken, Rainen und extensivem Grünland zu einem Verbund verknüpfen statt isolierter Einzelflächen.",
+    "GAP-Öko-Regelungen (Brache, Blühstreifen) und Agrarumwelt-/Vertragsnaturschutz zur Finanzierung nutzen.",
+    "Mahd/Pflege spät und nur teilflächig, ausserhalb der Brutzeit der Feldvögel."
+  ],
+  "mistakes": [
+    "Lerchenfenster nahe Rand, Fahrgasse oder Gehölz — höhere Prädation, geringerer Nutzen.",
+    "Randstreifen weiter gedüngt oder mit Pestizid-Abdrift belastet — Nahrungsbasis bleibt aus.",
+    "Zu schmal, zu kurzlebig, einjährig umgebrochen statt mehrjährig.",
+    "Mahd zur Brutzeit — vernichtet Gelege und Küken.",
+    "Als Alibi für ansonsten voll intensivierte Flur verkauft."
+  ],
+  "risks": "Gering und billig. Hauptrisiko ist Wirkungslosigkeit bei falscher Lage/Pflege oder als Einzelmassnahme ohne Verbund. Bracheflächen können ohne Management verunkrauten oder verbuschen; rotierende Pflege einplanen.",
+  "synergy": ["hecken-knicks-anlegen", "bluehflaechen-mehrjaehrig", "pestizidverzicht-flaeche", "gruenland-extensivierung-beweidung", "randstreifen-wegraine-vernetzung"],
+  "sources": [
+    {"title": "Deutsche Wildtier Stiftung – Rebhuhn: Feldvogel am Abgrund", "url": "https://www.deutschewildtierstiftung.de/naturschutz/rebhuehner-feldvoegel-am-abgrund"},
+    {"title": "NABU – Alarmierender Rückgang bei Feldvögeln", "url": "https://www.nabu.de/natur-und-landschaft/landnutzung/landwirtschaft/artenvielfalt/vogelsterben/15437.html"},
+    {"title": "Landwirtschaftskammer NRW – Lerchenfenster im Getreide", "url": "https://www.landwirtschaftskammer.de/landwirtschaft/naturschutz/biodiversitaet/lerchenfenster/index.htm"}
+  ]
+}

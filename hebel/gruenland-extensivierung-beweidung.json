@@ -1,0 +1,55 @@
+{
+  "id": "gruenland-extensivierung-beweidung",
+  "name": "Grünland-Extensivierung & extensive Beweidung",
+  "aka": ["artenreiches Grünland", "Magerwiese", "späte Mahd", "extensive Beweidung", "Weidetiere", "Blumenwiese"],
+  "category": "Landwirtschaft & Fläche",
+  "scale": "Alle",
+  "impact": 5,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["gruenland", "wiese", "beweidung", "mahd", "extensiv", "duengung", "agrarlandschaft", "insekten"],
+  "summary": "Weniger Düngung, weniger und spätere Schnitte sowie Beweidung mit robusten, wenig Rassen statt Hochleistungsintensität verwandeln artenarmes Intensivgrünland zurück in artenreiche Wiesen und Weiden. Artenreiches Grünland ist massiv geschrumpft, beherbergt aber überproportional viele Arten — deshalb einer der grössten Flächen-Hebel der Agrarlandschaft.",
+  "key_facts": [
+    {"label": "Rückgang", "value": "artenreiches Grünland auf frischen bis feuchten Böden um ~85 % zurückgegangen", "source": "NABU / Deutsche Wildtier Stiftung"},
+    {"label": "Artenreichtum", "value": "auf Grünland kommen über die Hälfte aller in Deutschland beobachteten Tier- und Pflanzenarten vor", "source": "NABU"},
+    {"label": "Gefährdete Arten", "value": "rund 40 % der in Deutschland gefährdeten Arten haben ihr Hauptvorkommen im Grünland", "source": "NABU-Grünlandposition"},
+    {"label": "Hauptstellschrauben", "value": "Düngung senken, Schnitthäufigkeit reduzieren, Mahd/Beweidung spät und teilflächig, extensive Besatzdichte", "source": "Landwirtschaftskammer / UBA"},
+    {"label": "Kernursache Verlust", "value": "häufige Mahd, Gülle-/Gärrest-Düngung, intensive Beweidung und Grünlandumbruch zu Acker", "source": "UBA Grünlandumbruch"}
+  ],
+  "deep_dive": "Grünland ist einer der artenreichsten Lebensräume der Kulturlandschaft: Über die Hälfte aller in Deutschland beobachteten Tier- und Pflanzenarten kommt hier vor, rund 40 % der gefährdeten Arten haben im Grünland ihr Hauptvorkommen. Doch das artenreiche Grünland ist eingebrochen — auf frischen bis feuchten Böden um etwa 85 %; heute dominieren artenarme, intensiv gedüngte und mehrfach im Jahr geschnittene Grasbestände. Ursachen sind hohe Düngung mit Gülle und Gärresten, vier bis sechs frühe Schnitte pro Jahr, intensive Beweidung und der Umbruch von Wiesen zu Acker oder Silomais. Die Gegenmassnahme ist Extensivierung: Düngung stark reduzieren oder ganz einstellen, die Zahl der Schnitte senken, den ersten Schnitt deutlich nach hinten schieben (damit Kräuter blühen und aussamen, Wiesenbrüter und Insekten ihre Generation abschliessen), teilflächig und rotierend mähen sowie mit robusten Rassen bei geringer Besatzdichte beweiden. Beweidung schafft dabei zusätzliche Strukturvielfalt (offene Bodenstellen, Trittsiegel, Dung als Insektenhabitat), die reine Mahd nicht bietet. Weil Grünland grosse Flächenanteile einnimmt und die Massnahmen dauerhaft wirken, ist der potenzielle Biodiversitätsgewinn sehr gross. Der Preis ist realer Ertragsverzicht (weniger Futtermenge und -energie), weshalb Agrarumwelt- und Vertragsnaturschutzprogramme die Ertragseinbussen ausgleichen müssen, damit die Umstellung wirtschaftlich tragbar ist. Wichtig: Ein einmal umgebrochenes oder jahrzehntelang intensiv gedüngtes Grünland regeneriert sich nur langsam — der Erhalt bestehender artenreicher Wiesen ist wirksamer und billiger als deren Wiederherstellung.",
+  "mechanism": "Reduzierte Nährstoffzufuhr bricht die Dominanz weniger konkurrenzstarker Gräser und lässt lichtbedürftige Kräuter zurückkommen; spätere, seltenere, teilflächige Mahd/Beweidung erlaubt Blüte, Aussamung und den Reproduktionszyklus von Insekten und Wiesenbrütern; Beweidung fügt Strukturheterogenität hinzu.",
+  "evidence": [
+    {"source": "NABU – Grünlandposition / Deutsche Wildtier Stiftung", "year": 2022, "finding": "Artenreiches Grünland um ~85 % zurückgegangen; extensive Nutzung (wenig Düngung, späte/seltene Mahd, extensive Beweidung) ist zentrale Voraussetzung für Artenvielfalt."},
+    {"source": "Umweltbundesamt – Grünlandumbruch", "year": 2023, "finding": "Intensivierung und Umbruch von Dauergrünland sind Haupttreiber des Artenverlusts; Erhalt und Extensivierung bestehenden Grünlands sind prioritär."},
+    {"source": "Landwirtschaftskammer NRW – Extensives Grünland", "year": 2022, "finding": "Verzicht auf Pflanzenschutz, reduzierte Düngung und späte Mahd/eingeschränkte Beweidung erhöhen Blüh- und Artenvielfalt messbar."}
+  ],
+  "robustness": {
+    "effect_size": "Gross, dauerhaft und flächenwirksam; grösster Effekt bei Kombination aus Düngeverzicht + später/seltener Mahd + extensiver Beweidung.",
+    "replication": "Breit belegt in mitteleuropäischem Grünland; Effekt je nach Ausgangsnährstoffstatus und Regeneration unterschiedlich schnell.",
+    "caveats": "Wiederherstellung stark gedüngter oder umgebrochener Flächen dauert Jahre bis Jahrzehnte (Nährstoff-Legacy, verarmte Samenbank). Realer Ertragsverzicht — braucht Förderausgleich. Erhalt bestehender artenreicher Wiesen ist wirksamer als Neuanlage."
+  },
+  "protocol": [
+    "Bestehendes artenreiches Grünland zuerst sichern: kein Umbruch, keine Aufdüngung, keine Nachsaat mit Hochleistungsgräsern.",
+    "Düngung stark reduzieren oder ganz einstellen (v.a. Gülle/Gärreste) — das ist der wichtigste einzelne Hebel.",
+    "Schnitthäufigkeit senken (Ziel 1-2 statt 4-6) und ersten Schnitt spät ansetzen, damit Kräuter blühen/aussamen und Wiesenbrüter/Insekten ihre Generation abschliessen.",
+    "Teilflächig und rotierend mähen; Altgras-/Rückzugsstreifen (5-10 %) über den Winter stehen lassen.",
+    "Beweidung extensiv gestalten: robuste, genügsame Rassen, geringe Besatzdichte, kein Vollumtrieb — für Strukturvielfalt und offene Bodenstellen.",
+    "Von innen nach aussen bzw. streifenweise mähen und Balkenmäher/hoch eingestelltes Mähwerk mit Fluchtmöglichkeit für Tiere nutzen.",
+    "Ertragsverzicht über Agrarumwelt-/Vertragsnaturschutzprogramme (GAP) ausgleichen; langfristige Verträge anstreben.",
+    "Bei degradierten Flächen Aushagerung durch mehrjährige Abfuhr des Mähguts ohne Düngung, ggf. Mahdgut-Übertragung aus Spenderwiese."
+  ],
+  "mistakes": [
+    "Weiterdüngen und trotzdem als extensiv verkaufen — die Nährstofflast erstickt die Kräuter.",
+    "Zu früher und flächiger Erststummel-Schnitt — vernichtet Blüte, Aussamung und Wiesenbruten.",
+    "Kein Altgras-/Rückzugsstreifen stehen gelassen — Insekten fehlt Überwinterungshabitat.",
+    "Bestehende artenreiche Wiese umbrechen und später aufwendig neu anlegen wollen.",
+    "Sehr intensive Beweidung als extensiv deklariert — Vertritt und überweidet die Fläche."
+  ],
+  "risks": "Realer Ertrags- und Futterverzicht (Menge und Energiegehalt), der ohne Förderausgleich betriebswirtschaftlich schmerzt. Umstellung wirkt langsam bei hohem Nährstoffaltbestand. Falsch dosierte Beweidung kann über- oder unternutzen. Kein Risiko für Biodiversität selbst.",
+  "synergy": ["mahd-insektenschonend", "ackerrandstreifen-brache-lerchenfenster", "bluehflaechen-mehrjaehrig", "oekolandbau", "pestizidverzicht-flaeche"],
+  "sources": [
+    {"title": "NABU – Grünland stärken, Beweidung fördern (Position, PDF)", "url": "https://www.nabu.de/imperia/md/content/221208-nabu-gruenlandposition.pdf"},
+    {"title": "Umweltbundesamt – Grünlandumbruch", "url": "https://www.umweltbundesamt.de/daten/land-forstwirtschaft/gruenlandumbruch"},
+    {"title": "Landwirtschaftskammer NRW – Extensives Grünland", "url": "https://www.landwirtschaftskammer.de/landwirtschaft/naturschutz/biodiversitaet/extensivierung/index.htm"}
+  ]
+}

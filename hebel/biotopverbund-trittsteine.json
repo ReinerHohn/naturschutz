@@ -1,0 +1,52 @@
+{
+  "id": "biotopverbund-trittsteine",
+  "name": "Biotopverbund & Trittsteinbiotope",
+  "aka": ["Trittsteine", "Habitatinseln", "Vernetzungselemente", "stepping stones", "grüne Infrastruktur"],
+  "category": "Vernetzung & Korridore",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["biotopverbund", "korridor", "metapopulation", "trittsteine", "landschaft", "gesetz"],
+  "summary": "Kleine, über die Landschaft verteilte Habitatinseln (Tümpel, Hecken, Brachen, Blühflächen) wirken als Trittsteine, über die Arten zwischen großen Lebensräumen wandern und Gene austauschen können. Sie sind das billigste und am breitesten wirksame Vernetzungsinstrument — der §21 BNatSchG schreibt einen Biotopverbund auf mindestens 10 % der Landesfläche vor, das nationale Ziel liegt bei 15 % bis 2030.",
+  "key_facts": [
+    {"label": "Gesetzliches Minimum", "value": "Biotopverbund auf mindestens 10 % der Fläche jedes Bundeslandes (§21 Abs. 1 BNatSchG)", "source": "BNatSchG §20/§21"},
+    {"label": "Nationales Ziel 2030", "value": "funktionaler länderübergreifender Biotopverbund auf mindestens 15 % der Landesfläche", "source": "Nationale Strategie Biologische Vielfalt / BMUV"},
+    {"label": "Trittstein-Distanz", "value": "wirksame Trittsteine liegen typisch in Ausbreitungsdistanz der Zielart — je nach Art wenige 100 m bis wenige km", "source": "Metapopulationsökologie"},
+    {"label": "Kosten", "value": "sehr niedrig: Kleingewässer, Hecken oder Brachen kosten Bruchteile einer Grünbrücke (Tausende statt Millionen €)", "source": "Praxis Landschaftspflege"},
+    {"label": "Umsetzungslücke", "value": "die meisten Länder sind vom 10/15-%-Ziel noch deutlich entfernt; Umsetzung ist der Engpass, nicht das Wissen", "source": "BfN Bundeskonzept Grüne Infrastruktur"}
+  ],
+  "deep_dive": "Zerschneidung ist eine der Hauptursachen des Artenschwunds: isolierte Restpopulationen verarmen genetisch und sterben lokal aus, ohne dass Neubesiedlung nachkommt. Trittsteinbiotope sind kleine Habitatinseln, die zwischen großen Lebensräumen liegen und Arten das Überbrücken der Distanz erlauben — nach der Metapopulationstheorie stabilisiert schon ein lockeres Netz kleiner Flächen das Überleben, weil lokale Aussterben durch Wiederbesiedlung ausgeglichen werden. Der Hebel ist stark, weil er billig und flächig ist: ein Tümpel, eine Hecke oder ein Streifen Brache kosten Tausende statt Millionen Euro wie eine Grünbrücke. Deutschland hat das rechtlich verankert — §21 BNatSchG fordert ein verbundenes Biotopnetz auf mindestens 10 % jeder Landesfläche, die Nationale Strategie zur Biologischen Vielfalt zielt auf 15 % bis 2030. Der Engpass ist nicht das Wissen, sondern die Umsetzung: die meisten Länder liegen unter dem Ziel. Entscheidend ist, dass Trittsteine zur Zielart passen — Distanz, Habitatqualität und Durchlässigkeit der Matrix dazwischen müssen stimmen; ein Netz aus Amphibientümpeln nützt einem Laufkäfer wenig. Ein reines Zählen von Hektar ohne Funktionsprüfung (wandern Arten wirklich?) ist die häufigste Schwäche.",
+  "mechanism": "Kleine Habitatinseln verkürzen die Ausbreitungsdistanz zwischen Kernlebensräumen, ermöglichen Genfluss und Wiederbesiedlung und stabilisieren so Metapopulationen gegen lokales Aussterben.",
+  "evidence": [
+    {"source": "Metapopulationstheorie (Levins; Hanski)", "year": 1999, "finding": "Vernetzte Teilpopulationen überleben langfristig deutlich besser als gleich große isolierte, weil lokale Aussterben durch Zuwanderung kompensiert werden."},
+    {"source": "BfN NaBiV Heft 96 – Länderübergreifender Biotopverbund", "year": 2012, "finding": "Fachkonzept identifiziert Kernflächen, Verbindungsflächen und Trittsteine als Bausteine eines funktionalen bundesweiten Netzes."},
+    {"source": "Reviews zu Habitat-Konnektivität (u. a. corridors/stepping stones)", "year": 2010, "finding": "Konnektivitätselemente erhöhen im Mittel Bewegung und Besiedlung zwischen Flächen, Effektstärke variiert stark mit Art und Landschaftskontext."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel bis groß auf Populationsebene, stark artabhängig; als Systeminstrument einer der besten Hebel pro Euro.",
+    "replication": "Theoretisch sehr gut fundiert, praktisch vielfach umgesetzt; Feldnachweise variieren je nach Zielart und Landschaft.",
+    "caveats": "Trittsteine müssen zur Ausbreitungsdistanz und den Ansprüchen der Zielart passen; unpassend platziert oder zu weit auseinander bleiben sie wirkungslos. Fläche allein ohne Funktion (Konnektivität) genügt nicht."
+  },
+  "protocol": [
+    "Zielarten definieren (z. B. Amphibien, Wildbienen, Feldvögel) — Ausbreitungsdistanz bestimmt den nötigen Abstand der Trittsteine.",
+    "Bestehende Kernlebensräume kartieren und Lücken im Netz identifizieren (an Landes-Biotopverbundplanung / BfN-Achsen anknüpfen).",
+    "Trittsteine gezielt in die Lücken setzen: Kleingewässer, Hecken, Säume, Blühbrachen, Altgrasstreifen — Qualität vor Quantität.",
+    "Durchlässigkeit der Matrix dazwischen verbessern (weniger Pestizide, keine neuen Barrieren, Wegraine erhalten).",
+    "Flächen dauerhaft sichern (Vertragsnaturschutz, Flächenankauf, kommunale Satzung) — nicht nur einmalig anlegen.",
+    "Funktion prüfen: Besiedlung durch Zielarten monitoren, nicht nur Hektar zählen."
+  ],
+  "mistakes": [
+    "Nur Fläche zählen statt Funktion prüfen — Hektar ohne echte Konnektivität.",
+    "Trittsteine zu weit auseinander für die Zielart (Distanz größer als Ausbreitungsvermögen).",
+    "Generisch für alle Arten planen statt zielartenspezifisch.",
+    "Einmalig anlegen ohne dauerhafte Pflege und Sicherung — Verbuschung oder Umnutzung machen den Trittstein wieder zunichte."
+  ],
+  "risks": "Geringes Risiko, aber Wirkung leicht überschätzt, wenn Flächen isoliert oder für die Zielart zu weit entfernt bleiben. Darf nicht als Alibi dienen, um Kernlebensräume oder große Korridore zu vernachlässigen — Trittsteine ergänzen, ersetzen sie nicht.",
+  "synergy": ["gruenbruecke-wildquerung", "randstreifen-wegraine-vernetzung", "amphibientunnel-leiteinrichtung"],
+  "sources": [
+    {"title": "§21 BNatSchG – Biotopverbund, Biotopvernetzung (Gesetze im Internet)", "url": "https://www.gesetze-im-internet.de/bnatschg_2009/__21.html"},
+    {"title": "BfN – Bundeskonzept Grüne Infrastruktur (Biotopverbund, Lebensraumnetze, Korridore)", "url": "https://www.bfn.de/daten-und-fakten/bundeskonzept-gruene-infrastruktur-biotopverbund-lebensraumnetze-und"},
+    {"title": "Nationale Strategie zur Biologischen Vielfalt – Schutzgebiete, Vernetzung und Wildnis", "url": "https://www.biologischevielfalt.de/strategie/uebergreifende-biodiversitaetsziele-fuer-deutschland/schutzgebiete-vernetzung-und-wildnis-2"}
+  ]
+}

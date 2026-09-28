@@ -1,0 +1,54 @@
+{
+  "id": "agroforst",
+  "name": "Agroforstsysteme",
+  "aka": ["Agroforst", "Agroforstwirtschaft", "silvoarable Systeme", "silvopastorale Systeme", "Streuobst"],
+  "category": "Landwirtschaft & Fläche",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["agroforst", "gehoelz", "erosion", "kohlenstoff", "struktur", "biodiversitaet", "acker", "weide"],
+  "summary": "Agroforst kombiniert Bäume oder Hecken mit Acker oder Weide auf derselben Fläche und fügt der Feldflur dauerhafte vertikale Struktur, Erosions- und Windschutz, Kohlenstoffspeicher und Lebensraum hinzu. Der Biodiversitätsnutzen ist real, aber kontextabhängig; das System wächst langsam und braucht mittleren Aufwand und langen Atem.",
+  "key_facts": [
+    {"label": "Gesamteffekt", "value": "im Mittel positiver Effekt auf Biodiversität und Ökosystemleistungen ggü. konventionellem Acker/Forst (365 Vergleiche, 53 Studien)", "source": "Torralba et al. 2016"},
+    {"label": "Erosionsschutz", "value": "Bodenerosion in temperaten Systemen stark reduziert ggü. Monokultur", "source": "Torralba et al. 2016"},
+    {"label": "Kohlenstoff", "value": "Gehölze speichern Kohlenstoff in Holz und Boden zusätzlich zur Feldnutzung", "source": "Torralba et al. 2016 / IPCC"},
+    {"label": "Nuance", "value": "spätere Meta-Analyse: kein eindeutiger, universeller Biodiversitätseffekt — hängt stark von Typ und Referenzsystem ab", "source": "Kay/Mattia et al. 2021 (zeit-kumulative Meta-Analyse)"},
+    {"label": "Zeit", "value": "voller Nutzen erst nach Jahren bis Jahrzehnten Baumwachstum", "source": "Praxis / DeFAF"}
+  ],
+  "deep_dive": "Agroforst bedeutet, Bäume, Hecken oder Streuobst gezielt mit landwirtschaftlicher Nutzung zu kombinieren — silvoarabel (Baumreihen im Acker), silvopastoral (Bäume auf der Weide) oder als Streuobstwiese und Kurzumtriebs-Gehölzstreifen. Der Reiz: dauerhafte vertikale Struktur mitten in der sonst ausgeräumten Feldflur, dazu Windschutz, Beschattung, Erosions- und Wasserrückhalt, zusätzlicher Kohlenstoffspeicher und ein zweites Standbein (Holz, Obst, Nüsse). Die Meta-Analyse von Torralba et al. (2016, 365 Vergleiche aus 53 Studien) zeigt im Mittel einen positiven Effekt auf Biodiversität und Ökosystemleistungen gegenüber reinem Acker oder Forst, mit besonders starkem Erosionsschutz in temperaten Böden. Ehrlich bleibt die Nuance: Eine spätere, zeit-kumulative Meta-Analyse (Kay/Mattia et al. 2021) findet keinen eindeutigen, universellen Biodiversitätseffekt — das Ergebnis hängt stark vom Agroforsttyp und davon ab, womit verglichen wird (gegen intensiven Acker fällt der Gewinn gross aus, gegen strukturreichen Wald oder extensives Grünland klein oder gar negativ). Agroforst ist also kein Selbstläufer, sondern ein Struktur- und Ökosystemleistungs-Hebel, dessen Naturschutzwert von Artenwahl, Dichte, Saumpflege und Ausgangslage abhängt. Hinzu kommt der zeitliche Faktor: Bäume brauchen Jahre bis Jahrzehnte, bis Struktur und Kohlenstoffnutzen voll greifen — das erfordert langfristige Planung, Förderzusagen und Geduld. Der Aufwand ist mittel: Pflanzung, Anwuchspflege und angepasste Bewirtschaftung (Maschinenführung um Baumreihen) sind zu organisieren. Als Kombinationsflächen, die Produktion und Naturschutz nicht gegeneinander ausspielen, sind gut gestaltete Agroforstsysteme ein sinnvoller Baustein — vor allem, wenn sie mit gebietsheimischen Gehölzen, krautigem Saum und Anbindung an bestehende Hecken geplant werden.",
+  "mechanism": "Dauerhafte Gehölze fügen der Agrarfläche vertikale Struktur, Mikroklima und Habitat hinzu (Nist-, Nahrungs-, Überwinterungsraum), wurzeln tief (Erosions-/Nährstoffrückhalt) und speichern Kohlenstoff — ohne die darunter/daneben laufende Produktion aufzugeben.",
+  "evidence": [
+    {"source": "Torralba et al., Agriculture, Ecosystems & Environment (Meta-Analyse, 53 Studien)", "year": 2016, "finding": "Agroforst zeigt im Mittel positiven Gesamteffekt auf Biodiversität und Ökosystemleistungen ggü. konventionellem Acker/Forst; besonders starker Erosionsschutz in temperaten Böden."},
+    {"source": "Kay/Mattia et al., BMC Ecology and Evolution (zeit-kumulative Meta-Analyse)", "year": 2021, "finding": "Kein eindeutiger, universeller Biodiversitätseffekt europäischer Agroforstsysteme — Ergebnis stark abhängig von Systemtyp und Referenz; kein pauschales Wundermittel."},
+    {"source": "IPCC / Bodenkohlenstoff-Studien", "year": 2019, "finding": "Agroforst erhöht Kohlenstoffspeicherung in Biomasse und Boden gegenüber baumfreier Landwirtschaft."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel und kontextabhängig für Biodiversität; robust positiv für Erosionsschutz und Kohlenstoff.",
+    "replication": "Positiver Gesamttrend repliziert (Torralba), aber spätere Analyse relativiert Biodiversitätseffekt — Heterogenität hoch.",
+    "caveats": "Effekt hängt stark von Agroforsttyp, Baumdichte, Artenwahl, Saumpflege und Vergleichssystem ab. Nutzen entsteht erst über Jahre/Jahrzehnte. Gegen strukturreiche Referenz (Wald, extensives Grünland) kein Gewinn. Braucht langfristige Planung und Förderung."
+  },
+  "protocol": [
+    "System zum Standort wählen: silvoarabel (Baum-/Heckenstreifen im Acker), silvopastoral (Weidebäume) oder Streuobst; Baumreihen quer zur Hauptwindrichtung/entlang Hangkanten für Wind- und Erosionsschutz.",
+    "Gebietsheimische, standortgerechte und möglichst diverse Baum-/Straucharten pflanzen; Alt- und Totholzanteil und krautigen Saum entlang der Gehölzstreifen einplanen.",
+    "Streifenbreite und Reihenabstand so wählen, dass Bewirtschaftung/Maschinenführung praktikabel bleibt und dennoch Struktur entsteht.",
+    "An bestehende Hecken, Raine und Gewässerränder anbinden, damit ein Biotopverbund entsteht statt isolierter Baumreihen.",
+    "Anwuchsschutz (Verbiss) und mehrjährige Pflege sicherstellen; Ertrag realistisch über die lange Anwuchszeit kalkulieren.",
+    "Langfristige Förderung und Genehmigung klären (Agroforst-GAP-Regelungen, DeFAF-Beratung); Nutzungskonzept für Holz/Obst mitdenken.",
+    "Erfolg über die Jahre monitoren (Struktur, Arten, Bodenerosion) und Artenwahl/Pflege nachsteuern."
+  ],
+  "mistakes": [
+    "Monotone, nicht-heimische Baumreihe ohne Saum und ohne Strukturvielfalt — geringer Naturschutzwert.",
+    "Kurzfristige Erwartung — Bäume brauchen Jahre bis Jahrzehnte für den vollen Nutzen.",
+    "Agroforst gegen strukturreichen Wald/extensives Grünland aufrechnen und dort verdrängen (dann kein oder negativer Gewinn).",
+    "Reihenabstand/Bewirtschaftbarkeit falsch geplant — System wird wieder gerodet.",
+    "Anwuchsschutz und Pflege vernachlässigt, Bäume verkümmern."
+  ],
+  "risks": "Langer Zeithorizont bindet Fläche und Kapital, bevor der Nutzen greift; Fehlplanung (Reihenabstand, Artenwahl) führt zu Rodung. Auf strukturreichen Referenzflächen kann Agroforst netto nichts bringen oder schaden. Genehmigungs- und Förderunsicherheit. Kein Ersatz für den Schutz bestehender naturnaher Lebensräume.",
+  "synergy": ["hecken-knicks-anlegen", "gruenland-extensivierung-beweidung", "oekolandbau", "biotopverbund-trittsteine", "flaechenverbrauch-versiegelung"],
+  "sources": [
+    {"title": "Torralba et al. 2016 – Do European agroforestry systems enhance biodiversity? (Meta-Analyse)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167880916303097"},
+    {"title": "Kay/Mattia et al. 2021 – European agroforestry has no unequivocal effect on biodiversity (BMC Ecology and Evolution)", "url": "https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-021-01911-9"},
+    {"title": "DeFAF – Deutscher Fachverband für Agroforstwirtschaft", "url": "https://agroforst-info.de/"}
+  ]
+}

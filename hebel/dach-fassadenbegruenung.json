@@ -1,0 +1,53 @@
+{
+  "id": "dach-fassadenbegruenung",
+  "name": "Dach- und Fassadenbegrünung",
+  "aka": ["Gruendach", "extensive Dachbegruenung", "Fassadenbegruenung", "vertikales Gruen", "Retentionsdach"],
+  "category": "Garten & Siedlung",
+  "scale": "Privat",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["gruendach", "fassade", "kuehlung", "regenwasser", "stadtklima", "biodiversitaet", "siedlung"],
+  "summary": "Begrünte Dächer und Fassaden schaffen zusätzlichen Lebensraum im versiegelten Siedlungsraum, kühlen durch Verdunstung und halten Regenwasser zurück. Extensive Gründächer sind vergleichsweise günstig und pflegearm. Realistisch einordnen: Der Nutzen ist real, aber punktuell — kein Ersatz für bodengebundenes Grün und keine Wunderwaffe für Artenschutz.",
+  "key_facts": [
+    {"label": "Kosten extensiv", "value": "Extensive Gründächer kosten grob ~40 bis 70 €/m² (Aufbau), intensive Dachgärten bis ~120 €/m²; Pflege ~5 bis 10 % der Baukosten pro Jahr", "source": "Branchenangaben; dachdeckercheck.de"},
+    {"label": "Regenwasserrückhalt", "value": "Extensive Gründächer halten im Jahresmittel rund 50 bis 70 % des Niederschlags zurück (Verdunstung/Speicherung) und entlasten die Kanalisation", "source": "FLL; BuGG-Marktreport"},
+    {"label": "Kühlung", "value": "Verdunstung senkt die Oberflächen- und Umgebungstemperatur; Substrat auf Retentionsdächern bleibt mittags deutlich kühler (~22 °C statt ~30 °C), Fassadengrün senkt lokale Lufttemperatur um ~0,8 bis 1,3 °C", "source": "BauNetz Wissen; Stadtklima-Studien"},
+    {"label": "Biodiversität", "value": "Artenreiche Gründächer (Kräuter/Sedum-Kraut-Mischung, Sand-/Kieslinsen, Totholz) beherbergen Wildbienen, Käfer und Spinnen; monotone Sedummatten deutlich weniger", "source": "BuGG; Forschung Gründach-Biodiversität"},
+    {"label": "Weitere Effekte", "value": "Fassadengrün kann Feinstaub und Stickoxide binden, schützt die Bausubstanz und verbessert die Dämmung/Schalldämmung", "source": "Stadt und Grün; Fachliteratur"}
+  ],
+  "deep_dive": "Im dicht bebauten Siedlungsraum sind Dächer und Wände riesige, meist tote Flächen — Begrünung macht daraus Lebensraum und Klimapuffer. Extensive Gründächer mit einer dünnen Substratschicht und trockenheitsverträglicher Sedum-Kräuter-Vegetation sind der praktische Einstieg: relativ leicht, günstig (grob 40 bis 70 €/m²) und pflegearm. Ihr größter belastbarer Nutzen liegt im Wasserhaushalt und im Mikroklima: Sie halten im Jahresmittel rund die Hälfte bis zwei Drittel des Niederschlags zurück, entlasten die Kanalisation bei Starkregen und kühlen durch Verdunstung — Substrattemperaturen bleiben mittags deutlich unter denen nackter Dächer, und Fassadengrün senkt die lokale Lufttemperatur messbar. Für die Biodiversität gilt eine ehrliche Differenzierung: Eine monotone, ausgerollte Sedummatte ist besser als Kies, aber ökologisch wenig wertvoll. Erst artenreich geplante Dächer mit unterschiedlichen Substrathöhen, Sand- und Kieslinsen, Totholz und heimischen Trockenpflanzen ziehen Wildbienen, Käfer und Spinnen an. Fassadenbegrünung (bodengebundene Kletterpflanzen wie Efeu, Wilder Wein oder wandgebundene Systeme) bietet Nist- und Versteckplätze und kann Feinstaub binden, schützt die Fassade und dämmt. Wichtig ist die realistische Einordnung: Begrünung an Gebäuden ist ein sinnvoller Zusatzbaustein, aber kein Ersatz für bodengebundenes Grün mit vollem Wurzelraum, und der Klimaeffekt einer Einzelmaßnahme ist lokal begrenzt. Als flächige Strategie über viele Gebäude und in Kombination mit Entsiegelung entfaltet sie ihren Wert. Statik, fachgerechte Abdichtung und Wurzelschutz sind Grundvoraussetzung; wandgebundene 'Living Wall'-Systeme sind teuer und wartungsintensiv und lohnen selten.",
+  "mechanism": "Vegetation und Substrat speichern und verdunsten Regenwasser (Kühlung, Retention), schaffen Nist- und Nahrungsstrukturen auf sonst versiegelten Flächen und verbessern Dämmung, Luftqualität und Schallschutz.",
+  "evidence": [
+    {"source": "FLL / BuGG (Gründach-Marktreport)", "year": 2023, "finding": "Extensive Gründächer halten im Jahresmittel etwa 50 bis 70 % des Niederschlags zurück und reduzieren Spitzenabflüsse bei Starkregen deutlich."},
+    {"source": "BauNetz Wissen (Verdunstungs- und Kühlleistung)", "year": 2022, "finding": "Retentions-/Gründächer senken die Substrat- und Oberflächentemperatur an heißen Tagen erheblich; Verdunstungskühlung nachweisbar gegenüber konventionellen Dächern."},
+    {"source": "Studien zur Gründach-Biodiversität", "year": 2020, "finding": "Strukturreich geplante Gründächer (variable Substrattiefe, Totholz, Sandlinsen) beherbergen deutlich mehr Insektenarten als monotone Sedummatten."}
+  ],
+  "robustness": {
+    "effect_size": "Retention und Kühlung solide belegt und mittelgroß pro Fläche; Biodiversitätsnutzen stark von der Ausführung abhängig (klein bei Sedummatte, mittel bei artenreichem Dach).",
+    "replication": "Wasser- und Klimaeffekte vielfach gemessen und konsistent; Biodiversitätswirkung je nach Gestaltung variabel.",
+    "caveats": "Kein Ersatz für bodengebundenes Grün. Monotone Sedumdächer ökologisch schwach. Wandgebundene Systeme teuer/wartungsintensiv. Statik und Abdichtung müssen stimmen. Einzelmaßnahme wirkt nur lokal."
+  },
+  "protocol": [
+    "Dachstatik und Abdichtung prüfen (lassen); extensives Gründach (~8 bis 15 cm Substrat) als kostengünstigen Standard wählen.",
+    "Für Biodiversität artenreich planen: variable Substrathöhen, Sand-/Kieslinsen, Totholz, heimische Trockenpflanzen statt reiner Sedummatte.",
+    "Fassade bodengebunden begrünen (Efeu, Wilder Wein, Geißblatt) mit Rankhilfe; wandgebundene Systeme nur bei Bedarf und Budget.",
+    "Regenwassernutzung mitdenken (Retentionsdach, Anschluss an Versickerung/Zisterne).",
+    "Kommunale Förderprogramme und ggf. Split der Niederschlagsgebühr prüfen.",
+    "Pflege sicherstellen (Ansaat-Kontrolle, Entfernen aufkommender Gehölze, gelegentliche Wässerung in der Etablierungsphase)."
+  ],
+  "mistakes": [
+    "Monotone Sedummatte ausrollen und als 'Biodiversitätsdach' verkaufen.",
+    "Dach begrünen ohne Statik-/Abdichtungsprüfung (Wasserschäden, Überlastung).",
+    "Begrünung als Ersatz für bodengebundenes Grün oder Entsiegelung darstellen.",
+    "Teures wandgebundenes 'Living Wall'-System wählen, obwohl bodengebundene Kletterpflanzen fast gleichen Nutzen bringen.",
+    "Pflege und Etablierungs-Bewässerung unterschätzen."
+  ],
+  "risks": "Gering bis mittel. Bei mangelhafter Abdichtung oder Statik Bauschäden. Kostenrisiko v. a. bei intensiven Dachgärten und wandgebundenen Fassadensystemen. Gefahr des Greenwashing, wenn ökologisch schwache Sedumdächer als große Naturschutzmaßnahme dargestellt werden.",
+  "synergy": ["schottergarten-vermeiden", "naturgarten-heimische-pflanzen", "gebaeudebrueter-nisthilfen", "wildbienen-nisthabitat"],
+  "sources": [
+    {"title": "BuGG – Bundesverband GebäudeGrün (Marktreport Gebäudegrün)", "url": "https://www.gebaeudegruen.info/"},
+    {"title": "BauNetz Wissen – Studie zu Verdunstungs- und Kühlleistung von Gründächern", "url": "https://www.baunetzwissen.de/stadt--und-dachbegruenung/tipps/forschung/studie-zu-verdunstungs--und-kuehlleistung-von-gruendaechern-8226125"},
+    {"title": "dachdeckercheck.de – Dachbegrünung Kosten und Förderung", "url": "https://dachdeckercheck.de/dachbegruenung-gruendach-kosten-foerderung/"}
+  ]
+}

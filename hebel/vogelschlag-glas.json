@@ -1,0 +1,54 @@
+{
+  "id": "vogelschlag-glas",
+  "name": "Vogelschlag an Glas verhindern",
+  "aka": ["Vogelanprall", "Vogelschutzglas", "bird-window collision", "Glasmarkierung"],
+  "category": "Gefahren & Fallen",
+  "scale": "Alle",
+  "impact": 4,
+  "evidence_level": "A",
+  "effort": 2,
+  "tags": ["voegel", "glas", "gebaeude", "kollision", "markierung", "sofortfix"],
+  "summary": "Durchsichtige oder spiegelnde Scheiben sind für Vögel unsichtbar; Fenster, Wintergärten, Balkonverglasungen und Lärmschutzwände töten allein in Deutschland grob geschätzt ~100 Millionen Vögel pro Jahr, in den USA hunderte Millionen bis über eine Milliarde. Wirksam ist ein flächiges, von außen sichtbares Muster mit engem Raster — nicht die verbreiteten Greifvogel-Silhouetten oder reine UV-Markierungen. Bei Neubau/Sanierung ist der Schutz billig, nachträglich etwas teurer.",
+  "key_facts": [
+    {"label": "Tote Vögel Deutschland", "value": "grob ~100 Mio. Vögel/Jahr an Glas (Schätzung)", "source": "LBV Bayern"},
+    {"label": "Tote Vögel USA", "value": "365–988 Mio./Jahr (Median 599 Mio.) allein durch Gebäude", "source": "Loss et al. 2014, The Condor"},
+    {"label": "Wo es passiert", "value": "~56 % an niedrigen Gewerbebauten, ~44 % an Wohnhäusern, <1 % an Hochhäusern", "source": "Loss et al. 2014"},
+    {"label": "Wirksames Raster", "value": "Markierung außen, Lücken max. 5 cm horizontal x 10 cm vertikal ('Handflächenregel')", "source": "American Bird Conservancy; NABU"},
+    {"label": "Silhouetten unwirksam", "value": "Greifvogel-Aufkleber senken Vogelschlag NICHT statistisch signifikant", "source": "BUND NRW; LBV"},
+    {"label": "UV nur begrenzt", "value": "nicht alle Vogelarten sehen UV gut -> UV-Markierung kein verlaesslicher Schutz für alle Arten", "source": "LBV; NABU"}
+  ],
+  "deep_dive": "Vögel erkennen klares Glas nicht als Hindernis und deuten Spiegelungen von Himmel und Vegetation als offenen Flugraum. Loss et al. (2014) schätzen für die USA aus 23 Studien und rund 92.000 Fundmeldungen 365–988 Mio. Kollisionstote pro Jahr (Median 599 Mio.); der Großteil entfällt nicht auf spektakuläre Glashochhäuser, sondern auf niedrige Gewerbe- und Wohngebäude (~56 % bzw. ~44 %). Für Deutschland kursiert eine grobe Schätzung von rund 100 Mio. Vögeln pro Jahr. Entscheidend ist, was wirklich wirkt: Die weit verbreiteten schwarzen Greifvogel-Silhouetten bringen nachweislich fast nichts — Vögel umfliegen den einen Aufkleber und prallen daneben gegen die freie Scheibe. Auch reine UV-Markierungen sind kein verlässlicher Schutz, weil längst nicht alle Arten UV gut wahrnehmen. Was funktioniert, ist ein flächiges, kontrastreiches und von außen (!) aufgebrachtes Muster über die gesamte Scheibe mit engem Raster: als Faustregel Lücken von höchstens 5 cm horizontal mal 10 cm vertikal (in den USA '2-mal-4-Zoll-Regel'), oder senkrechte 5-mm-Linien im 10-cm-Abstand bzw. engere waagerechte Linien. Punkte, Streifen und Siebdruck-Muster im Glas (Vogelschutzglas) erreichen bei sauberer Ausführung sehr hohe Reduktionen. Von außen deshalb, weil die Markierung die Spiegelung überdecken muss; innen angebracht verschwindet sie hinter dem Spiegelbild. Bei Neubau und Sanierung ist Vogelschutzglas ein geringer Aufpreis und der mit Abstand billigste Zeitpunkt; nachträglich helfen Folien, Punkteraster oder außen gespannte Schnüre (Zenit-Vorhang).",
+  "mechanism": "Ein flächiges, außen sichtbares kontrastreiches Muster macht die Scheibe als physische Barriere erkennbar und überdeckt die täuschende Spiegelung -> der Vogel weicht der ganzen Fläche aus statt hindurchzufliegen.",
+  "evidence": [
+    {"source": "Loss et al., The Condor", "year": 2014, "finding": "365–988 Mio. Vögel/Jahr sterben in den USA an Gebäudekollisionen; Schwerpunkt an niedrigen Gebäuden und Wohnhäusern, nicht an Hochhäusern."},
+    {"source": "Klem (Grundlagenforschung Vogelschlag)", "year": 1990, "finding": "Frühe Größenordnungs-Schätzung bis zu einer Milliarde Glas-Opfer/Jahr in den USA; etablierte das Problem als Massen-Mortalität."},
+    {"source": "Sheppard/American Bird Conservancy; NABU/LBV Praxis", "year": 2019, "finding": "Muster mit engem Raster (<=5x10 cm) außen reduzieren Kollisionen stark; Greifvogel-Silhouetten und reine UV-Markierung ohne belegte Wirkung."}
+  ],
+  "robustness": {
+    "effect_size": "Gut gemachte flächige Außenmuster/Vogelschutzglas reduzieren Kollisionen um oft 70–90 % gegenüber blanker Scheibe.",
+    "replication": "Vielfach repliziert (Flugtunnel-Tests, Campus- und Gebäude-Monitoring in Nordamerika und Europa).",
+    "caveats": "Wirkung hängt am Raster (zu große Lücken = wirkungslos) und daran, dass die Markierung AUSSEN sitzt. Einzelne Silhouette/Aufkleber ist wirkungslos. Absolute Todeszahlen sind Schätzungen mit weiter Spanne."
+  },
+  "protocol": [
+    "Gefahrenstellen erkennen: große/spiegelnde Scheiben, Übereck-Verglasung, Durchsicht auf Grün (Wintergarten, Balkonbrüstung, Glasgang, Lärmschutzwand).",
+    "Bei Neubau/Sanierung Vogelschutzglas mit flächigem Muster einplanen — billigster und wirksamster Zeitpunkt.",
+    "Nachrüsten immer AUSSEN: Punkteraster, Streifen oder Folie über die ganze Scheibe, Lücken max. 5 cm horizontal und 10 cm vertikal.",
+    "Alternativen außen: gespannte Schnüre/Fadenvorhang (z. B. 'Zenit'-Vorhang), Fliegengitter, Insektenschutz, halbtransparente Muster.",
+    "NICHT auf Einzel-Greifvogel-Silhouette oder reine UV-Markierung vertrauen — nachweislich unzureichend.",
+    "Reflexionen mindern: Innenräume abdunkeln/Rollos, keine Zimmerpflanzen direkt hinter durchsichtiger Übereck-Verglasung, Vogeltränke/Futter <0,5 m oder >3 m vom Fenster."
+  ],
+  "mistakes": [
+    "Einzelne Greifvogel-Silhouette aufkleben und den Rest der Scheibe frei lassen — Vogel prallt daneben.",
+    "Markierung innen anbringen: sie verschwindet hinter der Spiegelung und wirkt kaum.",
+    "Raster zu weit (große Lücken) — Vögel versuchen hindurchzufliegen.",
+    "Nur auf UV setzen, obwohl viele Arten UV nicht zuverlässig sehen."
+  ],
+  "risks": "Sehr gering. Flächige Muster kosten etwas Transparenz/Ästhetik, moderne Vogelschutzgläser und feine Punktraster sind aber dezent. Hauptrisiko ist Scheinlösung durch unwirksame Silhouetten.",
+  "synergy": ["lichtverschmutzung-tiere", "zaeune-schaechte-fallen"],
+  "sources": [
+    {"title": "Loss et al. 2014 – Bird–building collisions in the United States (The Condor)", "url": "https://academic.oup.com/condor/article/116/1/8/5153098"},
+    {"title": "NABU – So machen Sie Glasscheiben vogelsicher", "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/helfen/01079.html"},
+    {"title": "BUND NRW – Unzureichende Lösungen gegen Vogelschlag (Greifvogel-Silhouetten, UV)", "url": "https://www.bund-nrw.de/themen/vogelschlag-an-glas/loesungen/nicht-ausreichend-wirksam/"},
+    {"title": "American Bird Conservancy – Reducing bird collisions with glass", "url": "https://abcbirds.org/news/bird-building-collisions-study-2024/"}
+  ]
+}

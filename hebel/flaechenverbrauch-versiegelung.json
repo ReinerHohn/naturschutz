@@ -1,0 +1,55 @@
+{
+  "id": "flaechenverbrauch-versiegelung",
+  "name": "Flächenverbrauch & Versiegelung stoppen",
+  "aka": ["Flächensparen", "Bodenversiegelung", "Innenentwicklung", "Netto-Null-Flächenverbrauch", "Siedlungs- und Verkehrsfläche"],
+  "category": "Landwirtschaft & Fläche",
+  "scale": "Alle",
+  "impact": 5,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["flaechenverbrauch", "versiegelung", "innenentwicklung", "boden", "siedlung", "verkehr", "systemisch"],
+  "summary": "Jeden Tag werden in Deutschland rund 51 ha neue Siedlungs- und Verkehrsfläche in Anspruch genommen, ein Teil davon dauerhaft versiegelt — das ist praktisch irreversibler Lebensraum- und Bodenverlust. Innenentwicklung vor Neubau, Entsiegelung und ein verbindliches Mengenziel sind ein grosser systemischer Hebel, der Naturflächen an der Wurzel schützt.",
+  "key_facts": [
+    {"label": "Tagesverbrauch", "value": "~51 ha/Tag neue Siedlungs- und Verkehrsfläche (Mittel 2020-2023)", "source": "Destatis 2025"},
+    {"label": "Bau-Anteil", "value": "davon ~35 ha/Tag neu für Wohnen, Industrie, Gewerbe, öffentliche Einrichtungen", "source": "Destatis 2025"},
+    {"label": "Ziel 2030", "value": "Reduktion auf unter 30 ha/Tag (Nachhaltigkeitsstrategie)", "source": "Bundesregierung / UBA"},
+    {"label": "Ziel 2050", "value": "Netto-Null-Flächenverbrauch (Kreislauf-Flächenwirtschaft)", "source": "Bundesregierung / UBA"},
+    {"label": "Irreversibilität", "value": "Versiegelung zerstört Boden, Wasserhaushalt und Lebensraum praktisch dauerhaft; Entsiegelung ist teuer und selten", "source": "Umweltbundesamt"}
+  ],
+  "deep_dive": "Flächenverbrauch ist einer der grundlegendsten Treiber des Biodiversitätsverlusts, weil er Lebensraum an der Wurzel vernichtet — und Versiegelung tut das nahezu irreversibel. In Deutschland wurden im Mittel der Jahre 2020-2023 rund 51 ha pro Tag neu für Siedlung und Verkehr in Anspruch genommen (Destatis), davon etwa 35 ha/Tag für Wohnen, Industrie, Gewerbe und öffentliche Einrichtungen. Wichtig zum ehrlichen Einordnen: Siedlungs- und Verkehrsfläche ist nicht gleich versiegelte Fläche — sie enthält auch Gärten, Grün- und Erholungsflächen; ein wachsender Teil des jüngsten Anstiegs geht zudem auf Freiflächen-Photovoltaik zurück, die weniger stark versiegelt. Trotzdem: Wo Boden versiegelt wird, gehen Bodenleben, Wasserversickerung, Kühlungsleistung und Habitat dauerhaft verloren, und Entsiegelung ist teuer und bleibt die Ausnahme. Die Bundesregierung hat Ziele gesetzt — unter 30 ha/Tag bis 2030 und Netto-Null-Flächenverbrauch bis 2050 — verfehlt den Pfad bisher aber. Der Hebel ist systemisch, nicht auf einer Einzelfläche: Innenentwicklung vor Aussenentwicklung (Baulücken, Brachen, Nachverdichtung, Aufstockung und Umnutzung statt Neubau auf der grünen Wiese), Flächenrecycling, Entsiegelung von Altflächen, flächensparende Bauformen und eine wirksame Steuerung über Bauleitplanung, Regionalplanung und Instrumente wie handelbare Flächenzertifikate. Der grosse Vorteil: Vermiedener Flächenverbrauch ist der billigste Naturschutz überhaupt, weil er teure Renaturierung und Kompensation erst gar nicht nötig macht — der Boden bleibt einfach Boden. Der Aufwand liegt weniger im Geld als in Planung, politischem Willen und dem Durchbrechen der Neubau-am-Ortsrand-Routine gegen kommunale Interessen und Bodenpreis-Anreize.",
+  "mechanism": "Jede neu bebaute und versiegelte Fläche entzieht dem Naturhaushalt dauerhaft Boden, Lebensraum und Ökosystemleistungen; die Vermeidung (Innenentwicklung, Recycling, Entsiegelung) erhält bestehende Flächen, ohne dass später teuer renaturiert werden muss.",
+  "evidence": [
+    {"source": "Statistisches Bundesamt (Destatis), Pressemitteilung Flächennutzung", "year": 2025, "finding": "Siedlungs- und Verkehrsfläche wuchs 2020-2023 im Mittel um ~51 ha/Tag; ~35 ha/Tag davon für Wohnen, Industrie, Gewerbe und öffentliche Zwecke."},
+    {"source": "Umweltbundesamt – Flächensparen / Siedlungs- und Verkehrsfläche", "year": 2024, "finding": "Ziele (unter 30 ha/Tag bis 2030, Netto-Null 2050) werden verfehlt; Innenentwicklung, Flächenrecycling und Entsiegelung sind die zentralen Hebel; Versiegelung ist praktisch irreversibel."},
+    {"source": "IPBES Global Assessment", "year": 2019, "finding": "Land- und Meeresnutzungsänderung (u.a. Versiegelung/Bebauung) ist weltweit der grösste direkte Treiber des Biodiversitätsverlusts an Land."}
+  ],
+  "robustness": {
+    "effect_size": "Sehr gross und systemisch — vermiedener Verbrauch schützt Fläche dauerhaft und billiger als jede Renaturierung.",
+    "replication": "Trend und Treiberrolle robust belegt (Destatis-Zeitreihe, IPBES); Steuerungsinstrumente unterschiedlich wirksam.",
+    "caveats": "Siedlungs-/Verkehrsfläche ist nicht gleich versiegelte Fläche (enthält Grün). Zielverfehlung zeigt: Wirkung hängt an politischer Steuerung und kommunalen Anreizen, nicht an technischer Machbarkeit. Innenverdichtung kann lokal Stadtgrün gefährden — mit Grün-Erhalt kombinieren."
+  },
+  "protocol": [
+    "Innenentwicklung vor Aussenentwicklung: Baulücken, Brachen, leerstehende und untergenutzte Gebäude, Aufstockung und Umnutzung zuerst nutzen, bevor am Ortsrand neu ausgewiesen wird.",
+    "Flächenrecycling und Entsiegelung fördern: versiegelte Altflächen (Industriebrachen, aufgegebene Verkehrs-/Parkflächen) zurückbauen und dem Naturhaushalt zurückgeben.",
+    "Verbindliche kommunale/regionale Flächenmengenziele setzen und in Bauleitplanung/Regionalplanung verankern; flächensparende, kompakte Bauformen vorschreiben.",
+    "Ökonomische Anreize umsteuern: Bodenpreis- und Erschliessungslogik entschärfen, ggf. handelbare Flächenzertifikate, kein Neubaugebiet ohne Nachweis fehlender Innenpotenziale.",
+    "Neue Versiegelung minimieren: wasserdurchlässige Beläge, Dach-/Fassadenbegrünung, Entsiegelung als Ausgleich statt reiner Kompensationsflächen weit weg.",
+    "Freiflächen-PV auf Dächer, versiegelte und vorbelastete Flächen lenken statt auf artenreiches Grünland/Acker.",
+    "Bei Innenverdichtung Stadtgrün und Kaltluftbahnen aktiv erhalten, damit nicht innerorts Lebensraum verloren geht.",
+    "Flächenverbrauch transparent monitoren und Zielerreichung öffentlich berichten."
+  ],
+  "mistakes": [
+    "Neubaugebiet am Ortsrand ausweisen, obwohl Innenpotenziale (Baulücken, Brachen) ungenutzt sind.",
+    "Siedlungsfläche pauschal mit Versiegelung gleichsetzen (überzeichnet) oder Versiegelung als reversibel unterschätzen.",
+    "Freiflächen-PV unreflektiert auf artenreiches Offenland statt auf Dächer/Brachen lenken.",
+    "Innenverdichtung ohne Schutz von Stadtgrün — verlagert den Habitatverlust nach innen.",
+    "Auf freiwillige Appelle setzen statt verbindliche Mengenziele und Steuerung."
+  ],
+  "risks": "Politisch der schwierigste Hebel: kommunale Einnahmen, Bodenpreis-Anreize und Neubau-Routinen wirken gegen das Flächensparen. Innenverdichtung kann lokal Stadtgrün und Frischluft gefährden, wenn Grün-Erhalt fehlt. Entsiegelung ist teuer und selten — Vermeidung schlägt Reparatur.",
+  "synergy": ["biotopverbund-trittsteine", "oekolandbau", "agroforst", "gruenland-extensivierung-beweidung", "hecken-knicks-anlegen"],
+  "sources": [
+    {"title": "Statistisches Bundesamt – Siedlungs- und Verkehrsfläche wächst um 51 Hektar/Tag (PM 2025)", "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_286_412.html"},
+    {"title": "Umweltbundesamt – Flächensparen: Böden und Landschaften erhalten", "url": "https://www.umweltbundesamt.de/themen/boden-flaeche/flaechensparen-boeden-landschaften-erhalten"},
+    {"title": "Umweltbundesamt – Siedlungs- und Verkehrsfläche", "url": "https://www.umweltbundesamt.de/daten/flaeche-boden-land-oekosysteme/flaeche/siedlungs-verkehrsflaeche"}
+  ]
+}

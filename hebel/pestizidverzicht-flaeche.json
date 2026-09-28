@@ -1,0 +1,53 @@
+{
+  "id": "pestizidverzicht-flaeche",
+  "name": "Verzicht auf Pestizide & Herbizide",
+  "aka": ["Pestizidverzicht", "pestizidfrei", "Neonicotinoid-Verzicht", "Herbizidverzicht"],
+  "category": "Insekten & Bestäuber",
+  "scale": "Alle",
+  "impact": 5,
+  "evidence_level": "A",
+  "effort": 2,
+  "tags": ["pestizide", "insektizide", "neonicotinoide", "herbizide", "glyphosat", "landwirtschaft", "garten"],
+  "summary": "Insektizide töten Insekten direkt, Herbizide entziehen ihnen die Nahrung (Wildkräuter), und Neonicotinoide schädigen Bienen schon in Kleinstmengen. Weniger oder kein Pestizideinsatz auf einer Fläche ist einer der größten und billigsten Hebel gegen das Insektensterben — Unterlassen kostet fast nichts.",
+  "key_facts": [
+    {"label": "Insekten-Biomasse-Kollaps", "value": "In deutschen Schutzgebieten ging die Fluginsekten-Biomasse in 27 Jahren um über 75 % zurück; intensive Landwirtschaft im Umfeld (u.a. Pestizide) gilt als wesentlicher Treiber", "source": "Hallmann et al. 2017 (PLOS ONE, Krefelder Studie)"},
+    {"label": "Neonicotinoid-Freilandverbot", "value": "Seit 2018 EU-weit Freilandverbot für Imidacloprid, Thiamethoxam und Clothianidin; 2021 vom EuGH bestätigt", "source": "EU-Kommission; UBA"},
+    {"label": "Subletale Schäden", "value": "Neonicotinoide beeinträchtigen schon in geringen Dosen Orientierung, Gedächtnis und Fortpflanzung von Honig- und Wildbienen sowie Schmetterlingen", "source": "UBA; NABU"},
+    {"label": "Herbizide entziehen Nahrung", "value": "Herbizide (z.B. Glyphosat) beseitigen Wildkräuter und damit Blüten- und Raupenfutter; die Nahrungsgrundlage für Insekten bricht weg", "source": "BUND; NABU"},
+    {"label": "Nebenwirkung auf Vögel", "value": "Neonicotinoide gelten auch als Mitursache des Vogelrückgangs in Agrarlandschaften, weil sie Insekten als Vogelnahrung dezimieren", "source": "BUND"}
+  ],
+  "deep_dive": "Pestizide wirken auf Insekten doppelt: Insektizide töten sie direkt oder schädigen sie subletal, Herbizide entziehen ihnen die Lebensgrundlage, indem sie Wildkräuter und damit Pollen-, Nektar- und Raupenfutter beseitigen. Die Krefelder Studie (Hallmann et al. 2017, PLOS ONE) dokumentierte in deutschen Schutzgebieten über 27 Jahre einen Rückgang der Fluginsekten-Biomasse um mehr als 75 %; als wesentlicher Treiber gilt die Intensivierung der umgebenden Landwirtschaft, zu der der breite Pestizideinsatz gehört. Besonders im Fokus stehen Neonicotinoide: Diese systemischen Insektizide verteilen sich in der ganzen Pflanze bis in Pollen und Nektar und schädigen Bienen schon in Kleinstmengen an Orientierung, Gedächtnis und Fortpflanzung. Wegen der Bienengefährdung verhängte die EU 2018 ein Freilandverbot für Imidacloprid, Thiamethoxam und Clothianidin, das der EuGH 2021 bestätigte; über Notfallzulassungen wird weiter gestritten. Der Hebel des Verzichts ist außergewöhnlich, weil Nichtstun fast nichts kostet: Wer auf einer Fläche — ob Acker, kommunales Grün oder Privatgarten — Pestizide reduziert oder weglässt, senkt direkte Mortalität und Nahrungsverlust zugleich. Im Garten ist der Verzicht ohnehin problemlos möglich; in der Landwirtschaft senken integrierter Pflanzenschutz, mechanische Beikrautregulierung, Fruchtfolge und Ökolandbau den Bedarf. Der Effekt ist am größten, wenn Verzicht mit Nahrungs- und Nistangebot kombiniert wird, damit Insekten die entlastete Fläche auch wieder besiedeln.",
+  "mechanism": "Wegfall direkter Vergiftung (Insektizide) und subletaler Schäden sowie Erhalt von Wildkräutern als Nahrungs- und Raupenpflanzen (Herbizidverzicht) erhöhen Überleben, Fortpflanzung und Nahrungsangebot der Insekten auf der Fläche.",
+  "evidence": [
+    {"source": "Hallmann et al. (PLOS ONE, Krefelder Studie)", "year": 2017, "finding": "Über 75 % Rückgang der Fluginsekten-Biomasse in 27 Jahren; intensive Agrarnutzung im Umfeld als wahrscheinlicher Haupttreiber, Pestizide zentral diskutiert."},
+    {"source": "EFSA / EU-Kommission (Neonicotinoid-Risikobewertung)", "year": 2018, "finding": "Bestätigtes hohes Risiko von Imidacloprid, Thiamethoxam, Clothianidin für Honig- und Wildbienen; daraufhin EU-Freilandverbot."},
+    {"source": "Umweltbundesamt (UBA)", "year": 2018, "finding": "Begrüßt Neonicotinoid-Freilandverbot; Neonicotinoide schädigen Bestäuber und Nichtzielorganismen bereits in geringen Konzentrationen."}
+  ],
+  "robustness": {
+    "effect_size": "Sehr groß und mit sehr geringem Aufwand — Verzicht wirkt direkt (weniger Mortalität) und indirekt (mehr Nahrung).",
+    "replication": "Schäden durch Insektizide/Neonicotinoide und Nahrungsverlust durch Herbizide vielfach und robust belegt; Krefelder Trend durch weitere Studien gestützt.",
+    "caveats": "Insektenrückgang ist multikausal (auch Habitatverlust, Klima, Licht); Pestizidverzicht ist ein zentraler, aber nicht der einzige Hebel. In der Landwirtschaft braucht Verzicht Ersatzstrategien (Fruchtfolge, mechanisch, Ökolandbau)."
+  },
+  "protocol": [
+    "Im Privatgarten und auf kommunalen Flächen komplett auf synthetische Insektizide und Herbizide verzichten.",
+    "In der Landwirtschaft: integrierter Pflanzenschutz, Schadschwellen, Fruchtfolge, mechanische/thermische Beikrautregulierung, Ökolandbau ausbauen.",
+    "Neonicotinoide und andere hochbienengefährliche Wirkstoffe strikt meiden; keine Notfallzulassungen nutzen.",
+    "Wildkräuter tolerieren statt spritzen — sie sind Nahrung und Raupenfutter.",
+    "Verzicht mit Blüh- und Nistangebot kombinieren, damit Insekten die Fläche wieder besiedeln.",
+    "Pufferstreifen ohne Spritzmittel entlang von Gewässern, Hecken und Blühflächen anlegen."
+  ],
+  "mistakes": [
+    "Insektizid 'vorsorglich' oder großflächig statt nach Schadschwelle eingesetzt.",
+    "Herbizid als harmlos für Insekten angesehen — es entzieht ihnen die Nahrung.",
+    "Über Notfallzulassungen weiter Neonicotinoide ausgebracht.",
+    "Pestizidverzicht ohne begleitendes Nahrungs-/Nistangebot — Wiederbesiedlung bleibt aus.",
+    "Nur einzelne Wirkstoffe getauscht statt den Gesamteinsatz reduziert."
+  ],
+  "risks": "Gering für die Natur; im Garten praktisch risikolos. In der Landwirtschaft können ohne Ersatzstrategien kurzfristig Ertragseinbußen/Mehraufwand entstehen — daher integrierter Pflanzenschutz und Ökolandbau als Begleitung. Achtung vor Scheinlösungen (Wirkstofftausch ohne Mengenreduktion).",
+  "synergy": ["bluehflaechen-mehrjaehrig", "wildbienen-nisthabitat", "mahd-insektenschonend"],
+  "sources": [
+    {"title": "Hallmann et al. 2017 – More than 75 percent decline in flying insect biomass (PLOS ONE)", "url": "https://doi.org/10.1371/journal.pone.0185809"},
+    {"title": "Umweltbundesamt – UBA begrüßt Verbot von Neonikotinoiden im Freiland", "url": "https://www.umweltbundesamt.de/themen/uba-begruesst-verbot-von-neonikotinoiden-im"},
+    {"title": "NABU – Neonikotinoide", "url": "https://www.nabu.de/umwelt-und-ressourcen/pestizide/24125.html"}
+  ]
+}

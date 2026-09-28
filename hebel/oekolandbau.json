@@ -1,0 +1,52 @@
+{
+  "id": "oekolandbau",
+  "name": "Ökologischer Landbau",
+  "aka": ["Biolandbau", "Ökolandbau", "organic farming", "Biolandwirtschaft"],
+  "category": "Landwirtschaft & Fläche",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "A",
+  "effort": 3,
+  "tags": ["oekolandbau", "bio", "pestizidverzicht", "artenvielfalt", "ertrag", "landsharing", "gap"],
+  "summary": "Ökolandbau verzichtet auf chemisch-synthetische Pestizide und Mineraldünger und trägt im Mittel deutlich mehr Artenvielfalt pro Fläche — kostet aber rund 19-25 % Ertrag. Dieser Flächen-Trade-off (mehr Bio braucht mehr Fläche) steht im Zentrum der land-sharing-vs-sparing-Debatte; robust belegt, aber ehrlich abzuwägen.",
+  "key_facts": [
+    {"label": "Artenvielfalt", "value": "im Mittel ~30 % mehr Artenreichtum als konventionell (Meta-Analyse, 94 Studien)", "source": "Tuck et al. 2014, J. Applied Ecology"},
+    {"label": "Ertragslücke", "value": "im Mittel ~19-25 % geringere Erträge (Ponisio ~19 %, Seufert ~25 %)", "source": "Ponisio et al. 2015; Seufert et al. 2012"},
+    {"label": "Kontext zählt", "value": "Bio-Vorteil für Biodiversität wächst mit dem Ackeranteil der Landschaft — am grössten in intensiv ausgeräumten Regionen", "source": "Tuck et al. 2014"},
+    {"label": "Flächen-Trade-off", "value": "geringere Erträge = grösserer Flächenbedarf für gleiche Menge (land sharing vs. land sparing)", "source": "Ponisio et al. 2015; Balmford et al."},
+    {"label": "Ertragslücke schmälerbar", "value": "Fruchtfolge/Vielfalt und Leguminosen verkleinern die Lücke auf ~9-13 %", "source": "Ponisio et al. 2015"}
+  ],
+  "deep_dive": "Ökolandbau bündelt viele biodiversitätsfreundliche Praktiken: kein chemisch-synthetischer Pflanzenschutz, kein Mineraldünger, weitere Fruchtfolgen, Untersaaten und mehr Strukturvielfalt. Die robusteste Zahl liefert die hierarchische Meta-Analyse von Tuck et al. (2014, 94 Studien, 184 Vergleiche): Bio-Flächen tragen im Mittel rund 30 % mehr Arten als konventionelle — ein Effekt, der über 30 Jahre Studienlage stabil ist und in intensiv genutzten, ackerdominierten Landschaften am grössten ausfällt. Der ehrliche Haken ist der Ertrag: Ponisio et al. (2015, 1071 Vergleichspaare) fanden im Mittel 19,2 % weniger Ertrag, Seufert et al. (2012) bis zu 25 %, mit grosser Spannweite je Kultur (Leguminosen fast gleichauf, Getreide und Hackfrüchte am stärksten betroffen). Daraus folgt der zentrale Trade-off: Für dieselbe Menge Nahrung braucht Bio mehr Fläche. Das ist der Kern der Debatte land sharing (extensiv, artenreicher pro Feld, aber grösserer Fussabdruck) versus land sparing (intensiv auf weniger Fläche, dafür echte Naturflächen sichern). Beide Wege haben belegte Vor- und Nachteile; die Wahrheit ist landschafts- und artenabhängig, kein Lager hat pauschal recht. Für den Naturschutz-Nutzen von Bio ist wichtig: Er entsteht überwiegend durch Pestizid- und Düngeverzicht plus mehr Struktur — Praktiken, die man teils auch konventionell übernehmen kann. Fruchtfolge und Diversifizierung verkleinern zudem die Ertragslücke auf 9-13 %. Ökolandbau ist damit ein solider, gut belegter Hebel, aber kein Allheilmittel: Sein realer Netto-Biodiversitätsgewinn hängt davon ab, ob der Mehrflächenbedarf nicht anderswo Natur verdrängt, und er ersetzt gezielten Struktur- und Flächenschutz nicht.",
+  "mechanism": "Verzicht auf synthetische Pestizide und Mineraldünger plus weitere Fruchtfolgen und mehr Strukturvielfalt lassen Ackerwildkräuter, Insekten und deren Fresser zurückkommen; der Effekt ist am grössten in sonst ausgeräumten, intensiven Landschaften.",
+  "evidence": [
+    {"source": "Tuck et al., Journal of Applied Ecology (hierarchische Meta-Analyse, 94 Studien)", "year": 2014, "finding": "Ökolandbau erhöht Artenreichtum im Mittel um ~30 %; Effekt steigt mit dem Ackeranteil der Landschaft und ist über Jahrzehnte stabil."},
+    {"source": "Ponisio et al., Proceedings B (1071 Vergleichspaare, 115 Studien)", "year": 2015, "finding": "Bio-Erträge im Mittel 19,2 % niedriger; Fruchtfolge/Diversifizierung verkleinern die Lücke auf ~9-13 %."},
+    {"source": "Seufert et al., Nature", "year": 2012, "finding": "Ertragslücke im Mittel bis ~25 %, stark kulturabhängig (Leguminosen klein, Getreide/Hackfrüchte gross)."}
+  ],
+  "robustness": {
+    "effect_size": "Biodiversität +~30 % (robust); Ertrag -~19-25 % (robust, kulturabhängig).",
+    "replication": "Beide Kernbefunde mehrfach unabhängig repliziert und in Meta-Analysen konsolidiert.",
+    "caveats": "Netto-Naturschutzgewinn abhängig vom Umgang mit dem Flächen-Trade-off (sharing vs. sparing). Bio ist ein Praktik-Bündel; ein Teil des Nutzens ist auch konventionell erreichbar (Pestizidverzicht, Struktur). Kein Ersatz für Flächen- und Struktur-/Habitatschutz."
+  },
+  "protocol": [
+    "Auf zertifizierten Ökolandbau umstellen: chemisch-synthetische Pestizide und Mineraldünger weglassen, organische Düngung und Leguminosen einbinden.",
+    "Weite, vielfältige Fruchtfolgen mit Leguminosen und Untersaaten fahren — verkleinert Ertragslücke und stärkt Bodenleben.",
+    "Struktur ergänzen: Hecken, Blühstreifen, Brachen, Randstreifen — der Biodiversitätsgewinn kommt aus Verzicht plus Struktur, nicht aus dem Label allein.",
+    "Bio bevorzugt in intensiv ausgeräumten Landschaften einsetzen, wo der relative Artengewinn am grössten ist.",
+    "Flächen-Trade-off ernst nehmen: Ertragsverzicht nicht durch Umbruch neuer Naturflächen anderswo kompensieren; Erträge über Diversifizierung heben.",
+    "Nachfrage/Markt und GAP-Förderung nutzen; Umstellungsphase (Ertragsdelle) einplanen und finanziell überbrücken."
+  ],
+  "mistakes": [
+    "Bio-Label als vollständigen Naturschutz verstehen und Struktur (Hecken, Brachen) weglassen.",
+    "Flächen-Trade-off ignorieren — Mehrflächenbedarf verdrängt Natur woanders (Leakage).",
+    "Enge, leguminosen-arme Fruchtfolgen fahren und sich über die grosse Ertragslücke wundern.",
+    "Bio pauschal gegen land sparing ausspielen statt landschaftsabhängig zu entscheiden."
+  ],
+  "risks": "Geringere Erträge bedeuten grösseren Flächenbedarf; ohne Diversifizierung und ohne Vermeidung von Verlagerungseffekten kann der Netto-Biodiversitätsgewinn schrumpfen. Umstellungsphase wirtschaftlich riskant. Kupfer/erlaubte Betriebsmittel und mechanische Beikrautregulierung haben eigene Umweltkosten.",
+  "synergy": ["pestizidverzicht-flaeche", "gruenland-extensivierung-beweidung", "ackerrandstreifen-brache-lerchenfenster", "bluehflaechen-mehrjaehrig", "flaechenverbrauch-versiegelung"],
+  "sources": [
+    {"title": "Tuck et al. 2014 – Land-use intensity and the effects of organic farming on biodiversity (Meta-Analyse)", "url": "https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.12219"},
+    {"title": "Ponisio et al. 2015 – Diversification practices reduce organic to conventional yield gap (Proceedings B)", "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2014.1396"},
+    {"title": "Seufert et al. 2012 – Comparing the yields of organic and conventional agriculture (Nature)", "url": "https://www.nature.com/articles/nature11069"}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "gebaeudebrueter-nisthilfen",
+  "name": "Nisthilfen für Gebäudebrüter und Fledermäuse",
+  "aka": ["Mauersegler-Nistkasten", "Schwalbennest", "Spatzenkoloniekasten", "Fledermausquartier", "Gebaeudebrueter"],
+  "category": "Garten & Siedlung",
+  "scale": "Privat",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["gebaeudebrueter", "mauersegler", "schwalben", "haussperling", "fledermaeuse", "sanierung", "artenschutz-recht"],
+  "summary": "Mauersegler, Schwalben, Haussperlinge und Fledermäuse brüten und quartieren in Nischen, Spalten und unter Dächern von Gebäuden. Energetische Sanierungen verschließen diese Nistplätze massenhaft und lassen die Bestände einbrechen. Nist- und Quartierhilfen bei der Sanierung mitzuinstallieren ist billig, oft rechtlich verpflichtend (§ 44 BNatSchG) und sehr wirksam — der Verlust passiert sonst still und dauerhaft.",
+  "key_facts": [
+    {"label": "Rechtlicher Schutz", "value": "Nist- und Ruhestätten von Gebäudebrütern und Fledermäusen sind nach § 44 BNatSchG ganzjährig geschützt — auch wenn gerade kein Tier anwesend ist; Beseitigung ohne Ersatz ist verboten", "source": "§ 44 BNatSchG; NABU"},
+    {"label": "Ursache Sanierung", "value": "Fassaden- und Dachsanierungen verschließen Spalten, Traufen und Einfluglöcher; dabei gehen Nistplätze und Fledermausquartiere verloren, teils mit Tötung von Tieren/Brut", "source": "NABU (Artenschutz an Gebäuden)"},
+    {"label": "Betroffene Arten", "value": "Mauersegler, Rauch- und Mehlschwalbe, Haussperling, Hausrotschwanz, Turmfalke sowie diverse gebäudebewohnende Fledermausarten", "source": "NABU Leipzig"},
+    {"label": "Haussperling im Rückgang", "value": "Der Haussperling ('Spatz') zählt trotz Häufigkeit zu den Arten mit deutlichem Bestandsrückgang, wesentlich durch Verlust von Nistnischen an Gebäuden", "source": "NABU; Rote Liste"},
+    {"label": "Günstig bei Sanierung", "value": "Einbau-Niststeine oder Aufputzkästen kosten je Einheit meist ~30 bis 80 €; bei ohnehin eingerüsteter Fassade sind Montage und Kosten minimal", "source": "NABU; Hersteller"}
+  ],
+  "deep_dive": "Viele unserer 'Kulturfolger' sind auf Gebäude als Ersatz-Fels und -Höhle angewiesen: Mauersegler und Sperlinge nisten in Spalten unter Dachziegeln und in Traufkästen, Schwalben kleben ihre Nester an Wände und in Ställe, Fledermäuse hängen hinter Fassadenverkleidungen, in Rollladenkästen und unter Firsten. Die energetische Gebäudesanierung — an sich sinnvoll — ist für diese Arten zur zentralen Bedrohung geworden: Beim Dämmen und Neueindecken werden Einfluglöcher, Nischen und Spalten flächig und dauerhaft verschlossen. Weil das oft im Winter oder außerhalb der sichtbaren Brutzeit geschieht, bleibt der Verlust unbemerkt, ist aber endgültig: Die Tiere kehren im Frühjahr zurück und finden keinen Nistplatz mehr. Rechtlich ist das relevant, denn nach § 44 des Bundesnaturschutzgesetzes sind die Fortpflanzungs- und Ruhestätten dieser besonders geschützten Arten ganzjährig geschützt — auch dann, wenn im Moment kein Tier darin sitzt. Wer solche Stätten ohne Genehmigung und ohne Ersatz beseitigt, handelt ordnungswidrig. Der Hebel dieser Karte ist einfach und billig: Vor jeder Sanierung sollte fachlich geprüft werden, ob Gebäudebrüter oder Fledermäuse vorhanden sind; verlorene Quartiere werden durch Einbau-Niststeine, Fledermaus-Fassadenquartiere oder Aufputzkästen ersetzt. Bei ohnehin eingerüsteter Fassade sind die Mehrkosten pro Nisteinheit gering (grob 30 bis 80 €), und Mauersegler brüten koloniebildend, sodass wenige Kästen viele Paare beherbergen. Wichtig ist die richtige Ausführung: passende Einfluglochgrößen je Art, Höhe (Mauersegler brauchen freien Anflug, meist über ~6 m), keine Verschmutzungsprobleme (Kotbrett bei Schwalben), Ausrichtung ohne pralle Mittagshitze. Die Maßnahme rettet keine Population im Alleingang, aber flächig bei Sanierungen mitgedacht sichert sie den Fortbestand typischer Siedlungsarten.",
+  "mechanism": "Ersatz und Neuschaffung der bei Sanierung verlorenen Nist- und Ruhestätten (Niststeine, Kästen, Fledermausquartiere) erhält die Brut- und Quartiermöglichkeiten gebäudegebundener Arten und verhindert lokale Bestandseinbrüche.",
+  "evidence": [
+    {"source": "NABU (Arten- und Klimaschutz an Gebäuden)", "year": 2022, "finding": "Energetische Sanierungen sind eine Hauptursache für den Verlust von Nist- und Quartierplätzen gebäudebewohnender Vögel und Fledermäuse; Ersatzquartiere bei der Sanierung sind wirksam und rechtlich geboten."},
+    {"source": "Bundesnaturschutzgesetz § 44", "year": 2009, "finding": "Fortpflanzungs- und Ruhestätten besonders geschützter Arten sind ganzjährig geschützt; ihre Beschädigung/Entnahme ohne Ausnahme/Ersatz ist verboten."},
+    {"source": "NABU Leipzig (Fassaden-Modernisierung)", "year": 2021, "finding": "Praxisleitfaden: Vorab-Kartierung, artgerechte Einbau-Niststeine und Fledermausquartiere sowie Bauzeitenregelung verhindern Rechtsverstöße und Bestandsverluste."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel bis groß lokal (Kolonien/Quartiere bleiben erhalten); sehr hohe Kosten-Wirksamkeit bei ohnehin laufender Sanierung.",
+    "replication": "Nutzung von Einbau-Niststeinen und Fledermausquartieren durch Zielarten vielfach dokumentiert; Erfolg hängt an korrekter Ausführung und Lage.",
+    "caveats": "Falsch platzierte oder falsch dimensionierte Kästen werden nicht angenommen. Nachträglicher Ersatz ist schlechter als der Erhalt originaler Stätten. Mauersegler nehmen neue Standorte teils erst nach Jahren an (Klangattrappe hilft)."
+  },
+  "protocol": [
+    "Vor Sanierung fachlich prüfen (lassen), ob Gebäudebrüter oder Fledermäuse vorhanden sind — untere Naturschutzbehörde/NABU einbeziehen.",
+    "Bauzeiten außerhalb der Brut-/Wochenstubenzeit legen; § 44 BNatSchG beachten (ganzjähriger Schutz der Stätten).",
+    "Verlorene Quartiere ersetzen: Einbau-Niststeine (Mauersegler, Sperling), Fledermaus-Fassadenquartiere, Schwalben-Kunstnester, Aufputzkästen.",
+    "Artgerecht ausführen: passende Einfluglochgröße, ausreichende Höhe und freier Anflug (Mauersegler meist über ~6 m), keine pralle Südhitze, Kotbrett bei Schwalben.",
+    "Mauersegler koloniefreundlich in Gruppen anbieten; ggf. Klangattrappe zur Erstbesiedlung einsetzen.",
+    "Standorte dokumentieren und dauerhaft freihalten; Reinigung/Kontrolle außerhalb der Brutzeit."
+  ],
+  "mistakes": [
+    "Bei Sanierung Nistplätze verschließen ohne Prüfung und ohne Ersatz — verstößt gegen § 44 BNatSchG und lässt Bestände einbrechen.",
+    "Kästen falsch platzieren (zu niedrig, kein freier Anflug, pralle Mittagssonne) — werden nicht angenommen.",
+    "Einfluglochgröße nicht artgerecht wählen.",
+    "Schwalbennester ohne Kotbrett anbringen und dann wegen Verschmutzung wieder entfernen.",
+    "Erwarten, dass Mauersegler neue Kästen sofort besiedeln (kann Jahre dauern; Klangattrappe hilft)."
+  ],
+  "risks": "Gering. Rechtlich ist Untätigkeit das eigentliche Risiko: Die Beseitigung geschützter Niststätten ohne Ersatz ist eine Ordnungswidrigkeit. Bei Ersatzmaßnahmen auf artgerechte Ausführung achten, sonst verpuffen sie. Konflikte um Schwalbenkot lassen sich mit Kotbrettern lösen.",
+  "synergy": ["naturgarten-heimische-pflanzen", "dach-fassadenbegruenung", "hauskatzen-vogelmortalitaet", "totholz-laub-reisighaufen"],
+  "sources": [
+    {"title": "NABU – Arten- und Klimaschutz an Gebäuden (PDF)", "url": "https://www.nabu.de/imperia/md/content/nabude/energie/220726_artenschutz_an_gebaeuden_juni_2022.pdf"},
+    {"title": "NABU Leipzig – Schutz von Vogel- und Fledermausarten bei Fassaden-Modernisierung", "url": "https://www.nabu-leipzig.de/ratgeber/fassaden-modernisierung/"},
+    {"title": "Gesetze im Internet – § 44 BNatSchG (Vorschriften für besonders geschützte Arten)", "url": "https://www.gesetze-im-internet.de/bnatschg_2009/__44.html"}
+  ]
+}

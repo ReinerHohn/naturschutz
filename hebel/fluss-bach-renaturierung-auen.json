@@ -1,0 +1,53 @@
+{
+  "id": "fluss-bach-renaturierung-auen",
+  "name": "Fluss-/Bachrenaturierung & Auen",
+  "aka": ["Gewässerrenaturierung", "Auenrenaturierung", "Deichrückverlegung", "Rückbau Begradigung", "river restoration"],
+  "category": "Gewässer & Feuchtgebiete",
+  "scale": "Land/Bund",
+  "impact": 5,
+  "evidence_level": "B",
+  "effort": 5,
+  "tags": ["fliessgewaesser", "auen", "hochwasserschutz", "biodiversitaet", "wrrl", "wasser", "durchgaengigkeit"],
+  "summary": "Über 90 % der deutschen Flüsse und Bäche sind begradigt, eingedeicht, verrohrt oder durch Wehre zerschnitten — nur rund 8–9 % der Gewässer erreichen den 'guten ökologischen Zustand' der EU-Wasserrahmenrichtlinie. Renaturierung gibt Flüssen Raum zurück: Mäander, angebundene Auen und durchgängige Strecken bringen Arten zurück UND puffern Hochwasser. Sehr wirksam, aber teuer und flächenintensiv.",
+  "key_facts": [
+    {"label": "Zielverfehlung WRRL", "value": "nur ~8–9 % der Oberflächengewässer in gutem ökologischem Zustand (Stand 2021)", "source": "Umweltbundesamt / WRRL-Bewertung"},
+    {"label": "Fließgewässer 'sehr gut'", "value": "praktisch 0 % der Flussabschnitte 'sehr gut', nur ~7 % 'gut'", "source": "Umweltbundesamt"},
+    {"label": "Verbau", "value": "über 90 % der Flüsse und Bäche sind auf weiten Strecken begradigt, verengt, verrohrt oder verbaut", "source": "UBA / Deutsche Umwelthilfe"},
+    {"label": "Auenverlust", "value": "rund 80 % der ehemaligen Überschwemmungsauen sind vom Fluss abgetrennt", "source": "UBA / BfN Auenzustandsbericht"},
+    {"label": "EU-Ziel", "value": "EU-Wiederherstellungsverordnung: mind. 25.000 km frei fließende Flüsse bis 2030", "source": "EU Nature Restoration Law 2024"}
+  ],
+  "deep_dive": "Deutschlands rund 590.000 km Fließgewässer wurden über zwei Jahrhunderte für Siedlung, Landwirtschaft, Schifffahrt und Energie umgebaut: begradigt, vertieft, mit Steinen und Beton befestigt, durch Wehre und Staustufen zerschnitten und mit Deichen von ihren Auen getrennt. Das Ergebnis zeigt die EU-Wasserrahmenrichtlinie schonungslos — nur etwa 8–9 % der Oberflächengewässer erreichen den 'guten ökologischen Zustand', bei den Flüssen praktisch kein Abschnitt 'sehr gut'. Renaturierung dreht das um: Man entfernt Uferverbau, lässt den Fluss wieder mäandrieren, baut Wehre zurück oder macht sie durchgängig (Fischtreppen) und bindet vor allem die Auen wieder an, indem Deiche zurückverlegt werden. Der Doppelnutzen ist der eigentliche Clou: angebundene Auen sind Hotspots der Artenvielfalt (Auwald, Kiesbänke, Altarme, Fische, Watvögel, Biber) UND riesige natürliche Rückhalteräume, die Hochwasserscheitel kappen und Wasser in Trockenzeiten speichern — rund 80 % dieser Auen sind heute abgetrennt. Der Haken ist der Preis: Renaturierung braucht Fläche und Geld, oft im Konflikt mit Landwirtschaft, Schifffahrt und Bebauung. Deshalb ist sie kein Flächen-, sondern ein Schwerpunkt-Hebel: strategisch an den wirkungsvollsten Abschnitten und in Verbindung mit Flächenerwerb. Wichtig ist, dass Durchgängigkeit und Wasserqualität zusammen angegangen werden — eine schöne Struktur nützt wenig, wenn Nährstofffrachten aus der Landwirtschaft weiter überlasten.",
+  "mechanism": "Rückbau von Begradigung/Verbau und Wiederanbindung der Aue stellen natürliche Strömungs-, Sediment- und Überflutungsdynamik her; das schafft vielfältige Habitate (Kiesbänke, Altarme, Auwald) und aktiviert Retentionsraum, der Hochwasser dämpft.",
+  "evidence": [
+    {"source": "Umweltbundesamt, WRRL-Zustandsbewertung", "year": 2021, "finding": "Nur rund 8–9 % der Oberflächengewässer erreichen den guten ökologischen Zustand; Hauptursachen sind Gewässerstruktur und Nährstoffeinträge."},
+    {"source": "BfN / UBA Auenzustandsbericht", "year": 2021, "finding": "Etwa zwei Drittel bis drei Viertel der Flussauen sind in ihrer Funktion stark verändert; ~80 % der Überschwemmungsflächen sind abgetrennt."},
+    {"source": "EU-Wiederherstellungsverordnung (Nature Restoration Law)", "year": 2024, "finding": "Verpflichtung, bis 2030 mindestens 25.000 km Flüsse wieder frei fließen zu lassen (Barrieren-Rückbau)."}
+  ],
+  "robustness": {
+    "effect_size": "Groß bei Struktur, Durchgängigkeit und Hochwasserretention; für biologische Zielarten stark standort- und wasserqualitätsabhängig.",
+    "replication": "International und in DE vielfach umgesetzt; strukturelle Effekte robust. Biologische Erholung tritt teils erst nach Jahren und nur bei ausreichender Wasserqualität ein.",
+    "caveats": "Ohne Reduktion der Nährstoff-/Schadstofffrachten bleibt der ökologische Zustand trotz Umbau schlecht. Sehr flächen- und kostenintensiv; Konflikte mit Landnutzung. Punktuelle Maßnahmen ohne Durchgängigkeit im Gesamtsystem wirken begrenzt."
+  },
+  "protocol": [
+    "Schwerpunktabschnitte nach Wirkung priorisieren (Bewirtschaftungspläne WRRL, Auenzustandsbericht, Hochwasserrisiko).",
+    "Fläche sichern: Grunderwerb, Tausch, Gewässerrandstreifen — ohne Fläche keine Aue.",
+    "Uferverbau entfernen, Eigendynamik/Mäandrieren zulassen; Kiesbänke, Totholz und Altarme einbringen.",
+    "Durchgängigkeit herstellen: Wehre/Querbauwerke zurückbauen oder passierbar machen (Fischauf-/-abstieg).",
+    "Auen wieder anbinden: Deiche zurückverlegen, Überflutung wieder zulassen (kombinierter Hochwasserschutz).",
+    "Parallel Nährstoff-/Schadstofffrachten senken (Randstreifen, Landwirtschaft) und den Erfolg biologisch monitoren."
+  ],
+  "mistakes": [
+    "Nur die Struktur schön machen, aber die Nährstofffrachten ignorieren — Zustand bleibt schlecht.",
+    "Durchgängigkeit vergessen: eine einzelne renaturierte Strecke zwischen zwei Wehren bringt wenig.",
+    "Zu wenig Fläche/Randstreifen einplanen — Fluss kann sich nicht eigendynamisch entwickeln.",
+    "Aue nur symbolisch anbinden ohne echte Überflutung — Retentions- und Habitatnutzen entfällt."
+  ],
+  "risks": "Teuer und flächenintensiv; erhebliche Konflikte mit Landwirtschaft, Schifffahrt und Bebauung. Biologische Erfolge brauchen Zeit und scheitern ohne ausreichende Wasserqualität. Deichrückverlegung erfordert sorgfältige Hochwasser-Planung. Gefahr, dass Einzelmaßnahmen ohne Systemzusammenhang verpuffen.",
+  "synergy": ["gewaesserrandstreifen", "moor-wiedervernaessung", "kleingewaesser-tuempel"],
+  "sources": [
+    {"title": "UBA – Ökologischer Zustand der Fließgewässer", "url": "https://www.umweltbundesamt.de/daten/wasser/fliessgewaesser/oekologischer-zustand-der-fliessgewaesser"},
+    {"title": "UBA – Maßnahmen zur Renaturierung von Fließgewässern", "url": "https://www.umweltbundesamt.de/renaturierungsmassnahmen-zur-verbesserung-des"},
+    {"title": "Deutsche Umwelthilfe – Renaturierung von Flüssen", "url": "https://www.duh.de/informieren/naturschutz/renaturierung-von-fluessen/"},
+    {"title": "BUND – EU-Wiederherstellungsverordnung (Nature Restoration Law)", "url": "https://www.bund.net/lebensraeume/eu-wiederherstellungsverordnung/"}
+  ]
+}

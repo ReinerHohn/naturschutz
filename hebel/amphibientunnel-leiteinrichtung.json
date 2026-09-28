@@ -1,0 +1,52 @@
+{
+  "id": "amphibientunnel-leiteinrichtung",
+  "name": "Amphibientunnel & Krötenschutzzaun",
+  "aka": ["Krötentunnel", "Amphibiendurchlass", "Amphibienleiteinrichtung", "Krötenzaun", "Amphibienschutzanlage"],
+  "category": "Vernetzung & Korridore",
+  "scale": "Kommune",
+  "impact": 4,
+  "evidence_level": "B",
+  "effort": 3,
+  "tags": ["amphibien", "kröten", "verkehr", "mortalität", "wanderung", "leiteinrichtung"],
+  "summary": "An Amphibien-Wanderrouten über Straßen sterben jedes Frühjahr hunderttausende Kröten, Frösche und Molche unter Reifen. Fest gebaute Tunnel mit durchgehender Leiteinrichtung (Leitwand) führen die Tiere sicher unter die Straße — die dauerhafte Lösung. Eimer-Sammelaktionen mit Fangzaun retten kurzfristig, sind aber personalintensiv und keine Dauerlösung.",
+  "key_facts": [
+    {"label": "Wirksamkeitsschwelle", "value": "Fachliteratur fordert Durchwanderungsrate >75 %; wo erreicht (v. a. Erdkröte), stabilisierten oder erholten sich Populationen", "source": "BAFU-Erfolgskontrolle Schweiz"},
+    {"label": "Problem-Größenordnung", "value": "hunderttausende Erdkröten pro Jahr im Straßenverkehr; im Sommer sterben Millionen abwandernder Jungtiere", "source": "NABU"},
+    {"label": "Kosten feste Anlage", "value": "ca. 270.000 € (6 Durchlässe, 2009) bis ~600.000–650.000 € pro moderner Anlage", "source": "Projekte Baden-Württemberg (Korb, Schorndorf, Waldburg)"},
+    {"label": "Häufiges Defizit", "value": "kurze Tunnel mit kleinem Querschnitt und Wartungsmängel begrenzen die Funktion oft deutlich", "source": "LUBW / Erfolgskontrollen"},
+    {"label": "Leiteinrichtung ist Pflicht", "value": "ohne durchgehende, lückenlose Leitwand finden die Tiere den Tunnel kaum — Bauwerk allein wirkt wenig", "source": "Merkblätter Amphibienschutz an Straßen (MAmS)"}
+  ],
+  "deep_dive": "Amphibien wandern im Frühjahr in Massen zu ihren Laichgewässern und queren dabei Straßen — die Straßenmortalität ist eine der Hauptursachen ihres Rückgangs. Die dauerhaft wirksamste Maßnahme ist eine feste Anlage aus Tunneln (Durchlässen) plus durchgehender Leiteinrichtung, die die Tiere entlang der Straße zum Tunnel führt. Die Schweizer Erfolgskontrolle (BAFU) zeigt: wo die fachlich geforderte Durchwanderungsrate von über 75 % erreicht wurde, nahmen die Populationen meist zu — die Methode funktioniert, wenn sie richtig gebaut und gewartet ist. Der kritische Punkt ist die Leiteinrichtung: ein Tunnel ohne lückenlose Leitwand wird kaum gefunden. Häufige Schwächen sind zu kleine, zu lange oder zu trockene Tunnel (Amphibien meiden dunkle, warme, luftzügige Röhren) und mangelnde Wartung — verstopfte oder abgesackte Leitwände lassen Tiere auf die Fahrbahn. Kosten liegen je nach Umfang zwischen einigen hunderttausend Euro (z. B. 270.000 € für sechs Durchlässe) und rund 600.000 € für moderne Anlagen. Die verbreitete Eimer-Sammelaktion mit temporärem Fangzaun (Ehrenamtliche tragen Tiere über die Straße) rettet kurzfristig viele Individuen, ist aber personalintensiv, erfasst nie alle Tiere und ist keine Dauerlösung — sinnvoll als Überbrückung, bis eine feste Anlage steht.",
+  "mechanism": "Leitwände lenken wandernde Amphibien zu unterirdischen Durchlässen und verhindern das Betreten der Fahrbahn — das senkt die Straßenmortalität während der Wanderung drastisch und erhält den Populationsaustausch.",
+  "evidence": [
+    {"source": "BAFU/infofauna – Erfolgskontrolle Amphibientunnel Schweiz", "year": 2016, "finding": "Bei Durchwanderungsraten über 75 % (v. a. Erdkröte) nahmen Populationen tendenziell zu; Wirkung hing stark von Bauweise und Wartung ab."},
+    {"source": "LUBW – Eignungsprüfung Baumaterialien Amphibienschutz", "year": 2015, "finding": "Tunnelquerschnitt, Klima im Durchlass und lückenlose Leiteinrichtung sind entscheidend; kurze enge Tunnel werden schlechter angenommen."},
+    {"source": "Mazerolle et al. / Reviews zu Amphibian road mitigation", "year": 2005, "finding": "Zeitliche Fahrbeschränkungen und Tunnel-plus-Zaun-Systeme reduzieren Roadkill; Effektstärke variiert mit Design und Art."}
+  ],
+  "robustness": {
+    "effect_size": "Groß bei korrekter Auslegung (Durchwanderung >75 %), stark abhängig von Tunnelgeometrie und Wartung.",
+    "replication": "Vielfach gebaut in DE/CH/AT/UK; Erfolgskontrollen zeigen konsistent: Design und Pflege entscheiden über Erfolg oder Fehlschlag.",
+    "caveats": "Zu kleine/lange/trockene Tunnel und Wartungsmängel begrenzen die Wirkung häufig. Ohne durchgehende Leitwand nahezu wirkungslos. Hohe Baukosten pro Standort."
+  },
+  "protocol": [
+    "Wanderrouten und Hotspots erfassen (Ehrenamtliche, Zählungen) und Laichgewässer sowie Sommerlebensräume verorten.",
+    "Feste Tunnel dort planen, wo die Wanderung die Straße kreuzt — ausreichend großer Querschnitt, hell, mit Bodensubstrat und feuchtem Klima.",
+    "Durchgehende, lückenlose Leiteinrichtung (Leitwand) beidseitig anlegen, die die Tiere zwingend zum Tunnel führt.",
+    "Tunnel- und Leitwand-Abstände an die Zielart anpassen; Erdkröte und Molche haben unterschiedliche Ansprüche.",
+    "Wartung fest einplanen: Leitwände auf Lücken/Absacken prüfen, Durchlässe von Laub/Schlamm freihalten — jedes Jahr vor der Wanderung.",
+    "Als Überbrückung bis zum Bau: Fangzaun mit Eimer-Sammlung durch Ehrenamtliche; Erfolg per Durchwanderungsrate kontrollieren."
+  ],
+  "mistakes": [
+    "Tunnel ohne durchgehende Leiteinrichtung — Tiere finden den Durchlass nicht und gehen auf die Fahrbahn.",
+    "Zu kleiner, zu langer oder zu trockener Tunnel — Amphibien meiden dunkle, warme, zugige Röhren.",
+    "Wartung vergessen; abgesackte Leitwände und verstopfte Durchlässe machen die Anlage wirkungslos.",
+    "Eimer-Sammelaktion als Dauerlösung statt als Überbrückung ansehen — erfasst nie alle Tiere, bindet dauerhaft Personal."
+  ],
+  "risks": "Hohe Kosten pro Standort und laufender Wartungsbedarf; eine schlecht gebaute oder ungewartete Anlage kann sogar zur Falle werden. Nur an echten Wanderkorridoren sinnvoll. Reduziert Straßenmortalität, ersetzt aber nicht den Schutz der Laichgewässer und Landlebensräume selbst.",
+  "synergy": ["gruenbruecke-wildquerung", "gruenbruecke-nachruesten-sanierung", "biotopverbund-trittsteine"],
+  "sources": [
+    {"title": "BAFU/infofauna – Wie gut erfüllen Amphibientunnel ihre Funktion (Erfolgskontrolle)", "url": "https://www.infofauna.ch/sites/default/files/files/publications/erfolgskontr_amphibientunnel.pdf"},
+    {"title": "NABU – Basisinfo Amphibienschutzanlagen", "url": "https://www.nabu.de/tiere-und-pflanzen/amphibien-und-reptilien/amphibien/00500.html"},
+    {"title": "LUBW – Baumaterialien für den Amphibienschutz an Straßen (Eignungsprüfung)", "url": "https://pudi.lubw.de/detailseite/-/publication/35627-Ergebnisse_der_Eignungspr%C3%BCfung_an_einer_Anlage.pdf"}
+  ]
+}

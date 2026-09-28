@@ -1,0 +1,52 @@
+{
+  "id": "gruenbruecke-nachruesten-sanierung",
+  "name": "Kleintier-Durchlässe & Nachrüstung bestehender Barrieren",
+  "aka": ["Durchlass-Nachrüstung", "Bermen", "Kleintierdurchlass", "Trockendurchlass", "Barriere-Nachrüstung", "retrofit"],
+  "category": "Vernetzung & Korridore",
+  "scale": "Kommune",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["durchlass", "nachruesten", "low-hanging-fruit", "kleintiere", "sanierung", "verkehr"],
+  "summary": "Statt einer teuren neuen Grünbrücke lassen sich vorhandene Brücken, Durchlässe und Straßen mit kleinen Eingriffen durchlässig machen: trockene Laufbermen in wasserführenden Durchlässen, Leiteinrichtungen, Kleintierröhren bei ohnehin anstehenden Sanierungen. Das kostet Bruchteile eines Neubaus und ist der klassische Low-Hanging-Fruit der Wiedervernetzung.",
+  "key_facts": [
+    {"label": "Kostenvorteil", "value": "Nachrüstung/Berme kostet meist Tausende bis wenige zehntausend €, eine neue Grünbrücke 2–15 Mio. €", "source": "Bundesprogramm Wiedervernetzung / Praxis"},
+    {"label": "Berme", "value": "ein trockener Laufsteg (Berme) im Durchlass macht vorhandene Bach-Unterführungen für Landtiere passierbar", "source": "Merkblätter Wiedervernetzung"},
+    {"label": "Timing-Hebel", "value": "günstigstes Fenster ist die ohnehin fällige Brücken-/Straßensanierung — Nachrüstung wird zum Zusatzposten statt Neubau", "source": "Bundesprogramm Wiedervernetzung"},
+    {"label": "Zielarten", "value": "Fischotter, Dachs, Amphibien, Kleinsäuger nutzen kombinierte Nass-/Trockendurchlässe mit Bermen", "source": "Monitoring Otterschutz"},
+    {"label": "Leiteinrichtung nötig", "value": "wie bei Grünbrücken sinkt die Wirkung ohne Zaun/Leitwand stark — Tiere müssen zum Durchlass geführt werden", "source": "Rytwinski et al. 2016"}
+  ],
+  "deep_dive": "Die volle Grünbrücke ist wirksam, aber teuer — pro Bauwerk mehrere Millionen Euro. Für viele Arten reicht jedoch ein viel kleinerer Eingriff an einer bereits vorhandenen Barriere. Bach-Unterführungen führen oft nur Wasser; ein daneben angelegter trockener Laufsteg (Berme) macht sie sofort für Landtiere wie Fischotter, Dachs oder Amphibien passierbar. Bestehende Durchlässe lassen sich vergrößern, mit Substrat versehen und mit Leiteinrichtungen anbinden; bei ohnehin anstehenden Brücken- oder Straßensanierungen kostet das Einplanen eines Kleintierdurchlasses nur einen Bruchteil eines Neubaus. Damit ist die Nachrüstung der klassische Low-Hanging-Fruit der Wiedervernetzung: pro eingesetztem Euro oft die höchste Wirkung, weil das teure Bauwerk schon steht. Wichtig ist — wie bei jeder Querungshilfe — die Leiteinrichtung: ohne Zaun/Leitwand, der die Tiere zum Durchlass führt, bricht die Nutzung ein (Meta-Analysen zeigen, dass Bauwerke ohne Zaun deutlich schwächer wirken). Grenzen der Methode: kleine Durchlässe ersetzen keine breite Grünbrücke für scheue Großarten wie Rothirsch oder Luchs; sie sind die richtige Wahl für Klein- und Mittelsäuger, Amphibien und semiaquatische Arten. Der größte praktische Hebel liegt darin, jede Sanierung systematisch auf Nachrüstpotenzial zu prüfen, statt Chancen verstreichen zu lassen.",
+  "mechanism": "Vorhandene Brücken/Durchlässe werden mit kleinen Eingriffen (Bermen, Vergrößerung, Leiteinrichtung) durchlässig gemacht — das stellt Querung und Genfluss zu einem Bruchteil der Neubaukosten wieder her.",
+  "evidence": [
+    {"source": "Rytwinski et al. (PLOS ONE, Meta-Analyse)", "year": 2016, "finding": "Querungsbauwerke wirken v. a. in Kombination mit Leitzäunen; das gilt auch für nachgerüstete Durchlässe."},
+    {"source": "BfN – Bundesprogramm Wiedervernetzung", "year": 2012, "finding": "Nachrüstung und Optimierung bestehender Bauwerke gilt als kosteneffiziente Maßnahme neben teuren Neubauten an vordringlichen Abschnitten."},
+    {"source": "Otter-Monitoring an Durchlässen (u. a. Bayern/Sachsen)", "year": 2015, "finding": "Trockene Bermen in Bach-Durchlässen reduzieren Otter-Verkehrstod und werden von Kleinsäugern angenommen."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel für Klein-/Mittelsäuger und Amphibien; als Kosten-Nutzen-Hebel sehr hoch, weil Bauwerk schon existiert.",
+    "replication": "Vielfach umgesetzt (Otter-Bermen, Kleintierdurchlässe); Wirkung wie bei Grünbrücken abhängig von Leiteinrichtung und Standort.",
+    "caveats": "Kein Ersatz für breite Grünbrücken bei scheuen Großarten. Ohne Leitzaun/Leitwand geringe Nutzung. Durchlass-Klima (Nässe, Länge, Dunkelheit) muss zur Zielart passen."
+  },
+  "protocol": [
+    "Bestehende Barrieren im Korridor kartieren: welche Brücken/Durchlässe kreuzen nachgewiesene Wanderrouten?",
+    "Jede anstehende Brücken- oder Straßensanierung systematisch auf Nachrüstpotenzial prüfen (günstigstes Zeitfenster).",
+    "In wasserführenden Durchlässen trockene Laufbermen anlegen, damit Landtiere passieren können.",
+    "Durchlässe bei Bedarf vergrößern, mit natürlichem Substrat auslegen und Ein-/Ausgänge naturnah anbinden.",
+    "Immer Leiteinrichtung (Zaun/Leitwand) mitplanen, die Tiere zum Durchlass führt.",
+    "Nutzung per Kamerafallen/Spurtunnel belegen und nachbessern; nur wo kleine Lösung nicht reicht, Grünbrücke prüfen."
+  ],
+  "mistakes": [
+    "Durchlass ohne Leiteinrichtung — Tiere finden ihn kaum, Wirkung bricht ein.",
+    "Sanierungsfenster ungenutzt lassen und später teuer neu bauen.",
+    "Zu kleinen/nassen/langen Durchlass für scheue oder große Zielarten wählen.",
+    "Nachrüstung als vollwertigen Ersatz für eine breite Grünbrücke ausgeben, wo Großarten queren müssen."
+  ],
+  "risks": "Geringes Risiko und geringe Kosten, aber begrenzte Zielartenbreite — für Rothirsch/Luchs reicht ein kleiner Durchlass nicht. Gefahr, dass eine billige Nachrüstung als Feigenblatt genutzt wird, wo eigentlich eine große Querung nötig wäre.",
+  "synergy": ["gruenbruecke-wildquerung", "amphibientunnel-leiteinrichtung", "biotopverbund-trittsteine"],
+  "sources": [
+    {"title": "BfN – Bundesprogramm Wiedervernetzung", "url": "https://www.bfn.de/thema/wiedervernetzung"},
+    {"title": "Rytwinski et al. 2016, How effective is road mitigation? (PLOS ONE, Meta-Analyse)", "url": "https://doi.org/10.1371/journal.pone.0166941"},
+    {"title": "NABU – Zerschnittene Lebensräume und Biotopverbund", "url": "https://www.nabu.de/natur-und-landschaft/naturschutz/deutschland/32147.html"}
+  ]
+}

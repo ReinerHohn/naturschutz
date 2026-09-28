@@ -1,0 +1,53 @@
+{
+  "id": "lichtverschmutzung-insekten",
+  "name": "Insektenfreundliche Beleuchtung",
+  "aka": ["Lichtverschmutzung reduzieren", "insektenfreundliches Licht", "dark sky", "warmweiße Beleuchtung"],
+  "category": "Insekten & Bestäuber",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["licht", "lichtverschmutzung", "nachtaktiv", "nachtfalter", "led", "kommune", "garten"],
+  "summary": "Künstliches Licht in der Nacht wirkt wie ein Staubsauger und eine Falle für nachtaktive Insekten: Sie verausgaben sich an Lampen, werden gefressen oder sterben an Erschöpfung. Warmweißes Licht (≤3000 K, besser ≤2700 K), voll abgeschirmt, nach unten gerichtet und bedarfsgesteuert gedimmt/abgeschaltet senkt den Schaden stark.",
+  "key_facts": [
+    {"label": "Massensterben an Lampen", "value": "Schätzungen zufolge sterben allein in den Sommermonaten bis zu ~100 Milliarden Insekten an Straßenlaternen in Deutschland", "source": "WWF Deutschland; NABU"},
+    {"label": "Lichtfarbe entscheidend", "value": "Umstellung von Quecksilberdampf/Metallhalogen auf warmweiße LED (3000 K) senkt die Zahl angelockter Insekten um ~84 bis 88 %", "source": "Eisenbeis/UFZ; NABU"},
+    {"label": "Zielwert Farbtemperatur", "value": "Warmweißes/gelbes Licht mit äquivalenter Farbtemperatur unter 2700 K, keinesfalls über 3000 K einsetzen; kein Blau-/UV-Anteil", "source": "Naturschutz-Beleuchtungsleitfäden"},
+    {"label": "Abschirmung", "value": "Voll abgeschirmte Leuchten lenken Licht nur nach unten auf die Nutzfläche; kein Streulicht in Umgebung und Himmel", "source": "BUND Beleuchtungsbroschüre"},
+    {"label": "Bedarfssteuerung", "value": "Dimmen, Nachtabsenkung, Zeitschaltuhr und Bewegungsmelder reduzieren Betriebsstunden und damit Fallenwirkung stark", "source": "BUND; NABU"}
+  ],
+  "deep_dive": "Nächtliches Kunstlicht ist ein häufig unterschätzter Treiber des Insektenrückgangs. Nachtaktive Insekten — vor allem Nachtfalter, die als Bestäuber ähnlich wichtig sind wie Bienen — orientieren sich am natürlichen Licht und werden von künstlichen Quellen angezogen. An der Lampe umkreisen sie diese bis zur Erschöpfung, werden von Fressfeinden erbeutet oder verbrennen; die Lampe wirkt so als Falle und als Staubsauger, der Insekten aus der weiteren Umgebung abzieht. Schätzungen gehen von bis zu rund 100 Milliarden an Straßenlaternen getöteten Insekten allein in den Sommermonaten in Deutschland aus. Entscheidend ist die Lichtfarbe: Blau- und UV-reiches, kaltweißes Licht lockt am stärksten; der Umstieg auf warmweiße LED mit 3000 K senkte die Zahl angelockter Insekten in Feldversuchen um etwa 84 bis 88 %. Naturschutzleitfäden empfehlen daher Farbtemperaturen unter 2700 K (keinesfalls über 3000 K) ohne UV-Anteil. Genauso wichtig ist die Bauform: voll abgeschirmte Leuchten, die Licht ausschließlich nach unten auf die tatsächlich zu beleuchtende Fläche werfen, statt in Umgebung und Nachthimmel zu streuen. Der dritte Hebel ist die Menge: möglichst wenige Lux, Nachtabsenkung, Dimmen sowie bedarfsgesteuertes Schalten per Zeitschaltuhr oder Bewegungsmelder — jede eingesparte Betriebsstunde reduziert die Fallenwirkung. Für Kommunen (Straßenbeleuchtung, angestrahlte Gebäude) und Private (Garten-, Fassaden-, Wegbeleuchtung) ist das ein günstiger Hebel, der zugleich Energie spart.",
+  "mechanism": "Weniger anlockendes Lichtspektrum (warmweiß, kein Blau/UV), gerichtete Abschirmung und kürzere Leuchtdauer verringern Anlockung, Erschöpfung und Prädation nachtaktiver Insekten und mindern die Barriere-/Fallenwirkung.",
+  "evidence": [
+    {"source": "Eisenbeis / UFZ (Feldversuche Lichtspektrum)", "year": 2018, "finding": "Warmweiße LED zieht deutlich weniger Insekten an als Quecksilberdampf-/kaltweiße Lampen; Reduktion angelockter Individuen um ~84 bis 88 %."},
+    {"source": "Owens et al. (Review, Biological Conservation)", "year": 2020, "finding": "Künstliches Licht in der Nacht ist ein bedeutender, bislang unterschätzter Treiber des Insektenrückgangs (Anlockung, Fortpflanzung, Prädation)."},
+    {"source": "Biosphärenreservat Rhön / BUND (Praxisleitfäden)", "year": 2021, "finding": "Abschirmung nach unten, Farbtemperatur unter 3000 K und bedarfsgesteuertes Schalten als wirksame und energiesparende Standardmaßnahmen."}
+  ],
+  "robustness": {
+    "effect_size": "Groß bei der Lichtfarbe (Reduktion angelockter Insekten ~84 bis 88 %); kumulativ mit Abschirmung und Abschaltung.",
+    "replication": "Lichtfarben-Effekt mehrfach repliziert; Gesamtwirkung auf Populationen schwer isoliert zu quantifizieren.",
+    "caveats": "Auch warmweißes Licht lockt noch etwas an — weniger und gerichteter Licht bleibt bester Ansatz. Sicherheitsanforderungen an Beleuchtung müssen erfüllt bleiben."
+  },
+  "protocol": [
+    "Lichtfarbe umstellen: warmweiße LED unter 2700 K, höchstens 3000 K, ohne UV-Anteil.",
+    "Voll abgeschirmte Leuchten verwenden, die nur nach unten auf die Nutzfläche strahlen — kein Streulicht in Umgebung/Himmel.",
+    "Lichtmenge minimieren: geringe Lux-Werte, keine Überbeleuchtung.",
+    "Bedarfssteuerung: Nachtabsenkung/Dimmen, Zeitschaltuhr, Bewegungsmelder; nachts abschalten wo möglich.",
+    "Dekorative Dauerbeleuchtung (angestrahlte Fassaden, Gärten, Werbung) reduzieren oder ausschalten.",
+    "Nahe Gewässern, Wäldern und Grünflächen besonders zurückhaltend beleuchten (Insekten-Hotspots)."
+  ],
+  "mistakes": [
+    "Kaltweiße/blau-reiche LED oder alte Quecksilberdampflampen eingesetzt — maximale Anlockung.",
+    "Leuchten ohne Abschirmung, die in alle Richtungen und in den Himmel strahlen.",
+    "Ganze Nacht durchgehend voll beleuchtet, ohne Dimmen oder Bewegungssteuerung.",
+    "Zierbeleuchtung (Fassaden, Bäume, Gärten) als harmlos angesehen.",
+    "Nur auf Energieeffizienz optimiert (hellere, kältere LED) statt auf Insektenschutz."
+  ],
+  "risks": "Gering; spart zusätzlich Energie und Kosten. Beleuchtung dient auch der Verkehrssicherheit — Umstellung muss Sicherheitsanforderungen wahren (gerichtetes, ausreichendes Licht statt einfach mehr). Warmweiß wird gelegentlich als weniger hell empfunden.",
+  "synergy": ["bluehflaechen-mehrjaehrig", "wildbienen-nisthabitat"],
+  "sources": [
+    {"title": "WWF Deutschland – Lichtverschmutzung", "url": "https://www.wwf.de/themen-projekte/klimaschutz/lichtverschmutzung"},
+    {"title": "NABU – Nächtliches Kunstlicht verwirrt Vögel und Insekten", "url": "https://www.nabu.de/tiere-und-pflanzen/insekten-und-spinnen/insektensterben/31282.html"},
+    {"title": "BUND – Energiesparende und umweltgerechte Beleuchtung (Broschüre)", "url": "https://www.bund-neckar-alb.de/fileadmin/neckaralb/Fotos/Publikationen/UmweltvertraeglicheBeleuchtungBroschuere2017.pdf"}
+  ]
+}

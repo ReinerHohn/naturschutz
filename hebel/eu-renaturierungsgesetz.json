@@ -1,0 +1,52 @@
+{
+  "id": "eu-renaturierungsgesetz",
+  "name": "EU-Renaturierungsgesetz umsetzen",
+  "aka": ["Nature Restoration Law", "NRL", "Wiederherstellungsverordnung", "EU-Verordnung 2024/1991"],
+  "category": "Politik & System-Hebel",
+  "scale": "EU",
+  "impact": 5,
+  "evidence_level": "B",
+  "effort": 5,
+  "tags": ["renaturierung", "eu-recht", "flaeche", "moor", "gewaesser", "systemwandel"],
+  "summary": "Das 2024 in Kraft getretene EU-Renaturierungsgesetz verpflichtet die Mitgliedstaaten erstmals verbindlich, geschädigte Ökosysteme aktiv wiederherzustellen — nicht nur zu schützen. Ziel: mindestens 20 % der Land- und Meeresflächen bis 2030, alle sanierungsbedürftigen Ökosysteme bis 2050. Der Flächenhebel ist riesig; die Wirkung hängt komplett an der nationalen Umsetzung.",
+  "key_facts": [
+    {"label": "Kernziel", "value": "mind. 20 % der Land- UND 20 % der Meeresflächen der EU bis 2030 wiederherstellen", "source": "Europäisches Parlament 2024"},
+    {"label": "Langfristziel", "value": "alle sanierungsbedürftigen Ökosysteme bis 2050", "source": "EU-Verordnung 2024/1991"},
+    {"label": "Habitat-Stufen", "value": "mind. 30 % der Habitate in schlechtem Zustand bis 2030 verbessern, 60 % bis 2040, 90 % bis 2050", "source": "Consilium / EU"},
+    {"label": "In Kraft", "value": "veröffentlicht 29.07.2024, in Kraft seit 18.08.2024 — erstmals verbindliche Wiederherstellungspflicht", "source": "EU-Amtsblatt"},
+    {"label": "Nationaler Plan", "value": "Mitgliedstaaten müssen bis 01.09.2026 nationale Wiederherstellungspläne (Kartierung, Maßnahmen, Finanzierung) vorlegen", "source": "EU / BfN"}
+  ],
+  "deep_dive": "Das Nature Restoration Law (Verordnung EU 2024/1991) ist der bislang größte legislative Naturschutzhebel Europas. Anders als bisheriges EU-Recht (z. B. Natura 2000), das primär auf Schutz vor Verschlechterung zielt, verpflichtet es die Staaten aktiv zur Wiederherstellung: mindestens 20 % der Land- und 20 % der Meeresflächen bis 2030, bis 2050 alle sanierungsbedürftigen Ökosysteme. Für geschädigte FFH-Lebensraumtypen gilt eine Stufenpflicht (30 % bis 2030, 60 % bis 2040, 90 % bis 2050). Konkret adressiert werden Moore (Wiedervernässung als extrem kosteneffizienter Klima- und Naturschutzhebel), Auen und Flüsse (freie Fließstrecken, Barrierenabbau), artenreiche Grünländer, Bestäuber, Stadtnatur und Meereshabitate. Das Gesetz trat im August 2024 in Kraft; jeder Mitgliedstaat muss bis 1. September 2026 einen nationalen Wiederherstellungsplan mit Kartierung, konkreten Maßnahmen, Zeitplänen und Finanzierung vorlegen. Genau hier entscheidet sich alles: Das Gesetz setzt Ziele, aber die Wirkung entsteht erst durch ambitionierte, unterlegte nationale Pläne und deren Finanzierung. Der politische Weg war extrem umkämpft (Agrarlobby, Verwässerung durch Ausnahmen und Notbremse-Klauseln), was zeigt, wie hoch die politische Trägheit selbst bei einem beschlossenen Gesetz bleibt. Der Hebel ist gewaltig, aber er kann durch schwache Umsetzung weitgehend leerlaufen.",
+  "mechanism": "Rechtsverbindliche, flächenscharfe Wiederherstellungsziele zwingen Mitgliedstaaten, degradierte Ökosysteme (Moore, Auen, Grünland, Meer) aktiv zu sanieren — das schafft Fläche und Funktion zurück, statt nur den Status quo zu sichern.",
+  "evidence": [
+    {"source": "Europäisches Parlament, Verabschiedung NRL", "year": 2024, "finding": "Parlament beschließt Wiederherstellung von mind. 20 % der Land- und Meeresflächen der EU bis 2030, alle Ökosysteme bis 2050."},
+    {"source": "Rat der EU (Consilium), finale Zustimmung", "year": 2024, "finding": "Rat gibt grünes Licht; Stufenziele für Habitate in schlechtem Zustand (30/60/90 % bis 2030/2040/2050) verankert."},
+    {"source": "IPBES Global Assessment", "year": 2019, "finding": "Ökosystem-Wiederherstellung zählt zu den wirksamsten Maßnahmen gegen Biodiversitätsverlust; ohne transformativen Wandel kein Trendumkehr."}
+  ],
+  "robustness": {
+    "effect_size": "Potenziell sehr groß (kontinentaler Flächenhebel), aber die tatsächliche Wirkung ist noch offen und hängt von den nationalen Plänen ab.",
+    "replication": "Neu (2024) — noch keine Wirkungsbilanz möglich; einzelne Renaturierungsmaßnahmen (Moor, Aue) sind separat gut belegt.",
+    "caveats": "Ausnahme- und Notbremse-Klauseln können Ziele aufweichen; Finanzierung nicht vollständig gesichert; Erfolg steht und fällt mit den nationalen Plänen ab 2026."
+  },
+  "protocol": [
+    "Bund/Länder: einen ambitionierten nationalen Wiederherstellungsplan (Frist 01.09.2026) mit klarer Kartierung, verbindlichen Maßnahmen und gesicherter Finanzierung vorlegen — Notbremse-Klauseln nicht als Schlupfloch nutzen.",
+    "Kosteneffiziente Hebel priorisieren: Moor-Wiedervernässung, Auen/Flüsse renaturieren, Barrieren abbauen, artenreiches Grünland wiederherstellen.",
+    "Kommunen: eigene Flächen (Stadtgrün, Bäche, ehemalige Nutzflächen) für Wiederherstellungsziele einbringen und melden.",
+    "Landwirtschaft einbinden: Wiedervernässung und Extensivierung über Ergebnisprämien und Ausgleich attraktiv machen statt gegen Betriebe durchzusetzen.",
+    "Bürger/Verbände: nationale Plaene im Beteiligungsverfahren kommentieren und auf messbare, terminierte Ziele drängen.",
+    "Monitoring und öffentliches Berichten der Fortschritte einfordern, damit das Gesetz nicht auf dem Papier bleibt."
+  ],
+  "mistakes": [
+    "Nationalen Plan als Minimalerfüllung mit maximalen Ausnahmen anlegen — Ziel wird formal erfüllt, Natur bekommt nichts.",
+    "Wiederherstellung gegen die Landwirtschaft framen statt sie über Anreize einzubinden — erzeugt Blockade.",
+    "Ziele ohne gesicherte Finanzierung beschließen; unfinanzierte Pläne verpuffen.",
+    "Schutz und Wiederherstellung verwechseln — bestehende Schutzgebiete zu zählen ersetzt keine aktive Sanierung."
+  ],
+  "risks": "Reale Gefahr des Leerlaufens: ohne ambitionierte, finanzierte nationale Pläne bleibt der große Hebel wirkungslos. Politischer Gegenwind (Agrarproteste, Verwässerung) ist massiv. Fehlende Personal- und Finanzausstattung der Behörden kann Umsetzung ausbremsen.",
+  "synergy": ["schaedliche-subventionen-abbauen", "schutzgebiete-wirksam-machen", "fischdurchgaengigkeit-wehre", "biotopverbund-trittsteine"],
+  "sources": [
+    {"title": "Europäisches Parlament – Ja zur Renaturierung von 20 % der Land- und Meeresflächen", "url": "https://www.europarl.europa.eu/news/de/press-room/20240223IPR18078/parlament-ja-zur-renaturierung-von-20-der-land-und-meeresflachen-der-eu"},
+    {"title": "Rat der EU – Nature restoration law: Council gives final green light", "url": "https://www.consilium.europa.eu/en/press/press-releases/2024/06/17/nature-restoration-law-council-gives-final-green-light/"},
+    {"title": "BfN – EU-Parlament stimmt für Verordnung zur Wiederherstellung der Natur", "url": "https://www.bfn.de/aktuelles/eu-parlament-stimmt-fuer-verordnung-zur-wiederherstellung-der-natur"}
+  ]
+}

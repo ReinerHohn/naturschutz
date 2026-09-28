@@ -1,0 +1,53 @@
+{
+  "id": "honigbienen-kein-artenschutz",
+  "name": "Honigbienen sind kein Artenschutz (Anti-Muster)",
+  "aka": ["Bienenretten-Mythos", "Stadtimkerei", "Honigbiene vs. Wildbiene", "Bienenpatenschaft"],
+  "category": "Insekten & Bestäuber",
+  "scale": "Alle",
+  "impact": 1,
+  "evidence_level": "B",
+  "effort": 1,
+  "tags": ["honigbiene", "wildbienen", "mythos", "nutztier", "imkerei", "aufklaerung", "anti-muster"],
+  "summary": "Ein weit verbreiteter Irrtum: Wer Bienen retten will, wird Imker oder stellt Bienenstöcke auf. Doch die Honigbiene ist ein gehaltenes Nutztier und nicht gefährdet. Zu viele Völker konkurrieren sogar mit den wirklich bedrohten Wildbienen um Nahrung. Diese Karte klärt auf, was NICHT hilft — der Naturschutz-Nutzen ist gering bis negativ.",
+  "key_facts": [
+    {"label": "Honigbiene = Nutztier", "value": "Die Westliche Honigbiene ist ein vom Menschen gehaltenes Nutztier, nicht gefährdet und kein Ziel des Artenschutzes; bedroht sind viele der ~600 Wildbienenarten", "source": "LAVES Niedersachsen; NABU"},
+    {"label": "Nahrungskonkurrenz möglich", "value": "Hohe Honigbienen-Dichte kann laut Studien den Nektarerfolg von Wildbienen um bis zu ~50 % und ihr Vorkommen um bis zu ~55 % senken", "source": "wildbiene.org; Fachliteratur (uneinheitlich)"},
+    {"label": "Das wahre Problem", "value": "Wildbienen fehlt vor allem eine blütenreiche Landschaft, Nistplätze und pestizidarme Flächen — nicht mehr Honigbienenvölker", "source": "LAVES; NABU"},
+    {"label": "Städtischer Imkerei-Boom", "value": "In vielen Städten hat die Zahl der Honigbienenvölker stark zugenommen; auf begrenzten Blühflächen verschärft das die Konkurrenz zu Wildbienen", "source": "Lehrbiotop; Fachartikel Stadtimkerei"},
+    {"label": "Was wirklich hilft", "value": "Blühflächen, Nisthabitate, Pestizidverzicht und schonende Mahd fördern Wildbienen; das Aufstellen von Honigbienenstöcken tut es nicht", "source": "NABU; WWF"}
+  ],
+  "deep_dive": "Kaum ein Naturschutz-Mythos ist so hartnäckig wie das Gleichsetzen von Honigbiene und Bienenschutz: Bienenpatenschaften, Stadtimkerei-Boom und Firmen-Bienenstöcke auf dem Dach werden als Beitrag zur Artenvielfalt vermarktet. Tatsächlich ist die Westliche Honigbiene ein domestiziertes Nutztier, das von Imkern gehalten und versorgt wird — sie ist nicht gefährdet und deshalb kein Fall für den Artenschutz. Bedroht sind dagegen viele der rund 600 heimischen Wildbienenarten, von denen ein großer Teil auf den Roten Listen steht. Mehr Honigbienenvölker helfen diesen Wildbienen nicht; im Gegenteil kann eine hohe Völkerdichte auf begrenztem Blütenangebot zur Nahrungskonkurrenz werden. Einzelne Studien fanden bei hoher Honigbienendichte um bis zu etwa 50 % geringeren Nektarerfolg und bis zu rund 55 % geringeres Vorkommen von Wildbienen; die Datenlage ist allerdings uneinheitlich und kontextabhängig, weshalb die Effektstärke seriös nicht überzogen werden sollte. Unstrittig ist der Konsens von Naturschützern und Imkerverbänden gleichermaßen: Was Wildbienen wirklich fehlt, ist eine blütenreiche Landschaft, offene Nistplätze und pestizidarme Flächen — nicht mehr Bienenkästen. Der Wert dieser Karte liegt daher nicht in einer Maßnahme, sondern in der Aufklärung: Sie lenkt gut gemeintes Engagement weg vom wirkungslosen bis schädlichen 'Bienenretten per Imkerei' hin zu den echten Hebeln (Blühflächen, Nisthabitate, Pestizidverzicht, schonende Mahd). Imkerei bleibt als Landwirtschaft, Hobby und für die Bestäubung von Kulturpflanzen sinnvoll — nur eben nicht als Artenschutz.",
+  "mechanism": "Honigbienenvölker mehren ein nicht gefährdetes Nutztier und können bei hoher Dichte auf knappem Blütenangebot Wildbienen Nahrung entziehen; sie beseitigen keine der eigentlichen Ursachen des Wildbienenrückgangs (Nahrungs-, Nistplatz-, Pestizidproblem).",
+  "evidence": [
+    {"source": "LAVES Niedersachsen (Bienenkunde)", "year": 2020, "finding": "Nahrungskonkurrenz zwischen Honig- und Wildbienen ist bei hoher Völkerdichte und knappem Angebot plausibel; Datenlage differenziert, Honigbiene selbst nicht gefährdet."},
+    {"source": "Fachartikel Stadtimkerei (u.a. Lehrbiotop, Naturschutzmagazine)", "year": 2021, "finding": "Starke Zunahme städtischer Honigbienenvölker kann bedrohte Wildbienen unter Druck setzen; Imkerei ist kein Wildbienenschutz."},
+    {"source": "NABU / WWF (Wildbienenschutz)", "year": 2023, "finding": "Konsens: Wildbienen brauchen Blüten, Nistplätze und Pestizidverzicht; Aufstellen von Honigbienenstöcken hilft ihnen nicht."}
+  ],
+  "robustness": {
+    "effect_size": "Als Naturschutzmaßnahme gering bis negativ; Konkurrenzeffekte belegt, aber kontextabhängig und in der Stärke uneinheitlich.",
+    "replication": "Nahrungskonkurrenz in mehreren Studien gezeigt, Ergebnisse jedoch je nach Standort/Angebot unterschiedlich; Nicht-Gefährdung der Honigbiene unstrittig.",
+    "caveats": "Imkerei ist als Landwirtschaft/Bestäubung legitim und wird hier nicht abgewertet — nur ihre Vermarktung als Artenschutz. Konkurrenzeffekt v.a. bei hoher Dichte und Blütenmangel relevant."
+  },
+  "protocol": [
+    "Nicht Imker werden 'um Bienen zu retten' — die Honigbiene braucht keinen Artenschutz.",
+    "Keine zusätzlichen Honigbienenvölker auf blütenarmen Flächen (Stadt, Naturschutzgebiete) aufstellen.",
+    "Bienenpatenschaften/Firmen-Stöcke kritisch prüfen: Sie fördern kein Artenschutzziel.",
+    "Engagement stattdessen in echte Hebel lenken: Blühflächen, Wildbienen-Nisthabitate, Pestizidverzicht, schonende Mahd.",
+    "In Naturschutzgebieten und wildbienenreichen Gebieten Imkerei-Dichte begrenzen.",
+    "Aufklären: Unterschied Honigbiene (Nutztier) vs. Wildbienen (bedroht) kommunizieren."
+  ],
+  "mistakes": [
+    "Honigbienen aufstellen und glauben, damit Wildbienen/Artenvielfalt zu schützen.",
+    "Bienenpatenschaft oder Firmen-Dachstock als Naturschutzleistung ausgeben (Greenwashing).",
+    "Viele Völker auf begrenztem Blütenangebot halten — Konkurrenz zu Wildbienen.",
+    "Imkerei generell verteufeln — sie ist als Landwirtschaft/Bestäubung legitim, nur kein Artenschutz.",
+    "Ressourcen und Motivation in Imkerei binden, statt echte Wildbienen-Hebel umzusetzen."
+  ],
+  "risks": "Als Naturschutzmaßnahme kontraproduktiv: bindet Engagement und Geld in Wirkungslosem, kann bei hoher Dichte Wildbienen schaden und dient als Greenwashing. Der eigentliche Schaden ist die Fehllenkung guter Absichten. Diese Karte dient der Aufklärung, nicht als umzusetzende Maßnahme.",
+  "synergy": ["bluehflaechen-mehrjaehrig", "wildbienen-nisthabitat", "pestizidverzicht-flaeche"],
+  "sources": [
+    {"title": "LAVES Niedersachsen – Nahrungskonkurrenz zwischen Honig- und Wildbienen", "url": "https://www.laves.niedersachsen.de/startseite/tiere/bienenkunde/aktuelles/gibt-es-eine-nahrungskonkurrenz-zwischen-honig-und-wildbienen-214327.html"},
+    {"title": "Hamburg BUKEA – Einfluss von Honigbienen auf Wildbienen", "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/naturschutz/artenschutz/honigbienen-und-wildbienen-965896"},
+    {"title": "Lehrbiotop – Warum der Boom der Stadtimkerei die Artenvielfalt gefährdet", "url": "https://www.lehrbiotop.de/verdrangt-die-stadtische-hobby-imkerei-unsere-bedrohten-wildbienen/"}
+  ]
+}

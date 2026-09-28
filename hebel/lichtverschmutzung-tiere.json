@@ -1,0 +1,52 @@
+{
+  "id": "lichtverschmutzung-tiere",
+  "name": "Lichtverschmutzung reduzieren",
+  "aka": ["Lichtverschmutzung", "künstliches Nachtlicht", "ALAN", "Lichtimmission"],
+  "category": "Gefahren & Fallen",
+  "scale": "Alle",
+  "impact": 3,
+  "evidence_level": "B",
+  "effort": 2,
+  "tags": ["licht", "zugvoegel", "fledermaeuse", "nachtaktiv", "gebaeude", "sofortfix"],
+  "summary": "Nächtliches Kunstlicht desorientiert Zugvögel, verdrängt Fledermäuse und stört unzählige nachtaktive Tiere. Beleuchtete Gebäude, Türme und Skybeamer ziehen ziehende Vögel an, die kreisen bis zur Erschöpfung oder kollidieren; erleuchtete Flächen werden zu Barrieren und geraubten Jagdgebieten für Fledermäuse. Die Fixes sind billig und sofort wirksam: abschalten, abschirmen (nur nach unten), dimmen, bewegungsgesteuert und warmweiß (<=2700 K, besser Amber).",
+  "key_facts": [
+    {"label": "Zugvögel", "value": "nachts ziehende Vögel werden von Licht angezogen, kreisen bis zur Erschöpfung oder kollidieren", "source": "NABU"},
+    {"label": "Fledermäuse", "value": "beleuchtete Wiesen/Flüsse werden gemieden -> Jagdrevier und Flugrouten gehen verloren; erleuchtetes Quartier kann zum Verhungern führen", "source": "NUL / Fledermausschutz"},
+    {"label": "Lichtfarbe", "value": "warmweiß <=3000 K, besser <2700 K, ideal Amber-LED 1700–2200 K, kein Blau-/UV-Anteil", "source": "Stadt und Grün; NABU"},
+    {"label": "Abschirmung", "value": "voll abgeschirmt (nur nach unten), kein Licht über die Horizontale, kein Streulicht in Himmel/Habitat", "source": "BUND"},
+    {"label": "Gebäude nachts", "value": "Innen-/Fassadenbeleuchtung außerhalb der Nutzung und zur Zugzeit abschalten oder abschirmen", "source": "NABU; Hamburg BUKEA"}
+  ],
+  "deep_dive": "Künstliches Licht bei Nacht (ALAN) ist ein rasch wachsender, oft übersehener Störfaktor. Viele Vögel ziehen nachts; helle Gebäude, Leuchttürme, Industrieanlagen und vor allem senkrecht in den Himmel gerichtete Lichtstrahlen (Skybeamer, Gedenklichter) ziehen sie an und lassen sie im Lichtkegel kreisen, bis sie erschöpft sind oder gegen Bauwerke fliegen — Lichtverschmutzung und Vogelschlag verstärken sich gegenseitig. Fledermäuse reagieren unterschiedlich: einige lichttolerante Arten jagen an Straßenlaternen, die meisten Arten aber meiden beleuchtete Wiesen, Flüsse und Waldränder, sodass Jagdgebiete und traditionelle Flugrouten zerschnitten werden; wird ein Quartier während der Besatzzeit angestrahlt, können Tiere den Ausflug verpassen. Auch Insekten (Nahrungsbasis), Amphibien, Zugfische und der Mensch sind betroffen. Die gute Nachricht: kaum ein Naturschutz-Hebel ist so billig und sofort wirksam. Die Reihenfolge lautet: (1) Braucht es das Licht überhaupt? Abschalten oder Nachtabsenkung/Bewegungsmelder. (2) Nur so hell wie nötig, dimmen. (3) Voll abgeschirmte Leuchten, die ausschließlich nach unten strahlen — kein Licht oberhalb der Horizontalen, kein Streulicht in Gewässer/Gehölz/Himmel. (4) Warme Lichtfarbe: höchstens 3000 K, besser unter 2700 K, ideal Amber-LEDs (1700–2200 K) ohne Blau- und UV-Anteil, da kurzwelliges Licht Insekten und viele Tiere am stärksten anzieht bzw. stört. (5) Zeitliche Steuerung: Fassaden-, Werbe- und Skybeamer-Beleuchtung nachts und besonders während der Zugvogelzeiten im Frühjahr und Herbst aus. Diese Karte ergänzt die insektenspezifische Betrachtung; die Prinzipien nützen Vögeln, Fledermäusen und Insekten gleichermaßen.",
+  "mechanism": "Weniger, gerichtetes und warmfarbiges Licht beseitigt den Anlock-/Desorientierungsreiz für Zugvögel und Insekten und hält Jagd-/Flugräume von Fledermäusen dunkel — der Lebensraum bleibt nachts funktional.",
+  "evidence": [
+    {"source": "NABU – Nächtliches Kunstlicht verwirrt Vögel und Insekten", "year": 2021, "finding": "Kunstlicht zieht nachtziehende Vögel und Insekten an, führt zu Erschöpfung/Kollision; Abschalten und warmes, abgeschirmtes Licht mindern die Wirkung."},
+    {"source": "Naturschutz und Landschaftsplanung (NUL) – Lichtverschmutzung und Fledermausschutz", "year": 2020, "finding": "Die meisten Fledermausarten meiden beleuchtete Flächen; Beleuchtung an Quartieren und Flugrouten verursacht Habitatverlust."},
+    {"source": "Stadt und Grün / BUND – umweltverträgliche Außenbeleuchtung", "year": 2021, "finding": "Voll abgeschirmte Leuchten, Dimmung/Steuerung und warmweiß (<=2700–3000 K, ideal Amber) reduzieren ökologische Schäden deutlich."}
+  ],
+  "robustness": {
+    "effect_size": "Mittel bis groß je Standort; an Zugkorridoren und Quartieren kann Abschalten Massen-Desorientierung verhindern.",
+    "replication": "Vielfach beobachtet und in Leitfäden konsolidiert; Einzelmaßnahmen (Lichtfarbe, Abschirmung) durch Experimente gestützt, saubere quantitative Wirkungsmaße je Art seltener.",
+    "caveats": "Wenige lichttolerante Fledermausarten profitieren sogar von Laternen -> pauschal 'dunkel' nicht immer optimal. Sicherheits-/Verkehrsanforderungen und rechtliche Vorgaben beachten. Wirkung ist lokal, kein Ersatz für Habitatschutz."
+  },
+  "protocol": [
+    "Zuerst fragen: Braucht es das Licht nachts überhaupt? Sonst abschalten oder auf Bewegungsmelder/Zeitschaltung mit Nachtabsenkung.",
+    "Nur so hell wie nötig, dimmen; keine Überbeleuchtung von Fassaden, Gärten, Werbung, Parkplätzen.",
+    "Voll abgeschirmte Leuchten einsetzen: Licht ausschließlich nach unten, nichts über die Horizontale, kein Streulicht in Gewässer/Gehölz/Himmel.",
+    "Warme Lichtfarbe: max. 3000 K, besser <2700 K, ideal Amber-LED (1700–2200 K), Blau- und UV-Anteil vermeiden.",
+    "Skybeamer und senkrecht in den Himmel gerichtete Strahler unterlassen; Fassaden-/Denkmalbeleuchtung zeitlich begrenzen.",
+    "Während Zugvogelzeit (Frühjahr/Herbst) Innen- und Fassadenlicht nachts abschalten oder abschirmen (Jalousien); Quartiere/Einflugöffnungen von Fledermäusen nie anstrahlen."
+  ],
+  "mistakes": [
+    "Kaltweißes Licht (>4000 K) mit hohem Blauanteil verwenden — zieht Insekten stark an und stört am meisten.",
+    "Kugel-/Pilzleuchten, die einen Großteil des Lichts seitlich und nach oben abstrahlen.",
+    "Ganznachts durchleuchten statt Zeit-/Bewegungssteuerung zu nutzen.",
+    "Fledermausquartier oder dessen Ausflugöffnung mit Fassadenstrahler beleuchten."
+  ],
+  "risks": "Sehr gering. Zielkonflikt mit Verkehrs-/Objektsicherheit und Aufenthaltsqualität ist durch abgeschirmte, warme, gesteuerte Beleuchtung meist lösbar. Für wenige lichttolerante Arten kann völlige Dunkelheit ungünstig sein — differenziert planen.",
+  "synergy": ["vogelschlag-glas", "zaeune-schaechte-fallen"],
+  "sources": [
+    {"title": "NABU – Nächtliches Kunstlicht verwirrt Vögel und Insekten", "url": "https://www.nabu.de/tiere-und-pflanzen/insekten-und-spinnen/insektensterben/31282.html"},
+    {"title": "NUL-Online – Lichtverschmutzung und Fledermausschutz", "url": "https://www.nul-online.de/themen/artenschutz-und-biotopverbund/article-7312972-201984/lichtverschmutzung-und-fledermausschutz-.html"},
+    {"title": "Stadt und Grün – Umweltverträgliche Außenbeleuchtung", "url": "https://stadtundgruen.de/artikel/problemfeld-lichtverschmutzung-und-geeignete-loesungen-effektive-und-umweltvertraegliche-aussenbeleuchtung-6670"}
+  ]
+}
