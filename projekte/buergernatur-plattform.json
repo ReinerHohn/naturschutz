@@ -1,0 +1,79 @@
+{
+  "id": "buergernatur-plattform",
+  "name": "BuergerNatur - White-Label-Plattform fuer kommunale Citizen Science",
+  "aka": ["Arterfassungs-Portal Kommune", "Mitmach-Natur-Plattform", "Schutzgebiets-Beobachtungs-App"],
+  "based_on": "citizen-science-apps",
+  "category": "Software & Plattform",
+  "tags": ["software", "plattform", "citizen-science", "app", "monitoring", "kommune", "schutzgebiet", "gbif", "oeffentliche-hand"],
+  "pitch": "Ein eigenes, im Kommunen-/Schutzgebiets-Design gebrandetes Arterfassungs-Portal mit App - aufgesetzt auf offene Standards (GBIF, iNaturalist/observation.org) - mit dem Buerger Beobachtungen melden und die Verwaltung daraus Monitoring-Daten gewinnt.",
+  "ertragspotenzial": 3,
+  "aufwand": 3,
+  "marktreife": "B",
+  "mvp_zeit": "3-5 Monate (gebrandetes Web-Portal + PWA/App auf iNaturalist-/GBIF-Standards, eine Kampagne, Export)",
+  "problem": "Kommunen, Naturparke, Biosphaerenreservate und Schutzgebiets-Verwaltungen sollen Buerger beteiligen und gleichzeitig verlaessliche Daten ueber ihre Arten gewinnen - fuer Pflegeplaene, Berichtspflichten (FFH, Natura 2000), Gruenflaechen-Monitoring, Klimaanpassung und Oeffentlichkeitsarbeit. Regulatorische/politische Treiber: Biodiversitaetsstrategien von Bund/Laendern/EU, Natura-2000-Managementplaene, kommunale Nachhaltigkeits-/Biodiversitaetskonzepte, Pflicht zur Buergerbeteiligung. In der Praxis gibt es keine eigene Plattform: Daten liegen verstreut in Excel, generischen Apps oder gar nicht; eine eigene von Grund auf zu bauen ist zu teuer, und reine Fremd-Apps liefern keine kommunal nutzbaren, gefilterten Daten.",
+  "solution": "Eine Mehrmandanten-Plattform (Software-as-a-Service), die jede Kommune/jedes Schutzgebiet als eigenes, gebrandetes Portal plus App (PWA/native) bekommt. Technisch setzt sie auf offene Standards und bestehende Infrastruktur auf: Arterkennung und Daten koennen mit iNaturalist/observation.org und FloraIncognita-/Pl@ntNet-Erkennung verknuepft werden, Export nach GBIF im Darwin-Core-Standard, keine Dateninsel. Features: Beobachtungen melden (Foto/Ton/Ort), Bestimmungshilfe, thematische Kampagnen (z.B. Wildbienen, Amphibien, Stadtbaeume), Qualitaetssicherung durch Experten, Dashboards und Export fuers kommunale Monitoring, Buergerbeteiligungs-Modul. Code offen, verdient wird an Einrichtung, Betrieb und Auswertung.",
+  "oeffentliche_hand": [
+    "Kommunale Umwelt-/Gruenflaechenaemter - Direktauftrag moeglich (seit 2026 oft bis 50.000 EUR netto Direktauftrag, bis 100.000 EUR netto Verhandlungsvergabe).",
+    "Naturpark-, Biosphaerenreservats- und Nationalpark-Verwaltungen (Dauer-Monitoring, Umweltbildung) - als Rahmenvertrag ueber mehrere Jahre.",
+    "Untere Naturschutzbehoerden und Biologische Stationen fuer ehrenamtlich getragenes Monitoring.",
+    "Landes-Biodiversitaetsstrategien / Stiftungen Naturschutz der Laender als Mehr-Standort-Auftraggeber.",
+    "Einstieg ueber ein gefoerdertes Reallabor mit EINER Modellkommune/einem Schutzgebiet; Referenz fuer weitere.",
+    "Veroeffentlichung auf openCode macht das Portal fuer andere Kommunen nachnutzbar - Betrieb/Anpassung wird zugekauft."
+  ],
+  "open_source_hebel": "Offener Code plus offene Datenstandards (GBIF/Darwin Core) sind fuer Kommunen ein doppelter Vorteil: digitale Souveraenitaet und kein Lock-in (Public Money Public Code), und die Buergerdaten fliessen nachpruefbar in die wissenschaftliche Infrastruktur statt in eine proprietaere Insel. Das erhoeht Vertrauen, Datenqualitaet und Vergabefaehigkeit. Verdient wird trotzdem: an Einrichtung/Branding, gehostetem Betrieb, Moderation/Qualitaetssicherung und der Aufbereitung der Daten zu kommunal verwertbaren Berichten.",
+  "druck_hebel": "Hier softwarelastig. Optionaler 3D-Druck-Hebel: gedruckte, wetterfeste QR-Infotafeln und Melde-Stelen an Wanderwegen/Schutzgebieten, die auf die App verweisen und Kampagnen bewerben; Halterungen und Gehaeuse lokal gedruckt (PETG/ASA), Produktion in einer Inklusionswerkstatt moeglich (sozialer Vergabe-Bonus, Reparierbarkeit).",
+  "einnahmequellen": [
+    "Einrichtung: Branding, Konfiguration, Artenlisten, Kampagnen-Setup, Datenanbindung.",
+    "Jaehrliche Betriebsgebuehr je Mandant (Hosting, Updates, Support).",
+    "Auswertung/Reports: kommunal verwertbare Monitoring-Auswertungen und GBIF-Export.",
+    "Moderation/Qualitaetssicherung als Service (Experten-Validierung).",
+    "Umweltbildungs-/Kampagnen-Pakete und Begleitung (Schulklassen, Aktionstage).",
+    "Foerderprojekte als Entwicklungs- und Pilotfinanzierung.",
+    "Optional gedruckte Infotafeln/Stelen."
+  ],
+  "preismodell": [
+    {"label": "Einrichtung je Mandant", "value": "ca. 4.000-15.000 EUR einmalig (Branding, Konfiguration, Kampagnen)"},
+    {"label": "Jahres-Betriebsgebuehr je Mandant", "value": "ca. 3.000-9.000 EUR pro Jahr (Hosting, Updates, Support)"},
+    {"label": "Auswertung/Monitoring-Report", "value": "ca. 1.500-5.000 EUR pro Saison/Report"},
+    {"label": "Kampagnen-Paket + Begleitung", "value": "ca. 2.000-6.000 EUR je Kampagne"},
+    {"label": "gedruckte QR-Infotafel", "value": "ca. 40-120 EUR pro Stueck (Material wenige Euro)"}
+  ],
+  "kosten_breakeven": "Fixkosten sind Entwicklung und gemeinsame Hosting-/Mehrmandanten-Infrastruktur (skaliert gut: ein Kern, viele Mandanten). Variable Kosten je neuem Mandant gering (Konfiguration). Break-even als kleines Team realistisch bei ca. 8-15 Mandanten im Jahres-Betrieb plus Einrichtungs- und Auswertungsumsatz (ca. 40-80 TEUR ARR). Der erste gefoerderte Modell-Mandant finanziert die Plattform-Basis; danach ist jeder weitere Mandant margenstark, weil er auf dem gleichen Kern laeuft.",
+  "foerderung": [
+    "Bundesprogramm Biologische Vielfalt (BfN) - Citizen Science / Monitoring / Buergerbeteiligung.",
+    "DBU - Umweltbildung und Digitalisierung im Naturschutz.",
+    "Prototype Fund fuer den offenen Plattform-Kern.",
+    "EU LIFE (Natur und Biodiversitaet) fuer groessere Schutzgebiets-Verbuende.",
+    "Deutsche Postcode Lotterie - buergerschaftliches Engagement im Naturschutz.",
+    "Kommunale Mittel / Smart City / Smart Region fuer die Modellkommune.",
+    "Laender-Stiftungen Naturschutz und Buergerbeteiligungs-Foerderung."
+  ],
+  "geschaeftsmodell": "Mehrmandanten-SaaS mit Open-Core: Ein offener Plattform-Kern (vergabefreundlich, souveraen, GBIF-anschlussfaehig, auf openCode auffindbar), der je Kunde als gebrandetes Portal betrieben wird. Umsatz aus Einrichtung (Projekt), jaehrlicher Betriebsgebuehr (wiederkehrend) und datennaher Dienstleistung (Auswertung, Moderation, Kampagnen). Skalierung ueber viele Mandanten auf einer Codebasis; der Open-Source-Charakter senkt die Beschaffungshuerde und schafft Nachnutzung statt Parallelentwicklung.",
+  "vorbilder": [
+    "iNaturalist (globaler Standard, Netzwerk-Knoten-Modell als Vorbild fuer White-Label)",
+    "observation.org / Observation International (Plattform-Betrieb fuer Regionen und Organisationen)",
+    "Naturblick (Museum fuer Naturkunde Berlin; ~120.000-130.000 Nutzer, von Berlin-Pilot auf ganz Deutschland skaliert)",
+    "Flora Incognita / Pl@ntNet (Arterkennung als anschlussfaehige Komponente)",
+    "GBIF / GBIF Deutschland (offene Dateninfrastruktur als Ziel-Standard)",
+    "SPOTTERON (White-Label-Citizen-Science-App-Anbieter aus Oesterreich als direkter Markt-Beleg)"
+  ],
+  "schritte": [
+    "Technik-Fundament entscheiden: auf iNaturalist-/observation.org-Standards aufsetzen, Darwin-Core-/GBIF-Export sicherstellen (keine Dateninsel).",
+    "MVP: ein gebrandetes Portal + PWA mit einer Kampagne (z.B. Amphibien oder Wildbienen) fuer EINEN Modell-Mandanten.",
+    "Eine Modellkommune / ein Naturpark als Pilot gewinnen, moeglichst gefoerdert; echte Kampagne durchfuehren.",
+    "Report-Vorlage mit der unteren Naturschutzbehoerde abstimmen (behoerdentauglich, berichtsfaehig).",
+    "Offenes Repo + Doku veroeffentlichen, auf openCode einstellen (Nachnutzung, Prototype-Fund-faehig).",
+    "Fallstudie mit Zahlen (Teilnehmer, Beobachtungen, Datenqualitaet) erstellen und an weitere Kommunen/Schutzgebiete ausrollen."
+  ],
+  "risiken": "Datenschutz und Artenschutz-Geheimhaltung: Standortdaten schutzwuerdiger/stoerungsempfindlicher Arten (z.B. Greifvogel-Horste) duerfen nicht oeffentlich werden - Unschaerfe/Zugriffsschutz noetig; personenbezogene Melder-Daten DSGVO-konform. Datenqualitaet aus Laienmeldungen schwankt (Fehlbestimmungen) - Experten-Validierung und Plausibilitaetspruefung noetig, sonst untauglich fuers amtliche Monitoring. Konkurrenz durch etablierte kostenlose Apps (iNaturalist, Naturblick) - der Mehrwert muss das Branding, die kommunale Auswertung und die Integration sein, nicht die reine Melde-Funktion. Behoerden-Beschaffungszyklen lang; Abhaengigkeit von Foerdermitteln vermeiden, frueh Betriebsvertraege sichern.",
+  "synergy": ["naturbuero-ki", "lauschposten-bioakustik", "roadkill-radar", "kamerafallen-auswertedienst"],
+  "sources": [
+    {"title": "Naturblick - Museum fuer Naturkunde Berlin (Projektseite)", "url": "https://www.museumfuernaturkunde.berlin/de/forschung/projekte/naturblick-stadtnatur-entdecken"},
+    {"title": "iNaturalist", "url": "https://www.inaturalist.org/"},
+    {"title": "observation.org", "url": "https://observation.org/"},
+    {"title": "GBIF Deutschland", "url": "https://www.gbif.de/"},
+    {"title": "SPOTTERON - White-Label Citizen Science Apps", "url": "https://www.spotteron.net/"},
+    {"title": "Bundesprogramm Biologische Vielfalt (BfN)", "url": "https://www.bfn.de/bundesprogramm-biologische-vielfalt"},
+    {"title": "Vergaberecht 2026 - neue Wertgrenzen", "url": "https://subreport.de/blog/vergaberecht-2026-neue-spielraeume-neue-unsicherheiten/"}
+  ]
+}

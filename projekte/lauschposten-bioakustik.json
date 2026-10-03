@@ -1,0 +1,69 @@
+{
+  "id": "lauschposten-bioakustik",
+  "name": "Lauschposten - Bioakustik-Monitoring as a Service",
+  "aka": ["BioAkustik-Box", "Vogel-Monitoring-Kommune"],
+  "based_on": "bioakustik-monitoring-ki",
+  "category": "Monitoring-SaaS & Service",
+  "tags": ["monitoring", "ki", "hardware", "saas", "kommune", "oeffentliche-hand"],
+  "pitch": "Solarbetriebene Lausch-Box (offene Hardware, 3D-gedrucktes Gehaeuse) plus Cloud-Auswertung mit BirdNET, die Kommunen und Behoerden ihr gesetzlich gefordertes Arten-Monitoring automatisiert und preiswert liefert.",
+  "ertragspotenzial": 4,
+  "aufwand": 3,
+  "marktreife": "B",
+  "mvp_zeit": "2-3 Monate (AudioMoth + BirdNET-Pi + einfaches Report-PDF)",
+  "problem": "Behoerden und Kommunen muessen Arten erfassen (FFH-Monitoring, Eingriffs-/Ausgleichs-Kontrolle nach BNatSchG, Umweltvertraeglichkeitspruefung, Vorher-Nachher bei Bau/Renaturierung). Klassische Gutachter-Begehungen sind teuer (schnell 5.000-50.000 EUR je Projekt), punktuell und schlecht wiederholbar. Fachkraeftemangel bei Kartierern verschaerft das. Es fehlt ein guenstiges, dauerhaftes, standardisiertes Monitoring.",
+  "solution": "Ein Netz aus robusten, solarbetriebenen Audio-Rekordern (Basis AudioMoth / offene Elektronik) im 3D-gedruckten, wetterfesten Gehaeuse. Die Aufnahmen laufen durch eine KI-Pipeline (BirdNET fuer Voegel, batdetect2 fuer Fledermaeuse) und landen in einem Dashboard mit automatischem Behoerden-Report (Artenliste, Aktivitaet, Zeitreihe, Karte). Hardware-Designs und Auswerte-Pipeline sind Open Source; verkauft werden fertige Boxen, der Betrieb und die pruefsichere Auswertung.",
+  "oeffentliche_hand": [
+    "Untere Naturschutzbehoerden (Landkreise/kreisfreie Staedte) - Direktauftrag unterhalb der Vergabeschwelle moeglich (oft bis ca. 15.000 EUR formfrei/Verhandlungsvergabe).",
+    "Kommunale Gruenflaechen-/Umweltaemter fuer Vorher-Nachher-Monitoring eigener Renaturierungen.",
+    "Landesbetriebe Forst / Nationalpark-/Biosphaeren-Verwaltungen als Rahmenvertrag (mehrere Standorte).",
+    "Einstieg ueber ein gefoerdertes Pilot-/Reallabor mit EINER Kommune, Ergebnis als Referenz fuer Ausschreibungen nutzen.",
+    "Als Nachauftragnehmer von Planungsbueros/Gutachtern, die Dauer-Monitoring zukaufen statt selbst zu bauen."
+  ],
+  "open_source_hebel": "Open Source ist beim Staat ein Verkaufsargument, kein Hindernis: 'Public Money - Public Code' und digitale Souveraenitaet sind politisch gewollt, kein Vendor-Lock-in erleichtert die Vergabe, offene Methodik macht die Daten gerichtsfest/pruefbar. Geld kommt nicht aus der Software-Lizenz, sondern aus Hardware, Betrieb, gepruefter Auswertung und Support (Open-Core / Hardware+Service).",
+  "druck_hebel": "Das Gehaeuse, Halterungen und Solar-Mast-Adapter werden 3D-gedruckt (PETG/ASA, UV-fest): Stueckkosten wenige Euro statt teurer Spezialgehaeuse, lokal und on-demand produzierbar, einfach reparierbar/nachrüstbar. Produktion laesst sich an eine Inklusions-/Behindertenwerkstatt auslagern (sozialer Vergabe-Bonus, planbare Kosten).",
+  "einnahmequellen": [
+    "Hardware-Verkauf: fertige, kalibrierte Boxen (Marge auf Material + Montage).",
+    "SaaS/Auswertung: jaehrliche Gebuehr pro Box fuer Cloud-Analyse + Behoerden-Report.",
+    "Dienstleistung: Aufbau, Wartung, jaehrliche Kalibrierung, gutachterliche Einordnung.",
+    "Foerderprojekte als Entwicklungs-/Pilotfinanzierung.",
+    "Schulung/Lizenz-Support fuer Behoerden/Bueros, die selbst betreiben wollen."
+  ],
+  "preismodell": [
+    {"label": "Box (Hardware, Verkauf)", "value": "ca. 350-600 EUR/Stueck (Material ~120-180 EUR)"},
+    {"label": "SaaS-Auswertung", "value": "ca. 300-600 EUR pro Box und Jahr"},
+    {"label": "Pilotprojekt Kommune", "value": "ca. 8.000-15.000 EUR (5-10 Boxen + Report, 1 Saison)"},
+    {"label": "Vergleich Gutachten klassisch", "value": "oft 5.000-50.000 EUR, einmalig/punktuell"}
+  ],
+  "kosten_breakeven": "Geringe Fixkosten (Cloud/Server, Dev-Zeit); variable Kosten je Box klein. Break-even realistisch bei ca. 30-60 aktiven Boxen im SaaS (ca. 15-30 TEUR ARR) als Soloselbststaendiger; der erste Pilotauftrag deckt die MVP-Entwicklung. Grootes Risiko ist Vertriebszeit, nicht Herstellkosten.",
+  "foerderung": [
+    "Prototype Fund (BMBF/Open Knowledge Foundation) fuer die Open-Source-Pipeline.",
+    "DBU (Deutsche Bundesstiftung Umwelt) - Umwelttechnik/Digitalisierung.",
+    "Bundesprogramm Biologische Vielfalt (BfN) - innovative Monitoring-Ansaetze.",
+    "EXIST-Gruenderstipendium fuer die Gruendungsphase.",
+    "Kommunale Mittel / Foerderung Smart City / Smart Region fuer den Pilot."
+  ],
+  "geschaeftsmodell": "Open-Core + Hardware & Service: Die Designs und die Analyse-Pipeline sind offen (schafft Vertrauen und Vergabefaehigkeit), verkauft wird das Gesamtpaket aus fertiger Hardware, wartungsarmem Betrieb und pruefsicherer, gutachterlich verwertbarer Auswertung. Wiederkehrender Umsatz kommt aus der jaehrlichen SaaS-/Wartungsgebuehr pro Box.",
+  "vorbilder": [
+    "Chirrup / Carbon Rewild (akustisches Biodiversitaets-Monitoring als Service, UK)",
+    "Wilder Sensing, Sound of Norway, Faunaphotonics (KI-Biodiversitaets-Monitoring)",
+    "Open Acoustic Devices / AudioMoth (offene Hardware als Marktbeleg)",
+    "Wildlife Insights / Trapper (KI-gestuetzte Auswertung als Dienst)"
+  ],
+  "schritte": [
+    "MVP bauen: AudioMoth + BirdNET-Pi im gedruckten Gehaeuse, ein PDF-Report automatisieren.",
+    "EINE Kommune/Naturschutzbehoerde als Pilot gewinnen (Referenz > Umsatz), moeglichst gefoerdert.",
+    "Report-Vorlage mit einer unteren Naturschutzbehoerde abstimmen, damit sie behoerdentauglich ist.",
+    "Open-Source-Repo + Doku veroeffentlichen (Vertrauensaufbau, Prototype-Fund-faehig).",
+    "Preisliste + 1-Seiten-Angebot fuer Direktauftrag unter Vergabeschwelle erstellen.",
+    "Aus dem Pilot eine Fallstudie machen und an 20 weitere Landkreise ausrollen."
+  ],
+  "risiken": "Behoerden-Vertriebszyklen sind lang und budgetgebunden; KI-Artbestimmung hat Fehlerraten (Haftung/Gerichtsfestigkeit absichern, Stichproben-Validierung durch Fachperson). Datenschutz/Mitschnitt menschlicher Stimmen technisch ausschliessen. Abhaengigkeit von Foerdermitteln vermeiden - frueh echten Auftragsumsatz suchen.",
+  "synergy": ["naturdruck-baukasten-fablab", "kamerafallen-auswertedienst", "artenschutz-module-bau"],
+  "sources": [
+    {"title": "Open Acoustic Devices - AudioMoth", "url": "https://www.openacousticdevices.info/"},
+    {"title": "BirdNET (Cornell Lab / TU Chemnitz)", "url": "https://birdnet.cornell.edu/"},
+    {"title": "Prototype Fund", "url": "https://prototypefund.de/"},
+    {"title": "DBU Foerderung", "url": "https://www.dbu.de/foerderung/"},
+    {"title": "Bundesprogramm Biologische Vielfalt (BfN)", "url": "https://www.bfn.de/bundesprogramm-biologische-vielfalt"}
+  ]
+}

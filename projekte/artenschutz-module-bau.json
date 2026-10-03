@@ -1,0 +1,73 @@
+{
+  "id": "artenschutz-module-bau",
+  "name": "ArtenschutzModul - 3D-gedruckte Nistquartiere fuer Sanierung und Neubau",
+  "aka": ["gedrucktes Mauerseglermodul", "CEF-Quartier 3D", "Einbaustein Gebaeudebrueter"],
+  "based_on": "3d-nisthilfen-gebaeudebrueter",
+  "category": "Open Hardware & 3D-Druck",
+  "tags": ["3d-druck", "gebaeudebrueter", "mauersegler", "schwalben", "sperling", "fledermaus", "sanierung", "bauwirtschaft", "artenschutz", "cef"],
+  "pitch": "3D-gedruckte, einbaufertige Artenschutz-Module (Mauersegler-, Schwalben-, Sperlingsnester, Fledermausquartiere) fuer Sanierung und Neubau - mit Einbauberatung und CEF-Massnahmen-Nachweis, getrieben von der gesetzlichen Ersatzquartier-Pflicht nach Paragraf 44 BNatSchG.",
+  "ertragspotenzial": 4,
+  "aufwand": 3,
+  "marktreife": "B",
+  "mvp_zeit": "3-5 Monate (2-3 freilandgetestete Modultypen + Einbau-Datenblatt + Nachweis-Vorlage)",
+  "problem": "Gebaeudebrueter (Mauersegler, Schwalben, Haussperling) und Fledermaeuse verlieren bei Sanierung und Daemmung ihre Brutplaetze. Nach Paragraf 44 BNatSchG sind Fortpflanzungs- und Ruhestaetten streng geschuetzt - werden sie beseitigt, verlangt die Naturschutzbehoerde funktionserhaltende Ersatzquartiere (CEF-Massnahmen) als Bedingung der Baugenehmigung. Bautraeger, kommunale Wohnungsbaugesellschaften, Architekten und Planungsbueros MUESSEN liefern, oft unter Zeitdruck. Etablierte Holzbeton-Quartiere (Schwegler, Strobel) sind bewaehrt, aber vergleichsweise teuer, schwer und wenig an die konkrete Fassade anpassbar; es fehlt eine guenstige, leichte, massgeschneiderte und dokumentierte Loesung inklusive Nachweis.",
+  "solution": "Ein Katalog 3D-gedruckter Artenschutz-Module, die als Einbaustein (Putz-/WDVS-integriert) oder Aufbau-Quartier in Fassaden kommen: Mauerseglernest (langer flacher Nistraum ca. 30 x 15 cm, querer Einflug ca. 30 x 65 mm seitlich unten), Mehl-/Rauchschwalben-Kunstnester mit Kotbrett, Sperlingskoloniekaesten und Fledermausquartiere mit engem, oben geschlossenem Spalt (15-20 mm) und rauer Innenflaeche fuer Krallenhalt. Druck aus UV-/hitzebestaendigem PETG oder ASA (helles/reflektierendes Material, Doppelwand/Belueftung gegen toedliche Ueberhitzung, Wandstaerke ab 3 mm). Dateien und Einbaudetails sind offen (CC-BY-SA, von Fachverband geprueft); verkauft werden die Module plus Einbauberatung und der prueffaehige CEF-/Artenschutz-Nachweis fuer die Behoerde. 3D-Druck macht die Quartiere leichter, guenstiger und an die jeweilige Fassade anpassbar.",
+  "oeffentliche_hand": [
+    "Kommunale Wohnungsbaugesellschaften und staedtische Liegenschaftsaemter bei Sanierung eigener Bestaende - Direktauftrag unter Wertgrenze oder Verhandlungsvergabe (je nach Bundesland bis ca. 100.000 EUR), oft als Rahmenvertrag ueber mehrere Objekte.",
+    "Untere Naturschutzbehoerden als Nachfrage-Treiber und Qualitaetssicherer (sie fordern und pruefen die CEF-Massnahmen) - hier Referenz und Akzeptanz aufbauen.",
+    "Staedtische Bauaemter/Hochbauaemter fuer oeffentliche Gebaeude (Schulen, Verwaltung) mit Sanierungsstau.",
+    "Verwendung kommunaler Ersatzzahlungen nach Paragraf 15 BNatSchG fuer artenschutzrechtliche Massnahmen am eigenen Bestand.",
+    "Indirekt ueber private Bautraeger, Architekten und Planungsbueros, die die Pflichtmassnahme einkaufen - der groesste Markt neben dem oeffentlichen Bestand."
+  ],
+  "open_source_hebel": "Offene, fachlich gepruefte Einbaudetails schaffen Vertrauen bei Behoerde und Planer und machen die CEF-Massnahme leichter genehmigungsfaehig (nachvollziehbare Maße, keine Blackbox, kein Lock-in). Public Money Public Code und digitale Souveraenitaet erleichtern die Vergabe im oeffentlichen Bestand. Verdient wird nicht an der Datei, sondern am qualitaetsgesicherten Modul, an der fassadenspezifischen Anpassung, der Einbauberatung und am prueffaehigen Nachweis - genau das, was Bautraeger unter Zeitdruck brauchen (Open-Core + Dienstleistung).",
+  "druck_hebel": "Gedruckt werden Nistraeume, Einflugblenden, Fledermaus-Spaltquartiere und Einbaurahmen aus PETG/ASA (UV-/hitzefest, hell/reflektierend, Doppelwand oder Belueftungsschlitze gegen Ueberhitzung, raue Innenflaechen fuer Krallenhalt/Nistanheftung). Materialkosten pro Modul grob 5-20 EUR gegenueber 35-260 EUR fuer Holzbeton-Produkte; leichter als Holzbeton (einfacherer Einbau in WDVS), on-demand und an die Fassadentiefe anpassbar, reparierbar und als Serie reproduzierbar. Produktion lokal oder ueber eine Inklusionswerkstatt/FabLab - planbare Kosten und sozialer Vergabe-Bonus. WICHTIG: vor Serienstart ein Muster ein Jahr freilandtesten (Temperatur, Verformung, Annahme), sonst ist Kunststoff schlechter als Holzbeton.",
+  "einnahmequellen": [
+    "Verkauf der Module (Einbaustein und Aufbauquartier) an Bautraeger, Wohnungsgesellschaften und Private.",
+    "Einbauberatung und fassadenspezifische Anpassung (Konstruktion nach konkreter Sanierung).",
+    "CEF-/Artenschutz-Nachweis und Dokumentation fuer die Baugenehmigung (Honorar pro Objekt).",
+    "Rahmenvertraege und Wartungs-/Monitoringpakete (Funktionskontrolle der Quartiere).",
+    "Schulung fuer Architekten/Planungsbueros und Lizenz-/Supportpaket fuer Eigenproduktion."
+  ],
+  "preismodell": [
+    {"label": "Mauersegler-Einbaustein (gedruckt)", "value": "ca. 25-60 EUR/Stueck (Material ~5-15 EUR; Holzbeton-Vergleich ~35-100 EUR)"},
+    {"label": "Fledermaus-Spaltquartier (gedruckt)", "value": "ca. 20-50 EUR/Stueck"},
+    {"label": "Mauersegler-Mehrfachsystem (gedruckt, 2-3 Nistraeume)", "value": "ca. 60-140 EUR (Holzbeton-Vergleich 190-260 EUR)"},
+    {"label": "Einbauberatung + fassadenspezifische Anpassung", "value": "ca. 500-2.500 EUR je Objekt"},
+    {"label": "CEF-Nachweis/Dokumentation", "value": "ca. 800-3.500 EUR je Objekt (je nach Umfang)"},
+    {"label": "Rahmenvertrag Wohnungsgesellschaft", "value": "ca. 10.000-50.000 EUR/Jahr (mehrere Objekte)"}
+  ],
+  "kosten_breakeven": "Fixkosten moderat (Drucker 1.000-5.000 EUR, CAD/Statik-Nachweis-Aufwand, Freilandtest-Jahr, Zertifizierungs-/Abstimmungsaufwand mit Behoerden). Variable Kosten je Modul klein. Der Hebel liegt im Beratungs- und Nachweisgeschaeft: schon wenige Objekte pro Monat (Module + Beratung + Nachweis) tragen einen Soloselbststaendigen; ein Rahmenvertrag mit einer Wohnungsgesellschaft stabilisiert die Auslastung. Break-even realistisch im ersten Jahr nach Freilandvalidierung und der ersten behoerdlich akzeptierten Referenz. Groesstes Zeitrisiko: Freilandtest und behoerdliche Akzeptanz vor dem Skalieren.",
+  "foerderung": [
+    "DBU (Deutsche Bundesstiftung Umwelt) - innovative Umwelttechnik/Material (Freilandtest und Materialvalidierung).",
+    "Bundesprogramm Biologische Vielfalt (BfN) - Arten in besonderer Verantwortung Deutschlands (Gebaeudebrueter).",
+    "Prototype Fund fuer die offene Konstruktions- und Nachweis-Dokumentation.",
+    "KfW-Programme zu energetischer Sanierung als Nachbarschaft/Anknuepfungspunkt (CEF ist Teil vieler Sanierungen).",
+    "Kommunale Ersatzzahlungen nach Paragraf 15 BNatSchG und EXIST-Gruenderstipendium fuer die Gruendungsphase."
+  ],
+  "geschaeftsmodell": "Open-Core Hardware + B2G/B2B-Dienstleistung: Die gepruefte Konstruktion ist offen (Vertrauen und Genehmigungsfaehigkeit), verkauft werden guenstige, leichte, fassadenspezifisch angepasste Module plus die eigentlich knappe Leistung - Einbauberatung und der prueffaehige CEF-Nachweis, den Bautraeger zwingend brauchen. Wiederkehrender Umsatz aus Rahmenvertraegen mit Wohnungsgesellschaften und Monitoring/Wartung. Der gesetzliche Zwang (Paragraf 44 BNatSchG) sichert die Nachfrage unabhaengig von Foerderung.",
+  "vorbilder": [
+    "Schwegler (Holzbeton-Nisthilfen/Einbausteine, Marktfuehrer - belegt den Markt)",
+    "Strobel Betonbau / Naturschutzprodukte (Einbaustein-Hersteller)",
+    "Ehlert und Partner, Hasselfeldt, WBV (Einbau-Niststeine Gebaeudebrueter)",
+    "Printednest und 3D-printed bat house-Forschung (Machbarkeit 3D-Druck, Marktbeleg)"
+  ],
+  "schritte": [
+    "2-3 Modultypen final konstruieren (Mauersegler-Einbaustein, Fledermaus-Spaltquartier, Schwalben-Kunstnest) nach NABU/LBV-Maßen.",
+    "Je ein Muster ein Jahr im Freien testen (Temperatur, Verformung, Annahme) - ohne Freilandbeleg kein Verkauf.",
+    "Fruehzeitig mit EINER unteren Naturschutzbehoerde die Akzeptanz der Module als CEF-Massnahme abstimmen.",
+    "Offene Konstruktion + Einbau-Datenblatt + Nachweis-Vorlage veroeffentlichen (Prototype-Fund/DBU-faehig).",
+    "Erstes Pilot-Objekt mit einer kommunalen Wohnungsbaugesellschaft (Module + Beratung + Nachweis).",
+    "Fallstudie erstellen und gezielt Architekten, Planungsbueros und Wohnungsgesellschaften ansprechen; Rahmenvertrag anstreben."
+  ],
+  "risiken": "Produkthaftung und Fachlichkeit: ein untauglich gedrucktes Quartier (Ueberhitzung, UV-Versproedung, falsche Maße) kann Bruten toeten und ist schlechter als kein Kasten - Freilandvalidierung und Behoerdenabstimmung sind Pflicht, nicht Kuer. Behoerdliche Akzeptanz von Kunststoff gegenueber bewaehrtem Holzbeton ist nicht garantiert (Thermik oft schlechter) - helle Farbe, Doppelwand/Belueftung, ggf. Komposit-Material. Lange Bauzyklen und Genehmigungsabhaengigkeit; Haftung fuer den Nachweis sauber abgrenzen (ggf. mit Gutachter kooperieren). Etablierte Hersteller sind stark - Differenzierung ueber Preis, Gewicht, Anpassbarkeit und Komplettservice.",
+  "synergy": ["naturdruck-baukasten-fablab", "lauschposten-bioakustik", "prioritaetsplaner-beratung"],
+  "sources": [
+    {"title": "Paragraf 44 BNatSchG - Vorschriften fuer besonders geschuetzte Arten (dejure.org)", "url": "https://dejure.org/gesetze/BNatSchG/44.html"},
+    {"title": "Schwegler - Gebaeudebrueter-Nisthilfen fuer Bauherren, Architekten und Planer (PDF)", "url": "http://www.schwegler-natur.de/wp-content/uploads/2014/03/DEU_Gebaeudebrueter_ANSICHT.pdf"},
+    {"title": "Beispiel CEF-Massnahmen Gebaeudebrueter (Stadt Garching, PDF)", "url": "https://www.garching.de/meldungen/vorhabenbezogener-bebauungsplan-nr_-193-%E2%80%9Enachverdichtung-freisinger-landstra%C3%9Fe-17-17a%E2%80%9C_/_/04_CEF_Ma%C3%9Fnahmen.pdf"},
+    {"title": "Evaluating bat boxes: overheating risk (PMC)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9041549/"},
+    {"title": "3D printed bat houses with biomass-derived composites (ScienceDirect)", "url": "https://www.sciencedirect.com/science/article/pii/S2950431725000668"},
+    {"title": "NABU - Nist- und Bruthilfen fuer Gebaeudebrueter", "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/helfen/nistkaesten/index.html"},
+    {"title": "Schwellenwerte und Wertgrenzen im Vergaberecht (Baden-Wuerttemberg, Juni 2024)", "url": "https://wm.baden-wuerttemberg.de/fileadmin/redaktion/m-wm/intern/Dateien_Downloads/Wirtschaftsstandort/Schwellenwerte_Wertgrenzen_Vergaberecht_Stand_Juni_2024.pdf"}
+  ]
+}

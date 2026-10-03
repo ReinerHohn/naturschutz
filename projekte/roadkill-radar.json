@@ -1,0 +1,77 @@
+{
+  "id": "roadkill-radar",
+  "name": "Roadkill-Radar - Melde- und Analyseplattform fuer Wildunfaelle",
+  "aka": ["Wildunfall-Hotspot-Plattform", "Tierunfall-Kataster", "Roadkill-Analytics"],
+  "based_on": "roadkill-melde-app",
+  "category": "Software & Plattform",
+  "tags": ["software", "plattform", "wildunfall", "roadkill", "verkehr", "statistik", "ki", "strassenbau", "oeffentliche-hand"],
+  "pitch": "Eine Melde- und Datenplattform fuer Wildunfaelle und Roadkill, auf der Buerger, Polizei und Jaeger Funde erfassen; Statistik und KI finden Unfall-Hotspots und liefern Strassenbauverwaltungen eine datenbasierte Priorisierung fuer Gruenbruecken, Amphibientunnel und Tempolimits.",
+  "ertragspotenzial": 3,
+  "aufwand": 3,
+  "marktreife": "B",
+  "mvp_zeit": "3-4 Monate (Melde-PWA + Karte + einfache Hotspot-Statistik + Behoerden-Export)",
+  "problem": "Jaehrlich gibt es in Deutschland hunderttausende Wildunfaelle - mit Personenschaeden, hohen Sachkosten und massivem Verlust an Tieren, auch geschuetzten Arten. Die amtliche Statistik erfasst im Kern nur jagdbares Grosswild; Amphibien, Igel, Kleinsaeuger und viele Arten fehlen voellig. Gleichzeitig muss die oeffentliche Hand knappe Mittel fuer Querungshilfen priorisieren: Eine Gruenbruecke kostet grob 3 Mio. EUR und mehr (Beispiele 3,4 bis ueber 20 Mio. EUR), Amphibienanlagen entsprechend. Treiber: Bundesprogramm Wiedervernetzung, Verkehrssicherheit (Vision Zero), FFH-/Artenschutz, kommunale Amphibienschutz-Pflichten. Es fehlt eine belastbare, flaechendeckende Datengrundlage, um zu entscheiden, WO eine Querungshilfe oder ein Tempolimit den groessten Nutzen bringt.",
+  "solution": "Eine Plattform aus Melde-App/PWA und Auswerte-Backend. Melder (Buerger, Jaeger, Polizei, Strassenmeistereien) erfassen Fundort, Art und Zeit mit wenigen Klicks; Foto-Arterkennung und Plausibilitaetspruefung unterstuetzen. Das Backend verdichtet Meldungen zu Hotspots (raeumlich-zeitliche Statistik, Kernel-Dichte, saisonale Muster bei Amphibienwanderung) und verknuepft sie mit Strassen-, Habitat- und Verkehrsdaten, um Risiko-Abschnitte zu priorisieren. Ergebnis sind Karten und Reports, die Strassenbauverwaltungen direkt in die Massnahmenplanung uebernehmen koennen. Code offen und GBIF-/Standard-anschlussfaehig; verdient wird an Plattform-Betrieb, Hotspot-Analysen und Beratung. Datenaustausch mit bestehenden Katastern (z.B. Tierfund-Kataster) statt Konkurrenz.",
+  "oeffentliche_hand": [
+    "Autobahn GmbH des Bundes und Landesbetriebe Strassenbau (Strassen.NRW, Landesbetrieb Mobilitaet u.a.) - fuer Hotspot-Analysen und Priorisierung von Querungshilfen (Rahmenvertrag/Dienstleistung).",
+    "Untere Strassenverkehrs- und Naturschutzbehoerden der Landkreise - fuer kommunale Strassen, Amphibienschutzanlagen und Tempolimits (Direktauftrag seit 2026 oft bis 50.000 EUR netto).",
+    "Kommunen fuer innerstaedtische Gefahrenstellen und Amphibien-Querungen.",
+    "Landesjagdverbaende und Jaegerschaften als Datenpartner und Multiplikatoren (Anbindung ans/Abgleich mit dem Tierfund-Kataster des DJV).",
+    "Landesanstalten fuer Umwelt / Strassenwesen (BASt) und Verkehrssicherheits-Programme als Auftraggeber groesserer Studien.",
+    "Einstieg ueber ein gefoerdertes Pilotprojekt mit EINEM Landesbetrieb oder Landkreis; Hotspot-Report als Referenz fuer Ausschreibungen."
+  ],
+  "open_source_hebel": "Offener Code und offene Daten-Standards machen die Risikobewertung nachpruefbar und gerichtsfest - wichtig, wenn damit Investitionen in Millionenhoehe (Gruenbruecke) begruendet werden. Public Money Public Code und digitale Souveraenitaet senken die Vergabehuerde; keine Dateninsel, Anschluss an Tierfund-Kataster/GBIF schafft Vertrauen bei Jagd- und Naturschutzpartnern. Geld kommt nicht aus der Software-Lizenz, sondern aus dem gehosteten Plattform-Betrieb, den fachlich aufbereiteten Hotspot-Analysen und der Massnahmen-Beratung.",
+  "druck_hebel": "Hier softwarelastig. Optionaler 3D-Druck-Hebel: gedruckte, reflektierende Melde-/Warnstelen und QR-Schilder an bekannten Hotspots (saisonale Amphibien-Warnung), die auf die App verweisen; wetterfeste Halterungen (PETG/ASA) lokal gedruckt, Produktion in einer Inklusionswerkstatt moeglich. Perspektivisch Schnittstelle zu gedruckten Sensor-/Zaehl-Gehaeusen an Querungshilfen (Wirkungskontrolle).",
+  "einnahmequellen": [
+    "Plattform-/Betriebs-Lizenz je Auftraggeber (Hosting, Updates, Support, Mandant).",
+    "Hotspot-Analyse-Reports (einmalig je Netz/Gebiet, wiederkehrend als Monitoring).",
+    "Beratung: Massnahmen-Priorisierung, Wirkungskontrolle nach Bau einer Querungshilfe.",
+    "Datenintegration/Schnittstellen (Verkehrsdaten, Kataster, GIS der Verwaltung).",
+    "Foerderprojekte als Entwicklungs- und Pilotfinanzierung.",
+    "Optional gedruckte Warn-/Melde-Stelen."
+  ],
+  "preismodell": [
+    {"label": "Plattform-/Betriebs-Lizenz je Mandant", "value": "ca. 5.000-20.000 EUR pro Jahr (Hosting, Support, Updates)"},
+    {"label": "Hotspot-Analyse-Report", "value": "ca. 3.000-15.000 EUR je Netz/Gebiet"},
+    {"label": "Beratung/Priorisierung (Tagessatz)", "value": "ca. 800-1.200 EUR pro Tag"},
+    {"label": "Wirkungskontrolle nach Massnahme", "value": "ca. 2.000-8.000 EUR pro Standort/Saison"},
+    {"label": "Bezug zur Massnahme (Einordnung)", "value": "Gruenbruecke ab ca. 3 Mio. EUR - Analyse ist Bruchteil der Fehlinvestition"}
+  ],
+  "kosten_breakeven": "Fixkosten sind Entwicklung und Hosting/GIS-Infrastruktur; variable Kosten je Report gering (Analyse-Zeit). Break-even als kleines Team realistisch bei wenigen Betriebs-Lizenzen plus einigen Analyse-/Beratungsauftraegen (ca. 40-80 TEUR Umsatz). Hebel: Eine einzelne vermiedene Fehlplanung oder gut platzierte Querungshilfe rechtfertigt die Analyse-Kosten um Groessenordnungen. Herausforderung ist nicht die Technik, sondern genug qualitativ hochwertige Meldungen (Datendichte) und der Zugang zu Strassenbauverwaltungen.",
+  "foerderung": [
+    "Bundesprogramm Wiedervernetzung (BMUV/BfN) - Querungshilfen und begleitendes Monitoring.",
+    "Bundesprogramm Biologische Vielfalt (BfN) - innovative Datengrundlagen fuer Artenschutz.",
+    "DBU - Umwelttechnik/Digitalisierung, Verkehr und Natur.",
+    "Prototype Fund fuer den offenen Plattform-Kern.",
+    "EU LIFE - Natur/Biodiversitaet und Wiedervernetzung.",
+    "Forschungsmittel BASt / Verkehrssicherheitsprogramme (Vision Zero), Laender-Strassenbau.",
+    "Deutsche Postcode Lotterie - Projekte fuer Wildtier-/Artenschutz."
+  ],
+  "geschaeftsmodell": "B2G-Datenplattform mit Open-Core: Der offene Melde-/Analyse-Kern (nachpruefbar, souveraen, kataster-anschlussfaehig, auf openCode auffindbar) senkt die Vergabehuerde; verdient wird am gehosteten Betrieb je Mandant, an fachlich aufbereiteten Hotspot-Analysen und an Massnahmen-/Wirkungskontroll-Beratung. Wiederkehrender Umsatz aus Betriebs-Lizenz und Monitoring; Projektgeschaeft aus Analysen. Die Daten liefern Buerger/Jaeger/Polizei weitgehend kostenlos - Wertschoepfung liegt in Verdichtung, Validierung und Entscheidungsvorlage.",
+  "vorbilder": [
+    "Projekt Roadkill (BOKU Wien) - Citizen-Science-Hotspot-Analyse von Wildunfaellen, mehrfach ausgezeichnet",
+    "Tierfund-Kataster des Deutschen Jagdverbands (DJV) mit Uni Kiel - bundesweite Erfassung, GBIF-Anbindung, als Partner nicht Konkurrent",
+    "SPOTTERON (betreibt u.a. die Roadkill-App) als Plattform-Betriebsmodell-Beleg",
+    "diverse Roadkill-Melde-Apps international (z.B. in UK/USA) als Markt-Beleg",
+    "GBIF Deutschland als Ziel-Dateninfrastruktur"
+  ],
+  "schritte": [
+    "Melde-MVP bauen (PWA + Karte), Datenmodell GBIF-/Tierfund-Kataster-kompatibel, Doppelerfassung vermeiden.",
+    "Daten-/Kooperationspartner sichern: Landesjagdverband oder DJV (Tierfund-Kataster), ggf. Polizei-Meldewege.",
+    "Einen Landesbetrieb Strassenbau oder Landkreis als Pilot gewinnen, moeglichst gefoerdert (Bundesprogramm Wiedervernetzung).",
+    "Hotspot-Analyse-Methodik entwickeln und mit vorhandenen Daten validieren (raeumlich-zeitliche Statistik, Saisonalitaet Amphibien).",
+    "Offenes Repo + Doku veroeffentlichen, auf openCode einstellen (Nachnutzung, Prototype-Fund-faehig).",
+    "Pilot-Report zu einer konkreten Massnahmen-Empfehlung zuspitzen und als Referenz an weitere Strassenbauverwaltungen tragen."
+  ],
+  "risiken": "Datendichte/Melde-Bias: Meldungen haeufen sich dort, wo viele Menschen unterwegs sind - ohne Bias-Korrektur entstehen Schein-Hotspots; Methodik muss Verkehrsstaerke/Erfassungsaufwand beruecksichtigen, sonst Fehlpriorisierung millionenschwerer Massnahmen. KI-Arterkennung hat Fehlerraten - fuer gerichtsfeste/haushaltsrelevante Entscheidungen Experten-Validierung noetig, keine Auto-Entscheidung. Datenschutz: Unfall-/Standort- und ggf. Personendaten DSGVO-konform; Polizei-Daten unterliegen Sonderregeln. Konkurrenz/Doppelstruktur zum etablierten Tierfund-Kataster - unbedingt Kooperation/Datenaustausch statt Parallel-Kataster. Behoerden-Beschaffungszyklen lang und Budgets im Strassenbau langfristig gebunden; Abhaengigkeit von Foerdermitteln vermeiden.",
+  "synergy": ["gruenbruecke-wildquerung", "amphibientunnel-leiteinrichtung", "buergernatur-plattform", "naturbuero-ki"],
+  "sources": [
+    {"title": "Tierfund-Kataster des DJV - App gegen Wildunfaelle", "url": "https://www.jagdverband.de/tierfund-kataster-app-gegen-wildunfaelle"},
+    {"title": "Tierfund-Kataster bei GBIF Deutschland", "url": "https://land.gbif.de/datenschaetze/tierfundkataster/"},
+    {"title": "Projekt Roadkill (BOKU Wien)", "url": "https://roadkill.at/ueber-projekt-roadkill"},
+    {"title": "Projekt Roadkill / SPOTTERON", "url": "https://www.spotteron.net/de/citizen-science-apps/regionale-community-science-projekte/projekt-roadkill"},
+    {"title": "Bundesprogramm Wiedervernetzung (BMUV) - Gruenbruecken/Kosten", "url": "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Naturschutz/bundesprogramm_wiedervernetzung_beispiel_kiebitzholm_bf.pdf"},
+    {"title": "Gruenbruecke A8 Merklingen - 3,4 Mio. EUR (Beispiel Kosten)", "url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/freigabe-der-gruenbruecke-an-der-a-8-bei-merklingen-1"},
+    {"title": "Vergaberecht 2026 - neue Wertgrenzen", "url": "https://subreport.de/blog/vergaberecht-2026-neue-spielraeume-neue-unsicherheiten/"}
+  ]
+}

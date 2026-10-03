@@ -1,0 +1,74 @@
+{
+  "id": "insektenscanner-monitoring",
+  "name": "InsektenScanner - automatische Insekten-Monitoringstationen",
+  "aka": ["Insekten-Monitoringstation", "Diopsis-artige Kamera-KI-Station"],
+  "based_on": "insektenmonitoring-kamera-ki",
+  "category": "Monitoring-SaaS & Service",
+  "tags": ["monitoring", "ki", "hardware", "saas", "insekten", "bestaeuber", "eu-poms", "oeffentliche-hand"],
+  "pitch": "Solarbetriebene, non-letale Insekten-Monitoringstation (Kamera plus KI, offenes Diopsis-/Insect-Detect-Prinzip) im 3D-gedruckten Gehaeuse, die Behoerden und Schutzgebieten das kommende EU-weite Insekten-/Bestaeuber-Monitoring automatisiert und standardisiert liefert.",
+  "ertragspotenzial": 4,
+  "aufwand": 3,
+  "marktreife": "B",
+  "mvp_zeit": "3-5 Monate (Kamera plus UV-Lockflaeche plus Insect-Detect-KI plus Dashboard)",
+  "problem": "Der Insektenschwund ist politisch anerkannt und loest Monitoring-Pflichten aus. Mit dem EU-Renaturierungsgesetz und dem im Aufbau befindlichen EU Pollinator Monitoring Scheme (EU PoMS, vorbereitet durch die EU-Projekte SPRING/STING) muessen die Mitgliedstaaten kuenftig flaechendeckend Bestaeuber (Wildbienen, Schmetterlinge, Schwebfliegen, Nachtfalter) erfassen und Trends berichten. Klassisches Insektenmonitoring (Malaise-Fallen, Handfang, mikroskopische Bestimmung) ist extrem arbeitsintensiv, toetet die Tiere und scheitert am Taxonomen-Mangel. Es fehlt eine guenstige, non-letale, standardisierte und automatisierbare Methode mit grossem Datendurchsatz.",
+  "solution": "Eine autonome Station nach offenem Vorbild (Diopsis-Kamera / UKCEH AMI-System / Insect Detect): eine UV-beleuchtete Lockflaeche, auf der eine Kamera anfliegende Insekten tags und nachts fotografiert; eine KI (offene Modelle, z.B. Insect Detect auf Basis von YOLO) erkennt, zaehlt und klassifiziert die Tiere nach Gruppen. Die Tiere werden nicht getoetet. Daten laufen in ein Dashboard mit Abundanz-Zeitreihen, Diversitaets-Indizes und Report. Hardware-Design (inkl. 3D-gedrucktem Gehaeuse) und KI-Pipeline sind Open Source; verkauft werden fertige Stationen, der Betrieb und die Auswertung. Insect Detect ist bereits als offene DIY-Loesung publiziert und dient als technische Basis.",
+  "oeffentliche_hand": [
+    "Landesumweltaemter/Landesanstalten, die das EU PoMS national umsetzen muessen - Rahmenvertrag ueber Stationsnetze.",
+    "Untere Naturschutzbehoerden (Landkreise) fuer lokale Bestaeuber-/Bluehflaechen-Erfolgskontrolle - Direktauftrag unter Vergabeschwelle.",
+    "Nationalpark-, Biosphaeren- und Naturpark-Verwaltungen fuer Langzeit-Insektenmonitoring.",
+    "Kommunen fuer Erfolgskontrolle eigener Bluehflaechen/Gruenanlagen (Smart-City-Umweltmonitoring).",
+    "Universitaeten, Senckenberg/Thuenen und Monitoring-Konsortien als Technik-/Datenpartner und Referenzgeber.",
+    "Einstieg ueber ein gefoerdertes Reallabor mit einem Land oder Nationalpark, Ergebnis als Referenz fuer die EU-PoMS-Ausschreibungen."
+  ],
+  "open_source_hebel": "Offene Hardware und offene KI sichern genau das, was staatliches Monitoring braucht: Standardisierung, Vergleichbarkeit und Nachvollziehbarkeit ueber Jahrzehnte (kein Lock-in an einen Hersteller, dessen Blackbox-Modell die Zeitreihe entwertet). 'Public Money - Public Code' und digitale Souveraenitaet sind politisch gewollt; offene Methodik macht die Daten wissenschaftlich und berichtssicher. Verdient wird an Hardware, Betrieb, Kalibrierung und gepruefter Auswertung, nicht an einer Lizenz (Open-Core / Hardware+Service).",
+  "druck_hebel": "3D-gedruckt werden das wetterfeste Stations-Gehaeuse, Kamera-/UV-Lampen-Halter, die Lockflaechen-Rahmen, Regen-/Sonnenblenden und Mast-Adapter (ASA/PETG, UV-fest). Stueckkosten wenige Euro statt teurer Spezial-Gehaeuse; on-demand, lokal und reparierbar/nachruestbar, was ueber viele Standorte einen echten Kostenhebel ergibt. Serienfertigung der Gehaeuse laesst sich an eine Inklusions-/Behindertenwerkstatt vergeben (sozialer Vergabe-Bonus).",
+  "einnahmequellen": [
+    "Hardware-Verkauf fertiger, kalibrierter Monitoringstationen.",
+    "SaaS/Auswertung: Jahresgebuehr pro Station fuer Cloud-KI, Dashboard und Report.",
+    "Betrieb/Wartung: Aufbau, saisonale Wartung, Reinigung der Lockflaeche, Kalibrierung.",
+    "Fach-Validierung und taxonomische Einordnung von Zweifelsfaellen.",
+    "Foerder-/Forschungsprojekte als Entwicklungs- und Pilotfinanzierung.",
+    "Schulung/Support fuer Behoerden/Institute, die selbst betreiben wollen."
+  ],
+  "preismodell": [
+    {"label": "Station (Hardware, Verkauf)", "value": "ca. 1.200-2.500 EUR/Stueck (Material/Kamera/Solar ~400-700 EUR)"},
+    {"label": "SaaS-Auswertung", "value": "ca. 600-1.200 EUR pro Station und Jahr"},
+    {"label": "Betrieb/Wartung pro Station", "value": "ca. 300-600 EUR/Saison"},
+    {"label": "Pilot-Netz Behoerde", "value": "ca. 20.000-40.000 EUR (10-20 Stationen plus Auswertung, 1 Saison)"},
+    {"label": "Vergleich klassisches Insektenmonitoring", "value": "oft 500-1.500 EUR je Malaise-Standort plus hohe Bestimmungskosten"}
+  ],
+  "kosten_breakeven": "Hoehere Stueckkosten als eine Audio-Box (Kamera, UV, Solar, Rechenmodul), dafuer hoeherer Preis. Fixkosten moderat (Cloud-Inferenz, Dev-Zeit); variable Kosten pro Station ueberschaubar. Break-even realistisch bei ca. 30-50 aktiven Stationen im SaaS plus Wartung (ca. 40-80 TEUR wiederkehrend). Der grosse Hebel ist das anlaufende EU PoMS: ein einziger Landes-Rahmenvertrag kann die Skalierung tragen. Groesstes Risiko ist das Timing der EU-Umsetzung.",
+  "foerderung": [
+    "Bundesprogramm Biologische Vielfalt (BfN) - Insekten-/Bestaeuber-Monitoring ist thematischer Schwerpunkt.",
+    "EU LIFE sowie EU-Mittel im Umfeld von SPRING/STING und dem EU Pollinator Monitoring Scheme.",
+    "DBU (Deutsche Bundesstiftung Umwelt) - Umwelttechnik/Digitalisierung.",
+    "Prototype Fund fuer die offene KI-/Hardware-Pipeline; Deutsche Postcode Lotterie fuer Biodiversitaets-Projekte.",
+    "EXIST-Gruenderstipendium; Landesprogramme Insektenschutz (z.B. Insektenschutz-Aktionsprogramme der Laender)."
+  ],
+  "geschaeftsmodell": "Open-Core plus Hardware & Service mit stark regulatorischem Rueckenwind: offene, standardisierte Station (Vertrauen, Vergleichbarkeit, Vergabefaehigkeit), Geld aus Hardware-Verkauf, jaehrlicher SaaS-/Wartungsgebuehr pro Station und gepruefter Auswertung. Die Monetarisierung folgt dem Ausbau des EU PoMS - wer frueh standardkonforme, offene Technik liefert, wird zum Infrastruktur-Lieferanten eines wachsenden Pflicht-Marktes.",
+  "vorbilder": [
+    "DIOPSIS (kommerzielle smarte Insektenkamera, Niederlande) als naechster kommerzieller Vergleich",
+    "UKCEH AMI-System (automated monitoring of insects) als Referenzsystem",
+    "Insect Detect (offene DIY-Kamera-KI, publiziert) als offene technische Basis",
+    "Faunaphotonics, Wilder Sensing (KI-Insekten-/Biodiversitaets-Monitoring als Firma)",
+    "Open Acoustic Devices / AudioMoth (offene Monitoring-Hardware als Geschaeftsbeleg)"
+  ],
+  "schritte": [
+    "MVP bauen: Kamera plus UV-Lockflaeche plus Insect-Detect-KI im gedruckten Gehaeuse, Dashboard mit Abundanz-Zeitreihe.",
+    "Methodik an die im EU PoMS/SPRING vorgeschlagenen Standards anlehnen (Vergleichbarkeit als Verkaufsargument).",
+    "EINEN Landes-Partner oder Nationalpark als gefoerdertes Reallabor gewinnen (Referenz vor Umsatz).",
+    "Non-letalen Ansatz und Datenschutz (keine Personen) sauber dokumentieren; Report mit einer Fachbehoerde abstimmen.",
+    "Open-Source-Repo plus Doku veroeffentlichen; 3D-Gehaeuse in Kleinserie testen und Stueckkosten belegen.",
+    "Fallstudie erstellen und sich fuer die anstehenden EU-PoMS-Ausschreibungen/Rahmenvertraege positionieren."
+  ],
+  "risiken": "Timing-Risiko: das EU PoMS ist noch im Aufbau - wenn verbindliche Umsetzung und Budgets sich verzoegern, bleibt der Pflicht-Markt klein (daher Marktreife B/C). Automatische Artbestimmung ist bei vielen Insekten noch grob (eher Gruppen als Art) - ehrlich kommunizieren, Fach-Validierung einplanen. Hoehere Hardware-Komplexitaet als Audio-Boxen (Reinigung der Lockflaeche, Vandalismus, Energiebedarf nachts). Abhaengigkeit von Foerder-/EU-Geldern vermeiden, frueh echten Auftragsumsatz suchen.",
+  "synergy": ["lauschposten-bioakustik", "kamerafallen-auswertedienst", "flaechenmonitor-fernerkundung", "naturdruck-baukasten-fablab"],
+  "sources": [
+    {"title": "SPRING - EU Pollinator Monitoring (UFZ)", "url": "https://www.ufz.de/spring-pollination/"},
+    {"title": "Refined proposal for an EU Pollinator Monitoring Scheme (STING-2)", "url": "https://eugreenalliance.eu/wp-content/uploads/2025/03/STING-2-report-Refined-proposal-for-an-EU-pollinator-monitoring.pdf"},
+    {"title": "Insect Detect - open-source DIY camera trap (Preprint)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10990185/"},
+    {"title": "DIOPSIS - automated insect monitoring", "url": "https://diopsis.eu/"},
+    {"title": "Bundesprogramm Biologische Vielfalt (BfN)", "url": "https://www.bfn.de/bundesprogramm-biologische-vielfalt"},
+    {"title": "Prototype Fund", "url": "https://prototypefund.de/"}
+  ]
+}

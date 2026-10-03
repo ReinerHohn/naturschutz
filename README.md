@@ -44,6 +44,25 @@ Der **Low-Hanging-Fruit-Score** = (Wirkung − 0,6·Aufwand) × Evidenzgewicht (
 Vernetzung & Korridore · Insekten & Bestäuber · Garten & Siedlung · Landwirtschaft & Fläche ·
 Gewässer & Feuchtgebiete · Wald & Totholz · Gefahren & Fallen · KI, Software & 3D-Druck · Politik & System-Hebel
 
+## 💰 Gründerprojekte (projekte.html)
+
+Zweiter Katalog im selben Repo: **wie man aus den Tech-Hebeln ein Geschäft macht, das die öffentliche Hand bedient und sich trägt.**
+Für jede Tech-Option ein Projekt mit Markt, Zugang zur öffentlichen Hand (Direktauftrag/Vergabe/Pilot), Open-Source-Geschäftsmodell,
+3D-Druck-Hebel, konkreten Preisen, Förderprogrammen, Break-even und den ersten 90 Tagen.
+
+```bash
+python3 build_projekte.py    # baut projekte.html + PROJEKTE.md
+```
+
+- Quelle: `projekte/*.json`, Schema: `schema_projekte.json`
+- Sortiert nach **Ertrag ÷ Aufwand** (Score = (Ertrag − 0,6·Aufwand) × Marktgewicht A=1,0/B=0,7/C=0,4)
+- Kern-Idee: **Open Source ist beim Staat ein Verkaufsargument** (Public Money Public Code, kein Lock-in, digitale Souveränität).
+  Geld kommt aus Hardware, Betrieb/Service, SaaS-Auswertung und Förderung — nicht aus Software-Lizenzen. 3D-Druck senkt Stückkosten
+  und ermöglicht lokale / Inklusionswerkstatt-Produktion (Vergabe-Vorteil).
+- 11 Projekte, 4 Segmente: Monitoring-SaaS & Service · Open Hardware & 3D-Druck · Software & Plattform · Beratung & Planung.
+
+_Keine Rechts-/Steuer-/Anlageberatung — Ertrag/Aufwand sind Einschätzungen, keine Prognosen._
+
 ## Prinzip
 
 **Anti-Hype, Wirkung pro Aufwand.** Sichtbarkeit ≠ Wirkung: der Katalog benennt auch beliebte Maßnahmen,

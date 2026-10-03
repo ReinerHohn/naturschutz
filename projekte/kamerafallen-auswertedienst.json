@@ -1,0 +1,74 @@
+{
+  "id": "kamerafallen-auswertedienst",
+  "name": "WildAuge - KI-Auswertedienst fuer Kamerafallen",
+  "aka": ["Kamerafallen-Auswertung as a Service", "Fotofallen-KI-Dienst"],
+  "based_on": "kamerafallen-ki",
+  "category": "Monitoring-SaaS & Service",
+  "tags": ["monitoring", "ki", "saas", "kamerafalle", "behoerde", "forst", "jagd", "oeffentliche-hand"],
+  "pitch": "Cloud- und KI-Dienst (MegaDetector plus Artbestimmung), der Naturschutzbehoerden, Forst, Jagd und Gutachtern das manuelle Sichten zehntausender Kamerafallen-Fotos abnimmt und pruefbare Artenlisten liefert - inklusive 3D-gedruckter, robuster Kamera-Halterungen.",
+  "ertragspotenzial": 4,
+  "aufwand": 2,
+  "marktreife": "A",
+  "mvp_zeit": "6-10 Wochen (MegaDetector-Pipeline plus Upload-Portal plus PDF-Report)",
+  "problem": "Kamerafallen (Fotofallen) sind in Monitoring, Wildmanagement und Gutachten Standard, erzeugen aber riesige Bildmengen: eine Kamera liefert in einer Saison leicht 10.000-50.000 Bilder, davon oft 60-80 Prozent Leer- oder Fehlausloesungen (Wind, Gras). Das Sichten bindet tagelang Fachpersonal, das es wegen Kartierer-Mangel kaum gibt. Regulatorischer Treiber: Wolfs- und Luchs-Monitoring nach FFH-Richtlinie, Nachweis invasiver Arten (Waschbaer, Marderhund, Nutria), Erfolgskontrolle von Ausgleichsmassnahmen nach BNatSchG und Wildbestandserfassung fuer Abschussplanung. Vorhandene offene KI (MegaDetector) ist stark, aber Behoerden und kleine Bueros haben weder Server noch das Know-how, sie produktiv und pruefsicher zu betreiben.",
+  "solution": "Ein schlanker Dienst: Kunde laedt Bilder (SD-Karte, Upload oder Postversand) hoch; die Pipeline aus dem offenen MegaDetector V6 (Tier/Mensch/Fahrzeug-Trennung, filtert Leerbilder weg) plus nachgeschalteter Artbestimmung sortiert, zaehlt und erstellt einen behoerdentauglichen Report (Artenliste, Aktivitaetsmuster, Fundkarte, Beleg-Thumbnails). Mensch-Treffer werden zum Datenschutz automatisch unkenntlich gemacht. Die gesamte Auswerte-Pipeline ist Open Source (MegaDetector ist MIT-lizenziert); zusaetzlich gibt es 3D-gedruckte, vandalismusarme Kamera-Gehaeuse, Baum- und Pfahl-Halterungen sowie Sicht-Blenden gegen Fehlausloesung. Verkauft wird die gepruefte Auswertung je Bildpaket plus optional Hardware.",
+  "oeffentliche_hand": [
+    "Untere Naturschutz- und Jagdbehoerden (Landkreise) - Direktauftrag unterhalb der Vergabeschwelle (vielerorts bis ca. 15.000 EUR formfrei oder Verhandlungsvergabe ohne Teilnahmewettbewerb).",
+    "Landesforstbetriebe und Landesanstalten fuer Wald/Jagd - Rahmenvertrag ueber mehrere Reviere/Saisons.",
+    "Nationalpark-, Biosphaeren- und Naturpark-Verwaltungen fuer laufendes Wildtier-Monitoring (Wolf/Luchs/Wildkatze).",
+    "Landesumweltaemter beim Monitoring invasiver Arten (EU-Verordnung 1143/2014 Frueherkennung).",
+    "Als Nachauftragnehmer von Planungs-/Gutachterbueros, die Bildmassen zukaufen statt selbst auswerten.",
+    "Einstieg ueber ein gefoerdertes Pilot mit EINER Behoerde oder einem Nationalpark, Ergebnis als Referenz fuer Ausschreibungen."
+  ],
+  "open_source_hebel": "MegaDetector ist offen und MIT-lizenziert und laeuft bereits in ueber 80 Naturschutzprogrammen weltweit - das macht die Methode nachvollziehbar, pruefbar und damit gerichts- und behoerdenfest. 'Public Money - Public Code' und digitale Souveraenitaet sprechen fuer offene Verfahren; kein Vendor-Lock-in erleichtert die Vergabe und baut Vertrauen auf. Verdient wird nicht an der Software, sondern am Betrieb der Pipeline, an der gepruefen Auswertung mit Fach-Qualitaetssicherung und am Report (Hardware plus Service).",
+  "druck_hebel": "3D-gedruckt werden wetterfeste Kamera-Gehaeuse (ASA/PETG, UV-fest), diebstahlhemmende Baum- und Pfahl-Halterungen, Neigungs-Adapter und Sicht-Blenden gegen Fehlausloesungen durch Vegetation. Stueckkosten wenige Euro Material statt teurer Metall-Security-Boxen (30-80 EUR im Handel). On-demand und lokal reparierbar; die Fertigung laesst sich an eine Inklusions-/Behindertenwerkstatt vergeben (sozialer Vergabe-Bonus, planbare Kosten).",
+  "einnahmequellen": [
+    "Auswertung je Bildpaket (Stueckpreis pro 1.000 Bilder oder pro Kamera-Saison).",
+    "SaaS-Abo fuer Behoerden mit vielen Kameras (feste Jahresgebuehr, Portal-Zugang, unbegrenzte Uploads).",
+    "Hardware-Verkauf: 3D-gedruckte Gehaeuse und Halterungen plus optional vorkonfigurierte Kameras.",
+    "Fach-Qualitaetssicherung und gutachterliche Einordnung (manuelle Validierung der KI-Treffer).",
+    "Schulung/Support fuer Behoerden/Bueros, die die offene Pipeline selbst betreiben wollen.",
+    "Foerderprojekte als Entwicklungs-/Pilotfinanzierung."
+  ],
+  "preismodell": [
+    {"label": "Auswertung pro 1.000 Bilder", "value": "ca. 15-40 EUR (KI-Sortierung plus Report-Anteil)"},
+    {"label": "Kamera-Saison pauschal", "value": "ca. 120-250 EUR pro Kamera und Saison inkl. Report"},
+    {"label": "SaaS-Abo Behoerde", "value": "ca. 2.000-6.000 EUR/Jahr fuer bis zu 20-50 Kameras"},
+    {"label": "3D-Gehaeuse plus Halterung", "value": "ca. 25-45 EUR/Set (Material ~5-10 EUR)"},
+    {"label": "Fach-Validierung/Gutachten-Zuschlag", "value": "ca. 60-90 EUR/Stunde"}
+  ],
+  "kosten_breakeven": "Sehr niedrige Fixkosten (Cloud-GPU nur bei Last zuschaltbar, Open-Source-Modell kostenlos, Portal schlank). Hauptaufwand ist Vertrieb und Fach-QS-Zeit. Als Soloselbststaendige/r ist Break-even realistisch bei ca. 10-20 Behoerden-/Buero-Kunden im Jahresabo oder dem Aequivalent von rund 1,5-3 Mio. ausgewerteten Bildern pro Jahr. Der erste Pilotauftrag deckt die MVP-Entwicklung. Groesstes Risiko ist die Vertriebszeit, nicht die Herstellkosten.",
+  "foerderung": [
+    "Prototype Fund (BMBF/Open Knowledge Foundation) fuer die offene Auswerte-Pipeline.",
+    "DBU (Deutsche Bundesstiftung Umwelt) - Umwelttechnik/Digitalisierung.",
+    "Bundesprogramm Biologische Vielfalt (BfN) - innovative Monitoring- und Arterfassungs-Ansaetze.",
+    "EXIST-Gruenderstipendium fuer die Gruendungsphase.",
+    "Kommunale/Landes-Mittel Smart Region sowie Mittel fuer Wolfs-/Invasive-Arten-Monitoring der Laender."
+  ],
+  "geschaeftsmodell": "B2G-Dienstleistung plus Open-Core/Hardware+Service: Die KI-Pipeline ist offen (Vertrauen, Vergabefaehigkeit, Gerichtsfestigkeit), bezahlt wird fuer die betriebene, gepruefte Auswertung je Bildmenge sowie wiederkehrend ueber Jahres-Abos. Zusatzumsatz aus 3D-Hardware und Fach-Validierung. Skaliert gut, weil die marginalen Kosten pro Bild nach KI-Automatisierung sehr klein sind.",
+  "vorbilder": [
+    "Wildlife Insights (Google/WWF/Conservation International - KI-Kamerafallen-Plattform als Dienst, Behoerden/Firmen zahlen)",
+    "Trapper (offene Kamerafallen-Datenplattform)",
+    "TrapTagger / Wildeye Conservation (KI-gestuetzte Kamerafallen-Auswertung)",
+    "Conservation AI (KI-Artbestimmung aus Kamerafallen als Service)",
+    "MegaDetector / Microsoft AI for Good (offene Kamerafallen-KI als Marktbeleg und Grundtechnik)"
+  ],
+  "schritte": [
+    "MVP bauen: MegaDetector-V6-Pipeline plus Upload-Portal plus automatischer PDF-Report mit Artenliste und Fundkarte.",
+    "Mensch-Anonymisierung und Datenschutz-Workflow fest einbauen (DSGVO-sicher).",
+    "EINE Behoerde/Nationalpark/Forstamt als Pilot gewinnen (Referenz vor Umsatz), moeglichst gefoerdert.",
+    "Report-Vorlage mit einer unteren Naturschutzbehoerde abstimmen (behoerdentauglich, pruefbar).",
+    "Open-Source-Repo plus Doku veroeffentlichen (Vertrauen, Prototype-Fund-faehig) und 3D-Gehaeuse-Set drucken/testen.",
+    "Aus dem Pilot eine Fallstudie machen und an weitere Landkreise/Forstbetriebe als Direktauftrag ausrollen."
+  ],
+  "risiken": "KI-Artbestimmung hat Fehlerraten (Verwechslungen bei aehnlichen Arten, schlechte Nachtbilder) - Haftung/Gerichtsfestigkeit ueber Stichproben-Validierung durch Fachperson absichern. Behoerden-Vertriebszyklen sind lang und budgetgebunden. Grosse Anbieter (Wildlife Insights) bieten teils Gratis-Stufen fuer Nicht-Kommerzielle - Abgrenzung ueber Behoerden-Tauglichkeit, Datenschutz, lokale Naehe und gepruefte Reports. Datenschutz bei Menschenfotos muss technisch wasserdicht sein.",
+  "synergy": ["lauschposten-bioakustik", "insektenscanner-monitoring", "naturdruck-baukasten-fablab", "invasive-arten-frueherkennung"],
+  "sources": [
+    {"title": "MegaDetector (Microsoft AI for Good)", "url": "https://microsoft.github.io/MegaDetector/"},
+    {"title": "Wildlife Insights", "url": "https://www.wildlifeinsights.org/"},
+    {"title": "TrapTagger (Wildeye Conservation)", "url": "https://wildeyeconservation.org/traptagger/"},
+    {"title": "Trapper - open camera trap platform", "url": "https://os-conservation.org/projects/trapper/"},
+    {"title": "Prototype Fund", "url": "https://prototypefund.de/"},
+    {"title": "Bundesprogramm Biologische Vielfalt (BfN)", "url": "https://www.bfn.de/bundesprogramm-biologische-vielfalt"}
+  ]
+}

@@ -79,12 +79,50 @@ def main():
     rc = os.system(f"cd {HERE} && python3 build.py --check >/dev/null 2>&1")
     check(rc == 0, "build.py --check meldet Validierungsfehler")
 
+    # Projekt-Katalog (projekte/*.json) mitpruefen
+    PROJ_DIR = os.path.join(HERE, "projekte")
+    PROJ_REQUIRED = ["id", "name", "pitch", "solution", "geschaeftsmodell"]
+    PROJ_CATS = {
+        "Monitoring-SaaS & Service",
+        "Open Hardware & 3D-Druck",
+        "Software & Plattform",
+        "Beratung & Planung",
+    }
+    pids = set()
+    ppaths = sorted(glob.glob(os.path.join(PROJ_DIR, "*.json")))
+    for path in ppaths:
+        base = os.path.basename(path)
+        try:
+            with open(path, encoding="utf-8") as f:
+                d = json.load(f)
+        except json.JSONDecodeError as e:
+            fails.append(f"projekte/{base}: ungueltiges JSON ({e})")
+            continue
+        for field in PROJ_REQUIRED:
+            check(bool(d.get(field)), f"projekte/{base}: Pflichtfeld '{field}' fehlt/leer")
+        check(d.get("id") == base[:-5], f"projekte/{base}: id '{d.get('id')}' != Dateiname")
+        check(d.get("id") not in pids, f"projekte/{base}: doppelte id '{d.get('id')}'")
+        pids.add(d.get("id"))
+        if d.get("category"):
+            check(d["category"] in PROJ_CATS, f"projekte/{base}: unbekannte Kategorie '{d['category']}'")
+        if d.get("marktreife"):
+            check(d["marktreife"] in LEVELS, f"projekte/{base}: marktreife nicht A/B/C")
+        for k in ("ertragspotenzial", "aufwand"):
+            if d.get(k) is not None:
+                check(isinstance(d[k], int) and 1 <= d[k] <= 5, f"projekte/{base}: {k} nicht 1..5")
+        for s in d.get("sources", []):
+            url = s.get("url", "")
+            check(url.startswith("http"), f"projekte/{base}: Quelle ohne http-URL ({s.get('title','?')})")
+
+    rc2 = os.system(f"cd {HERE} && python3 build_projekte.py --check >/dev/null 2>&1")
+    check(rc2 == 0, "build_projekte.py --check meldet Validierungsfehler")
+
     if fails:
         print(f"FEHLGESCHLAGEN ({len(fails)}):")
         for m in fails:
             print("  -", m)
         sys.exit(1)
-    print(f"OK: {len(ids)} Hebel, alle Checks bestanden.")
+    print(f"OK: {len(ids)} Hebel + {len(pids)} Projekte, alle Checks bestanden.")
 
 
 if __name__ == "__main__":

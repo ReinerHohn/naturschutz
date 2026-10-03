@@ -1,0 +1,77 @@
+{
+  "id": "naturbuero-ki",
+  "name": "NaturBuero-KI - KI-Assistent fuer Naturschutz-Verwaltung und Ehrenamt",
+  "aka": ["Antrags-Assistent Naturschutz", "Verwaltungs-Kopf-Entlaster", "Foerderantrags-KI"],
+  "based_on": "ki-verwaltung-foerderantrag",
+  "category": "Software & Plattform",
+  "tags": ["ki", "software", "saas", "verwaltung", "ehrenamt", "oeffentliche-hand", "foerderantrag", "datenschutz"],
+  "pitch": "Ein KI-Assistent mit Mensch-prueft-alles-Prinzip, der Naturschutzbehoerden und ehrenamtlichen Verbaenden die laestige Schreibarbeit abnimmt - Foerderantraege, Berichte, Kartierungs-Protokolle, Stellungnahmen und Oeffentlichkeitsarbeit - auf EU-Hosting und DSGVO-konform.",
+  "ertragspotenzial": 4,
+  "aufwand": 3,
+  "marktreife": "B",
+  "mvp_zeit": "3-4 Monate (ein Antrags-/Berichts-Workflow fuer EINE Foerderlinie, mit Quellen-Beleg und Export)",
+  "problem": "Naturschutz ist eine Schreib- und Antragslast. Untere Naturschutzbehoerden, Landschaftspflegeverbaende und ehrenamtliche NABU-/BUND-Ortsgruppen verbringen einen grossen Teil ihrer knappen Zeit mit Formularen: Foerderantraege (Bundesprogramm Biologische Vielfalt, LIFE, ELER/Agrarumwelt, kommunale Toepfe), Verwendungsnachweise und Zwischenberichte, Kartierungs-Protokolle, naturschutzfachliche Stellungnahmen zu Bauleitplanung und Eingriffen, Pflege- und Entwicklungsplaene, Pressetexte. Regulatorische Treiber: Berichtspflichten nach BNatSchG und FFH-/Vogelschutzrichtlinie, Nachweispflichten der Foerdermittelgeber, kurze Einreichfristen. Gleichzeitig Fachkraeftemangel und ueberlastetes Ehrenamt. Fertige Buero-KI aus den USA scheidet fuer Behoerden oft wegen Datenschutz und fehlender Fachlichkeit aus.",
+  "solution": "Eine Open-Source-Assistenzsoftware, spezialisiert auf Naturschutz-Verwaltungstexte. Nutzer laden eigene Daten (Kartierungen, Massnahmenlisten, Foerderrichtlinie, Vorjahresberichte) in eine lokale Wissensbasis; die KI erstellt Entwuerfe strikt auf Basis dieser Quellen (Retrieval-Augmented, jede Aussage mit Quellenbeleg aus dem eigenen Dokument), nie frei erfunden. Workflows: Foerderantrag ausfuellen, Bericht aus Rohdaten, Stellungnahme-Geruest, Pressetext, Protokoll aus Stichpunkten. Kernprinzip Mensch-prueft-alles: die KI liefert Entwuerfe und markiert Luecken/Unsicherheiten, der Mensch gibt frei. Betrieb on-premises oder auf EU-Cloud (offene Modelle wie Teuken/Llama/Mistral, oder Anbindung an souveraene Modelle). Die Software ist offen, verdient wird an Hosting, Einrichtung, Vorlagen und Schulung.",
+  "oeffentliche_hand": [
+    "Untere Naturschutzbehoerden der Landkreise und kreisfreien Staedte - Direktauftrag moeglich (seit 2026 Direktauftrag haeufig bis 50.000 EUR netto, Verhandlungsvergabe bis 100.000 EUR netto).",
+    "Landschaftspflegeverbaende und Biologische Stationen (oft e.V. mit Behoerden-Finanzierung) - koennen direkt beauftragen, kurze Wege.",
+    "Nationalpark-, Naturpark- und Biosphaerenreservats-Verwaltungen als Rahmenvertrag ueber mehrere Reviere.",
+    "Kommunale Umwelt-/Gruenflaechenaemter fuer eigene Foerderantraege und Oeffentlichkeitsarbeit.",
+    "Einstieg ueber ein gefoerdertes Pilot-/Reallabor mit einer Behoerde oder einem Dachverband (NABU-/BUND-Landesverband), Ergebnis als Referenz.",
+    "Veroeffentlichung auf openCode (ZenDiS) macht die Software fuer alle Verwaltungen sichtbar und nachnutzbar - Vertriebskanal ueber Behoerden-Community."
+  ],
+  "open_source_hebel": "Bei KI in der Verwaltung ist Souveraenitaet das Verkaufsargument: offene Modelle und offener Code erlauben On-Premises-Betrieb ohne Datenabfluss an US-Clouds, nachpruefbare Prompts und kein Vendor-Lock-in - genau die Kriterien von ZenDiS/openCode und Public Money Public Code. Behoerden-Juristen und Datenschutzbeauftragte stimmen offenen, auditierbaren Loesungen leichter zu. Geld kommt nicht aus Lizenz, sondern aus EU-Hosting/Betrieb, fachlichen Vorlagen-Paketen (Foerderlinien), Einrichtung in die jeweilige Datenlage und Schulung - das darf man trotz OSS berechnen.",
+  "druck_hebel": "Hier softwarelastig - kein 3D-Druck-Kern. Optional als Zusatz: gedruckte QR-Infotafeln fuer die Oeffentlichkeitsarbeit (die die KI mit Text/Layout bestueckt) oder gedruckte Aufsteller fuer Buergerbeteiligungs-Termine; Produktion in einer Inklusionswerkstatt als sozialer Vergabe-Bonus moeglich.",
+  "einnahmequellen": [
+    "SaaS-Abo je Arbeitsplatz oder je Organisation (EU-Hosting inklusive).",
+    "On-Premises-Lizenz-/Supportvertrag fuer Behoerden mit eigenem Rechenzentrum.",
+    "Einrichtung: Anbindung der eigenen Dokumente/Datenbanken, Aufbau der Wissensbasis.",
+    "Vorlagen-Pakete je Foerderlinie (Bundesprogramm Biologische Vielfalt, LIFE, ELER) als Add-on.",
+    "Schulung/Workshops fuer Behoerden und Ehrenamt (Prompting, Pruefpflicht, Grenzen der KI).",
+    "Foerderprojekte als Entwicklungsfinanzierung des offenen Kerns."
+  ],
+  "preismodell": [
+    {"label": "SaaS je Arbeitsplatz", "value": "ca. 30-60 EUR pro Platz und Monat (EU-Hosting)"},
+    {"label": "Organisations-Flat kleine Behoerde/Verband", "value": "ca. 2.400-6.000 EUR pro Jahr"},
+    {"label": "Einrichtung + Datenanbindung", "value": "ca. 3.000-12.000 EUR einmalig"},
+    {"label": "On-Premises Lizenz + Support", "value": "ca. 8.000-25.000 EUR pro Jahr je nach Groesse"},
+    {"label": "Schulung (Halbtag, Gruppe)", "value": "ca. 600-1.200 EUR"},
+    {"label": "Vorlagen-Paket je Foerderlinie", "value": "ca. 500-1.500 EUR einmalig"}
+  ],
+  "kosten_breakeven": "Hauptkostenblock ist Entwicklungszeit; laufend GPU-/Inferenz-Kosten (bei kleinen offenen Modellen moderat) und EU-Hosting. Als Soloselbststaendiger/kleines Team Break-even realistisch bei ca. 15-25 zahlenden Organisationen im Flat-Abo oder einigen On-Prem-Vertraegen (ca. 40-80 TEUR ARR). Der erste gefoerderte Pilot plus zwei bis drei Einrichtungsauftraege decken die MVP-Phase. Groesstes Risiko ist nicht Technik, sondern Beschaffungs- und Datenschutz-Freigabezyklen.",
+  "foerderung": [
+    "Prototype Fund (bis 47.500 EUR fuer Einzelperson, bis 158.333 EUR fuer Teams) fuer den offenen Kern - thematisch Civic Tech / Verwaltung.",
+    "EXIST-Gruenderstipendium (2.500-3.000 EUR/Monat + bis 5.000 EUR Sachmittel) fuer die Gruendungsphase aus einer Hochschule.",
+    "DBU - Digitalisierung im Umwelt-/Naturschutz.",
+    "Bundesprogramm Biologische Vielfalt (BfN) - innovative Werkzeuge fuer Umsetzung und Ehrenamt.",
+    "GovTech-/Digitalisierungsprogramme von Bund und Laendern (OZG-Nachfolge, Modellkommunen), ZenDiS/openCode-Umfeld.",
+    "Deutsche Postcode Lotterie - Projekte fuer ehrenamtlichen Naturschutz."
+  ],
+  "geschaeftsmodell": "Open-Core plus B2G-SaaS und Dienstleistung: Der KI-Assistenz-Kern ist offen (auditierbar, souveraen, vergabefreundlich, auf openCode auffindbar); verkauft werden EU-Hosting/On-Prem-Betrieb, die fachliche Einrichtung in die konkrete Datenlage, Foerderlinien-Vorlagen und Schulung. Wiederkehrender Umsatz aus Abo- und Supportvertraegen; Projektgeschaeft aus Einrichtung. Das Mensch-prueft-alles-Prinzip ist zugleich Haftungs- und Qualitaets-Argument im Vertrieb.",
+  "vorbilder": [
+    "Aleph Alpha (Verwaltungs-KI, souveraen; Referenzen Bundesagentur fuer Arbeit, Baden-Wuerttemberg, Partnerschaft mit Bayern) als Markt-Beleg fuer Behoerden-KI",
+    "ZenDiS / openCode und openDesk (offene Verwaltungssoftware als anerkanntes Modell)",
+    "GovTech-Startups mit Antrags-/Bescheid-Assistenz fuer Kommunen",
+    "spezialisierte Foerderantrags-KI-Anbieter (Fundraising-/Antrags-Copiloten) als Markt-Beleg",
+    "Deutsche Teuken/OpenGPT-X und andere offene EU-Modelle als souveraene Basis"
+  ],
+  "schritte": [
+    "Einen konkreten Schmerz-Workflow waehlen (z.B. Verwendungsnachweis einer haeufigen Foerderlinie) und als MVP bauen - mit strikter Quellen-Bindung und Export.",
+    "Eine Partner-Behoerde oder einen Landschaftspflegeverband als Pilot gewinnen, echte (anonymisierte) Dokumente nutzen.",
+    "Datenschutz-/DSGVO-Konzept und On-Prem-/EU-Hosting-Variante von Anfang an dokumentieren (fuer die Freigabe durch Datenschutzbeauftragte).",
+    "Offenes Repo + Doku veroeffentlichen und auf openCode einstellen (Sichtbarkeit, Prototype-Fund-faehig).",
+    "Preisliste und 1-Seiten-Angebot fuer Direktauftrag unter Vergabeschwelle erstellen.",
+    "Aus dem Pilot eine Fallstudie machen (Zeitersparnis in Stunden pro Antrag) und an Nachbar-Landkreise/Verbaende ausrollen."
+  ],
+  "risiken": "Groesstes Risiko ist KI-Halluzination in Verwaltungstexten: frei erfundene Rechtsgrundlagen, Zahlen oder Quellen koennen zu fehlerhaften Antraegen/Bescheiden fuehren - deshalb strikte Quellen-Bindung, sichtbare Unsicherheits-Markierung und verpflichtende menschliche Freigabe, keine Voll-Automatisierung. Datenschutz: personen- und ggf. standortbezogene (schutzwuerdige Arten-)Daten duerfen nicht abfliessen - On-Prem/EU-Hosting zwingend. Behoerden-Beschaffungs- und Freigabezyklen sind lang; Abhaengigkeit von Foerdermitteln vermeiden. Markt mit kapitalstarken Anbietern (Aleph Alpha) - deshalb Nische Naturschutz-Fachlichkeit und Ehrenamt besetzen, nicht Allzweck-Verwaltung.",
+  "synergy": ["buergernatur-plattform", "lauschposten-bioakustik", "kamerafallen-auswertedienst"],
+  "sources": [
+    {"title": "Baden-Wuerttemberg nimmt KI-System von Aleph Alpha in Betrieb", "url": "https://www.egovernment.de/baden-wuerttemberg-nimmt-ki-system-von-aleph-alpha-in-betrieb-a-6ebe5e669c8ca83faff0fdd61106a85f/"},
+    {"title": "Digitalministerium Bayern und Aleph Alpha - Partnerschaft Verwaltung", "url": "https://www.stmd.bayern.de/digitalministerium-und-aleph-alpha-verkuenden-strategische-partnerschaft-zur-digitalisierung-der-verwaltung-aleph-alpha-eroeffnet-standort-muenchen/"},
+    {"title": "ZenDiS / openCode - Plattform fuer digitale Souveraenitaet", "url": "https://www.zendis.de/"},
+    {"title": "Prototype Fund", "url": "https://prototypefund.de/"},
+    {"title": "EXIST-Gruendungsstipendium (Foerderdatenbank)", "url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/exist-gruendungsstipendium.html"},
+    {"title": "Vergaberecht 2026 - neue Wertgrenzen Direktauftrag/Verhandlungsvergabe", "url": "https://subreport.de/blog/vergaberecht-2026-neue-spielraeume-neue-unsicherheiten/"},
+    {"title": "Bundesprogramm Biologische Vielfalt (BfN)", "url": "https://www.bfn.de/bundesprogramm-biologische-vielfalt"}
+  ]
+}

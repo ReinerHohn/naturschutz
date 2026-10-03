@@ -1,0 +1,72 @@
+{
+  "id": "naturdruck-baukasten-fablab",
+  "name": "NaturDruck - offener 3D-Druck-Baukasten fuer den kommunalen Naturschutz",
+  "aka": ["Naturschutz-Baukasten", "Open-Hardware-Set Artenhilfe", "FabLab-Artenschutz"],
+  "based_on": "3d-wildbienen-nistblock",
+  "category": "Open Hardware & 3D-Druck",
+  "tags": ["3d-druck", "open-hardware", "wildbienen", "kleintiere", "kommune", "inklusionswerkstatt", "csr", "bildung"],
+  "pitch": "Ein offener 3D-Druck-Baukasten artgerechter Naturschutz-Kleinbauten (Wildbienen-Nistbloecke, Gully-/Regentonnen-Ausstiegshilfen, Igeldurchlaesse) mit freien Druckvorlagen - verkauft werden fertige Sets, lokale Produktion ueber Inklusionswerkstatt und Workshops fuer Kommunen, Firmen und Schulen.",
+  "ertragspotenzial": 3,
+  "aufwand": 2,
+  "marktreife": "B",
+  "mvp_zeit": "2-3 Monate (3-4 validierte Druckvorlagen + ein Starter-Set + eine Workshop-Vorlage)",
+  "problem": "Kommunen, Bauhoefe und Umweltaemter sollen Artenschutz im Alltag umsetzen (Biodiversitaetsstrategie, kommunale Eh-da-Flaechen, Verkehrssicherung an Gullys, Regentonnen), haben aber weder Zeit noch guenstige, artgerechte Standardbauteile. Baumarkt-Insektenhotels sind oft untauglich (Glasroehrchen, zu weite Bohrungen, nicht reinigbar) und bleiben leer; Tierfallen wie offene Gullys und Regentonnen toeten Amphibien und Kleinsaeuger. Regulatorischer Treiber: kommunale Biodiversitaetsstrategien, das Buendnis Kommunen fuer biologische Vielfalt und Ersatzzahlungen nach Paragraf 15 BNatSchG (zweckgebunden fuer Naturschutzmassnahmen) schaffen Budgets fuer genau solche Kleinmassnahmen, aber es fehlt ein einfaches Beschaffungs-Produkt.",
+  "solution": "Ein modularer Baukasten aus fachlich geprueften, freien Druckvorlagen: Wildbienen-Nistbloecke mit herausnehmbaren, reinigbaren Einsaetzen und Papierhuelsen (Lochspanne 2-9 mm, Schwerpunkt 3-6 mm, 12-15 cm tief, hinten geschlossen), Ausstiegshilfen/Rampen fuer Gullys, Strassenablaeufe und Regentonnen (Amphibien/Kleinsaeuger), Igeldurchlaesse fuer Zaeune, Lichtschacht-Ausstiege, Reptilien-Sonnenplatten. Die STL/STEP-Dateien und Bauanleitungen sind offen (CC-BY-SA); verkauft werden fertige, montagebereite Sets aus UV-festem PETG/ASA plus Montagematerial, die lokale Produktion sowie Workshops. 3D-Druck sichert maßgenaue, reinigbare Teile - der eigentliche Mehrwert gegenueber Baumarktware.",
+  "oeffentliche_hand": [
+    "Kommunale Bauhoefe, Gruenflaechen- und Umweltaemter - Direktauftrag unterhalb der Wertgrenze (je nach Bundesland oft bis 10.000 EUR formfrei als Direktauftrag, Verhandlungsvergabe bis ca. 100.000 EUR) fuer Sets und Montage.",
+    "Untere Naturschutzbehoerden als Multiplikator und fuer die Verwendung von Ersatzzahlungen nach Paragraf 15 BNatSchG (zweckgebundene Naturschutz-Budgets).",
+    "Buendnis Kommunen fuer biologische Vielfalt / Label StadtGruen naturnah als Tueroeffner und Referenzkanal.",
+    "Rahmenvertrag mit Landkreis oder Stadtwerk fuer wiederkehrende Lieferung an mehrere Standorte (Schulen, Kitas, Friedhoefe, Kleingaerten).",
+    "Einstieg ueber ein gefoerdertes Pilot mit EINER Kommune (Referenz vor Umsatz), Ergebnis als Fallstudie fuer weitere Landkreise."
+  ],
+  "open_source_hebel": "Offene Designs sind beim Staat ein Vorteil: Public Money Public Code und kein Vendor-Lock-in erleichtern Beschaffung und Weitergabe an Vereine/Schulen; die offene, fachlich gepruefte Methodik macht die Massnahme nachvollziehbar und foerderfaehig. Geld kommt nicht aus der Datei, sondern aus fertigen, qualitaetsgesicherten Sets, lokaler Produktion, Montage und Workshops (Open-Core: Vorlage frei, Produkt und Service bezahlt). Die freien Vorlagen sind zugleich Marketing und Prototype-Fund-faehig.",
+  "druck_hebel": "Gedruckt werden Nistblock-Rahmen und Einsaetze, Ausstiegsrampen, Igeldurchlass-Rahmen, Sonnenplatten und Halterungen aus UV-/hitzebestaendigem PETG oder ASA (helle Farben gegen Hitzestau), Wandstaerke ab 2 mm, mit Papier-Nisthuelsen gegen Kondens. Materialkosten pro Teil wenige Euro (Filament ca. 20-30 EUR/kg); on-demand und lokal produzierbar, modular und reparierbar (Einsaetze jaehrlich tauschbar). Produktion laesst sich an eine Inklusions-/Behindertenwerkstatt oder ein FabLab auslagern - planbare Kosten, lokale Wertschoepfung und ein sozialer Vergabe-Bonus fuer die Kommune.",
+  "einnahmequellen": [
+    "Verkauf fertiger Sets (Wildbienen-Starter, Gully-Ausstieg, Igel-Set) an Kommunen, Firmen und Private.",
+    "Workshops/Mitmachaktionen fuer Kommunen, Schulen und Firmen-CSR (Teambuilding mit Naturschutznutzen).",
+    "Jahres-Service: Reinigungseinsaetze/Papierhuelsen-Nachschub und Pflege-Checks als Abo.",
+    "Lohn-Druck und Konfektionierung als Auftrag (Inklusionswerkstatt als Produktionspartner).",
+    "Foerderprojekte als Entwicklungs- und Pilotfinanzierung; Lizenz-/Supportpaket fuer Bauhoefe, die selbst drucken."
+  ],
+  "preismodell": [
+    {"label": "Wildbienen-Starter-Set (Block + Einsaetze + Huelsen + Montage)", "value": "ca. 45-80 EUR (Material/Druck ~8-15 EUR)"},
+    {"label": "Gully-/Regentonnen-Ausstiegshilfe", "value": "ca. 15-35 EUR/Stueck, Staffel ab 50 Stueck guenstiger"},
+    {"label": "Kommunen-Paket (20 Sets gemischt + Einweisung)", "value": "ca. 1.500-3.000 EUR"},
+    {"label": "Workshop (halber Tag, bis 20 Personen, Material inkl.)", "value": "ca. 600-1.200 EUR"},
+    {"label": "Jahres-Service Huelsen/Pflege", "value": "ca. 3-8 EUR pro Set und Jahr"}
+  ],
+  "kosten_breakeven": "Geringe Fixkosten (ein bis zwei 3D-Drucker ca. 500-2.000 EUR, Materiallager, Web/Shop). Variable Kosten je Set klein (Material + Druckzeit + Konfektion). Als Soloselbststaendige(r) oder Kleinteam traegt es sich bei grob 150-300 verkauften Sets plus einigen Workshops und einem Kommunen-Paket pro Monat (Richtwert 2.500-5.000 EUR Deckungsbeitrag/Monat). Engpass ist nicht die Herstellung, sondern Vertrieb und Workshop-Akquise; Lohn-Druck ueber die Inklusionswerkstatt haelt die Skalierungskosten planbar.",
+  "foerderung": [
+    "Prototype Fund (BMBF/Open Knowledge Foundation) fuer die offenen Druckvorlagen und die Doku-Plattform.",
+    "DBU (Deutsche Bundesstiftung Umwelt) - Umweltbildung/Umwelttechnik, auch fuer Werkstatt-Kooperation.",
+    "Bundesprogramm Biologische Vielfalt (BfN) und chance.natur fuer kommunale Umsetzungsprojekte.",
+    "Kommunale Mittel aus Ersatzzahlungen nach Paragraf 15 BNatSchG und Landschaftspflege-Budgets.",
+    "Deutsche Postcode Lotterie und regionale Stiftungen fuer Bildungs-/Mitmachaktionen; Aktion Mensch fuer die Inklusionswerkstatt-Kooperation."
+  ],
+  "geschaeftsmodell": "Open-Core Hardware & Service: Die Druckvorlagen und Anleitungen sind offen (Vertrauen, Vergabefaehigkeit, Reichweite), verdient wird an fertigen, qualitaetsgesicherten Sets, lokaler Produktion ueber eine Inklusionswerkstatt/FabLab, Montage, Workshops und einem Huelsen-/Pflege-Abo. Wiederkehrender Umsatz kommt aus Service-Abos und Rahmenvertraegen mit Kommunen; Firmen-CSR und Schulen verbreitern die Basis.",
+  "vorbilder": [
+    "Printednest (offene, in ueber 20 Laendern installierte 3D-gedruckte Vogelnester als Marktbeleg)",
+    "Precious Plastic / Print Your City (dezentrale, recycelte Kunststoff-Fertigung als Modell)",
+    "Wildlife World, Schwegler, habibi.home (kommerzielle Nisthilfen-/Naturschutzprodukte als Markt)",
+    "FabLabs und Inklusionswerkstaetten mit Lohn-Druck (z.B. Caritas-/Lebenshilfe-Werkstaetten) als Produktionspartner"
+  ],
+  "schritte": [
+    "3-4 Vorlagen final validieren und mit NABU/BUND-Kriterien abgleichen (Wildbienenblock, Gully-Ausstieg, Igeldurchlass, Sonnenplatte).",
+    "Ein Muster je Typ ein Saison im Freien testen (Verformung, Annahme) und Fotos/Belege sammeln.",
+    "Produktionspartner finden: Kooperationsgespraech mit einer Inklusionswerkstatt/FabLab zu Lohn-Druck und Kalkulation.",
+    "STL/STEP + Anleitung als CC-BY-SA veroeffentlichen (Vertrauensaufbau, Prototype-Fund-Antrag starten).",
+    "EINE Kommune/Bauhof als Pilot gewinnen (Direktauftrag unter Wertgrenze) und eine Workshop-Vorlage erproben.",
+    "Fallstudie und 1-Seiten-Angebot erstellen, an Buendnis-Kommunen und 20 weitere Landkreise ausrollen."
+  ],
+  "risiken": "Kleine Stueckdeckungsbeitraege - ohne Workshops und Rahmenvertraege bleibt es ein Hobby-Umsatz. Kunststoff-Risiken real (Kondens/Hitzestau, Mikroplastik, UV-Alterung) - Material, helle Farben, Belueftung und Papierhuelsen ernst nehmen, sonst schadet schlechtes Design mehr als es nutzt. Billig-Konkurrenz und kostenlose STLs druecken Preise; der Mehrwert muss ueber Qualitaet, Beratung, Montage und Service verteidigt werden. Abhaengigkeit von Foerdermitteln vermeiden, frueh echten Auftragsumsatz suchen. Wildbienen-Nisthilfen ersetzen keine Bluehflaechen/Bodenniststrukturen - ehrlich kommunizieren, kein Greenwashing.",
+  "synergy": ["artenschutz-module-bau", "lauschposten-bioakustik", "prioritaetsplaner-beratung"],
+  "sources": [
+    {"title": "NABU - Tipps fuer wirksame Wildbienen-Nisthilfen", "url": "https://www.nabu.de/tiere-und-pflanzen/insekten-und-spinnen/hautfluegler/bienen/13704.html"},
+    {"title": "wildbienen.info - Untaugliche Nisthilfen", "url": "https://www.wildbienen.info/artenschutz/untaugliche_nisthilfen_A.php"},
+    {"title": "Printednest - 3D Printing the Birds Back to the City", "url": "https://3dprintingindustry.com/news/3d-printing-bird-nest-26278/"},
+    {"title": "Schwellenwerte und Wertgrenzen im Vergaberecht (Baden-Wuerttemberg, Juni 2024)", "url": "https://wm.baden-wuerttemberg.de/fileadmin/redaktion/m-wm/intern/Dateien_Downloads/Wirtschaftsstandort/Schwellenwerte_Wertgrenzen_Vergaberecht_Stand_Juni_2024.pdf"},
+    {"title": "Paragraf 15 BNatSchG - Verursacherpflichten und Ersatzzahlung (dejure.org)", "url": "https://dejure.org/gesetze/BNatSchG/15.html"},
+    {"title": "Prototype Fund", "url": "https://prototypefund.de/"},
+    {"title": "Buendnis Kommunen fuer biologische Vielfalt", "url": "https://www.kommbio.de/"}
+  ]
+}

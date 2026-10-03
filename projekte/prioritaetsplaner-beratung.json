@@ -1,0 +1,72 @@
+{
+  "id": "prioritaetsplaner-beratung",
+  "name": "PrioritaetsPlaner - Open-Source-GIS-Beratung fuer wirksamen Naturschutz pro Euro",
+  "aka": ["Flaechenpriorisierung-Beratung", "Systematic Conservation Planning Service", "QGIS-prioritizr-Beratung"],
+  "based_on": "planungs-software-priorisierung",
+  "category": "Beratung & Planung",
+  "tags": ["gis", "qgis", "priorisierung", "beratung", "renaturierung", "biotopverbund", "kommune", "foerdermittel", "open-source"],
+  "pitch": "Beratung plus Open-Source-GIS (QGIS, prioritizr, Zonation), die Kommunen und Naturschutzverbaenden zeigt, wo Schutz und Renaturierung pro Euro am meisten bringen - samt Biotopverbund-Konzept und Foerdermittel-Antragshilfe.",
+  "ertragspotenzial": 4,
+  "aufwand": 2,
+  "marktreife": "A",
+  "mvp_zeit": "1-2 Monate (QGIS/prioritizr-Workflow + ein Referenz-Datensatz + Angebotsvorlage)",
+  "problem": "Naturschutzbudgets sind knapp und werden oft nach Bauchgefuehl oder Verfuegbarkeit von Flaechen verteilt statt nach Wirkung. Kommunen und Verbaende muessen zunehmend liefern: kommunale Biotopverbundplanung, Umsetzung der nationalen Biodiversitaetsstrategie, das EU-Renaturierungsgesetz (NRL) mit verbindlichen Wiederherstellungszielen und die Verwendung zweckgebundener Ersatzzahlungen nach Paragraf 15 BNatSchG. Ihnen fehlen GIS-Fachkompetenz, eine systematische Methode und die Kapazitaet fuer tragfaehige Foerderantraege - die Mittel bleiben teils ungenutzt oder schlecht eingesetzt.",
+  "solution": "Eine Beratung, die systematic conservation planning praxistauglich macht: Mit QGIS (gratis) und den Optimierern prioritizr (exakte ILP, garantiert optimal), Marxan und Zonation werden aus Arten-/Habitatdaten und realistischen Kostenschichten die kosteneffizientesten Flaechen fuer Schutz, Renaturierung und Biotopverbund berechnet - nachvollziehbar, in mehreren Szenarien, mit Konnektivitaet als Nebenbedingung. Ergebnis sind entscheidungsreife Karten, ein Biotopverbund-/Trittstein-Konzept und fertige Bausteine fuer Foerderantraege. Die genutzte Software ist Open Source; verkauft wird die Fachleistung (Daten, Optimierung, Interpretation, Antragshilfe) sowie Support fuer ein QGIS-Plugin, das den Workflow fuer Behoerden reproduzierbar macht.",
+  "oeffentliche_hand": [
+    "Kommunen und Landkreise fuer kommunale Biotopverbund- und Gruenflaechenkonzepte - Direktauftrag unter Wertgrenze (je nach Bundesland oft bis 10.000 EUR formfrei) oder Verhandlungsvergabe bis ca. 100.000 EUR.",
+    "Untere und obere Naturschutzbehoerden sowie Landesaemter fuer Umwelt bei Priorisierung und Mittelverwendung (Ersatzzahlungen Paragraf 15 BNatSchG).",
+    "Naturschutzverbaende, Stiftungen und Naturschutzfonds der Laender als Auftraggeber und Multiplikatoren.",
+    "Regionalverbaende/Planungsregionen fuer NRL-Umsetzung und laenderuebergreifende Biotopverbundachsen (Rahmenvertrag moeglich).",
+    "Als Nachauftragnehmer etablierter Landschaftsplanungsbueros, die die Priorisierungs-/GIS-Kompetenz zukaufen."
+  ],
+  "open_source_hebel": "Open Source ist hier doppelt Vorteil: QGIS/prioritizr/Zonation sind gratis und quelloffen (keine Lizenzkosten, Public Money Public Code, digitale Souveraenitaet, kein Vendor-Lock-in), und offene, nachvollziehbare Optimierung macht die Priorisierung gerichtsfest und politisch verteidigbar (kein Blackbox-Vorwurf). Geld kommt nicht aus der Software, sondern aus der knappen Kompetenz: gute Eingangsdaten, richtige Modellierung, belastbare Interpretation, Antragshilfe und Plugin-Support (Open-Core-Beratung).",
+  "druck_hebel": "Dieses Projekt ist Beratung/Software und nutzt keinen 3D-Druck - der Kern ist Fachleistung auf offener Software. Falls physische Ergebnisse gebraucht werden (Modelle, haptische Planungskarten, Gelaende-/Trittstein-Modelle fuer Buergerbeteiligung), lassen sich diese guenstig 3D-drucken und als Zusatzleistung anbieten; ansonsten bewusst kein Druck-Hebel.",
+  "einnahmequellen": [
+    "Beraterhonorar/Tagessaetze fuer Priorisierungs- und Biotopverbund-Projekte.",
+    "Gefoerderte Konzepte (Honorar aus dem Foerderbudget der Kommune/des Verbands).",
+    "Foerdermittel-Antragshilfe (Erfolgs-/Pauschalhonorar fuer Antragsbegleitung).",
+    "Schulungen/Workshops in QGIS und systematic conservation planning fuer Behoerdenpersonal.",
+    "Support-/Pflegevertrag fuer ein Open-Source-QGIS-Plugin (Priorisierungs-Workflow reproduzierbar) und wiederkehrende Datenupdates."
+  ],
+  "preismodell": [
+    {"label": "Tagessatz Beratung/GIS", "value": "ca. 700-1.200 EUR/Tag (Richtwert freie Umwelt-/Planungsleistung)"},
+    {"label": "Priorisierungs-/Biotopverbund-Konzept (Kommune)", "value": "ca. 8.000-40.000 EUR je nach Flaeche und Datenlage"},
+    {"label": "Foerdermittel-Antragshilfe", "value": "ca. 1.500-6.000 EUR pro Antrag (oder Erfolgshonorar)"},
+    {"label": "QGIS-Schulung (2 Tage, bis 10 Personen)", "value": "ca. 2.500-4.500 EUR"},
+    {"label": "Plugin-Support/Datenpflege", "value": "ca. 2.000-6.000 EUR/Jahr"}
+  ],
+  "kosten_breakeven": "Sehr geringe Fixkosten (Software gratis, nur Rechner, Daten, Weiterbildung, Akquise) - das ist der Charme. Als Soloselbststaendige(r) traegt es sich bei grob 60-100 fakturierten Tagen/Jahr (ca. 50-100 TEUR Umsatz), erreichbar mit 2-4 Konzept-Projekten plus Schulungen jaehrlich. Break-even praktisch ab dem ersten groesseren Konzept. Engpass ist Akquise/Reputation und die Datenbeschaffung, nicht die Kosten; Risiko ist Auslastungsschwankung (Projektgeschaeft), das ueber Support-Vertraege und Rahmenvertraege geglaettet wird.",
+  "foerderung": [
+    "Bundesprogramm Biologische Vielfalt (BfN) und chance.natur - gefoerderte Konzepte und Umsetzungsprojekte (als Auftragsgrundlage der Kommune).",
+    "EU LIFE und EU-Mittel zur Umsetzung des Renaturierungsgesetzes (NRL) - Planungsleistungen foerderfaehig.",
+    "DBU fuer methodische Weiterentwicklung und Transfer; Prototype Fund fuer das offene QGIS-Plugin.",
+    "Laender-Naturschutzfonds (gespeist u.a. aus Ersatzzahlungen Paragraf 15 BNatSchG) und laenderspezifische Biotopverbund-Foerderung.",
+    "EXIST-Gruenderstipendium fuer die Gruendungsphase."
+  ],
+  "geschaeftsmodell": "B2G-Dienstleistung auf Open-Core-Basis: Die Software ist frei, verkauft wird die knappe Fachkompetenz (Datenaufbereitung, Optimierung, Interpretation, Antragshilfe, Schulung) zu Tagessaetzen und als gefoerderte Konzepte. Wiederkehrender Umsatz aus Plugin-Support, Datenpflege und Rahmenvertraegen. Niedrige Kapitalbindung, hohe Marge - das Geschaeft existiert als Planungsbuero-Markt bereits (Marktreife A), die Differenzierung ist der explizite Kosten-pro-Wirkung-Ansatz plus offene, reproduzierbare Methodik.",
+  "vorbilder": [
+    "Landschaftsplanungs- und Umweltplanungsbueros (etablierter Markt, belegt Zahlungsbereitschaft)",
+    "The Nature Conservancy (grossflaechige Marxan-Anwendung als Methodenbeleg)",
+    "Marxan Solutions, prioritizr (prioritizr.net), Zonation (Werkzeug-/Methodenanbieter)",
+    "GIS-/Fernerkundungs-Dienstleister und Oekologie-Consultings im B2G-Geschaeft"
+  ],
+  "schritte": [
+    "Referenz-Workflow bauen: QGIS + prioritizr an einem echten Beispieldatensatz (ein Landkreis) durchrechnen und als Fallbeispiel dokumentieren.",
+    "Angebotsvorlage und 1-Seiten-Leistungsbeschreibung fuer Direktauftrag unter Wertgrenze erstellen.",
+    "Netzwerk aktivieren: eine Kommune/einen Naturschutzverband als Pilot gewinnen (idealerweise gefoerdert).",
+    "Methodik mit einer Naturschutzbehoerde abstimmen (Datenquellen, Zielsetzung, Nachvollziehbarkeit).",
+    "Open-Source-QGIS-Plugin als Minimalversion veroeffentlichen (Reichweite, Prototype-Fund-faehig).",
+    "Aus dem Pilot eine Fallstudie machen, Schulungsangebot ergaenzen und an weitere Kommunen/Regionalverbaende ausrollen."
+  ],
+  "risiken": "Scheingenauigkeit: optisch ueberzeugende Karten auf schwacher Datenbasis legitimieren Fehlinvestitionen - Datenqualitaet, Kostenmodell und Umsetzbarkeit/Akzeptanz muessen ehrlich eingeordnet werden, sonst Reputationsschaden. Projektgeschaeft schwankt (Auslastung, Zahlungsziele der oeffentlichen Hand). Etablierte Planungsbueros sind Wettbewerb und zugleich moegliche Partner; Zugang zu aktuellen Arten-/Habitatdaten ist oft der Flaschenhals. Keine 3D-Druck-Komponente - das Profil weicht bewusst vom Hardware-Fokus ab. Abhaengigkeit von einzelnen Grossauftraegen ueber Support-Vertraege und mehrere Kunden streuen.",
+  "synergy": ["lauschposten-bioakustik", "naturdruck-baukasten-fablab", "artenschutz-module-bau"],
+  "sources": [
+    {"title": "QGIS - Open-Source-GIS (OSGeo)", "url": "https://www.osgeo.org/projects/qgis/"},
+    {"title": "prioritizr - Systematic Conservation Prioritization in R", "url": "https://prioritizr.net/"},
+    {"title": "Marxan Solutions - What is Marxan", "url": "https://marxansolutions.org/what-is-marxan/"},
+    {"title": "BBN - Eckpunkte Honorare freiberuflicher Naturschutz (PDF)", "url": "https://www.bbn-online.de/fileadmin/AK_Freie_Berufe/Honorare_10-10-20.pdf"},
+    {"title": "Paragraf 15 BNatSchG - Verursacherpflichten und Ersatzzahlung (dejure.org)", "url": "https://dejure.org/gesetze/BNatSchG/15.html"},
+    {"title": "Bundesprogramm Biologische Vielfalt (BfN)", "url": "https://www.bfn.de/bundesprogramm-biologische-vielfalt"},
+    {"title": "Schwellenwerte und Wertgrenzen im Vergaberecht (Baden-Wuerttemberg, Juni 2024)", "url": "https://wm.baden-wuerttemberg.de/fileadmin/redaktion/m-wm/intern/Dateien_Downloads/Wirtschaftsstandort/Schwellenwerte_Wertgrenzen_Vergaberecht_Stand_Juni_2024.pdf"}
+  ]
+}

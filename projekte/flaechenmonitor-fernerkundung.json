@@ -1,0 +1,74 @@
+{
+  "id": "flaechenmonitor-fernerkundung",
+  "name": "FlaechenMonitor - Fernerkundungs-SaaS fuer Umwelt- und Agraraemter",
+  "aka": ["Satelliten-Flaechenmonitoring", "Mahd- und Moor-Monitor"],
+  "based_on": "fernerkundung-satellit-ki",
+  "category": "Monitoring-SaaS & Service",
+  "tags": ["monitoring", "ki", "saas", "fernerkundung", "satellit", "copernicus", "agrarumwelt", "oeffentliche-hand"],
+  "pitch": "Fernerkundungs-SaaS auf Basis kostenloser Sentinel/Copernicus-Daten plus KI, die Umwelt- und Landwirtschaftsaemtern Mahd-Zeitpunkte, Moor-/Gruenland-Zustand und Landnutzungsaenderungen flaechendeckend und ohne Vor-Ort-Begehung nachweist.",
+  "ertragspotenzial": 4,
+  "aufwand": 3,
+  "marktreife": "B",
+  "mvp_zeit": "3-4 Monate (Sentinel-2-Zeitreihe plus Mahd-Detektion plus Karten-Dashboard fuer eine Pilotflaeche)",
+  "problem": "Behoerden muessen Flaechen-Auflagen flaechendeckend kontrollieren - frueher per teurer, stichprobenhafter Vor-Ort-Begehung. Starker regulatorischer Treiber: Seit 1.1.2023 ist das Flaechenmonitoring (Area Monitoring System, AMS) in der EU-Agrarfoerderung Pflicht - alle Antragsflaechen muessen regelmaessig per Sentinel-Satellit auf Aktivitaeten wie Mahd oder Beweidung geprueft werden. Hinzu kommen Nachweise fuer Agrarumwelt- und Klimamassnahmen (z.B. spaete Mahd zum Wiesenbrueter-Schutz), Moor-Wiedervernaessungs-Monitoring, FFH-Gruenland-Erhaltungszustand und das EU-Renaturierungsgesetz (Zustands-Berichtspflichten). Rohdaten (Sentinel-1/2) sind gratis, aber Aemtern fehlen Pipeline, KI und Fachpersonal, um daraus pruefbare Aussagen zu machen.",
+  "solution": "Eine SaaS-Plattform, die freie Sentinel-1 (Radar, wolkenunabhaengig) und Sentinel-2 (optisch) Zeitreihen automatisch auswertet: KI erkennt Mahd-/Beweidungs-Ereignisse und deren Zeitpunkt, verfolgt Vegetationsindizes (NDVI/NDWI) fuer Gruenland- und Moor-Zustand und meldet Landnutzungs- und Versiegelungsaenderungen. Ausgabe: parzellenscharfe Ampel-Karten, Ereignis-Logs und Report pro Flaeche fuer die Akte. Die Auswerte-Pipeline (Datenzugriff ueber offene Copernicus-Dienste, KI-Modelle, QGIS-Export) ist Open Source und als QGIS-Plugin plus Web-Dashboard nutzbar; 3D-Druck spielt hier eine Nebenrolle (optional guenstige Boden-Referenzstationen/Kamera-Pegel zur KI-Validierung). Verkauft wird der betriebene Dienst, nicht die Software.",
+  "oeffentliche_hand": [
+    "Landwirtschaftsaemter/Landesverwaltungen, die das EU-AMS umsetzen und Agrarumweltmassnahmen pruefen muessen - Rahmenvertrag oder Ausschreibung (groessere Volumina).",
+    "Untere Naturschutzbehoerden (Landkreise) fuer Mahd-Kontrolle in Schutzgebieten und Vertragsnaturschutz - Direktauftrag unter Vergabeschwelle.",
+    "Landesumweltaemter und Moorschutz-Programme fuer Vernaessungs- und Gruenland-Zustands-Monitoring.",
+    "Nationalpark-/Biosphaeren-Verwaltungen fuer grossflaechiges Landnutzungs-Monitoring.",
+    "Kommunen fuer Flaechenverbrauch-/Versiegelungs-Monitoring (Smart Region, Innenentwicklung).",
+    "Als Nachauftragnehmer/Datenlieferant fuer GIS-Dienstleister und Planungsbueros, die keine eigene Fernerkundung haben."
+  ],
+  "open_source_hebel": "Copernicus-Daten sind bewusst frei und offen - eine offene Auswerte-Pipeline passt zur politischen Linie 'Public Money - Public Code' und zur digitalen Souveraenitaet, und sie macht Foerder-/Sanktions-Entscheidungen nachvollziehbar und rechtssicher (bei AMS-Entscheidungen haftungsrelevant). Kein Vendor-Lock-in erleichtert Vergabe und Datenuebergabe zwischen Behoerden; ein offenes QGIS-Plugin senkt die Einstiegshuerde. Geld kommt aus dem betriebenen Dienst, gepruefen Reports, Integration/Support und dem Rechen-/Daten-Betrieb - nicht aus Lizenzgebuehren.",
+  "druck_hebel": "3D-Druck ist hier bewusst nur Nebensache: optional guenstige, 3D-gedruckte Boden-Referenz- und Validierungsstationen (Wildkamera-/Sensor-Gehaeuse, Phaenologie-Kameras an Pegeln), um die Satelliten-KI vor Ort zu kalibrieren und Mahd-Ereignisse ground-truth-fest zu belegen. Stueckkosten wenige Euro, lokal und reparierbar produzierbar; Fertigung an eine Inklusions-/Behindertenwerkstatt vergebbar. Das Kerngeschaeft ist jedoch Software/Service.",
+  "einnahmequellen": [
+    "SaaS-Abo nach Flaeche (EUR pro Hektar und Jahr) oder pro Behoerde/Pauschale.",
+    "Projekt-/Werkauswertung je Kampagne (z.B. eine Mahd-Saison, eine Moor-Flaeche).",
+    "Integration/Beratung: Einbindung in bestehende Fachverfahren und GIS der Behoerde.",
+    "Report- und Gutachten-Zuschlag (gepruefte, rechtssichere Auswertung).",
+    "Schulung/Support und Lizenz-Support fuer das offene QGIS-Plugin.",
+    "Foerder-/Forschungsprojekte als Entwicklungsfinanzierung."
+  ],
+  "preismodell": [
+    {"label": "SaaS pro Flaeche", "value": "ca. 0,20-1,50 EUR pro Hektar und Jahr (degressiv mit Flaeche)"},
+    {"label": "Behoerden-Pauschale", "value": "ca. 5.000-20.000 EUR/Jahr je nach Gebietsgroesse und Modulen"},
+    {"label": "Einzel-Kampagne", "value": "ca. 3.000-8.000 EUR (eine Saison, definierte Kulisse, Report)"},
+    {"label": "Integration/Beratung", "value": "ca. 700-1.100 EUR/Tag"},
+    {"label": "Vergleich Vor-Ort-Begehung", "value": "oft hohe Kosten je Stichprobe plus nur Teilabdeckung statt flaechendeckend"}
+  ],
+  "kosten_breakeven": "Fixkosten: Cloud-Rechenzeit fuer Sentinel-Zeitreihen und Entwicklung; variable Kosten pro Flaeche gering (Rohdaten gratis). Skaliert stark, weil zusaetzliche Flaechen fast nichts kosten. Break-even realistisch bei einem mittleren Landkreis-/Landes-Rahmenvertrag plus einigen Einzelkampagnen (grob 40-80 TEUR wiederkehrend) als kleines Team. Ein einziger AMS-naher oder Agrarumwelt-Auftrag kann die Entwicklung tragen. Groesstes Risiko: etablierte Grossanbieter und lange Behoerden-Beschaffung.",
+  "foerderung": [
+    "EU LIFE sowie Copernicus-/EU-Erdbeobachtungs-Foerderungen (auch ueber ESA-BIC-Inkubatoren).",
+    "Bundesprogramm Biologische Vielfalt (BfN) und DBU fuer Monitoring-Innovation (Moor/Gruenland).",
+    "Prototype Fund fuer das offene QGIS-Plugin / die Auswerte-Pipeline.",
+    "Smart-City/Smart-Region-Mittel und Landes-Digitalisierungsprogramme der Agrar-/Umweltressorts.",
+    "EXIST-Gruenderstipendium; KfW-Gruenderkredite fuer die Skalierung."
+  ],
+  "geschaeftsmodell": "B2G-SaaS plus Service mit offenem Kern: freie Satellitendaten plus offene Pipeline schaffen Vertrauen, Vergabefaehigkeit und Rechtssicherheit; Umsatz kommt aus dem betriebenen Monitoring-Abo (pro Flaeche/Behoerde), aus gepruefen Reports und aus Integration in die Fachverfahren. Open-Core: das Basis-Plugin ist offen, der skalierbare Cloud-Betrieb, die Fach-QS und die Behoerden-Integration sind die bezahlte Leistung.",
+  "vorbilder": [
+    "LiveEO (Satelliten-Monitoring-SaaS fuer Infrastruktur/Vegetation, Berlin)",
+    "OHB / OHB Digital (Erdbeobachtung und Geodatendienste)",
+    "Constellr (Satelliten-Thermaldaten fuer Landwirtschaft/Wasser)",
+    "CloudFerro / NEO (AMS-as-a-Service und agrarisches Satellitenmonitoring fuer Behoerden)",
+    "kleine/mittlere GIS- und Fernerkundungs-Dienstleister (z.B. EFTAS, GAF) als Markt- und Behoerden-Beleg"
+  ],
+  "schritte": [
+    "MVP bauen: Sentinel-2-Zeitreihe plus Mahd-Detektion plus parzellenscharfes Karten-Dashboard fuer eine Pilotkulisse.",
+    "Sentinel-1-Radar ergaenzen (wolkenunabhaengig) fuer zuverlaessige Mahd-/Beweidungs-Erkennung.",
+    "EINEN Pilotkunden gewinnen (untere Naturschutzbehoerde oder Agrarumwelt-Stelle), moeglichst gefoerdert; Ground-Truth mit 3D-Referenzstationen validieren.",
+    "Report-/Ausgabeformat mit der Behoerde auf Rechts- und Akten-Tauglichkeit abstimmen (AMS-/Agrarumwelt-konform).",
+    "Open-Source-QGIS-Plugin plus Doku veroeffentlichen (Vertrauen, Prototype-Fund-faehig).",
+    "Fallstudie erstellen und auf Landkreis-/Landes-Rahmenvertraege sowie AMS-nahe Ausschreibungen zielen."
+  ],
+  "risiken": "Starker Wettbewerb durch etablierte, kapitalstarke EO-Anbieter und Behoerden-Platzhirsche (EFTAS, GAF, GovTech-Konsortien) - Nische ueber Naturschutz-/Moor-/Vertragsnaturschutz-Fokus und offene, guenstige Pipeline suchen. Sentinel-Aufloesung (10 m) begrenzt kleinteilige Flaechen; Wolken bei rein optischer Auswertung (Radar ergaenzen). AMS-Entscheidungen sind haftungs-/rechtsrelevant - Genauigkeit, Ground-Truth und Dokumentation sind Pflicht. Behoerden-Beschaffung ist langwierig und oft an bestehende Fachverfahren gebunden.",
+  "synergy": ["kamerafallen-auswertedienst", "insektenscanner-monitoring", "lauschposten-bioakustik", "ki-verwaltung-foerderantrag"],
+  "sources": [
+    {"title": "Area Monitoring System (AMS) - TOOLS4CAP Briefing", "url": "https://www.tools4cap.eu/wp-content/uploads/2024/11/BR3-Area-Monitoring-System.pdf"},
+    {"title": "Copernicus-Datenzugang in Deutschland", "url": "https://netzwerk-wald.d-copernicus.de/datenzugang/"},
+    {"title": "Thuenen-Institut - automatische Erkennung von Agrarstrukturen (Fernerkundung)", "url": "https://www.thuenen.de/de/institutsuebergreifende-projekte/ich-sehe-was-was-du-nicht-siehst-automatische-erkennung-von-agrar-und-anbaustrukturen-mittels-satellitenbildern-fernerkundung/"},
+    {"title": "Flaechenmonitoring Landwirtschaft Sachsen", "url": "https://www.landwirtschaft.sachsen.de/flaechenmonitoring-56898.html"},
+    {"title": "Area Monitoring System as a Service (CloudFerro)", "url": "https://cloudferro.com/data-tools/area-monitoring-system-as-a-service/"},
+    {"title": "LiveEO", "url": "https://www.live-eo.com/"}
+  ]
+}

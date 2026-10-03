@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Naturschutz-Gruenderprojekt",
+  "description": "Ein gruendungsreifes Projekt-/Geschaeftskonzept: wie man mit 3D-Druck und Open Source einen Naturschutz-Tech-Hebel in ein Produkt verwandelt, das vor allem die oeffentliche Hand (Kommunen, Naturschutz-/Umweltbehoerden, Landesbetriebe, Bund) bedient UND sich finanziell traegt. Pro Tech-Option ein Projekt.",
+  "type": "object",
+  "required": ["id", "name", "pitch", "solution", "geschaeftsmodell"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "kebab-case, = Dateiname"},
+    "name": {"type": "string", "description": "griffiger Produkt-/Projektname"},
+    "aka": {"type": "array", "items": {"type": "string"}},
+    "based_on": {"type": "string", "description": "id des zugrundeliegenden Tech-Hebels aus hebel/ (z.B. bioakustik-monitoring-ki)"},
+    "category": {"type": "string", "description": "Monitoring-SaaS & Service | Open Hardware & 3D-Druck | Software & Plattform | Beratung & Planung"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "pitch": {"type": "string", "description": "ein Satz: was ist es und fuer wen (Elevator Pitch)"},
+    "ertragspotenzial": {"type": "integer", "minimum": 1, "maximum": 5, "description": "finanzielles Potenzial 1-5 (steuert Sortierung)"},
+    "aufwand": {"type": "integer", "minimum": 1, "maximum": 5, "description": "Aufwand bis zum tragfaehigen Betrieb 1-5 (1=sofort/gering)"},
+    "marktreife": {"type": "string", "enum": ["A", "B", "C"], "description": "A = vergleichbare Firmen/Markt existiert bereits (belegt), B = erste Anbieter/Pilotmarkt, C = frueh/Hypothese"},
+    "mvp_zeit": {"type": "string", "description": "wie schnell ein erstes verkaufbares MVP steht"},
+    "problem": {"type": "string", "description": "welchen Schmerz der oeffentlichen Hand es loest, inkl. regulatorischer Treiber (Pflichten, Monitoring, Ausgleich)"},
+    "solution": {"type": "string", "description": "das Produkt: was genau, wie 3D-Druck und Open Source zusammenspielen"},
+    "oeffentliche_hand": {"type": "array", "items": {"type": "string"}, "description": "konkrete Kaeufer in der oeffentlichen Hand und wie man an sie herankommt (Direktauftrag, Pilot/Reallabor, Rahmenvertrag, Ausschreibung)"},
+    "open_source_hebel": {"type": "string", "description": "warum Open Source hier ein VORTEIL beim Staat ist (Public Money Public Code, kein Vendor-Lock-in, digitale Souveraenitaet, Vergaberecht, Vertrauen) und wie man damit trotzdem Geld verdient"},
+    "druck_hebel": {"type": "string", "description": "was 3D-gedruckt wird und welchen Vorteil das bringt (lokale Wertschoepfung, Inklusions-/Behindertenwerkstatt-Produktion, Reparierbarkeit, Stueckkosten)"},
+    "einnahmequellen": {"type": "array", "items": {"type": "string"}, "description": "Umsatzstroeme (Hardware-Kits, Service/Wartung, SaaS/Cloud-Auswertung, Schulung, Foerderprojekte, Rahmenvertraege, Lizenz/Support)"},
+    "preismodell": {
+      "type": "array",
+      "description": "konkrete Preise/Zahlen",
+      "items": {"type": "object", "required": ["label", "value"], "properties": {"label": {"type": "string"}, "value": {"type": "string"}}}
+    },
+    "kosten_breakeven": {"type": "string", "description": "grobe Kostenstruktur und ab wann es sich traegt"},
+    "foerderung": {"type": "array", "items": {"type": "string"}, "description": "passende Foerderprogramme/Toepfe (BfN, DBU, EU LIFE, Bundesprogramm Biologische Vielfalt, kommunale Mittel, KfW, Postcode-Lotterie, Prototype Fund)"},
+    "geschaeftsmodell": {"type": "string", "description": "der Kern: wie verdient es trotz Open Source Geld; welches Modell (Open-Core, Hardware+Service, SaaS, B2G-Dienstleistung)"},
+    "vorbilder": {"type": "array", "items": {"type": "string"}, "description": "vergleichbare Firmen/Projekte als Markt-Beleg"},
+    "schritte": {"type": "array", "items": {"type": "string"}, "description": "konkrete naechste Schritte / Go-to-Market (erste 90 Tage)"},
+    "risiken": {"type": "string", "description": "Risiken, Zielkonflikte, wann es nicht traegt"},
+    "synergy": {"type": "array", "items": {"type": "string"}, "description": "kombiniert gut mit (andere Projekt- oder Hebel-ids)"},
+    "sources": {"type": "array", "items": {"type": "object", "properties": {"title": {"type": "string"}, "url": {"type": "string"}}}}
+  }
+}

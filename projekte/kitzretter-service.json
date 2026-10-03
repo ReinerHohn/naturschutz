@@ -1,0 +1,74 @@
+{
+  "id": "kitzretter-service",
+  "name": "KitzRetter - Drohnen-Kitzrettung plus offene Halterungen",
+  "aka": ["Rehkitzrettung as a Service", "Kitz-Drohnen-Dienst"],
+  "based_on": "rehkitzrettung-drohne-ki",
+  "category": "Monitoring-SaaS & Service",
+  "tags": ["drohne", "ki", "waermebild", "rehkitz", "landwirtschaft", "jagd", "service", "oeffentliche-hand"],
+  "pitch": "Mobiler Drohnen-Service mit Waermebild und KI, der vor der Mahd Rehkitze findet und rettet, plus offene 3D-gedruckte Halterungen/Gehaeuse und App fuer Landwirte, Jagdgenossenschaften und Kommunen - auf einem bereits foerder- und nachfragestarken Markt.",
+  "ertragspotenzial": 3,
+  "aufwand": 2,
+  "marktreife": "A",
+  "mvp_zeit": "4-8 Wochen (Waermebild-Drohne plus KI-Kitz-Erkennung plus Einsatz-/Routen-App)",
+  "problem": "Bei der ersten Grasmahd im Mai/Juni werden in Deutschland zehntausende Rehkitze vom Maehwerk getoetet, weil sie sich bei Gefahr ducken statt zu fliehen - ein erhebliches Tierschutz-Problem (toeten ist nach Tierschutzgesetz verboten; der Bewirtschafter ist in der Sorgfaltspflicht). Waermebild-Drohnen finden die Kitze zuverlaessig in den fruehen Morgenstunden. Der Markt ist real und gefoerdert: Bund/BLE foerdert Drohnen mit bis zu 60 Prozent, maximal 4.000 EUR pro Waermebild-Drohne; in den Vorjahren wurden fast 2.000 Drohnen gefoerdert, 2024 gab es ueber 640 Antraege und das Budget wurde von 1,5 auf ueber 2,5 Mio. EUR aufgestockt; rund 15.000 Kitze wurden 2024 gerettet. Viele Landwirte wollen aber keine eigene Drohne betreiben (Technik, Pilotenschein, Zeit im engen Mahd-Fenster) und kaufen die Rettung lieber als Dienstleistung ein.",
+  "solution": "Zweigleisig: (1) Ein mobiler Rettungs-Service - zertifizierte Piloten fliegen im Auftrag die Flaechen vor der Mahd mit Waermebild-Drohne ab, eine KI (offene Kitz-Erkennungsmodelle) markiert Hotspots, das Team sichert/vertreibt die Kitze. (2) Offene Hardware und Software fuer die vielen ehrenamtlichen Kitzretter-Gruppen und Vereine: 3D-gedruckte Drohnen-Halterungen, Kitz-Transportkisten-Deckel/Griffe, Markierungs-Kaestchen, Smartphone-/Tablet-Halter und eine offene Einsatz-App (Flaechen-Planung, GPS-Fundpunkte, Nachweis-Protokoll fuer Landwirt und Behoerde). KI-Erkennung und App sind Open Source; verdient wird am Service, an Hardware-Sets und an Schulung/Support.",
+  "oeffentliche_hand": [
+    "Kommunen/Staedte fuer eigene Gruenland- und Ausgleichsflaechen sowie als Foerderer lokaler Kitzretter-Initiativen - Direktauftrag unter Vergabeschwelle.",
+    "Jagdgenossenschaften und Hegegemeinschaften (koerperschaftlich organisiert) als Sammel-Auftraggeber fuer Reviere.",
+    "Untere Jagd-/Naturschutzbehoerden und Landkreise fuer Koordination, Foerderabwicklung und Nachweisfuehrung.",
+    "Landesanstalten/Landwirtschaftskammern als Multiplikator und fuer Schulungen (Rahmenvertrag Weiterbildung).",
+    "Als Dienstleister fuer landwirtschaftliche Betriebe und Maschinenringe im Umfeld oeffentlicher Flaechen.",
+    "Einstieg: mit einer Kommune oder Jagdgenossenschaft eine Saison als Referenz fahren, Foerderfaehigkeit (BLE) gleich mitnutzen."
+  ],
+  "open_source_hebel": "Offene Kitz-Erkennungs-KI und offene Einsatz-App senken die Huerde fuer die vielen ehrenamtlichen Gruppen und passen zur foerderpolitischen Logik (Tierschutz als oeffentliches Gut, 'Public Money - Public Code'). Offene Nachweis-Protokolle schaffen Vertrauen bei Landwirt, Jagd und Behoerde (Sorgfalts-Nachweis). Kein Lock-in erleichtert, dass Kommunen den Dienst beauftragen oder foerdern. Verdient wird am betriebenen Flugservice, an gedruckten Hardware-Sets und an Schulung/Support - nicht an einer App-Lizenz.",
+  "druck_hebel": "3D-gedruckt werden Drohnen-Zubehoer und Feld-Ausruestung: Halterungen und Gimbal-/Schirm-Adapter, Kitz-Transportkisten-Griffe und -Deckel, luftige Abdeck-Koerbe zum voruebergehenden Sichern, Markierungsstaebe/Faehnchen-Halter, Tablet-Sonnenschutz und Ersatzteile. Stueckkosten wenige Euro, sofort nachdruckbar bei Feldschaeden im engen Saison-Fenster, lokal reparierbar. Serienfertigung der Sets fuer Vereine an eine Inklusions-/Behindertenwerkstatt vergebbar (sozialer Vergabe-Bonus).",
+  "einnahmequellen": [
+    "Flug-/Rettungs-Service je Einsatz (pro Hektar oder pro Flug/Vormittag).",
+    "Saison-Pakete fuer Landwirte/Jagdgenossenschaften/Kommunen (feste Flaechen, mehrere Termine).",
+    "Hardware-Sets: 3D-gedruckte Halterungen, Transportkisten-Teile, Markierungs-Kits.",
+    "Schulung und Pilotenbegleitung fuer ehrenamtliche Kitzretter-Gruppen (A1/A3-Drohnenkompetenz, Praxis).",
+    "Foerderabwicklungs-Hilfe (Antrag BLE/Land) als Beratungsleistung.",
+    "Winter-/Nebensaison: Nutzung derselben Drohnen/KI fuer anderes Monitoring (Wild-Zaehlung, Thermographie)."
+  ],
+  "preismodell": [
+    {"label": "Rettungs-Service pro Hektar", "value": "ca. 15-35 EUR/ha (Mindestpauschale pro Einsatz ca. 80-150 EUR)"},
+    {"label": "Vormittags-Einsatz pauschal", "value": "ca. 250-500 EUR (mehrere nahe Flaechen in einem Zeitfenster)"},
+    {"label": "Saison-Paket Jagdgenossenschaft/Kommune", "value": "ca. 1.500-5.000 EUR je nach Flaeche/Terminen"},
+    {"label": "Hardware-Set (3D-Druck)", "value": "ca. 20-60 EUR je Set"},
+    {"label": "Schulung Ehrenamts-Gruppe", "value": "ca. 300-600 EUR/Tag"},
+    {"label": "Foerderhinweis", "value": "BLE-Foerderung bis 60 Prozent, max. 4.000 EUR je Waermebild-Drohne"}
+  ],
+  "kosten_breakeven": "Hauptinvestition ist die Waermebild-Drohne (grob 4.000-12.000 EUR, stark foerderfaehig) plus Pilotenkompetenz/Versicherung. Variable Kosten je Einsatz gering (Zeit, Anfahrt). Weil der Dienst extrem saisonal ist (nur wenige Wochen im Mai/Juni, nur fruehmorgens), muss in diesem Fenster ausgelastet werden. Break-even realistisch, wenn pro Saison grob 200-400 ha oder mehrere Saison-Pakete gefahren werden; die Drohne refinanziert sich durch Winter-Nutzung (Monitoring) und Foerderung schneller. Groesstes Risiko ist nicht die Technik, sondern die enge Saison und das Wetter.",
+  "foerderung": [
+    "BLE-Bundesfoerderung Drohnen zur Rehkitzrettung (BMEL) - bis 60 Prozent, max. 4.000 EUR je Waermebild-Drohne.",
+    "Ergaenzende Landes-/NRW-Foerderprogramme fuer Rehkitzrettungs-Drohnen.",
+    "Deutsche Postcode Lotterie und regionale Stiftungen fuer Tierschutz-/Kitzretter-Vereine (Hardware-Sets).",
+    "Kommunale Mittel/Tierschutz-Budgets fuer lokale Initiativen.",
+    "Prototype Fund fuer die offene Erkennungs-KI/App; DBU fuer den Mehrfachnutzen-Monitoring-Ansatz."
+  ],
+  "geschaeftsmodell": "Hardware+Service plus Open-Core: Kerngeschaeft ist die bezahlte, zeitkritische Rettungs-Dienstleistung in der Mahd-Saison, ergaenzt um 3D-gedruckte Hardware-Sets, Schulung und Foerderberatung. Offene KI/App machen das Angebot glaubwuerdig und ehrenamts-tauglich und schaffen Reichweite/Leads; Umsatz kommt aus Flugeinsaetzen, Paketen und Hardware. Entscheidend ist, die teure Drohne ganzjaehrig (anderes Monitoring) auszulasten, um die Saisonabhaengigkeit abzufedern.",
+  "vorbilder": [
+    "Zahlreiche gewerbliche Kitzrettungs-Dienstleister und Drohnen-Pilot-Betriebe in DE (Markt existiert, A)",
+    "Rehkitzrettung-Vereine und der Dachverband/die Kitzretter-Community (Nachfrage- und App-Beleg)",
+    "DJI / Autel Thermaldrohnen plus etablierte Waermebild-Workflows (Hardware-Oekosystem)",
+    "Wildlife Drones / Drohnen-Monitoring-Dienstleister (Mehrfachnutzen der Flotte ausserhalb der Saison)",
+    "BLE/BMEL-Foerderprogramm als Markt- und Nachfrage-Beleg (ueber 640 Antraege 2024, ~15.000 gerettete Kitze)"
+  ],
+  "schritte": [
+    "Drohnen-Kompetenznachweis (A1/A3), Betriebserlaubnis und Haftpflicht/Versicherung klaeren und absichern.",
+    "MVP: Waermebild-Drohne plus offene Kitz-Erkennungs-KI plus einfache Einsatz-/Nachweis-App aufsetzen.",
+    "BLE-Foerderantrag fuer die Drohne stellen (bis 4.000 EUR) und die Foerderlogik fuer Kunden verstehen.",
+    "EINE Jagdgenossenschaft/Kommune fuer eine Pilot-Saison gewinnen (Referenz plus Nachweis-Protokoll).",
+    "3D-Hardware-Sets und die App fuer ehrenamtliche Gruppen veroeffentlichen (Reichweite, Leads, Prototype-Fund).",
+    "Winter-Mehrfachnutzen (Wildzaehlung/Thermographie) aufbauen, um die Saisonabhaengigkeit abzufedern; Fallstudie ausrollen."
+  ],
+  "risiken": "Stark saisonal (wenige Wochen, nur fruehmorgens, wetterabhaengig) - ohne ganzjaehrige Zweitnutzung der Drohne ist das Geschaeft duenn; das ist ehrlich einzuplanen. Zeitkritische Logistik: viele Flaechen wollen im selben kurzen Fenster bedient werden. Rechtlicher Rahmen (EU-Drohnenrecht, Betriebsgenehmigung, Versicherung, Naturschutz-/Vogelschutz-Auflagen beim Flug) muss sauber sein. Preisdruck durch guenstige Ehrenamtler und viele Wettbewerber; Foerderung ist politisch und jaehrlich unsicher (das gruene BMEL hatte die Drohnenfoerderung zwischenzeitlich gestrichen). Haftung bei uebersehenem Kitz vertraglich klar begrenzen.",
+  "synergy": ["maehtod-vermeiden", "mahd-insektenschonend", "kamerafallen-auswertedienst", "naturdruck-baukasten-fablab"],
+  "sources": [
+    {"title": "Bis zu 4.000 Euro Foerderung pro Drohne fuer die Rehkitzrettung (agrarheute)", "url": "https://www.agrarheute.com/management/finanzen/4000-euro-pro-drohne-fuer-rehkitzrettung-579074"},
+    {"title": "Bund stockt Foerderung fuer Drohnen zur Rettung von Rehkitzen auf (agrarheute)", "url": "https://www.agrarheute.com/politik/bund-stockt-foerderung-fuer-drohnen-rettung-rehkitzen-634343"},
+    {"title": "Drohnen-Foerderung fuer Rehkitzrettung 2024 (drohnen.de)", "url": "https://www.drohnen.de/49703/drohnen-foerderung-fuer-rehkitzrettung-2024/"},
+    {"title": "BLE - Bundesanstalt fuer Landwirtschaft und Ernaehrung (Foerderstelle)", "url": "https://www.ble.de/"},
+    {"title": "Prototype Fund", "url": "https://prototypefund.de/"}
+  ]
+}
