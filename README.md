@@ -63,6 +63,13 @@ python3 build_projekte.py    # baut projekte.html + PROJEKTE.md
 
 _Keine Rechts-/Steuer-/Anlageberatung — Ertrag/Aufwand sind Einschätzungen, keine Prognosen._
 
+## 📝 Pitches & Förderanträge (antraege/)
+
+Für **jedes** der 11 Projekte ein fertiges Dokument: 1-Seiten-Pitch **plus** förderfertiger Antrag (Zielprogramm,
+Arbeitspakete, Zeit-/Meilensteinplan, Kosten-/Finanzierungsplan, Verwertung, Open-Source-Bezug, Zugang zur
+öffentlichen Hand, Risiken). Jeweils aufs passende Programm zugeschnitten (Prototype Fund, DBU, mFUND, EXIST,
+Bundesprogramm Biologische Vielfalt, BLE, Postcode-Lotterie). Übersicht: [`antraege/README.md`](antraege/README.md).
+
 ## Prinzip
 
 **Anti-Hype, Wirkung pro Aufwand.** Sichtbarkeit ≠ Wirkung: der Katalog benennt auch beliebte Maßnahmen,
