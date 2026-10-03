@@ -79,6 +79,17 @@ Arbeitspakete, Zeit-/Meilensteinplan, Kosten-/Finanzierungsplan, Verwertung, Ope
 öffentlichen Hand, Risiken). Jeweils aufs passende Programm zugeschnitten (Prototype Fund, DBU, mFUND, EXIST,
 Bundesprogramm Biologische Vielfalt, BLE, Postcode-Lotterie). Übersicht: [`antraege/README.md`](antraege/README.md).
 
+## 💹 Finanzpläne (finanzplan.html)
+
+Für jedes Projekt ein durchgerechneter **24-Monats-Betriebs-Cashflow** (`build_finanzplan.py` → `finanzplan.html` + `FINANZPLAN.md`):
+Förderung trägt die Entwicklung, danach echter Umsatz — mit **Break-even-Monat, Umsatz Jahr 2 und Run-Rate**. Alle Annahmen stehen
+offen und editierbar im Skript (`ASSUMPTIONS`); Zahlen sind illustrativ, keine Prognose (Gründerlohn nicht enthalten).
+
+## 🛠️ Druckvorlagen (modelle/)
+
+Parametrische **Open-Source-3D-Druck-Modelle** (OpenSCAD) zu den Hardware-Projekten: Wildbienen-Nistblock, Ausstiegshilfe/Rettungsrampe,
+AudioMoth-Gehäuse — mit artgerechten Maßen, Druckempfehlung (PETG/ASA) und freier Lizenz (CERN-OHL / CC-BY-SA). Siehe [`modelle/README.md`](modelle/README.md).
+
 ## Prinzip
 
 **Anti-Hype, Wirkung pro Aufwand.** Sichtbarkeit ≠ Wirkung: der Katalog benennt auch beliebte Maßnahmen,

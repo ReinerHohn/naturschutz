@@ -6,6 +6,7 @@ cd "$(dirname "$0")"
 python3 test.py
 python3 build.py
 python3 build_projekte.py
+python3 build_finanzplan.py
 python3 build_index.py
 OUT="$(pwd)/index.html"
 echo "Fertig. Start: $OUT"

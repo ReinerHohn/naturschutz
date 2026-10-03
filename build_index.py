@@ -45,6 +45,7 @@ def main():
     proj = load("projekte/*.json")
     antraege = sorted(glob.glob(os.path.join(HERE, "antraege", "*.md")))
     n_antr = len([a for a in antraege if not os.path.basename(a).startswith(("README", "VORLAGEN"))])
+    n_modelle = len(glob.glob(os.path.join(HERE, "modelle", "*.scad")))
 
     top_h = [h["name"] for h in sorted(hebel, key=hebel_score, reverse=True)[:5]]
     top_p = [f'{d["name"].split(" - ")[0]} — Ertrag {d.get("ertragspotenzial","–")}/5, Aufwand {d.get("aufwand","–")}/5'
@@ -103,6 +104,18 @@ und <b>womit</b> man es finanziert. Alles offline, ohne Server.</p>
     <h2>Pitches &amp; Foerderantraege</h2>
     <div class="n">antraege/</div>
     <p>Pro Projekt ein fertiger Pitch + foerderfertiger Antrag (Arbeitspakete, Zeitplan, Kostenplan) plus Akquise-Vorlagen fuer Behoerden.</p>
+  </a>
+  <a class="card" href="finanzplan.html">
+    <span class="pill p2">Finanzen &middot; {len(proj)} Plaene</span>
+    <h2>24-Monats-Finanzplaene</h2>
+    <div class="n">finanzplan.html</div>
+    <p>Durchgerechneter Betriebs-Cashflow je Projekt: Foerderung traegt die Entwicklung, danach Umsatz. Break-even, Umsatz Jahr 2, Run-Rate.</p>
+  </a>
+  <a class="card" href="modelle/README.md">
+    <span class="pill p1">Bauen &middot; {n_modelle} Druckvorlagen</span>
+    <h2>Open-Source-Druckvorlagen</h2>
+    <div class="n">modelle/ (OpenSCAD)</div>
+    <p>Parametrische 3D-Druck-Modelle: Wildbienen-Nistblock, Ausstiegshilfe, AudioMoth-Gehaeuse. Freie Lizenz, artgerechte Masse.</p>
   </a>
 </div>
 
