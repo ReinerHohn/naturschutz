@@ -11,13 +11,22 @@ erzeugt ein **self-contained `dashboard.html`** (läuft offline, ohne Server, oh
 ## Schnellstart
 
 ```bash
-python3 test.py     # validiert alle Karten
-python3 build.py    # baut dashboard.html + KATALOG.md
-./run.sh            # baut + öffnet das Dashboard im Browser
+./start.sh          # baut ALLES + öffnet die Startseite (index.html)
 ```
 
-Dann `dashboard.html` im Browser öffnen. Oben stehen die **🍒 Low-Hanging Fruits** (bestes Verhältnis
-Wirkung / Aufwand / Evidenz), darunter die volle, durchsuchbare Liste mit Kategorie-Filtern.
+`./start.sh` erzeugt die Landing-Seite `index.html`, die in die **drei Ebenen** führt:
+1. **`dashboard.html`** — Hebel-Katalog (was bringt am meisten) mit **🍒 Low-Hanging Fruits** oben
+2. **`projekte.html`** — Gründerprojekte (wie man daraus ein tragfähiges Geschäft macht)
+3. **`antraege/`** — Pitches, Förderanträge & Akquise-Vorlagen (womit man es finanziert)
+
+Einzeln bauen:
+
+```bash
+python3 test.py            # validiert Hebel + Projekte
+python3 build.py           # dashboard.html + KATALOG.md
+python3 build_projekte.py  # projekte.html + PROJEKTE.md
+python3 build_index.py     # index.html (Landing)
+```
 
 ## Aufbau
 
